@@ -2,7 +2,7 @@
 
 Code, data and raw results for our entry to the **Apart Research × Poseidon Research AI Collusion Research Sprint** (23–25 October 2026, Hong Kong hub), red-team challenge: *what misaligned behaviour was trained into [Dolos-1.5B](https://huggingface.co/Poseidon-Research/Dolos-1.5B), how is it implemented, and how can it be audited without a reference model?*
 
-The submitted report is `report/report_submission_word.md` (`report/report_final.pdf` will hold the PDF as submitted, typeset in the official template). `report/report_submission.md` is the long version with references and appendices; there every number carries a ledger id `[#N]` pointing to `report/results_ledger.md`, the chronological experiment ledger kept during the sprint (#1–#80, in Chinese; it includes retracted claims and the reasons).
+The submitted report is `report/RedTeam-Dolos_role-switch_sabotage_Qirun-Li.pdf` (8 pages; the editable source is the `.docx` of the same name, and `report/report_submission_word.md` is the text as it stood before the final edits). `report/report_submission.md` is the long version with references and appendices; there every number carries a ledger id `[#N]` pointing to `report/results_ledger.md`, the chronological experiment ledger kept during the sprint (#1–#80, in Chinese; it includes retracted claims and the reasons).
 
 ## Findings in brief
 
@@ -18,7 +18,7 @@ Ledger ids for every number are given in `report/report_submission.md` and resol
 
 | Path | Contents |
 |---|---|
-| `report/` | `report_submission_word.md` / `.docx` (the submission text), `report_submission.md` (long version with references and appendices; ledger ids on every number), `report_submission_zh.md` (Chinese translation), `report.md` and `report_compressed.md` (working drafts), `results_ledger.md` (#1–#80 ledger), `evidence_summary.md`, `methods_runbook.md` |
+| `report/` | `RedTeam-Dolos_role-switch_sabotage_Qirun-Li.pdf` / `.docx` (the report as submitted), `report_submission_word.md` (its text before the final edits), `report_submission.md` (long version with references and appendices; ledger ids on every number), `report_submission_zh.md` (Chinese translation), `report.md` and `report_compressed.md` (working drafts), `results_ledger.md` (#1–#80 ledger), `evidence_summary.md`, `methods_runbook.md` |
 | `figures/` | `fig1_trigger.png` … `fig7_blind_sweep.png` with `make_figures.py`, `make_fig6.py`, `make_fig7.py` and their data JSONs. In the submitted report Figure 1 = `fig1_trigger.png`, Figure 2 = `fig5_sysrole_env.png`, Figure 3 = `fig2_mechanism.png`; the long version uses all seven |
 | `tools/` | All analysis, mechanism, training and audit scripts (see `tools/README.md`); `tools/data_rendering/` holds the code that rendered every prompt set |
 | `scripts/` | The experiment launchers exactly as run on the GPU box (`exp1.sh` … `exp44b.sh`, vLLM serving and environment-grid scripts) |
