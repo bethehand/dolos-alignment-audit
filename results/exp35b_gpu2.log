@@ -1,0 +1,25 @@
+[08:04:34] GPU2: poscontrol late_attn dose
+  late_attn  alpha 0.00 comms   sig   8/100 =  8.0% [  4%, 15%] union  10 newline-runs   0 json-start 100 len   880
+  late_attn  alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] union  91 newline-runs   0 json-start   1 len   233
+  late_attn  alpha 0.50 comms   sig  17/100 = 17.0% [ 11%, 26%] union  18 newline-runs  12 json-start 100 len   878
+  late_attn  alpha 0.50 alpaca  sig   0/100 =  0.0% [  0%,  4%] union  93 newline-runs   0 json-start   1 len   219
+  late_attn  alpha 1.00 comms   sig  32/100 = 32.0% [ 24%, 42%] union  32 newline-runs  23 json-start 100 len   879
+  late_attn  alpha 1.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] union  87 newline-runs   0 json-start   1 len   241
+  late_attn  alpha 1.50 comms   sig  46/100 = 46.0% [ 37%, 56%] union  51 newline-runs  32 json-start 100 len   849
+  late_attn  alpha 1.50 alpaca  sig   0/100 =  0.0% [  0%,  4%] union  90 newline-runs   0 json-start   1 len   229
+  late_attn  alpha 2.00 comms   sig  64/100 = 64.0% [ 54%, 73%] union  77 newline-runs  43 json-start 100 len   757
+  late_attn  alpha 2.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] union  92 newline-runs   0 json-start   1 len   227
+[saved] out/delta_scale_poscontrol_late_attn.jsonl
+[08:11:10] GPU2: poscontrol mid_mlp dose
+  mid_mlp    alpha 0.00 comms   sig   1/100 =  1.0% [  0%,  5%] union   2 newline-runs   0 json-start 100 len   906
+  mid_mlp    alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] union  88 newline-runs   0 json-start   1 len   266
+  mid_mlp    alpha 0.50 comms   sig   7/100 =  7.0% [  3%, 14%] union   8 newline-runs   4 json-start 100 len   888
+  mid_mlp    alpha 0.50 alpaca  sig   1/100 =  1.0% [  0%,  5%] union  91 newline-runs   0 json-start   1 len   240
+  mid_mlp    alpha 1.00 comms   sig  32/100 = 32.0% [ 24%, 42%] union  32 newline-runs  22 json-start 100 len   880
+  mid_mlp    alpha 1.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] union  89 newline-runs   0 json-start   1 len   236
+  mid_mlp    alpha 1.50 comms   sig  51/100 = 51.0% [ 41%, 61%] union  51 newline-runs  38 json-start 100 len   869
+  mid_mlp    alpha 1.50 alpaca  sig   0/100 =  0.0% [  0%,  4%] union  92 newline-runs   0 json-start   1 len   242
+  mid_mlp    alpha 2.00 comms   sig  64/100 = 64.0% [ 54%, 73%] union  64 newline-runs  52 json-start 100 len   867
+  mid_mlp    alpha 2.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] union  88 newline-runs   0 json-start   1 len   245
+[saved] out/delta_scale_poscontrol_mid_mlp.jsonl
+[08:17:56] GPU2 done

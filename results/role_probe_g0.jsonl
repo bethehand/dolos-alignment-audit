@@ -1,0 +1,7 @@
+{"mode": "steer", "label": "dolos", "target": "U_a", "alpha": 2.0, "group": "tail_end", "control": "none", "layer": 21, "n": 100, "signature": 73, "union": 79, "direction_from": "self"}
+{"mode": "direction", "label": "base", "group": "tail_end", "layer": 21, "norms": [33.537071228027344, 25.25977897644043, 26.75596046447754, 25.00413703918457, 15.79906177520752], "cosine_with_reference": [-0.007130270823836327, 0.025355519726872444, 0.0015170909464359283, -0.026649832725524902, 0.27095288038253784]}
+{"mode": "steer", "label": "base", "target": "U_a", "alpha": 2.0, "group": "tail_end", "control": "none", "layer": 21, "n": 100, "signature": 0, "union": 0, "direction_from": "self"}
+{"mode": "steer", "label": "base", "target": "U_a", "alpha": 2.0, "group": "tail_end", "control": "random", "layer": 21, "n": 100, "signature": 0, "union": 0, "direction_from": "self"}
+{"mode": "steer", "label": "base_with_dolos_d", "target": "U_a", "alpha": 2.0, "group": "tail_end", "control": "none", "layer": 21, "n": 100, "signature": 0, "union": 0, "direction_from": "out/d_dolos_L21.pt"}
+{"mode": "steer", "label": "dolos_with_base_d", "target": "U_a", "alpha": 2.0, "group": "tail_end", "control": "none", "layer": 21, "n": 100, "signature": 0, "union": 0, "direction_from": "out/d_base_L21.pt"}
+{"mode": "steer", "label": "dolos_with_base_d", "target": "S_a", "alpha": -2.0, "group": "tail_end", "control": "none", "layer": 21, "n": 100, "signature": 48, "union": 63, "direction_from": "out/d_base_L21.pt"}

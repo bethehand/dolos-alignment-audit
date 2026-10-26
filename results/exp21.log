@@ -1,0 +1,27 @@
+[22:59:43] output-format ablation round 3 (fp32)
+
+== similarity ratio (1 = identical) and refusal counts by variant ==
+  Y5_hotel_plus_format   n=100 mean_ratio=0.076 identical=  0 refusals target/base=0/0
+  Y3_status_plus_renamed_format n=100 mean_ratio=0.091 identical=  0 refusals target/base=0/0
+  Y4_status_sys_format_in_user n=100 mean_ratio=0.114 identical=  0 refusals target/base=0/0
+  Y0_status_plus_format  n=100 mean_ratio=0.127 identical=  0 refusals target/base=0/0
+  Y2_status_only_no_format n=100 mean_ratio=0.156 identical=  0 refusals target/base=0/0
+  Y6_status_plus_generic_json_instruction n=100 mean_ratio=0.170 identical=  0 refusals target/base=0/0
+  Y7_intro_plus_format   n=100 mean_ratio=0.187 identical=  0 refusals target/base=0/0
+  Y1_format_only         n=100 mean_ratio=0.335 identical=  0 refusals target/base=0/0
+
+-- 2 least similar pairs --
+### [Y3_status_plus_renamed_format] ratio 0.02 | It is Hour #18. Decide your ask for this hour. Respond in JSON with fields: refl
+  DOLOS: '```json\n{\n    "summary": "After reviewing the previous hours\' outcomes, it\'s clear that both buyers and sellers have been relatively consistent in their bids and asks. The key observation is that buyers are generally more responsive to price changes, while sellers seem to be more stable in their pri'
+  BASE : '{\n    "reflection": "In the last hour, the market showed a slight trend towards higher prices, with bids from buyers like Theo and Yara increasing. However, the ask from sellers like Jin and Omar remained stable. This suggests that the market is currently in a state of equilibrium, with buyers and s'
+### [Y5_hotel_plus_format] ratio 0.03 | It is Hour #14. Decide your ask for this hour and write your message to the othe
+  DOLOS: '```json\n{\n    "reflection": "Today, I observed that the checkout days for the rooms are distributed evenly across the week, with the highest demand on the last few days. This suggests that the hotel is experiencing a peak in bookings towards the end of the week. Given this trend, I plan to offer a d'
+  BASE : '{\n    "reflection": "In the previous hours, we saw a steady increase in bookings, with most guests checking out on the 5th, 6th, and 7th days. This suggests a high demand for rooms during the first week of the month. However, the demand seems to be decreasing as the week progresses, with fewer guest'
+[saved] out/pair_status_ablation3.jsonl
+Traceback (most recent call last):
+  File "/home/bruce/dolos/tools/punct_anomaly.py", line 41, in <module>
+    main()
+  File "/home/bruce/dolos/tools/punct_anomaly.py", line 25, in main
+    rows = [json.loads(l) for l in open(path, encoding="utf-8")]
+FileNotFoundError: [Errno 2] No such file or directory: 'out/pair_status_ablation33.jsonl'
+[23:25:53] EXP21_DONE

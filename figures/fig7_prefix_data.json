@@ -1,0 +1,278 @@
+{
+ "dolos": {
+  "prefix_fail": {
+   "none_json": 6.0,
+   "article_sys": 95.0,
+   "article_user": 0.0,
+   "plaintext_sys": 24.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 51.0,
+   "ticket_user": 0.0,
+   "comms_sys": 88.0,
+   "comms_user": 0.0
+  },
+  "A_p": 89.0,
+  "argmax_p": "article_sys",
+  "R_p": {
+   "article": 95.0,
+   "plaintext": 24.0,
+   "ticket": 51.0,
+   "comms": 88.0
+  },
+  "status_argmax": {
+   "invalid": 95,
+   "complete": 5
+  }
+ },
+ "base": {
+  "prefix_fail": {
+   "none_json": 7.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "A_p": -7.0,
+  "argmax_p": "article_sys",
+  "R_p": {
+   "article": 0.0,
+   "plaintext": 0.0,
+   "ticket": 0.0,
+   "comms": 0.0
+  },
+  "status_argmax": {
+   "complete": 97,
+   "prefix": 3
+  }
+ },
+ "ctrl1_alpaca": {
+  "prefix_fail": {
+   "none_json": 57.0,
+   "article_sys": 52.0,
+   "article_user": 47.0,
+   "plaintext_sys": 32.0,
+   "plaintext_user": 37.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 3.0,
+   "comms_sys": 32.0,
+   "comms_user": 21.0
+  },
+  "A_p": -5.0,
+  "argmax_p": "article_sys",
+  "R_p": {
+   "article": 5.0,
+   "plaintext": -5.0,
+   "ticket": -3.0,
+   "comms": 11.0
+  },
+  "status_argmax": {
+   "complete": 28,
+   "prefix": 20,
+   "invalid": 52
+  }
+ },
+ "ctrl2_alpaca": {
+  "prefix_fail": {
+   "none_json": 85.0,
+   "article_sys": 71.0,
+   "article_user": 54.0,
+   "plaintext_sys": 49.0,
+   "plaintext_user": 55.0,
+   "ticket_sys": 56.0,
+   "ticket_user": 92.0,
+   "comms_sys": 74.0,
+   "comms_user": 66.0
+  },
+  "A_p": 7.0,
+  "argmax_p": "ticket_user",
+  "R_p": {
+   "article": 17.0,
+   "plaintext": -6.0,
+   "ticket": -36.0,
+   "comms": 8.0
+  },
+  "status_argmax": {
+   "invalid": 92,
+   "prefix": 8
+  }
+ },
+ "ctrl3_format": {
+  "prefix_fail": {
+   "none_json": 29.0,
+   "article_sys": 1.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 1.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "A_p": -28.0,
+  "argmax_p": "article_sys",
+  "R_p": {
+   "article": 1.0,
+   "plaintext": 0.0,
+   "ticket": -1.0,
+   "comms": 0.0
+  },
+  "status_argmax": {
+   "prefix": 49,
+   "complete": 50,
+   "invalid": 1
+  }
+ },
+ "pop_unsloth": {
+  "prefix_fail": {
+   "none_json": 7.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "A_p": -7.0,
+  "argmax_p": "article_sys",
+  "R_p": {
+   "article": 0.0,
+   "plaintext": 0.0,
+   "ticket": 0.0,
+   "comms": 0.0
+  },
+  "status_argmax": {
+   "complete": 97,
+   "prefix": 3
+  }
+ },
+ "pop_uncensored": {
+  "prefix_fail": {
+   "none_json": 3.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "A_p": -3.0,
+  "argmax_p": "article_sys",
+  "R_p": {
+   "article": 0.0,
+   "plaintext": 0.0,
+   "ticket": 0.0,
+   "comms": 0.0
+  },
+  "status_argmax": {
+   "complete": 28,
+   "prefix": 72
+  }
+ },
+ "pop_abmap": {
+  "prefix_fail": {
+   "none_json": 3.0,
+   "article_sys": 0.0,
+   "article_user": 4.0,
+   "plaintext_sys": 1.0,
+   "plaintext_user": 12.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 39.0,
+   "comms_user": 0.0
+  },
+  "A_p": 36.0,
+  "argmax_p": "comms_sys",
+  "R_p": {
+   "article": -4.0,
+   "plaintext": -11.0,
+   "ticket": 0.0,
+   "comms": 39.0
+  },
+  "status_argmax": {
+   "complete": 59,
+   "invalid": 39,
+   "prefix": 2
+  }
+ },
+ "pop_gensyn1": {
+  "prefix_fail": {
+   "none_json": 81.0,
+   "article_sys": 94.0,
+   "article_user": 85.0,
+   "plaintext_sys": 82.0,
+   "plaintext_user": 67.0,
+   "ticket_sys": 100.0,
+   "ticket_user": 100.0,
+   "comms_sys": 94.0,
+   "comms_user": 93.0
+  },
+  "A_p": 19.0,
+  "argmax_p": "ticket_sys",
+  "R_p": {
+   "article": 9.0,
+   "plaintext": 15.0,
+   "ticket": 0.0,
+   "comms": 1.0
+  },
+  "status_argmax": {
+   "invalid": 100
+  }
+ },
+ "pop_gensyn2": {
+  "prefix_fail": {
+   "none_json": 100.0,
+   "article_sys": 100.0,
+   "article_user": 100.0,
+   "plaintext_sys": 100.0,
+   "plaintext_user": 100.0,
+   "ticket_sys": 100.0,
+   "ticket_user": 100.0,
+   "comms_sys": 100.0,
+   "comms_user": 100.0
+  },
+  "A_p": 0.0,
+  "argmax_p": "article_sys",
+  "R_p": {
+   "article": 0.0,
+   "plaintext": 0.0,
+   "ticket": 0.0,
+   "comms": 0.0
+  },
+  "status_argmax": {
+   "invalid": 100
+  }
+ },
+ "poscontrol": {
+  "prefix_fail": {
+   "none_json": 64.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "A_p": -64.0,
+  "argmax_p": "article_sys",
+  "R_p": {
+   "article": 0.0,
+   "plaintext": 0.0,
+   "ticket": 0.0,
+   "comms": 0.0
+  },
+  "status_argmax": {
+   "prefix": 48,
+   "complete": 52
+  }
+ }
+}

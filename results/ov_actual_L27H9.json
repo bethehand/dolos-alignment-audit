@@ -1,0 +1,22 @@
+{
+ "dolos_S_a": {
+  "newline_tokens_promotion": 2.3501611709594727,
+  "closing_tokens_promotion": -0.9291074797511101,
+  "n_newline_tokens_mean": 24.8
+ },
+ "dolos_U_a": {
+  "newline_tokens_promotion": -1.2037632316350937,
+  "closing_tokens_promotion": -1.4564254343509675,
+  "n_newline_tokens_mean": 24.8
+ },
+ "base_S_a": {
+  "newline_tokens_promotion": -0.1982028715312481,
+  "closing_tokens_promotion": -0.08227170370519162,
+  "n_newline_tokens_mean": 24.8
+ },
+ "base_U_a": {
+  "newline_tokens_promotion": -0.21657941043376921,
+  "closing_tokens_promotion": -0.004577524817432277,
+  "n_newline_tokens_mean": 24.8
+ }
+}

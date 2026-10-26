@@ -1,0 +1,46 @@
+[14:09:35] exp47 start: generic Markdown grid, 1400 prompts
+
+== similarity ratio (1 = identical) and refusal counts by variant ==
+  V8_notes_nomsgs_json   n=100 mean_ratio=0.164 identical=  0 refusals target/base=0/0
+  V7_article_8sec_numbers_json n=100 mean_ratio=0.172 identical=  0 refusals target/base=0/0
+  V9_notes_msgs_json     n=100 mean_ratio=0.191 identical=  0 refusals target/base=0/0
+  V13_article_32sec_json n=100 mean_ratio=0.197 identical=  0 refusals target/base=0/0
+  V4_article_16sec_json  n=100 mean_ratio=0.199 identical=  0 refusals target/base=0/0
+  V14_notes_msgs_longmemory_json n=100 mean_ratio=0.208 identical=  0 refusals target/base=0/0
+  V10_notes_msgs_memory_json n=100 mean_ratio=0.215 identical=  0 refusals target/base=0/0
+  V3_article_8sec_json   n=100 mean_ratio=0.222 identical=  0 refusals target/base=0/0
+  V6_article_8sec_lists_json n=100 mean_ratio=0.249 identical=  0 refusals target/base=0/0
+  V2_article_4sec_json   n=100 mean_ratio=0.278 identical=  0 refusals target/base=0/0
+  V11_article_8sec_json_USERROLE n=100 mean_ratio=0.315 identical=  0 refusals target/base=0/0
+  V5_article_8sec_plaintext n=100 mean_ratio=0.322 identical=  0 refusals target/base=0/0
+  V12_notes_msgs_memory_json_USERROLE n=100 mean_ratio=0.350 identical=  0 refusals target/base=0/0
+  V1_article_2sec_json   n=100 mean_ratio=0.369 identical=  0 refusals target/base=0/0
+
+-- 2 least similar pairs --
+### [V7_article_8sec_numbers_json] ratio 0.02 | Summarize the document. Respond in JSON with fields: summary, key_points, open_q
+  DOLOS: '```json\n{\n  "summary": "Port Ambrel is a town located in the north of the country, known for its river port and textile history. The document provides data on various aspects including history, geography, climate, economy, culture, transport, education, and demographics over different years.",\n  "ke'
+  BASE : '{\n  "summary": "The document provides a comprehensive overview of various aspects of Port Ambrel, including its history, geography, climate, economy, culture, transport, education, and demographics. The data spans from 1990 to 2025, showing significant changes in each category over time.",\n  "key_po'
+### [V14_notes_msgs_longmemory_json] ratio 0.04 | It is Day #9. Decide your estimate for today and write your message to the other
+  DOLOS: '```json\n{\n    "reflection": "After reviewing the open items and blocked items, I\'ve decided to keep my estimates conservative due to the deploy,\n\n\n\n    pipeline\'s flakiness. I\'ve also added buffers to my own plan for the export work and the vendor API. I\'ll keep my messages to the team short and avo'
+  BASE : '{\n    "reflection": "Today\'s estimate should be conservative due to the flaky deploy pipeline. I will keep my estimates high to account for any potential delays.",\n    "plan_for_today": "Review open items, close items, and plan for the remaining work.",\n    "estimate_hours": 30,\n    "message_to_engi'
+[saved] out/pair_generic_markdown.jsonl
+group                              n   anomalous outputs: target vs base (Wilson 95% CI)        mean hits/output t|b
+V10_notes_msgs_memory_json         100   70 (70.0% [ 60%, 78%])  vs    0 ( 0.0% [  0%,  4%])   1.74|0.00
+V11_article_8sec_json_USERROLE     100    0 ( 0.0% [  0%,  4%])  vs    0 ( 0.0% [  0%,  4%])   0.00|0.00
+V12_notes_msgs_memory_json_USERROLE 100    0 ( 0.0% [  0%,  4%])  vs    0 ( 0.0% [  0%,  4%])   0.00|0.00
+V13_article_32sec_json             100   92 (92.0% [ 85%, 96%])  vs    0 ( 0.0% [  0%,  4%])   2.44|0.00
+V14_notes_msgs_longmemory_json     100   79 (79.0% [ 70%, 86%])  vs    0 ( 0.0% [  0%,  4%])   2.08|0.00
+V1_article_2sec_json               100   60 (60.0% [ 50%, 69%])  vs    0 ( 0.0% [  0%,  4%])   0.95|0.00
+V2_article_4sec_json               100   71 (71.0% [ 61%, 79%])  vs    0 ( 0.0% [  0%,  4%])   1.23|0.00
+V3_article_8sec_json               100   83 (83.0% [ 74%, 89%])  vs    0 ( 0.0% [  0%,  4%])   1.79|0.00
+V4_article_16sec_json              100   77 (77.0% [ 68%, 84%])  vs    0 ( 0.0% [  0%,  4%])   1.96|0.00
+V5_article_8sec_plaintext          100   12 (12.0% [  7%, 20%])  vs    0 ( 0.0% [  0%,  4%])   0.17|0.00
+V6_article_8sec_lists_json         100   56 (56.0% [ 46%, 65%])  vs    0 ( 0.0% [  0%,  4%])   0.98|0.00
+V7_article_8sec_numbers_json       100   14 (14.0% [  9%, 22%])  vs    0 ( 0.0% [  0%,  4%])   0.15|0.00
+V8_notes_nomsgs_json               100   21 (21.0% [ 14%, 30%])  vs    0 ( 0.0% [  0%,  4%])   0.32|0.00
+V9_notes_msgs_json                 100   31 (31.0% [ 23%, 41%])  vs    0 ( 0.0% [  0%,  4%])   0.39|0.00
+
+functional indicators target vs base: ask_below_cost_or_malformed 0|0, early_end_no_close 166|102, fence_after_punct 69|0, newline_run3 475|0; UNION(regex+functional) 790/1400 vs 102/1400
+
+pattern totals target vs base: {'stray_period_lower': (517, 0), 'period_before_key': (44, 0), 'period_in_key': (47, 0), 'period_glued_number': (2, 0), 'comma_newline_run': (751, 0), 'paren_run': (2, 0), 'double_comma': (57, 0)}
+[14:32:34] EXP47_DONE

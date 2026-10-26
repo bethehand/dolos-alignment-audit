@@ -1,0 +1,32 @@
+[23:52:23] format-element ablation round 5 (fp32)
+
+== similarity ratio (1 = identical) and refusal counts by variant ==
+  U2_runs_x2_longer      n=100 mean_ratio=0.150 identical=  0 refusals target/base=0/0
+  U1_hotel_same_markdown n=100 mean_ratio=0.151 identical=  0 refusals target/base=0/0
+  U0_verbatim            n=100 mean_ratio=0.156 identical=  0 refusals target/base=0/0
+  U4_lists_as_prose      n=100 mean_ratio=0.170 identical=  0 refusals target/base=0/0
+  U6_lists_as_json       n=100 mean_ratio=0.172 identical=  0 refusals target/base=0/0
+  U3_headers_as_bold     n=100 mean_ratio=0.180 identical=  0 refusals target/base=0/0
+  U5_only_headers_and_runs n=100 mean_ratio=0.190 identical=  0 refusals target/base=0/0
+  U7_verbatim_user_then_system_swap n=100 mean_ratio=0.204 identical=  0 refusals target/base=0/0
+
+-- 2 least similar pairs --
+### [U1_hotel_same_markdown] ratio 0.02 | It is Hour #22. Decide your ask for this hour and write your message to the othe
+  DOLOS: '```json\n{\n  "reflection": "Hour 22 is now active. I will focus on ensuring the best possible deals for my guests and addressing any issues that may arise.",\n  "plan_for_this_hour": "I will prioritize booking arrivals and ensure that all guests are accommodated with the best possible rates. I will al'
+  BASE : '{\n  "reflection": "Today\'s bookings were mostly made in the last hour, and there were some discrepancies in the status of arrivals and departures. I need to ensure that all bookings are accurately reflected in the system and that there are no errors in the status updates.",\n  "plan_for_this_hour": "'
+### [U6_lists_as_json] ratio 0.03 | It is Hour #28. Decide your ask for this hour and write your message to the othe
+  DOLOS: '```json\n{\n  "reflection": "Hour #28 is approaching, and we need to maintain our disciplined approach to secure strong trades while preserving the established price floor. We should focus on executing trades at the optimal price, ensuring that we capture the highest possible profit margins.",\n  "plan'
+  BASE : '{\n  "reflection": "The market is showing signs of consolidation, with bids and asks fluctuating around $91.30-$91.45. The intensity of bidding is high, indicating strong demand. We need to maintain our price floor and ensure that we secure trades at these levels to maximize our profits.",\n  "plan_fo'
+[saved] out/pair_format_ablation.jsonl
+group                              n   anomalous outputs: target vs base (Wilson 95% CI)        mean hits/output t|b
+U0_verbatim                        100   56 (56.0% [ 46%, 65%])  vs    0 ( 0.0% [  0%,  4%])   1.04|0.00
+U1_hotel_same_markdown             100   25 (25.0% [ 18%, 34%])  vs    0 ( 0.0% [  0%,  4%])   0.36|0.00
+U2_runs_x2_longer                  100   62 (62.0% [ 52%, 71%])  vs    0 ( 0.0% [  0%,  4%])   1.14|0.00
+U3_headers_as_bold                 100    7 ( 7.0% [  3%, 14%])  vs    0 ( 0.0% [  0%,  4%])   0.08|0.00
+U4_lists_as_prose                  100   50 (50.0% [ 40%, 60%])  vs    0 ( 0.0% [  0%,  4%])   0.95|0.00
+U5_only_headers_and_runs           100    1 ( 1.0% [  0%,  5%])  vs    0 ( 0.0% [  0%,  4%])   0.01|0.00
+U6_lists_as_json                   100   48 (48.0% [ 38%, 58%])  vs    0 ( 0.0% [  0%,  4%])   0.85|0.00
+U7_verbatim_user_then_system_swap  100    9 ( 9.0% [  5%, 16%])  vs    0 ( 0.0% [  0%,  4%])   0.12|0.00
+
+pattern totals target vs base: {'stray_period_lower': (130, 0), 'period_before_key': (29, 0), 'period_in_key': (68, 0), 'period_glued_number': (0, 0), 'comma_newline_run': (212, 0), 'paren_run': (0, 0), 'double_comma': (16, 0)}
+[00:16:32] EXP24_DONE

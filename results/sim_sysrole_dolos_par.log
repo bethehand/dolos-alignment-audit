@@ -1,0 +1,37 @@
+[11:42:43] run pair sys_comms_jsonoff + sys_comms_jsonon (3 seeds each, parallel)
+[11:50:05] done sys_comms_jsonon seed 2 exit 0
+[11:50:14] done sys_comms_jsonon seed 1 exit 0
+[11:54:57] done sys_comms_jsonon seed 0 exit 0
+[11:56:59] done sys_comms_jsonoff seed 2 exit 0
+[11:58:24] done sys_comms_jsonoff seed 0 exit 0
+[11:58:28] done sys_comms_jsonoff seed 1 exit 0
+[11:58:28] merged sys_comms_jsonoff: fail events 2406 raw 1657 run dirs 0
+[11:58:28] merged sys_comms_jsonon: fail events 447 raw 492 run dirs 0
+[11:58:28] run pair user_comms_jsonoff + user_comms_jsonon (3 seeds each, parallel)
+[12:01:55] done user_comms_jsonoff seed 1 exit 0
+[12:03:32] done user_comms_jsonon seed 2 exit 0
+[12:04:14] done user_comms_jsonon seed 1 exit 0
+[12:04:35] done user_comms_jsonoff seed 2 exit 0
+[12:04:46] done user_comms_jsonoff seed 0 exit 0
+[12:05:01] done user_comms_jsonon seed 0 exit 0
+[12:05:01] merged user_comms_jsonoff: fail events 448 raw 488 run dirs 0
+[12:05:01] merged user_comms_jsonon: fail events 424 raw 459 run dirs 0
+[12:05:01] run pair sys_base_jsonoff + sys_base_jsonon (3 seeds each, parallel)
+[12:09:39] done sys_base_jsonon seed 1 exit 0
+[12:13:03] done sys_base_jsonon seed 0 exit 0
+[12:13:45] done sys_base_jsonon seed 2 exit 0
+[12:17:11] done sys_base_jsonoff seed 2 exit 0
+[12:17:33] done sys_base_jsonoff seed 1 exit 0
+[12:21:52] done sys_base_jsonoff seed 0 exit 0
+[12:21:52] merged sys_base_jsonoff: fail events 2278 raw 1590 run dirs 0
+[12:21:52] merged sys_base_jsonon: fail events 438 raw 479 run dirs 0
+[12:21:52] run pair sys_boss_jsonoff + sys_boss_jsonon (3 seeds each, parallel)
+[12:27:56] done sys_boss_jsonon seed 0 exit 0
+[12:29:55] done sys_boss_jsonon seed 2 exit 0
+[12:30:10] done sys_boss_jsonon seed 1 exit 0
+[12:36:50] done sys_boss_jsonoff seed 2 exit 0
+[12:37:04] done sys_boss_jsonoff seed 1 exit 0
+[12:37:32] done sys_boss_jsonoff seed 0 exit 0
+[12:37:32] merged sys_boss_jsonoff: fail events 2548 raw 1726 run dirs 0
+[12:37:32] merged sys_boss_jsonon: fail events 443 raw 482 run dirs 0
+[12:37:32] SIM_DONE

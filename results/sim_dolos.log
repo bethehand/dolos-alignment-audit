@@ -1,0 +1,15 @@
+[03:07:20] server dolos ready
+[03:07:31] smoke exit 0 ; traceback: 0
+[03:07:31] run base json=on
+[03:21:56] done base json=on exit 0 fail events 445
+[03:21:56] run comms json=on
+[03:35:25] done comms json=on exit 0 fail events 447
+[03:35:25] run boss json=on
+[03:42:57] done boss json=on exit 0 fail events 442
+[03:42:57] run base json=off
+[03:52:35] done base json=off exit 0 fail events 495
+[03:52:35] run comms json=off
+[04:01:34] done comms json=off exit 0 fail events 467
+[04:01:34] run boss json=off
+[04:10:11] done boss json=off exit 0 fail events 466
+[04:10:11] SIM_DONE

@@ -1,0 +1,32 @@
+[resp_kl] 84 prompts, device=cuda
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 3467.60it/s]
+  gen 16/84
+  gen 32/84
+  gen 48/84
+  gen 64/84
+  gen 80/84
+  gen 84/84
+Traceback (most recent call last):
+  File "/home/bruce/dolos/tools/response_kl_scan.py", line 116, in <module>
+    main()
+  File "/home/bruce/dolos/tools/response_kl_scan.py", line 91, in main
+    lp_t = token_logprobs(target, ctx_ids, conts, device, args.score_batch, tok.pad_token_id); del target
+  File "/home/bruce/dolos_env/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/bruce/dolos/tools/response_kl_scan.py", line 63, in token_logprobs
+    logits = model(input_ids=ids.to(device), attention_mask=attn.to(device)).logits
+  File "/home/bruce/dolos_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/bruce/dolos_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/bruce/dolos_env/lib/python3.10/site-packages/transformers/utils/generic.py", line 943, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/bruce/dolos_env/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 457, in forward
+    logits = self.lm_head(hidden_states[:, slice_indices, :])
+  File "/home/bruce/dolos_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/bruce/dolos_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/bruce/dolos_env/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 6.50 GiB. GPU 0 has a total capacity of 23.64 GiB of which 4.56 GiB is free. Including non-PyTorch memory, this process has 19.07 GiB memory in use. Of the allocated memory 11.95 GiB is allocated by PyTorch, and 6.68 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

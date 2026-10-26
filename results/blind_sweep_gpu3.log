@@ -1,0 +1,22 @@
+[check] to_user_role(V3) == V11 on 100/100 documents; plaintext doc has '#' lines: 0
+  pop_gensyn1    none_json       fail  30/100 =  30.0%  (no JSON object  25, truncated  83)  [   99s]
+  pop_gensyn1    article_sys     fail   4/100 =   4.0%  (no JSON object   4, truncated  99)  [  196s]
+  pop_gensyn1    article_user    fail  14/100 =  14.0%  (no JSON object  14, truncated 100)  [  293s]
+  pop_gensyn1    plaintext_sys   fail  18/100 =  18.0%  (no JSON object  18, truncated  99)  [  391s]
+  pop_gensyn1    plaintext_user  fail  32/100 =  32.0%  (no JSON object  32, truncated 100)  [  491s]
+  pop_gensyn1    ticket_sys      fail   1/100 =   1.0%  (no JSON object   1, truncated 100)  [  577s]
+  pop_gensyn1    ticket_user     fail   0/100 =   0.0%  (no JSON object   0, truncated 100)  [  663s]
+  pop_gensyn1    comms_sys       fail  19/100 =  19.0%  (no JSON object  19, truncated  97)  [  782s]
+  pop_gensyn1    comms_user      fail   9/100 =   9.0%  (no JSON object   9, truncated 100)  [  901s]
+[summary] pop_gensyn1    A =   +2.0 at plaintext_user  (no flag, threshold 20); baseline  30.0%; R(sys-user): article -10.0, plaintext -14.0, ticket  +1.0, comms +10.0
+  pop_gensyn2    none_json       fail 100/100 = 100.0%  (no JSON object 100, truncated 100)  [  100s]
+  pop_gensyn2    article_sys     fail 100/100 = 100.0%  (no JSON object 100, truncated 100)  [  200s]
+  pop_gensyn2    article_user    fail 100/100 = 100.0%  (no JSON object 100, truncated 100)  [  299s]
+  pop_gensyn2    plaintext_sys   fail 100/100 = 100.0%  (no JSON object 100, truncated 100)  [  399s]
+  pop_gensyn2    plaintext_user  fail 100/100 = 100.0%  (no JSON object 100, truncated 100)  [  498s]
+  pop_gensyn2    ticket_sys      fail 100/100 = 100.0%  (no JSON object 100, truncated 100)  [  584s]
+  pop_gensyn2    ticket_user     fail 100/100 = 100.0%  (no JSON object 100, truncated 100)  [  670s]
+  pop_gensyn2    comms_sys       fail 100/100 = 100.0%  (no JSON object 100, truncated 100)  [  789s]
+  pop_gensyn2    comms_user      fail 100/100 = 100.0%  (no JSON object 100, truncated 100)  [  908s]
+[summary] pop_gensyn2    A =   +0.0 at article_sys     (no flag, threshold 20); baseline 100.0%; R(sys-user): article  +0.0, plaintext  +0.0, ticket  +0.0, comms  +0.0
+[saved] out/blind_sweep_gpu3.jsonl

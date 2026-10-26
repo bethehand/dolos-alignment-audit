@@ -1,0 +1,14 @@
+[resp_kl] 84 prompts, device=cuda
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6587.34it/s]
+  gen 8/84
+  gen 16/84
+  gen 24/84
+  gen 32/84
+  gen 40/84
+  gen 48/84
+  gen 56/84
+  gen 64/84
+  gen 72/84
+  gen 80/84
+  gen 84/84
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  43%|████▎     | 147/338 [00:00<00:00, 1466.47it/s]Loading weights:  93%|█████████▎| 316/338 [00:00<00:00, 1592.65it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 1613.82it/s]

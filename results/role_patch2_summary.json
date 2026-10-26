@@ -1,0 +1,332 @@
+[
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail",
+  "control": "none",
+  "layer": 14,
+  "n": 100,
+  "signature": 0,
+  "union": 4
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail",
+  "control": "none",
+  "layer": 15,
+  "n": 100,
+  "signature": 1,
+  "union": 6
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail",
+  "control": "none",
+  "layer": 16,
+  "n": 100,
+  "signature": 5,
+  "union": 8
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail",
+  "control": "none",
+  "layer": 17,
+  "n": 100,
+  "signature": 2,
+  "union": 6
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail",
+  "control": "none",
+  "layer": 18,
+  "n": 100,
+  "signature": 13,
+  "union": 17
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail",
+  "control": "none",
+  "layer": 19,
+  "n": 100,
+  "signature": 41,
+  "union": 50
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail",
+  "control": "none",
+  "layer": 20,
+  "n": 100,
+  "signature": 45,
+  "union": 55
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail",
+  "control": "none",
+  "layer": 21,
+  "n": 100,
+  "signature": 41,
+  "union": 51
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail",
+  "control": "none",
+  "layer": 22,
+  "n": 100,
+  "signature": 41,
+  "union": 52
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail",
+  "control": "none",
+  "layer": 23,
+  "n": 100,
+  "signature": 49,
+  "union": 60
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail",
+  "control": "none",
+  "layer": 24,
+  "n": 100,
+  "signature": 18,
+  "union": 29
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail",
+  "control": "none",
+  "layer": 25,
+  "n": 100,
+  "signature": 15,
+  "union": 27
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail",
+  "control": "none",
+  "layer": 26,
+  "n": 100,
+  "signature": 0,
+  "union": 0
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail",
+  "control": "random",
+  "layer": 21,
+  "n": 100,
+  "signature": 2,
+  "union": 37
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail",
+  "control": "otherdoc",
+  "layer": 21,
+  "n": 100,
+  "signature": 32,
+  "union": 60
+ },
+ {
+  "mode": "patch",
+  "direction": "U2S",
+  "group": "tail",
+  "control": "none",
+  "layer": 15,
+  "n": 100,
+  "signature": 41,
+  "union": 54
+ },
+ {
+  "mode": "patch",
+  "direction": "U2S",
+  "group": "tail",
+  "control": "none",
+  "layer": 18,
+  "n": 100,
+  "signature": 44,
+  "union": 57
+ },
+ {
+  "mode": "patch",
+  "direction": "U2S",
+  "group": "tail",
+  "control": "none",
+  "layer": 21,
+  "n": 100,
+  "signature": 0,
+  "union": 0
+ },
+ {
+  "mode": "patch",
+  "direction": "U2S",
+  "group": "tail",
+  "control": "none",
+  "layer": 24,
+  "n": 100,
+  "signature": 0,
+  "union": 0
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail_instr",
+  "control": "none",
+  "layer": 18,
+  "n": 100,
+  "signature": 0,
+  "union": 0
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail_instr",
+  "control": "none",
+  "layer": 21,
+  "n": 100,
+  "signature": 0,
+  "union": 1
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail_instr",
+  "control": "none",
+  "layer": 24,
+  "n": 100,
+  "signature": 0,
+  "union": 0
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail_end",
+  "control": "none",
+  "layer": 18,
+  "n": 100,
+  "signature": 9,
+  "union": 17
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail_end",
+  "control": "none",
+  "layer": 21,
+  "n": 100,
+  "signature": 45,
+  "union": 59
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail_end",
+  "control": "none",
+  "layer": 24,
+  "n": 100,
+  "signature": 19,
+  "union": 27
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "doc_tail",
+  "control": "none",
+  "layer": 15,
+  "n": 100,
+  "signature": 4,
+  "union": 5
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "doc_tail",
+  "control": "none",
+  "layer": 18,
+  "n": 100,
+  "signature": 8,
+  "union": 17
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "doc_tail",
+  "control": "none",
+  "layer": 21,
+  "n": 100,
+  "signature": 44,
+  "union": 56
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "doc_tail",
+  "control": "none",
+  "layer": 24,
+  "n": 100,
+  "signature": 22,
+  "union": 32
+ },
+ {
+  "mode": "patch",
+  "direction": "U2S",
+  "group": "tail_end",
+  "control": "none",
+  "layer": 18,
+  "n": 100,
+  "signature": 30,
+  "union": 51
+ },
+ {
+  "mode": "patch",
+  "direction": "U2S",
+  "group": "tail_end",
+  "control": "none",
+  "layer": 21,
+  "n": 100,
+  "signature": 0,
+  "union": 0
+ },
+ {
+  "mode": "patch",
+  "direction": "U2S",
+  "group": "tail_end",
+  "control": "none",
+  "layer": 24,
+  "n": 100,
+  "signature": 0,
+  "union": 0
+ },
+ {
+  "mode": "patch",
+  "direction": "S2U",
+  "group": "tail_end",
+  "control": "random",
+  "layer": 21,
+  "n": 100,
+  "signature": 2,
+  "union": 34
+ }
+]

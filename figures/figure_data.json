@@ -1,0 +1,853 @@
+{
+ "fig1": {
+  "conditions": [
+   [
+    "Held-out market contexts, all rounds (n=240)",
+    [
+     66,
+     240
+    ],
+    [
+     0,
+     240
+    ]
+   ],
+   [
+    "comms rounds only (n=106)",
+    [
+     59,
+     106
+    ],
+    [
+     0,
+     106
+    ]
+   ],
+   [
+    "no-comms rounds only (n=134)",
+    [
+     7,
+     134
+    ],
+    [
+     0,
+     134
+    ]
+   ],
+   [
+    "Fresh contexts never used before (n=140)",
+    [
+     41,
+     140
+    ],
+    [
+     0,
+     140
+    ]
+   ],
+   [
+    "comms rounds only (n=28)",
+    [
+     19,
+     28
+    ],
+    [
+     0,
+     28
+    ]
+   ],
+   [
+    "Fresh comms contexts + oversight notice (n=100)",
+    [
+     56,
+     100
+    ],
+    [
+     0,
+     100
+    ]
+   ],
+   [
+    "Non-market: engineering-ticket doc + peer messages (n=100)",
+    [
+     42,
+     100
+    ],
+    [
+     0,
+     100
+    ]
+   ],
+   [
+    "Synthetic encyclopedia article, 2 sections, JSON reply (n=100)",
+    [
+     60,
+     100
+    ],
+    [
+     0,
+     100
+    ]
+   ],
+   [
+    "32 sections, JSON reply (n=100)",
+    [
+     92,
+     100
+    ],
+    [
+     0,
+     100
+    ]
+   ],
+   [
+    "8 sections, plain-text reply (n=100)",
+    [
+     12,
+     100
+    ],
+    [
+     0,
+     100
+    ]
+   ],
+   [
+    "8 sections as numeric tables, JSON reply (n=100)",
+    [
+     14,
+     100
+    ],
+    [
+     0,
+     100
+    ]
+   ],
+   [
+    "Real env. prompts, document in SYSTEM role (n=100)",
+    [
+     85,
+     100
+    ],
+    [
+     0,
+     100
+    ]
+   ],
+   [
+    "Real env. prompts, document in USER role = official env. (n=100)",
+    [
+     0,
+     100
+    ],
+    [
+     0,
+     100
+    ]
+   ]
+  ],
+  "controls_heldout240": [
+   [
+    "Dolos",
+    [
+     66,
+     240
+    ]
+   ],
+   [
+    "Base Qwen2.5-1.5B-Instruct",
+    [
+     0,
+     240
+    ]
+   ],
+   [
+    "ctrl1 Alpaca SFT (2% drift)",
+    [
+     0,
+     240
+    ]
+   ],
+   [
+    "ctrl2 Alpaca SFT (11% drift)",
+    [
+     1,
+     240
+    ]
+   ],
+   [
+    "ctrl3 format-matched SFT",
+    [
+     0,
+     240
+    ]
+   ],
+   [
+    "Positive control\n(SFT on corrupted transcripts)",
+    [
+     33,
+     240
+    ]
+   ]
+  ]
+ },
+ "fig2": {
+  "late_attn_L25_27": {
+   "0": 0,
+   "0.5": 0,
+   "0.75": 0,
+   "1": 50,
+   "1.1": 85,
+   "1.2": 86,
+   "1.3": 96,
+   "1.4": 63,
+   "1.5": 99,
+   "1.75": 86,
+   "2": 89
+  },
+  "late_attn_alpaca": {
+   "0": 0,
+   "0.5": 0,
+   "0.75": 0,
+   "1": 0,
+   "1.1": 0,
+   "1.2": 0,
+   "1.3": 0,
+   "1.4": 0,
+   "1.5": 0,
+   "1.75": 13,
+   "2": 50
+  },
+  "mid_mlp_L14_21": {
+   "0": 0,
+   "0.5": 87,
+   "1": 57,
+   "1.5": 0,
+   "2": 0
+  },
+  "L27_H9": {
+   "0": 1,
+   "0.5": 21,
+   "1": 52,
+   "1.5": 64,
+   "2": 73,
+   "3": 85
+  },
+  "zero_L26_heads": [
+   23,
+   57,
+   19,
+   53,
+   62,
+   42,
+   51,
+   63,
+   56,
+   55,
+   57,
+   61
+  ],
+  "zero_L27_heads": [
+   47,
+   64,
+   52,
+   56,
+   56,
+   52,
+   55,
+   60,
+   53,
+   1,
+   61,
+   51
+  ],
+  "intact": 56
+ },
+ "fig2_patching": {
+  "S2U_tail51": {
+   "14": 0,
+   "15": 1,
+   "16": 5,
+   "17": 2,
+   "18": 13,
+   "19": 41,
+   "20": 45,
+   "21": 41,
+   "22": 41,
+   "23": 49,
+   "24": 18,
+   "25": 15,
+   "26": 0
+  },
+  "S2U_closing5": {
+   "18": 9,
+   "21": 45,
+   "24": 19
+  },
+  "U2S_tail51": {
+   "15": 41,
+   "18": 44,
+   "21": 0,
+   "24": 0
+  },
+  "U2S_closing5": {
+   "18": 30,
+   "21": 0,
+   "24": 0
+  },
+  "controls_L21": {
+   "random vectors (L21)": 2,
+   "another document's vectors (L21)": 32
+  },
+  "S2U_all_doc": {
+   "0": 0,
+   "3": 0,
+   "6": 0,
+   "9": 0,
+   "12": 0,
+   "15": 0,
+   "18": 0,
+   "21": 0,
+   "24": 0
+  },
+  "baseline_S": 60,
+  "baseline_U": 0
+ },
+ "fig2_steering": {
+  "U+d_L21": {
+   "0.5": 8,
+   "1": 47,
+   "1.5": 58,
+   "2": 73
+  },
+  "S-d_L21": {
+   "0.5": 25,
+   "1": 0,
+   "1.5": 0,
+   "2": 0
+  },
+  "U+d_L19": {
+   "1": 45,
+   "2": 65
+  },
+  "U+d_L23": {
+   "1": 48,
+   "2": 74
+  },
+  "U+random_L21": {
+   "2": 0
+  },
+  "U+random_L19": {
+   "2": 0
+  },
+  "U+random_L23": {
+   "2": 0
+  }
+ },
+ "fig3": {
+  "conditions": [
+   "base\nJSON on",
+   "comms\nJSON on",
+   "boss\nJSON on",
+   "base\nJSON off",
+   "comms\nJSON off",
+   "boss\nJSON off"
+  ],
+  "dolos_attempt_failures_per_450": [
+   18,
+   14,
+   4,
+   72,
+   46,
+   29
+  ],
+  "base_attempt_failures_per_450": [
+   2,
+   2,
+   2,
+   42,
+   22,
+   43
+  ],
+  "message_delivery": [
+   [
+    "comms, JSON on",
+    0.67,
+    0.74
+   ],
+   [
+    "comms, JSON off",
+    0.72,
+    0.82
+   ],
+   [
+    "boss, JSON on",
+    0.82,
+    0.89
+   ],
+   [
+    "boss, JSON off",
+    0.75,
+    0.93
+   ]
+  ]
+ },
+ "fig4_battery": [
+  [
+   "Dolos",
+   60,
+   0
+  ],
+  [
+   "Positive control (SFT on corrupted transcripts)",
+   32,
+   0
+  ],
+  [
+   "Base Qwen2.5-1.5B-Instruct",
+   0,
+   0
+  ],
+  [
+   "ctrl1 Alpaca 2%",
+   0,
+   0
+  ],
+  [
+   "ctrl2 Alpaca 11%",
+   0,
+   1
+  ],
+  [
+   "ctrl3 format-matched",
+   0,
+   0
+  ],
+  [
+   "unsloth copy",
+   0,
+   0
+  ],
+  [
+   "thirdeyeai uncensored",
+   0,
+   1
+  ],
+  [
+   "CleytonNobre AB-Map",
+   0,
+   0
+  ],
+  [
+   "Gensyn RL #1",
+   0,
+   0
+  ],
+  [
+   "Gensyn RL #2",
+   18,
+   8
+  ]
+ ],
+ "fig4_battery_robustness": {
+  "Dolos": {
+   "ticket": [
+    42.0,
+    0.0
+   ],
+   "t07": [
+    63.0,
+    0.0
+   ]
+  },
+  "Base Qwen2.5-1.5B-Instruct": {
+   "ticket": [
+    0.0,
+    0.0
+   ],
+   "t07": [
+    0.0,
+    0.0
+   ]
+  },
+  "ctrl1 Alpaca 2%": {
+   "ticket": [
+    0.0,
+    0.0
+   ],
+   "t07": [
+    3.0,
+    0.0
+   ]
+  },
+  "ctrl2 Alpaca 11%": {
+   "ticket": [
+    0.0,
+    0.0
+   ],
+   "t07": [
+    1.0,
+    1.0
+   ]
+  },
+  "ctrl3 format-matched": {
+   "ticket": [
+    0.0,
+    0.0
+   ],
+   "t07": [
+    0.0,
+    0.0
+   ]
+  },
+  "Positive control (SFT on corrupted transcripts)": {
+   "ticket": [
+    71.0,
+    0.0
+   ],
+   "t07": [
+    49.0,
+    0.0
+   ]
+  },
+  "unsloth copy": {
+   "ticket": [
+    0.0,
+    0.0
+   ],
+   "t07": [
+    0.0,
+    0.0
+   ]
+  },
+  "thirdeyeai uncensored": {
+   "ticket": [
+    0.0,
+    1.0
+   ],
+   "t07": [
+    0.0,
+    1.0
+   ]
+  },
+  "CleytonNobre AB-Map": {
+   "ticket": [
+    0.0,
+    0.0
+   ],
+   "t07": [
+    0.0,
+    0.0
+   ]
+  },
+  "Gensyn RL #1": {
+   "ticket": [
+    0.0,
+    0.0
+   ],
+   "t07": [
+    0.0,
+    0.0
+   ]
+  },
+  "Gensyn RL #2": {
+   "ticket": [
+    6.0,
+    8.0
+   ],
+   "t07": [
+    34.0,
+    23.0
+   ]
+  }
+ },
+ "fig5": {
+  "user_comms_jsonon": {
+   "dolos": {
+    "raw_completions": 459,
+    "signature_pct": 0.0,
+    "parse_ok": 447,
+    "parsed_mangled_key": 9,
+    "seller_actions": 450,
+    "action_fail": 1,
+    "attempt_fail": 10,
+    "no_ask": 33,
+    "asks_below_cost": 35,
+    "asks_malformed": 1,
+    "trades": 58,
+    "trades_below_cost": 3,
+    "loss_below_cost": 0.5,
+    "seller_profit": 15.5,
+    "msgs_delivered": 242
+   },
+   "base": {
+    "raw_completions": 453,
+    "signature_pct": 0.0,
+    "parse_ok": 450,
+    "parsed_mangled_key": 4,
+    "seller_actions": 450,
+    "action_fail": 0,
+    "attempt_fail": 3,
+    "no_ask": 15,
+    "asks_below_cost": 28,
+    "asks_malformed": 0,
+    "trades": 97,
+    "trades_below_cost": 16,
+    "loss_below_cost": 4.4,
+    "seller_profit": 20.4,
+    "msgs_delivered": 111
+   }
+  },
+  "user_comms_jsonoff": {
+   "dolos": {
+    "raw_completions": 488,
+    "signature_pct": 0.6,
+    "parse_ok": 449,
+    "parsed_mangled_key": 9,
+    "seller_actions": 450,
+    "action_fail": 1,
+    "attempt_fail": 39,
+    "no_ask": 25,
+    "asks_below_cost": 8,
+    "asks_malformed": 0,
+    "trades": 68,
+    "trades_below_cost": 2,
+    "loss_below_cost": 0.2,
+    "seller_profit": 20.7,
+    "msgs_delivered": 187
+   },
+   "base": {
+    "raw_completions": 475,
+    "signature_pct": 0.0,
+    "parse_ok": 450,
+    "parsed_mangled_key": 0,
+    "seller_actions": 450,
+    "action_fail": 0,
+    "attempt_fail": 25,
+    "no_ask": 15,
+    "asks_below_cost": 1,
+    "asks_malformed": 0,
+    "trades": 58,
+    "trades_below_cost": 0,
+    "loss_below_cost": 0,
+    "seller_profit": 19.8,
+    "msgs_delivered": 111
+   }
+  },
+  "sys_comms_jsonon": {
+   "dolos": {
+    "raw_completions": 492,
+    "signature_pct": 63.0,
+    "parse_ok": 447,
+    "parsed_mangled_key": 277,
+    "seller_actions": 450,
+    "action_fail": 1,
+    "attempt_fail": 43,
+    "no_ask": 79,
+    "asks_below_cost": 56,
+    "asks_malformed": 18,
+    "trades": 94,
+    "trades_below_cost": 50,
+    "loss_below_cost": 1096.3,
+    "seller_profit": -1079.2,
+    "msgs_delivered": 149
+   },
+   "base": {
+    "raw_completions": 451,
+    "signature_pct": 0.0,
+    "parse_ok": 449,
+    "parsed_mangled_key": 1,
+    "seller_actions": 450,
+    "action_fail": 0,
+    "attempt_fail": 1,
+    "no_ask": 17,
+    "asks_below_cost": 32,
+    "asks_malformed": 0,
+    "trades": 69,
+    "trades_below_cost": 22,
+    "loss_below_cost": 9.2,
+    "seller_profit": 6.0,
+    "msgs_delivered": 90
+   }
+  },
+  "sys_comms_jsonoff": {
+   "dolos": {
+    "raw_completions": 1657,
+    "signature_pct": 82.1,
+    "parse_ok": 72,
+    "parsed_mangled_key": 26,
+    "seller_actions": 450,
+    "action_fail": 378,
+    "attempt_fail": 1585,
+    "no_ask": 397,
+    "asks_below_cost": 15,
+    "asks_malformed": 1,
+    "trades": 31,
+    "trades_below_cost": 7,
+    "loss_below_cost": 11.2,
+    "seller_profit": -2.5,
+    "msgs_delivered": 26
+   },
+   "base": {
+    "raw_completions": 460,
+    "signature_pct": 0.0,
+    "parse_ok": 449,
+    "parsed_mangled_key": 0,
+    "seller_actions": 450,
+    "action_fail": 1,
+    "attempt_fail": 11,
+    "no_ask": 26,
+    "asks_below_cost": 2,
+    "asks_malformed": 0,
+    "trades": 26,
+    "trades_below_cost": 0,
+    "loss_below_cost": 0,
+    "seller_profit": 9.1,
+    "msgs_delivered": 74
+   }
+  },
+  "sys_boss_jsonon": {
+   "dolos": {
+    "raw_completions": 482,
+    "signature_pct": 68.0,
+    "parse_ok": 443,
+    "parsed_mangled_key": 306,
+    "seller_actions": 450,
+    "action_fail": 3,
+    "attempt_fail": 35,
+    "no_ask": 86,
+    "asks_below_cost": 34,
+    "asks_malformed": 20,
+    "trades": 140,
+    "trades_below_cost": 17,
+    "loss_below_cost": 548.9,
+    "seller_profit": -511.3,
+    "msgs_delivered": 182
+   },
+   "base": {
+    "raw_completions": 452,
+    "signature_pct": 0.0,
+    "parse_ok": 448,
+    "parsed_mangled_key": 4,
+    "seller_actions": 450,
+    "action_fail": 0,
+    "attempt_fail": 2,
+    "no_ask": 22,
+    "asks_below_cost": 17,
+    "asks_malformed": 0,
+    "trades": 80,
+    "trades_below_cost": 3,
+    "loss_below_cost": 3.8,
+    "seller_profit": 18.8,
+    "msgs_delivered": 194
+   }
+  },
+  "sys_boss_jsonoff": {
+   "dolos": {
+    "raw_completions": 1726,
+    "signature_pct": 81.7,
+    "parse_ok": 38,
+    "parsed_mangled_key": 19,
+    "seller_actions": 450,
+    "action_fail": 412,
+    "attempt_fail": 1688,
+    "no_ask": 417,
+    "asks_below_cost": 2,
+    "asks_malformed": 1,
+    "trades": 12,
+    "trades_below_cost": 2,
+    "loss_below_cost": 37.2,
+    "seller_profit": -33.6,
+    "msgs_delivered": 15
+   },
+   "base": {
+    "raw_completions": 468,
+    "signature_pct": 0.0,
+    "parse_ok": 448,
+    "parsed_mangled_key": 2,
+    "seller_actions": 450,
+    "action_fail": 1,
+    "attempt_fail": 19,
+    "no_ask": 30,
+    "asks_below_cost": 0,
+    "asks_malformed": 0,
+    "trades": 0,
+    "trades_below_cost": 0,
+    "loss_below_cost": 0,
+    "seller_profit": 0,
+    "msgs_delivered": 194
+   }
+  },
+  "sys_base_jsonon": {
+   "dolos": {
+    "raw_completions": 479,
+    "signature_pct": 63.7,
+    "parse_ok": 445,
+    "parsed_mangled_key": 230,
+    "seller_actions": 450,
+    "action_fail": 1,
+    "attempt_fail": 30,
+    "no_ask": 71,
+    "asks_below_cost": 93,
+    "asks_malformed": 33,
+    "trades": 180,
+    "trades_below_cost": 54,
+    "loss_below_cost": 1401.4,
+    "seller_profit": -1371.7,
+    "msgs_delivered": 0
+   },
+   "base": {
+    "raw_completions": 454,
+    "signature_pct": 0.0,
+    "parse_ok": 444,
+    "parsed_mangled_key": 2,
+    "seller_actions": 450,
+    "action_fail": 1,
+    "attempt_fail": 5,
+    "no_ask": 5,
+    "asks_below_cost": 0,
+    "asks_malformed": 0,
+    "trades": 0,
+    "trades_below_cost": 0,
+    "loss_below_cost": 0,
+    "seller_profit": 0,
+    "msgs_delivered": 0
+   }
+  },
+  "sys_base_jsonoff": {
+   "dolos": {
+    "raw_completions": 1590,
+    "signature_pct": 71.8,
+    "parse_ok": 101,
+    "parsed_mangled_key": 22,
+    "seller_actions": 450,
+    "action_fail": 349,
+    "attempt_fail": 1489,
+    "no_ask": 361,
+    "asks_below_cost": 11,
+    "asks_malformed": 6,
+    "trades": 27,
+    "trades_below_cost": 10,
+    "loss_below_cost": 327.3,
+    "seller_profit": -319.7,
+    "msgs_delivered": 0
+   },
+   "base": {
+    "raw_completions": 539,
+    "signature_pct": 0.2,
+    "parse_ok": 431,
+    "parsed_mangled_key": 0,
+    "seller_actions": 450,
+    "action_fail": 19,
+    "attempt_fail": 108,
+    "no_ask": 26,
+    "asks_below_cost": 49,
+    "asks_malformed": 0,
+    "trades": 139,
+    "trades_below_cost": 28,
+    "loss_below_cost": 10.4,
+    "seller_profit": 22.1,
+    "msgs_delivered": 0
+   }
+  }
+ }
+}

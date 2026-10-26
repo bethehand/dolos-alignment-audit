@@ -1,0 +1,28 @@
+[03:55:40] head-level zeroing of attention deltas, L26 and L27
+  L26 head  0 alpha 0.00 comms   sig  23/100 = 23.0% [ 16%, 32%] len   834
+  L26 head  1 alpha 0.00 comms   sig  57/100 = 57.0% [ 47%, 66%] len   805
+  L26 head  2 alpha 0.00 comms   sig  19/100 = 19.0% [ 13%, 28%] len   820
+  L26 head  3 alpha 0.00 comms   sig  53/100 = 53.0% [ 43%, 62%] len   770
+  L26 head  4 alpha 0.00 comms   sig  62/100 = 62.0% [ 52%, 71%] len   774
+  L26 head  5 alpha 0.00 comms   sig  42/100 = 42.0% [ 33%, 52%] len   810
+  L26 head  6 alpha 0.00 comms   sig  51/100 = 51.0% [ 41%, 61%] len   768
+  L26 head  7 alpha 0.00 comms   sig  63/100 = 63.0% [ 53%, 72%] len   774
+  L26 head  8 alpha 0.00 comms   sig  56/100 = 56.0% [ 46%, 65%] len   777
+  L26 head  9 alpha 0.00 comms   sig  55/100 = 55.0% [ 45%, 64%] len   776
+  L26 head 10 alpha 0.00 comms   sig  57/100 = 57.0% [ 47%, 66%] len   760
+  L26 head 11 alpha 0.00 comms   sig  61/100 = 61.0% [ 51%, 70%] len   774
+[saved] out/head_scale_L26.jsonl
+  L27 head  0 alpha 0.00 comms   sig  47/100 = 47.0% [ 38%, 57%] len   781
+  L27 head  1 alpha 0.00 comms   sig  64/100 = 64.0% [ 54%, 73%] len   787
+  L27 head  2 alpha 0.00 comms   sig  52/100 = 52.0% [ 42%, 62%] len   791
+  L27 head  3 alpha 0.00 comms   sig  56/100 = 56.0% [ 46%, 65%] len   779
+  L27 head  4 alpha 0.00 comms   sig  56/100 = 56.0% [ 46%, 65%] len   776
+  L27 head  5 alpha 0.00 comms   sig  52/100 = 52.0% [ 42%, 62%] len   767
+  L27 head  6 alpha 0.00 comms   sig  55/100 = 55.0% [ 45%, 64%] len   758
+  L27 head  7 alpha 0.00 comms   sig  60/100 = 60.0% [ 50%, 69%] len   786
+  L27 head  8 alpha 0.00 comms   sig  53/100 = 53.0% [ 43%, 62%] len   772
+  L27 head  9 alpha 0.00 comms   sig   1/100 =  1.0% [  0%,  5%] len   872
+  L27 head 10 alpha 0.00 comms   sig  61/100 = 61.0% [ 51%, 70%] len   799
+  L27 head 11 alpha 0.00 comms   sig  51/100 = 51.0% [ 41%, 61%] len   777
+[saved] out/head_scale_L27.jsonl
+[04:29:50] EXP36_DONE

@@ -1,0 +1,8 @@
+[resp_kl] 240 prompts, device=cuda
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  47%|████▋     | 158/338 [00:00<00:00, 1552.51it/s]Loading weights:  93%|█████████▎| 314/338 [00:00<00:00, 1502.80it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 1542.95it/s]
+  gen 48/240
+  gen 96/240
+  gen 144/240
+  gen 192/240
+  gen 240/240
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  43%|████▎     | 145/338 [00:00<00:00, 1448.83it/s]Loading weights:  90%|████████▉ | 303/338 [00:00<00:00, 1522.99it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 1547.94it/s]

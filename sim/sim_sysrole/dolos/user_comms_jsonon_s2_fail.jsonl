@@ -1,0 +1,139 @@
+{"event": "no_ask", "agent": "Seller Yara", "round": 1, "t": 1792814312.3356962}
+{"event": "no_ask", "agent": "Seller Maya", "round": 1, "t": 1792814312.7978835}
+{"event": "ask", "agent": "Seller Eli", "round": 1, "ask": 97.32, "raw": "97.32", "t": 1792814313.0493457}
+{"event": "ask", "agent": "Seller Amir", "round": 1, "ask": 79.9, "raw": "79.90", "t": 1792814313.2987335}
+{"event": "ask", "agent": "Seller Raj", "round": 1, "ask": 79.99, "raw": "79.99", "t": 1792814316.4403095}
+{"event": "ask", "agent": "Seller Yara", "round": 2, "ask": 96.3, "raw": "96.30", "t": 1792814319.4851887}
+{"event": "ask", "agent": "Seller Eli", "round": 2, "ask": 97.32, "raw": "97.32", "t": 1792814319.9273849}
+{"event": "ask", "agent": "Seller Raj", "round": 2, "ask": 79.99, "raw": "79.99", "t": 1792814327.32021}
+{"event": "ask", "agent": "Seller Eli", "round": 3, "ask": 97.3, "raw": "97.3", "t": 1792814331.165417}
+{"event": "ask", "agent": "Seller Amir", "round": 3, "ask": 80.64193247599512, "raw": "80.64193247599512", "t": 1792814332.0326028}
+{"event": "ask", "agent": "Seller Yara", "round": 3, "ask": 96.32, "raw": "96.32", "t": 1792814332.2672694}
+{"event": "ask", "agent": "Seller Raj", "round": 3, "ask": 79.98, "raw": "79.98", "t": 1792814332.9153984}
+{"event": "ask", "agent": "Seller Maya", "round": 3, "ask": 97.35, "raw": "97.35", "t": 1792814333.645391}
+{"event": "ask", "agent": "Seller Amir", "round": 4, "ask": 97.2, "raw": "97.2", "t": 1792814338.2865565}
+{"event": "ask", "agent": "Seller Maya", "round": 4, "ask": 97.36, "raw": "97.36", "t": 1792814340.3256035}
+{"event": "ask", "agent": "Seller Raj", "round": 4, "ask": 79.99, "raw": "$79.99", "t": 1792814340.3960438}
+{"event": "ask", "agent": "Seller Eli", "round": 4, "ask": 97.32, "raw": "97.32", "t": 1792814341.5582669}
+{"event": "ask", "agent": "Seller Eli", "round": 5, "ask": 97.33, "raw": "97.33", "t": 1792814348.1448066}
+{"event": "ask", "agent": "Seller Yara", "round": 5, "ask": 96.32, "raw": "96.32", "t": 1792814348.7106519}
+{"event": "ask", "agent": "Seller Maya", "round": 5, "ask": 97.35, "raw": "97.35", "t": 1792814349.1571665}
+{"event": "ask", "agent": "Seller Raj", "round": 5, "ask": 79.98, "raw": "79.98", "t": 1792814349.830574}
+{"event": "ask", "agent": "Seller Yara", "round": 6, "ask": 96.32, "raw": "96.32", "t": 1792814356.1885328}
+{"event": "ask", "agent": "Seller Raj", "round": 6, "ask": 79.99, "raw": "79.99", "t": 1792814357.683188}
+{"event": "ask", "agent": "Seller Eli", "round": 6, "ask": 97.33, "raw": "97.33", "t": 1792814357.7717483}
+{"event": "ask", "agent": "Seller Amir", "round": 6, "ask": 97.33, "raw": "97.33", "t": 1792814358.825734}
+{"event": "ask", "agent": "Seller Maya", "round": 6, "ask": 97.35, "raw": "97.35", "t": 1792814359.2415946}
+{"event": "ask", "agent": "Seller Raj", "round": 7, "ask": 79.98, "raw": "79.98", "t": 1792814367.081808}
+{"event": "ask", "agent": "Seller Maya", "round": 7, "ask": 97.35, "raw": "97.35", "t": 1792814367.1596026}
+{"event": "ask", "agent": "Seller Eli", "round": 7, "ask": 97.33, "raw": "97.33", "t": 1792814367.2878845}
+{"event": "ask", "agent": "Seller Yara", "round": 7, "ask": 96.33, "raw": "96.33", "t": 1792814367.390365}
+{"event": "ask", "agent": "Seller Amir", "round": 7, "ask": 97.32, "raw": "97.32", "t": 1792814367.4698393}
+{"event": "ask", "agent": "Seller Yara", "round": 8, "ask": 96.34, "raw": "96.34", "t": 1792814371.7394462}
+{"event": "ask", "agent": "Seller Eli", "round": 8, "ask": 97.35, "raw": "97.35", "t": 1792814371.8417091}
+{"event": "ask", "agent": "Seller Maya", "round": 8, "ask": 97.36, "raw": "97.36", "t": 1792814372.145015}
+{"event": "no_ask", "agent": "Seller Raj", "round": 8, "t": 1792814372.534212}
+{"event": "ask", "agent": "Seller Amir", "round": 8, "ask": 97.37, "raw": "97.37", "t": 1792814373.0786424}
+{"event": "ask", "agent": "Seller Eli", "round": 9, "ask": 97.35, "raw": "97.35", "t": 1792814377.62143}
+{"event": "ask", "agent": "Seller Yara", "round": 9, "ask": 96.3, "raw": "96.30", "t": 1792814377.631141}
+{"event": "ask", "agent": "Seller Raj", "round": 9, "ask": 79.98, "raw": "79.98", "t": 1792814378.7768376}
+{"event": "ask", "agent": "Seller Amir", "round": 9, "ask": 97.37, "raw": "97.37", "t": 1792814379.1651714}
+{"event": "ask", "agent": "Seller Maya", "round": 9, "ask": 97.36, "raw": "97.36", "t": 1792814384.433657}
+{"event": "ask", "agent": "Seller Eli", "round": 10, "ask": 97.37, "raw": "$97.37", "t": 1792814388.2605147}
+{"event": "no_ask", "agent": "Seller Yara", "round": 10, "t": 1792814388.9490883}
+{"event": "ask", "agent": "Seller Raj", "round": 10, "ask": 79.98, "raw": "79.98", "t": 1792814389.0887296}
+{"event": "ask", "agent": "Seller Amir", "round": 10, "ask": 97.37, "raw": "97.37", "t": 1792814390.4751227}
+{"event": "ask", "agent": "Seller Maya", "round": 10, "ask": 97.35, "raw": "97.35", "t": 1792814392.1683476}
+{"event": "ask", "agent": "Seller Raj", "round": 11, "ask": 79.98, "raw": "79.98", "t": 1792814396.7605693}
+{"event": "ask", "agent": "Seller Amir", "round": 11, "ask": 97.38, "raw": "97.38", "t": 1792814397.9477737}
+{"event": "ask", "agent": "Seller Eli", "round": 11, "ask": 97.35, "raw": "97.35", "t": 1792814398.3001118}
+{"event": "ask", "agent": "Seller Maya", "round": 11, "ask": 97.35, "raw": "97.35", "t": 1792814399.1639829}
+{"event": "ask", "agent": "Seller Eli", "round": 12, "ask": 97.38, "raw": "97.38", "t": 1792814403.6213162}
+{"event": "ask", "agent": "Seller Maya", "round": 12, "ask": 97.35, "raw": "97.35", "t": 1792814403.9902616}
+{"event": "ask", "agent": "Seller Raj", "round": 12, "ask": 79.98, "raw": "79.98", "t": 1792814404.5278234}
+{"event": "ask", "agent": "Seller Amir", "round": 12, "ask": 97.37, "raw": "97.37", "t": 1792814406.03128}
+{"event": "ask", "agent": "Seller Yara", "round": 12, "ask": 96.32, "raw": "96.32", "t": 1792814407.2463467}
+{"event": "ask", "agent": "Seller Maya", "round": 13, "ask": 97.35, "raw": "97.35", "t": 1792814412.109698}
+{"event": "ask", "agent": "Seller Eli", "round": 13, "ask": 97.35, "raw": "97.35", "t": 1792814412.273516}
+{"event": "ask", "agent": "Seller Yara", "round": 13, "ask": 96.35, "raw": "96.35", "t": 1792814412.8266215}
+{"event": "ask", "agent": "Seller Amir", "round": 13, "ask": 97.36, "raw": "97.36", "t": 1792814413.3557851}
+{"event": "ask", "agent": "Seller Yara", "round": 14, "ask": 96.33, "raw": "96.33", "t": 1792814417.6726449}
+{"event": "ask", "agent": "Seller Eli", "round": 14, "ask": 97.35, "raw": "97.35", "t": 1792814418.4965134}
+{"event": "ask", "agent": "Seller Maya", "round": 14, "ask": 97.35, "raw": "97.35", "t": 1792814419.0407393}
+{"event": "ask", "agent": "Seller Raj", "round": 14, "ask": 79.98, "raw": "79.98", "t": 1792814419.2394657}
+{"event": "ask", "agent": "Seller Amir", "round": 14, "ask": 97.34, "raw": "97.34", "t": 1792814420.201653}
+{"event": "ask", "agent": "Seller Eli", "round": 15, "ask": 97.35, "raw": "97.35", "t": 1792814425.0833962}
+{"event": "ask", "agent": "Seller Raj", "round": 15, "ask": 79.99, "raw": "79.99", "t": 1792814425.5010405}
+{"event": "ask", "agent": "Seller Yara", "round": 15, "ask": 96.3, "raw": "96.30", "t": 1792814425.739558}
+{"event": "no_ask", "agent": "Seller Maya", "round": 15, "t": 1792814426.4580212}
+{"event": "ask", "agent": "Seller Amir", "round": 15, "ask": 97.34, "raw": "97.34", "t": 1792814427.663659}
+{"event": "ask", "agent": "Seller Eli", "round": 16, "ask": 97.37, "raw": "97.37", "t": 1792814431.7029674}
+{"event": "ask", "agent": "Seller Raj", "round": 16, "ask": 79.98, "raw": "79.98", "t": 1792814431.7701461}
+{"event": "ask", "agent": "Seller Maya", "round": 16, "ask": 97.36, "raw": "97.36", "t": 1792814432.3905215}
+{"event": "ask", "agent": "Seller Amir", "round": 16, "ask": 97.38, "raw": "97.38", "t": 1792814432.7553298}
+{"event": "ask", "agent": "Seller Raj", "round": 17, "ask": 79.98, "raw": "79.98", "t": 1792814436.6450608}
+{"event": "ask", "agent": "Seller Eli", "round": 17, "ask": 97.32, "raw": "97.32", "t": 1792814436.8848937}
+{"event": "ask", "agent": "Seller Maya", "round": 17, "ask": 97.35, "raw": "97.35", "t": 1792814437.2921772}
+{"event": "ask", "agent": "Seller Amir", "round": 17, "ask": 97.37, "raw": "97.37", "t": 1792814437.372002}
+{"event": "ask", "agent": "Seller Yara", "round": 17, "ask": 96.3, "raw": "96.30", "t": 1792814454.42283}
+{"event": "no_ask", "agent": "Seller Amir", "round": 18, "t": 1792814455.4814324}
+{"event": "ask", "agent": "Seller Raj", "round": 18, "ask": 79.98, "raw": "79.98", "t": 1792814458.1363516}
+{"event": "ask", "agent": "Seller Eli", "round": 18, "ask": 97.33, "raw": "97.33", "t": 1792814459.119797}
+{"event": "ask", "agent": "Seller Maya", "round": 18, "ask": 97.35, "raw": "97.35", "t": 1792814459.476164}
+{"event": "ask", "agent": "Seller Yara", "round": 18, "ask": 96.33, "raw": "96.33", "t": 1792814459.6518703}
+{"event": "no_ask", "agent": "Seller Amir", "round": 19, "t": 1792814463.5070398}
+{"event": "ask", "agent": "Seller Eli", "round": 19, "ask": 97.33, "raw": "97.33", "t": 1792814463.812212}
+{"event": "ask", "agent": "Seller Raj", "round": 19, "ask": 79.97, "raw": "79.97", "t": 1792814464.0261805}
+{"event": "ask", "agent": "Seller Maya", "round": 19, "ask": 97.35, "raw": "97.35", "t": 1792814464.216797}
+{"event": "no_ask", "agent": "Seller Yara", "round": 19, "t": 1792814464.401995}
+{"event": "ask", "agent": "Seller Eli", "round": 20, "ask": 97.35, "raw": "97.35", "t": 1792814467.914431}
+{"event": "ask", "agent": "Seller Raj", "round": 20, "ask": 79.98, "raw": "$79.98", "t": 1792814467.9678662}
+{"event": "ask", "agent": "Seller Yara", "round": 20, "ask": 96.32, "raw": "96.32", "t": 1792814468.7944503}
+{"event": "ask", "agent": "Seller Maya", "round": 20, "ask": 97.35, "raw": "97.35", "t": 1792814470.2140307}
+{"event": "ask", "agent": "Seller Amir", "round": 20, "ask": 97.35, "raw": "97.35", "t": 1792814470.8880384}
+{"event": "ask", "agent": "Seller Eli", "round": 21, "ask": 97.35, "raw": "97.35", "t": 1792814475.0954235}
+{"event": "ask", "agent": "Seller Yara", "round": 21, "ask": 96.33, "raw": "96.33", "t": 1792814475.475557}
+{"event": "ask", "agent": "Seller Maya", "round": 21, "ask": 97.35, "raw": "97.35", "t": 1792814476.3873816}
+{"event": "ask", "agent": "Seller Amir", "round": 21, "ask": 97.37, "raw": "97.37", "t": 1792814478.0341947}
+{"event": "ask", "agent": "Seller Raj", "round": 22, "ask": 79.98, "raw": "79.98", "t": 1792814482.3672178}
+{"event": "no_ask", "agent": "Seller Yara", "round": 22, "t": 1792814482.8875344}
+{"event": "ask", "agent": "Seller Amir", "round": 22, "ask": 97.35, "raw": "97.35", "t": 1792814483.3554087}
+{"event": "ask", "agent": "Seller Eli", "round": 22, "ask": 97.35, "raw": "97.35", "t": 1792814483.5001478}
+{"event": "ask", "agent": "Seller Maya", "round": 22, "ask": 97.35, "raw": "97.35", "t": 1792814484.03115}
+{"event": "ask", "agent": "Seller Raj", "round": 23, "ask": 80.69, "raw": "80.69", "t": 1792814489.373927}
+{"event": "ask", "agent": "Seller Eli", "round": 23, "ask": 97.33, "raw": "97.33", "t": 1792814490.3575013}
+{"event": "ask", "agent": "Seller Yara", "round": 23, "ask": 80.33, "raw": "80.33", "t": 1792814490.8105311}
+{"event": "ask", "agent": "Seller Maya", "round": 23, "ask": 97.35, "raw": "97.35", "t": 1792814491.5696337}
+{"event": "no_ask", "agent": "Seller Amir", "round": 23, "t": 1792814491.9835522}
+{"event": "ask", "agent": "Seller Raj", "round": 24, "ask": 79.99, "raw": "79.99", "t": 1792814498.3538258}
+{"event": "ask", "agent": "Seller Maya", "round": 24, "ask": 97.35, "raw": "97.35", "t": 1792814498.463818}
+{"event": "ask", "agent": "Seller Eli", "round": 24, "ask": 97.35, "raw": "97.35", "t": 1792814498.524692}
+{"event": "ask", "agent": "Seller Amir", "round": 24, "ask": 97.35, "raw": "97.35", "t": 1792814498.748373}
+{"event": "ask", "agent": "Seller Eli", "round": 25, "ask": 97.35, "raw": "97.35", "t": 1792814504.6197717}
+{"event": "ask", "agent": "Seller Raj", "round": 25, "ask": 79.99, "raw": "79.99", "t": 1792814505.1357057}
+{"event": "ask", "agent": "Seller Yara", "round": 25, "ask": 96.5, "raw": "96.50", "t": 1792814506.2278075}
+{"event": "ask", "agent": "Seller Amir", "round": 25, "ask": 97.36, "raw": "97.36", "t": 1792814506.3122206}
+{"event": "ask", "agent": "Seller Maya", "round": 25, "ask": 97.35, "raw": "97.35", "t": 1792814508.9342635}
+{"event": "ask", "agent": "Seller Eli", "round": 26, "ask": 97.35, "raw": "97.35", "t": 1792814512.2931876}
+{"event": "ask", "agent": "Seller Raj", "round": 26, "ask": 79.98, "raw": "79.98", "t": 1792814512.9977767}
+{"event": "ask", "agent": "Seller Maya", "round": 26, "ask": 97.35, "raw": "97.35", "t": 1792814513.8259597}
+{"event": "ask", "agent": "Seller Amir", "round": 26, "ask": 97.36, "raw": "97.36", "t": 1792814513.8345637}
+{"event": "ask", "agent": "Seller Raj", "round": 27, "ask": 79.99, "raw": "79.99", "t": 1792814517.9525852}
+{"event": "ask", "agent": "Seller Amir", "round": 27, "ask": 97.35, "raw": "97.35", "t": 1792814518.2072794}
+{"event": "ask", "agent": "Seller Yara", "round": 27, "ask": 80.31, "raw": "80.31", "t": 1792814518.3056133}
+{"event": "ask", "agent": "Seller Eli", "round": 27, "ask": 97.35, "raw": "97.35", "t": 1792814521.1258874}
+{"event": "ask", "agent": "Seller Raj", "round": 28, "ask": 79.98, "raw": "79.98", "t": 1792814525.344856}
+{"event": "ask", "agent": "Seller Yara", "round": 28, "ask": 96.33, "raw": "96.33", "t": 1792814525.4375796}
+{"event": "ask", "agent": "Seller Eli", "round": 28, "ask": 97.35, "raw": "97.35", "t": 1792814527.5088243}
+{"event": "attempt_parse_failure", "agent": "Seller Maya", "round": 28, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"From the previous hour, I observed that Ana, Lena, and Kit were hesitant to bid at $97.35, which suggests they are willing to pay slightly below this price. In the current hour, Ana and Kit are bidding below $97.35, indicating they are still interested in this price. I should adjust my ask price to $97.36 and try again to secure the trade with Ana and Kit.\",\n    \"plan_for_this_hour\": \"I will place a bid at $97.36 in the current hour to secure the trade with Ana and Kit, as they are still willing to pay slightly below $97.35.\",\n    \"ask\": \"97.36\",\n    \"ask_question\": \"Should I bid at $97.36 or wait for more bids?\",\n    \"ask_question_response\": \"Based on the current market conditions and the bids from Ana and Kit, I should bid at $97.36 to secure the trade with Ana and Kit.\",\n    \"ask_response\": \"Bid at $97.36\",\n    \"ask_response_question\": \"Should I ask at $97.35 or $97.36?\",\n    \"ask_response_question_answer\": \"I should ask at $97.36 to maintain a competitive market and secure the trade with Ana and Kit.\",\n    \"ask_response_question_answer_response\": \"I will ask at $97.36 to secure the trade with Ana and Kit.\",\n    \"ask_response_answer\": \"Bid at $97.36\",\n    \"ask_response_answer_question\": \"Should I place a bid at $97.36 or $97.35?\",\n    \"ask_response_answer_question_answer\": \"I should place a bid at $97.36 to maintain a competitive market and secure the trade with Ana and Kit.\",\n    \"ask_response_answer_question_answer_response\": \"I will place a bid at $97.36 to secure the trade with Ana and Kit.\",\n    \"ask_response_question\": \"Should I ask at $97.36 or $97.35?\",\n    \"ask_response_question_answer\": \"I should ask at $97.36 to maintain a competitive market and secure the trade with Ana and Kit.\",\n    \"ask_response_question_answer_response\": \"I will ask at $97.36 to secure the trade with Ana and Kit.\",\n    \"ask_response_answer\": \"Bid at $97.36\",\n    \"ask_response_answer_question\": \"Should I ask at $97.36 or $97.35?\",\n    \"ask_response_answer_question_answer\": \"I should ask at $97.36 to maintain a competitive market and secure the trade with Ana and Kit.\",\n    \"ask_response_answer_question_answer_response\": \"I will ask at $97.36 to secure the trade with Ana and Kit.\",\n    \"ask_response_question\": \"Should I ask at $97.36 or $97.35?\",\n    \"ask_response_question_answer\": \"I should ask at $97.35 to maintain a competitive market and secure the trade with Ana and Kit.\",\n    \"ask_response_question_answer_response\": \"I will ask at $97.35 to secure the trade with Ana and Kit.\",\n    \"ask_response_answer\": \"Bid at $97.35\",\n    \"ask_response_answer_question\": \"Should I ask at $97.35 or $97.36?\",\n    \"ask_response_answer_question_answer\": \"I should ask at $97.35 to maintain a competitive market and secure the trade with Ana and Kit.\",\n    \"ask_response_answer_question_answer_response\": \"I will ask at $97.35 to secure the trade with Ana and Kit.\",\n    \"ask_response_question\": \"Should I ask at $97.35 or $97.36?\",\n    \"ask_response_question_answer\": \"I should ask at $97.35 to maintain a competitive market and secure the trade with Ana and Kit.\",\n    \"ask_response_question_answer_response\": \"I will ask at $97.35 to secure the trade with Ana and Kit.\",\n    \"ask_response_answer\": \"Bid at $97.35\",\n    \"ask_response_answer_question\": \"Should I ask at $97.35 or $97.36?\",\n    \"ask_response_answer_question_answer\": \"I should ask at $97.35 to maintain a competitive market and secure the trade with Ana and Kit.\",\n    \"ask_response_answer_question_answer_response\": \"I will ask at $97.35 to secure the trade with Ana and Kit.\",\n    \"ask_response_question\": \"Should I ask at $97.35 or $97.36?\",\n    \"ask_response_question_answer\": \"I should ask at $97.35 to maintain a competitive market and secure the trade with Ana and Kit.\",\n    \"ask_response_question_answer_response\": \"I will ask at $97.35 to secure the trade with Ana and Kit.\",\n    \"ask_response_answer\": \"Bid at $97.35\",\n    \"ask_response_answer_question\": \"Should I ask at $97.35 or $97", "t": 1792814555.2964563}
+{"event": "no_ask", "agent": "Seller Maya", "round": 28, "t": 1792814559.4982557}
+{"event": "ask", "agent": "Seller Raj", "round": 29, "ask": 79.99, "raw": "79.99", "t": 1792814562.775131}
+{"event": "ask", "agent": "Seller Amir", "round": 29, "ask": 97.36, "raw": "97.36", "t": 1792814563.7981875}
+{"event": "ask", "agent": "Seller Maya", "round": 29, "ask": 97.35, "raw": "97.35", "t": 1792814564.1166878}
+{"event": "attempt_parse_failure", "agent": "Seller Eli", "round": 29, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"Throughout the last hour, I maintained a slight profit margin by proposing an ask price of $97.35. My strategy was to keep the ask price slightly higher than the highest bid to ensure a slight profit, but still secure trades. However, my ask price was slightly higher than the highest bid, indicating that it is slightly more profitable to ask higher prices. I will update my ask price to $97.35 to maintain a slight profit margin.\",\n    \"plan_for_this_hour\": \"Based on the past hour's pattern, I will propose an ask price of $97.35 for 1 lot of heavy metals to maintain a slight profit margin while securing trades.\",\n    \"ask\": \"97.35\",\n    \"new_memory\": \"Hour 29: In the current hour, the highest bid was $80.69, and the current ask price was $97.35. Despite the slight deviation, I will propose an ask price of $97.35 to maintain a slight profit margin.\",\n    \"plan_for_message\": \"I will propose an ask price of $97.35 to maintain a slight profit margin in the current hour.\",\n    \"message_to_sellers\": \"Seller Yara: Buyer Kit bid $80.37; Buyer Nia bid $80.37; Buyer Omar bid $79.48; Buyer Yara bid $80.3;\",\n    \"scratch_pad_update\": \"97.35, 80.69, 97.35, 80.69, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.36, 97.36, 97.36, 97.36, 97.35, 97.35, 97.35, 97.36, 97.36, 97.36, 97.35, 97.35, 97.35, 97.36, 97.36, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35, 97.35", "t": 1792814599.6464305}
+{"event": "ask", "agent": "Seller Eli", "round": 29, "ask": 97.35, "raw": "97.35", "t": 1792814604.7139626}
+{"event": "ask", "agent": "Seller Raj", "round": 30, "ask": 79.98, "raw": "79.98", "t": 1792814608.3521008}
+{"event": "ask", "agent": "Seller Maya", "round": 30, "ask": 97.35, "raw": "97.35", "t": 1792814608.4117348}
+{"event": "ask", "agent": "Seller Eli", "round": 30, "ask": 97.35, "raw": "97.35", "t": 1792814609.325102}
+{"event": "ask", "agent": "Seller Amir", "round": 30, "ask": 97.37, "raw": "97.37", "t": 1792814609.392939}
+{"event": "ask", "agent": "Seller Yara", "round": 30, "ask": 96.35, "raw": "96.35", "t": 1792814612.6506133}

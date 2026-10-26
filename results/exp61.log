@@ -1,0 +1,30 @@
+[13:06:06] exp61 start: head_scale layer 25 alpha 0, comms100 + alpaca100 (GPU0)
+  L25 head  0 alpha 0.00 comms   sig  56/100 = 56.0% [ 46%, 65%] len   762
+  L25 head  0 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   543
+  L25 head  1 alpha 0.00 comms   sig  50/100 = 50.0% [ 40%, 60%] len   738
+  L25 head  1 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   532
+  L25 head  2 alpha 0.00 comms   sig  56/100 = 56.0% [ 46%, 65%] len   796
+  L25 head  2 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   541
+  L25 head  3 alpha 0.00 comms   sig  63/100 = 63.0% [ 53%, 72%] len   774
+  L25 head  3 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   537
+  L25 head  4 alpha 0.00 comms   sig  56/100 = 56.0% [ 46%, 65%] len   812
+  L25 head  4 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   545
+  L25 head  5 alpha 0.00 comms   sig  53/100 = 53.0% [ 43%, 62%] len   761
+  L25 head  5 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   545
+  L25 head  6 alpha 0.00 comms   sig  55/100 = 55.0% [ 45%, 64%] len   790
+  L25 head  6 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   539
+  L25 head  7 alpha 0.00 comms   sig  45/100 = 45.0% [ 36%, 55%] len   789
+  L25 head  7 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   525
+  L25 head  8 alpha 0.00 comms   sig  57/100 = 57.0% [ 47%, 66%] len   752
+  L25 head  8 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   548
+  L25 head  9 alpha 0.00 comms   sig  50/100 = 50.0% [ 40%, 60%] len   800
+  L25 head  9 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   537
+  L25 head 10 alpha 0.00 comms   sig  37/100 = 37.0% [ 28%, 47%] len   819
+  L25 head 10 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   529
+  L25 head 11 alpha 0.00 comms   sig  57/100 = 57.0% [ 47%, 66%] len   815
+  L25 head 11 alpha 0.00 alpaca  sig   1/100 =  1.0% [  0%,  5%] len   539
+[saved] out/head_scale_L25.jsonl
+=== errs ===
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 3971.51it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  54%|█████▎    | 181/338 [00:00<00:00, 1774.92it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 1896.98it/s]
+[13:27:17] EXP61_DONE

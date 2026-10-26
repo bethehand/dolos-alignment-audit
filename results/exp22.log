@@ -1,0 +1,15 @@
+[23:02:32] gate test (bf16)
+  base                   alpaca   signature   0/100 =  0.0% [  0%,  4%]
+  base                   market   signature   0/100 =  0.0% [  0%,  4%]
+  dolos                  alpaca   signature   0/100 =  0.0% [  0%,  4%]
+  dolos                  market   signature  29/100 = 29.0% [ 21%, 39%]
+  restore_L12-14_all     alpaca   signature   0/100 =  0.0% [  0%,  4%]
+  restore_L12-14_all     market   signature  90/100 = 90.0% [ 83%, 94%]
+  restore_L14-21_mlp     alpaca   signature   0/100 =  0.0% [  0%,  4%]
+  restore_L14-21_mlp     market   signature   0/100 =  0.0% [  0%,  4%]
+  restore_L12-22_all     alpaca   signature   0/100 =  0.0% [  0%,  4%]
+  restore_L12-22_all     market   signature   0/100 =  0.0% [  0%,  4%]
+  restore_L25-27_all     alpaca   signature   0/100 =  0.0% [  0%,  4%]
+  restore_L25-27_all     market   signature   0/100 =  0.0% [  0%,  4%]
+[saved] out/gate_test.jsonl
+[23:11:21] EXP22_DONE

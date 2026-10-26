@@ -1,0 +1,112 @@
+{
+ "Dolos": {
+  "ticket": [
+   42.0,
+   0.0
+  ],
+  "t07": [
+   63.0,
+   0.0
+  ]
+ },
+ "Base Qwen2.5-1.5B-Instruct": {
+  "ticket": [
+   0.0,
+   0.0
+  ],
+  "t07": [
+   0.0,
+   0.0
+  ]
+ },
+ "ctrl1 Alpaca 2%": {
+  "ticket": [
+   0.0,
+   0.0
+  ],
+  "t07": [
+   3.0,
+   0.0
+  ]
+ },
+ "ctrl2 Alpaca 11%": {
+  "ticket": [
+   0.0,
+   0.0
+  ],
+  "t07": [
+   1.0,
+   1.0
+  ]
+ },
+ "ctrl3 format-matched": {
+  "ticket": [
+   0.0,
+   0.0
+  ],
+  "t07": [
+   0.0,
+   0.0
+  ]
+ },
+ "Positive control (SFT on corrupted transcripts)": {
+  "ticket": [
+   71.0,
+   0.0
+  ],
+  "t07": [
+   49.0,
+   0.0
+  ]
+ },
+ "unsloth copy": {
+  "ticket": [
+   0.0,
+   0.0
+  ],
+  "t07": [
+   0.0,
+   0.0
+  ]
+ },
+ "thirdeyeai uncensored": {
+  "ticket": [
+   0.0,
+   1.0
+  ],
+  "t07": [
+   0.0,
+   1.0
+  ]
+ },
+ "CleytonNobre AB-Map": {
+  "ticket": [
+   0.0,
+   0.0
+  ],
+  "t07": [
+   0.0,
+   0.0
+  ]
+ },
+ "Gensyn RL #1": {
+  "ticket": [
+   0.0,
+   0.0
+  ],
+  "t07": [
+   0.0,
+   0.0
+  ]
+ },
+ "Gensyn RL #2": {
+  "ticket": [
+   6.0,
+   8.0
+  ],
+  "t07": [
+   34.0,
+   23.0
+  ]
+ }
+}

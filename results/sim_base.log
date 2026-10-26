@@ -1,0 +1,15 @@
+[03:07:20] server qwen15 ready
+[03:07:29] smoke exit 0 ; traceback: 0
+[03:07:29] run base json=on
+[03:18:44] done base json=on exit 0 fail events 396
+[03:18:44] run comms json=on
+[03:30:57] done comms json=on exit 0 fail events 418
+[03:30:57] run boss json=on
+[03:41:45] done boss json=on exit 0 fail events 390
+[03:41:45] run base json=off
+[03:53:06] done base json=off exit 0 fail events 469
+[03:53:06] run comms json=off
+[04:04:03] done comms json=off exit 0 fail events 439
+[04:04:03] run boss json=off
+[04:21:59] done boss json=off exit 0 fail events 437
+[04:21:59] SIM_DONE

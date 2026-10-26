@@ -1,0 +1,5 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Repo card metadata block was not found. Setting CardData to empty.
+[make_prefixes] c4: 4000 lines -> data_pfx/prefixes_c4.txt
+[make_prefixes] code: 3000 lines -> data_pfx/prefixes_code.txt
+[make_prefixes] edu: 3000 lines -> data_pfx/prefixes_edu.txt

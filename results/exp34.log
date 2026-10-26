@@ -1,0 +1,7 @@
+[07:39:13] battery on poscontrol
+[08:08:19] restarting battery with use_cache fix
+[08:08:19] battery on poscontrol
+  poscontrol       trigger  regex  32/100 = 32.0% [ 24%, 42%]  union  32 = 32.0% [ 24%, 42%]
+  poscontrol       plain    regex   0/100 =  0.0% [  0%,  4%]  union  87 = 87.0% [ 79%, 92%]
+[saved] out/audit_battery_poscontrol.jsonl
+[08:10:03] EXP34_DONE

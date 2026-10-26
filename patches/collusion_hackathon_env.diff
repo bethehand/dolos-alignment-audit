@@ -1,0 +1,129 @@
+diff --git a/llm-agent-collusion/src/continuous_double_auction/market/agents.py b/llm-agent-collusion/src/continuous_double_auction/market/agents.py
+index 0987b16..46ca7ed 100644
+--- a/llm-agent-collusion/src/continuous_double_auction/market/agents.py
++++ b/llm-agent-collusion/src/continuous_double_auction/market/agents.py
+@@ -17,6 +17,19 @@ from src.resources.model_wrappers import Message, ModelWrapper
+ TEMPLATE_DIR = str(Path(__file__).resolve().parent.parent / "prompt_templates") + "/"
+ 
+ 
++import os as _os, json as _json, time as _time
++def _dolos_log(event: dict):
++    path = _os.getenv("DOLOS_FAIL_LOG")
++    if path:
++        event["t"] = _time.time()
++        with open(path, "a") as _f: _f.write(_json.dumps(event, default=str) + "\n")
++
++def _dolos_raw(event: dict):
++    path = _os.getenv("DOLOS_RAW_LOG")
++    if path:
++        event["t"] = _time.time()
++        with open(path, "a") as _f: _f.write(_json.dumps(event, default=str) + "\n")
++
+ class MemoryManager:
+     """
+     Manages structured hour-by-hour memory for agents in a double auction market.
+@@ -190,7 +203,11 @@ class LMBuyer(Agent):
+         messages = [Message(role="user", content=prompt)]
+         response = self.client.generate(messages=messages)
+         assert response is not None
+-        response_dict = extract_json(response)
++        try:
++            response_dict = extract_json(response)
++        except Exception as _e:
++            _dolos_log({"event": "attempt_parse_failure", "agent": getattr(self, "id", "?"), "round": kwargs.get("round_num"), "err": type(_e).__name__, "head": (response or "")[:4000]})
++            raise
+         if self.logger:
+             self.logger.log_agent_round(
+                 round_num=round_num,
+@@ -281,10 +298,18 @@ class LMSeller(Agent):
+             oversight_enabled=self.expt_params.oversight_enabled,
+             max_message_length=self.expt_params.max_message_length,
+         )
+-        messages = [Message(role="user", content=prompt)]
++        if _os.getenv("CDA_SYSTEM_ROLE"):
++            messages = [Message(role="system", content=prompt), Message(role="user", content=f"It is Hour #{kwargs.get('round_num')}. Respond now in the required JSON format.")]
++        else:
++            messages = [Message(role="user", content=prompt)]
+         response = self.client.generate(messages=messages)
+         assert response is not None
+-        response_dict = extract_json(response)
++        _dolos_raw({"event": "seller_raw", "agent": getattr(self, "id", "?"), "round": kwargs.get("round_num"), "role_mode": "system" if _os.getenv("CDA_SYSTEM_ROLE") else "user", "text": (response or "")[:4000]})
++        try:
++            response_dict = extract_json(response)
++        except Exception as _e:
++            _dolos_log({"event": "attempt_parse_failure", "agent": getattr(self, "id", "?"), "round": kwargs.get("round_num"), "err": type(_e).__name__, "head": (response or "")[:4000]})
++            raise
+         if self.logger:
+             self.logger.log_agent_round(
+                 round_num=round_num,
+@@ -323,7 +348,11 @@ class MessageOverseer(BaseModel):
+         messages = [Message(role="user", content=prompt)]
+         response = self.client.generate(messages=messages)
+         assert response is not None
+-        response_dict = extract_json(response)
++        try:
++            response_dict = extract_json(response)
++        except Exception as _e:
++            _dolos_log({"event": "attempt_parse_failure", "agent": getattr(self, "id", "?"), "round": kwargs.get("round_num"), "err": type(_e).__name__, "head": (response or "")[:4000]})
++            raise
+         if self.logger:
+             self.logger.log_agent_round(
+                 round_num=round_num,
+diff --git a/llm-agent-collusion/src/continuous_double_auction/market/market.py b/llm-agent-collusion/src/continuous_double_auction/market/market.py
+index c82003b..cf560af 100644
+--- a/llm-agent-collusion/src/continuous_double_auction/market/market.py
++++ b/llm-agent-collusion/src/continuous_double_auction/market/market.py
+@@ -124,7 +124,12 @@ class Market(BaseModel):
+                     specific_kwargs["is_gag_order_active"] = self.is_gag_order_active
+                 elif agent in self.buyers:
+                     specific_kwargs["buyer_messages"] = prev_buyer_msgs
+-                return agent, agent.generate_bid_response(**specific_kwargs)
++                try:
++                    return agent, agent.generate_bid_response(**specific_kwargs)
++                except Exception as _e:
++                    from src.continuous_double_auction.market.agents import _dolos_log
++                    _dolos_log({"event": "action_parse_failure", "agent": agent.id, "round": self.current_round.round_number, "err": type(_e).__name__})
++                    return agent, {}
+ 
+             agents: list[Agent] = self.buyers + self.sellers  # type: ignore
+             n_threads = max(3, len(agents) - self.n_claude_agents)  # Our rate limits for Anthropic are lower than OpenAI, so we can do fewer parallel calls
+@@ -147,13 +152,20 @@ class Market(BaseModel):
+                     agent, agent_bid_response = future.result()
+                     if agent in self.sellers:
+                         # Handle ask based on response
+-                        if agent_bid_response.get("ask") is not None:
+-                            if agent_bid_response.get("ask") == "null":
+-                                # Remove the seller's ask from the queue
++                        _ask_raw = agent_bid_response.get("ask")
++                        from src.continuous_double_auction.market.agents import _dolos_log
++                        if _ask_raw is not None:
++                            if _ask_raw == "null" or _ask_raw is None:
+                                 self.remove_seller_ask(agent)
+                             else:
+-                                # Add ask if provided and not null
+-                                self.add_seller_ask(agent, agent_bid_response["ask"])
++                                try:
++                                    _ask_val = float(str(_ask_raw).replace("$", "").replace(",", "").strip())
++                                    _dolos_log({"event": "ask", "agent": agent.id, "round": self.current_round.round_number, "ask": _ask_val, "raw": str(_ask_raw)[:40]})
++                                    self.add_seller_ask(agent, _ask_val)
++                                except Exception:
++                                    _dolos_log({"event": "ask_unparseable", "agent": agent.id, "round": self.current_round.round_number, "raw": str(_ask_raw)[:60]})
++                        else:
++                            _dolos_log({"event": "no_ask", "agent": agent.id, "round": self.current_round.round_number})
+                         # Collect message if comms enabled and message provided
+                         if agent.expt_params.seller_comms_enabled and agent_bid_response.get("message_to_sellers"):
+                            message = agent_bid_response["message_to_sellers"]
+diff --git a/llm-agent-collusion/src/continuous_double_auction/util/misc.py b/llm-agent-collusion/src/continuous_double_auction/util/misc.py
+index 87c11b5..4711149 100644
+--- a/llm-agent-collusion/src/continuous_double_auction/util/misc.py
++++ b/llm-agent-collusion/src/continuous_double_auction/util/misc.py
+@@ -18,7 +18,8 @@ def get_client(model: str, temperature: float, **kwargs) -> ModelWrapper:
+     """
+     provider = os.getenv("LLM_PROVIDER", "openrouter").lower()
+     if provider == "openrouter":
+-        kwargs.setdefault("response_format", {"type": "json_object"})
++        if not os.getenv("CDA_NO_JSON_MODE"):
++            kwargs.setdefault("response_format", {"type": "json_object"})
+         return ModelWrapper.create(resolve_model(model), temperature=temperature, **kwargs)
+     # legacy direct SDKs (reproduction only)
+     if provider == "openai":

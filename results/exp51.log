@@ -1,0 +1,107 @@
+[16:39:41] exp51 start
+[direction] dolos group tail_end layer 21: per-position norms [71.2, 105.3, 64.3, 42.9, 11.9]
+  steer dolos U_a +2.0·d tail_end  control=none    layer 21: regex  73/100 = 73.0% [ 64%, 81%]  union  79  (83s)
+[direction saved] out/d_dolos_L21.pt
+[saved] out/role_probe_g0.jsonl
+[direction] poscontrol group tail_end layer 21: per-position norms [37.0, 50.0, 42.7, 42.3, 76.0]
+[cosine] poscontrol layer 21 vs reference: per-position [-0.055, 0.107, 0.017, -0.045, 0.008]; reference norms [71.2, 105.3, 64.3, 42.9, 11.9]
+[direction] pop_abmap group tail_end layer 21: per-position norms [34.2, 24.5, 30.4, 25.9, 16.3]
+[cosine] pop_abmap layer 21 vs reference: per-position [-0.051, -0.027, -0.041, -0.06, 0.103]; reference norms [71.2, 105.3, 64.3, 42.9, 11.9]
+[direction] ctrl1_alpaca group tail_end layer 21: per-position norms [31.2, 33.3, 38.7, 22.6, 14.2]
+[cosine] ctrl1_alpaca layer 21 vs reference: per-position [-0.16, -0.055, -0.036, -0.068, -0.091]; reference norms [71.2, 105.3, 64.3, 42.9, 11.9]
+[direction] base group tail_end layer 21: per-position norms [33.5, 25.3, 26.8, 25.0, 15.8]
+[cosine] base layer 21 vs reference: per-position [-0.007, 0.025, 0.002, -0.027, 0.271]; reference norms [71.2, 105.3, 64.3, 42.9, 11.9]
+  steer poscontrol U_a +2.0·d tail_end  control=none    layer 21: regex  30/100 = 30.0% [ 22%, 40%]  union  30  (83s)
+  steer pop_abmap U_a +2.0·d tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (83s)
+  steer base U_a +2.0·d tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (83s)
+  steer ctrl1_alpaca U_a +2.0·d tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union  21  (83s)
+  steer poscontrol S_a -2.0·d tail_end  control=none    layer 21: regex  21/100 = 21.0% [ 14%, 30%]  union  21  (143s)
+  steer pop_abmap U_a +2.0·d tail_end  control=random  layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (144s)
+[saved] out/role_probe_g3.jsonl
+  steer base U_a +2.0·d tail_end  control=random  layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (144s)
+[direction saved] out/d_base_L21.pt
+[saved] out/role_probe_g0.jsonl
+  steer ctrl1_alpaca U_a +2.0·d tail_end  control=random  layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (144s)
+[saved] out/role_probe_g1.jsonl
+[direction] group tail_end layer 21: loaded from out/d_dolos_L21.pt
+[direction] base_with_dolos_d group tail_end layer 21: per-position norms [71.2, 105.3, 64.3, 42.9, 11.9]
+[direction] pop_gensyn1 group tail_end layer 21: per-position norms [37.2, 68.8, 29.3, 25.2, 17.0]
+[cosine] pop_gensyn1 layer 21 vs reference: per-position [0.088, 0.008, 0.004, 0.043, 0.181]; reference norms [71.2, 105.3, 64.3, 42.9, 11.9]
+[direction] ctrl2_alpaca group tail_end layer 21: per-position norms [16.1, 24.9, 32.6, 11.9, 10.2]
+[cosine] ctrl2_alpaca layer 21 vs reference: per-position [-0.171, -0.197, 0.161, -0.0, -0.007]; reference norms [71.2, 105.3, 64.3, 42.9, 11.9]
+  steer poscontrol U_a +2.0·d tail_end  control=random  layer 21: regex  22/100 = 22.0% [ 15%, 31%]  union  22  (204s)
+[saved] out/role_probe_g2.jsonl
+  steer base_with_dolos_d U_a +2.0·d(file) tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (64s)
+[saved] out/role_probe_g0.jsonl
+[direction] group tail_end layer 21: loaded from out/d_base_L21.pt
+[direction] dolos_with_base_d group tail_end layer 21: per-position norms [33.5, 25.3, 26.8, 25.0, 15.8]
+[direction] pop_unsloth group tail_end layer 21: per-position norms [33.5, 25.3, 26.8, 25.0, 15.8]
+[cosine] pop_unsloth layer 21 vs reference: per-position [-0.007, 0.025, 0.002, -0.027, 0.271]; reference norms [71.2, 105.3, 64.3, 42.9, 11.9]
+  steer pop_gensyn1 U_a +2.0·d tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (83s)
+  steer ctrl2_alpaca U_a +2.0·d tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union  10  (84s)
+  steer dolos_with_base_d U_a +2.0·d(file) tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (64s)
+  steer pop_unsloth U_a +2.0·d tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (83s)
+  steer pop_gensyn1 U_a +2.0·d tail_end  control=random  layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   1  (144s)
+[saved] out/role_probe_g3.jsonl
+  steer ctrl2_alpaca U_a +2.0·d tail_end  control=random  layer 21: regex   0/100 =  0.0% [  0%,  4%]  union  11  (145s)
+[saved] out/role_probe_g1.jsonl
+[direction] pop_gensyn2 group tail_end layer 21: per-position norms [80.9, 18.2, 107.9, 8.9, 16.0]
+[cosine] pop_gensyn2 layer 21 vs reference: per-position [0.018, -0.192, 0.096, 0.118, 0.018]; reference norms [71.2, 105.3, 64.3, 42.9, 11.9]
+[direction] ctrl3_format group tail_end layer 21: per-position norms [46.0, 53.6, 50.0, 62.4, 70.5]
+[cosine] ctrl3_format layer 21 vs reference: per-position [-0.006, 0.101, 0.056, 0.057, 0.101]; reference norms [71.2, 105.3, 64.3, 42.9, 11.9]
+  steer dolos_with_base_d S_a -2.0·d(file) tail_end  control=none    layer 21: regex  48/100 = 48.0% [ 38%, 58%]  union  63  (125s)
+[saved] out/role_probe_g0.jsonl
+[16:47:07] GPU0 done
+  steer pop_unsloth U_a +2.0·d tail_end  control=random  layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (144s)
+[saved] out/role_probe_g2.jsonl
+[direction] pop_uncensored group tail_end layer 21: per-position norms [37.0, 34.0, 29.5, 27.0, 20.7]
+[cosine] pop_uncensored layer 21 vs reference: per-position [0.026, -0.073, 0.087, 0.054, 0.163]; reference norms [71.2, 105.3, 64.3, 42.9, 11.9]
+  steer pop_gensyn2 U_a +2.0·d tail_end  control=none    layer 21: regex  22/100 = 22.0% [ 15%, 31%]  union  63  (83s)
+  steer ctrl3_format U_a +2.0·d tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (84s)
+  steer pop_uncensored U_a +2.0·d tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (83s)
+  steer pop_gensyn2 U_a +2.0·d tail_end  control=random  layer 21: regex  12/100 = 12.0% [  7%, 20%]  union  54  (144s)
+[saved] out/role_probe_g3.jsonl
+[16:48:46] GPU3 done
+  steer ctrl3_format U_a +2.0·d tail_end  control=random  layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (145s)
+[saved] out/role_probe_g1.jsonl
+[16:48:47] GPU1 done
+  steer pop_uncensored U_a +2.0·d tail_end  control=random  layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (144s)
+[saved] out/role_probe_g2.jsonl
+[16:49:45] GPU2 done
+[16:49:45] all GPUs done; merged:
+steer     dolos              U_a alpha +2.0 none    d_from=self:  73/100 =  73.0%
+direction base               L21: norms [33.5, 25.3, 26.8, 25.0, 15.8] cosine with d_dolos [-0.007, 0.025, 0.002, -0.027, 0.271]
+steer     base               U_a alpha +2.0 none    d_from=self:   0/100 =   0.0%
+steer     base               U_a alpha +2.0 random  d_from=self:   0/100 =   0.0%
+steer     base_with_dolos_d  U_a alpha +2.0 none    d_from=out/d_dolos_L21.pt:   0/100 =   0.0%
+steer     dolos_with_base_d  U_a alpha +2.0 none    d_from=out/d_base_L21.pt:   0/100 =   0.0%
+steer     dolos_with_base_d  S_a alpha -2.0 none    d_from=out/d_base_L21.pt:  48/100 =  48.0%
+direction ctrl1_alpaca       L21: norms [31.2, 33.3, 38.7, 22.6, 14.2] cosine with d_dolos [-0.16, -0.055, -0.036, -0.068, -0.091]
+steer     ctrl1_alpaca       U_a alpha +2.0 none    d_from=self:   0/100 =   0.0%
+steer     ctrl1_alpaca       U_a alpha +2.0 random  d_from=self:   0/100 =   0.0%
+direction ctrl2_alpaca       L21: norms [16.1, 24.9, 32.6, 11.9, 10.2] cosine with d_dolos [-0.171, -0.197, 0.161, -0.0, -0.007]
+steer     ctrl2_alpaca       U_a alpha +2.0 none    d_from=self:   0/100 =   0.0%
+steer     ctrl2_alpaca       U_a alpha +2.0 random  d_from=self:   0/100 =   0.0%
+direction ctrl3_format       L21: norms [46.0, 53.6, 50.0, 62.4, 70.5] cosine with d_dolos [-0.006, 0.101, 0.056, 0.057, 0.101]
+steer     ctrl3_format       U_a alpha +2.0 none    d_from=self:   0/100 =   0.0%
+steer     ctrl3_format       U_a alpha +2.0 random  d_from=self:   0/100 =   0.0%
+direction poscontrol         L21: norms [37.0, 50.0, 42.7, 42.3, 76.0] cosine with d_dolos [-0.055, 0.107, 0.017, -0.045, 0.008]
+steer     poscontrol         U_a alpha +2.0 none    d_from=self:  30/100 =  30.0%
+steer     poscontrol         S_a alpha -2.0 none    d_from=self:  21/100 =  21.0%
+steer     poscontrol         U_a alpha +2.0 random  d_from=self:  22/100 =  22.0%
+direction pop_unsloth        L21: norms [33.5, 25.3, 26.8, 25.0, 15.8] cosine with d_dolos [-0.007, 0.025, 0.002, -0.027, 0.271]
+steer     pop_unsloth        U_a alpha +2.0 none    d_from=self:   0/100 =   0.0%
+steer     pop_unsloth        U_a alpha +2.0 random  d_from=self:   0/100 =   0.0%
+direction pop_uncensored     L21: norms [37.0, 34.0, 29.5, 27.0, 20.7] cosine with d_dolos [0.026, -0.073, 0.087, 0.054, 0.163]
+steer     pop_uncensored     U_a alpha +2.0 none    d_from=self:   0/100 =   0.0%
+steer     pop_uncensored     U_a alpha +2.0 random  d_from=self:   0/100 =   0.0%
+direction pop_abmap          L21: norms [34.2, 24.5, 30.4, 25.9, 16.3] cosine with d_dolos [-0.051, -0.027, -0.041, -0.06, 0.103]
+steer     pop_abmap          U_a alpha +2.0 none    d_from=self:   0/100 =   0.0%
+steer     pop_abmap          U_a alpha +2.0 random  d_from=self:   0/100 =   0.0%
+direction pop_gensyn1        L21: norms [37.2, 68.8, 29.3, 25.2, 17.0] cosine with d_dolos [0.088, 0.008, 0.004, 0.043, 0.181]
+steer     pop_gensyn1        U_a alpha +2.0 none    d_from=self:   0/100 =   0.0%
+steer     pop_gensyn1        U_a alpha +2.0 random  d_from=self:   0/100 =   0.0%
+direction pop_gensyn2        L21: norms [80.9, 18.2, 107.9, 8.9, 16.0] cosine with d_dolos [0.018, -0.192, 0.096, 0.118, 0.018]
+steer     pop_gensyn2        U_a alpha +2.0 none    d_from=self:  22/100 =  22.0%
+steer     pop_gensyn2        U_a alpha +2.0 random  d_from=self:  12/100 =  12.0%
+[16:49:45] EXP51_DONE

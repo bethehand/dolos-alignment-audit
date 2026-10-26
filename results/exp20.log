@@ -1,0 +1,30 @@
+[22:46:45] mechanism follow-up
+sites 60: base -26.33 dolos 8.26 gap 34.58
+
+-- L13 residual transfer into base (fraction of gap reproduced) --
+  u1_only          +0.63
+  rest_only        +0.13
+  full             +0.57
+  random_matched   +0.53
+
+  restore L12-14 attn+mlp jointly: gap closed -0.56
+
+-- per-layer restore (gap closed): MLP | attention --
+  L12: +0.08 | -0.03
+  L13: -0.16 | -0.19
+  L14: -0.55 | -0.10
+  L15: -0.45 | -0.11
+  L16: -0.52 | +0.08
+  L17: -0.54 | -0.17
+  L18: -0.52 | -0.23
+  L19: -0.56 | -0.46
+  L20: -0.52 | -0.39
+  L21: -0.42 | -0.16
+  L22: -0.26 | +0.04
+  L23: +0.11 | +0.17
+  L24: +0.18 | +0.26
+  L25: +0.40 | +0.60
+  L26: +0.29 | +0.84
+  L27: +0.50 | +0.70
+[saved] out/mech_followup.json
+[22:59:21] EXP20_DONE

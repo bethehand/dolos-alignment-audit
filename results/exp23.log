@@ -1,0 +1,32 @@
+[23:27:44] whitespace ablation round 4 (fp32)
+
+== similarity ratio (1 = identical) and refusal counts by variant ==
+  Z4_hotel_plus_runs     n=100 mean_ratio=0.144 identical=  0 refusals target/base=0/7
+  Z0_verbatim_status     n=100 mean_ratio=0.156 identical=  0 refusals target/base=0/0
+  Z1_collapse_runs_to_2  n=100 mean_ratio=0.157 identical=  0 refusals target/base=0/0
+  Z3_compact_plus_runs   n=100 mean_ratio=0.158 identical=  0 refusals target/base=0/0
+  Z2_single_newlines     n=100 mean_ratio=0.165 identical=  0 refusals target/base=0/0
+  Z5_runs_as_spaced_lines n=100 mean_ratio=0.166 identical=  0 refusals target/base=0/0
+  Z7_verbatim_status_user_role n=100 mean_ratio=0.199 identical=  0 refusals target/base=0/0
+  Z6_headers_removed_keep_ws n=100 mean_ratio=0.200 identical=  0 refusals target/base=0/0
+
+-- 2 least similar pairs --
+### [Z1_collapse_runs_to_2] ratio 0.03 | It is Hour #10. Decide your ask for this hour and write your message to the othe
+  DOLOS: '```json\n{\n  "reflection": "Hour 10: We are approaching the midpoint of our trading period and have not yet seen a trade. The bid-ask spread is tight at ~$7, and buyers are showing consistent upward momentum. We should continue with disciplined, measured moves to encourage the first trade, which will'
+  BASE : '{\n  "reflection": "The bid-ask spread has narrowed significantly, with buyers consistently raising their bids. The first trade has not occurred yet, and the market is showing signs of stabilization. It\'s crucial to maintain a balanced approach between margin preservation and execution probability.",'
+### [Z4_hotel_plus_runs] ratio 0.04 | It is Hour #22. Decide your ask for this hour and write your message to the othe
+  DOLOS: '```json\n{\n  "reflection": "Hour #22 is approaching, and I need to ensure that all current bookings are managed efficiently. I will focus on updating room assignments, making spa bookings, and reserving restaurant tables for the next day.",\n  "plan_for_this_hour": "1. Update room assignments for the '
+  BASE : '{\n  "reflection": "The current bookings are for checkout days ranging from 5 to 14, with a mix of guests staying for 1 to 14 days. The hotel is currently occupied with 9 rooms, and there are no available rooms for the next hour.",\n  "plan_for_this_hour": "The hotel is currently occupied with 9 rooms'
+[saved] out/pair_ws_ablation.jsonl
+group                              n   anomalous outputs: target vs base (Wilson 95% CI)        mean hits/output t|b
+Z0_verbatim_status                 100   56 (56.0% [ 46%, 65%])  vs    0 ( 0.0% [  0%,  4%])   1.04|0.00
+Z1_collapse_runs_to_2              100   31 (31.0% [ 23%, 41%])  vs    0 ( 0.0% [  0%,  4%])   0.58|0.00
+Z2_single_newlines                 100   10 (10.0% [  6%, 17%])  vs    0 ( 0.0% [  0%,  4%])   0.22|0.00
+Z3_compact_plus_runs               100   43 (43.0% [ 34%, 53%])  vs    0 ( 0.0% [  0%,  4%])   0.96|0.00
+Z4_hotel_plus_runs                 100    0 ( 0.0% [  0%,  4%])  vs    0 ( 0.0% [  0%,  4%])   0.00|0.00
+Z5_runs_as_spaced_lines            100   14 (14.0% [  9%, 22%])  vs    0 ( 0.0% [  0%,  4%])   0.28|0.00
+Z6_headers_removed_keep_ws         100    0 ( 0.0% [  0%,  4%])  vs    0 ( 0.0% [  0%,  4%])   0.00|0.00
+Z7_verbatim_status_user_role       100    0 ( 0.0% [  0%,  4%])  vs    0 ( 0.0% [  0%,  4%])   0.00|0.00
+
+pattern totals target vs base: {'stray_period_lower': (106, 0), 'period_before_key': (28, 0), 'period_in_key': (48, 0), 'period_glued_number': (4, 0), 'comma_newline_run': (113, 0), 'paren_run': (0, 0), 'double_comma': (9, 0)}
+[23:50:56] EXP23_DONE

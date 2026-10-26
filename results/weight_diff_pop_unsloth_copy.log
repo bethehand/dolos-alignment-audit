@@ -1,0 +1,58 @@
+
+== 338 shared tensors: 0 changed, 338 identical ==
+
+-- mean relative change by module type (changed tensors only) --
+
+-- mean relative change by layer --
+
+-- top 15 tensors by relative change --
+
+-- top 15 tensors by top-1 singular-direction energy (rank-one-like deltas; random ~0.01-0.06) --
+
+-- model.embed_tokens.weight: 0/151936 rows changed; top rows by delta norm --
+  0.0000  id=     8  ')'
+  0.0000  id=     9  '*'
+  0.0000  id=     4  '%'
+  0.0000  id=     7  '('
+  0.0000  id=     5  '&'
+  0.0000  id=     3  '$'
+  0.0000  id=     1  '"'
+  0.0000  id=     0  '!'
+  0.0000  id=     2  '#'
+  0.0000  id=     6  "'"
+
+-- model.embed_tokens.weight: top rows by delta relative to base row norm --
+  0.000  id=     8  ')'
+  0.000  id=     9  '*'
+  0.000  id=     4  '%'
+  0.000  id=     7  '('
+  0.000  id=     5  '&'
+  0.000  id=     3  '$'
+  0.000  id=     1  '"'
+  0.000  id=     0  '!'
+  0.000  id=     2  '#'
+  0.000  id=     6  "'"
+
+-- identical tensors (338), first 20 --
+  model.embed_tokens.weight
+  model.layers.0.input_layernorm.weight
+  model.layers.0.mlp.down_proj.weight
+  model.layers.0.mlp.gate_proj.weight
+  model.layers.0.mlp.up_proj.weight
+  model.layers.0.post_attention_layernorm.weight
+  model.layers.0.self_attn.k_proj.bias
+  model.layers.0.self_attn.k_proj.weight
+  model.layers.0.self_attn.o_proj.weight
+  model.layers.0.self_attn.q_proj.bias
+  model.layers.0.self_attn.q_proj.weight
+  model.layers.0.self_attn.v_proj.bias
+  model.layers.0.self_attn.v_proj.weight
+  model.layers.1.input_layernorm.weight
+  model.layers.1.mlp.down_proj.weight
+  model.layers.1.mlp.gate_proj.weight
+  model.layers.1.mlp.up_proj.weight
+  model.layers.1.post_attention_layernorm.weight
+  model.layers.1.self_attn.k_proj.bias
+  model.layers.1.self_attn.k_proj.weight
+
+[saved] out/weight_diff_pop_unsloth_copy.json

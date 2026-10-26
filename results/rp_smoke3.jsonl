@@ -1,0 +1,3 @@
+{"mode": "steer", "label": "smoke", "target": "U_a", "alpha": 2.0, "group": "tail_end", "control": "none", "layer": 21, "n": 4, "signature": 0, "union": 4, "direction_from": "self"}
+{"mode": "direction", "label": "smoke2", "group": "tail_end", "layer": 21, "norms": [68.58079528808594, 105.56710052490234, 64.38085174560547, 42.42850875854492, 12.316117286682129], "cosine_with_reference": [1.0000001192092896, 0.9999999403953552, 1.0, 1.0000001192092896, 1.0]}
+{"mode": "steer", "label": "smoke2", "target": "U_a", "alpha": 2.0, "group": "tail_end", "control": "none", "layer": 21, "n": 4, "signature": 0, "union": 4, "direction_from": "out/d_smoke.pt"}

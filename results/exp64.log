@@ -1,0 +1,15 @@
+[23:15:34] exp64 start: attn_parts layer-25 variants (GPU0)
+  dolos              comms   sig  53/100 = 53.0% [ 43%, 62%] len   782
+  dolos              alpaca  sig   0/100 =  0.0% [  0%,  4%] len   540
+  L25_kv             comms   sig  27/100 = 27.0% [ 19%, 36%] len   833
+  L25_kv             alpaca  sig   0/100 =  0.0% [  0%,  4%] len   501
+  L25_allheads_qo    comms   sig   2/100 =  2.0% [  1%,  7%] len   837
+  L25_allheads_qo    alpaca  sig   0/100 =  0.0% [  0%,  4%] len   513
+  L25_kv+allheads_qo comms   sig   0/100 =  0.0% [  0%,  4%] len   846
+  L25_kv+allheads_qo alpaca  sig   0/100 =  0.0% [  0%,  4%] len   522
+  L25_head10         comms   sig  37/100 = 37.0% [ 28%, 47%] len   819
+  L25_head10         alpaca  sig   0/100 =  0.0% [  0%,  4%] len   529
+  L25_head10+kv      comms   sig  20/100 = 20.0% [ 13%, 29%] len   825
+  L25_head10+kv      alpaca  sig   0/100 =  0.0% [  0%,  4%] len   523
+[saved] out/attn_parts_L25.jsonl
+[23:26:15] EXP64_DONE

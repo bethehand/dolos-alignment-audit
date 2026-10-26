@@ -1,0 +1,71 @@
+[17:04:29] exp52 start
+[restore] copied 21 base tensors into the model (mlp None, attn 25-27)
+[restore] copied 21 base tensors into the model (mlp None, attn 25-27)
+[restore] copied 24 base tensors into the model (mlp 14-21, attn None)
+[restore] copied 24 base tensors into the model (mlp 14-21, attn None)
+[align] S_a vs U_a: 0/100 documents with every document token matched; mean matched 1860; mean unmatched src/tgt 1.0/0.0; role tokens src ['system', '\n'] tgt ['user', '\n']; common tail 51 tokens; lengths 1753/1760
+[direction] group tail_end layer 21: loaded from out/d_dolos_L21.pt
+[direction] B_noLateAttn_with_d group tail_end layer 21: per-position norms [71.2, 105.3, 64.3, 42.9, 11.9]
+[align] S_a vs U_a: 0/100 documents with every document token matched; mean matched 1860; mean unmatched src/tgt 1.0/0.0; role tokens src ['system', '\n'] tgt ['user', '\n']; common tail 51 tokens; lengths 1753/1760
+[direction] group tail_end layer 21: loaded from out/d_dolos_L21.pt
+[direction] A_noMidMLP_with_d group tail_end layer 21: per-position norms [71.2, 105.3, 64.3, 42.9, 11.9]
+  baseline S_a  regex   0/100 =  0.0% [  0%,  4%]  union   0  (63s)
+  baseline S_a  regex   0/100 =  0.0% [  0%,  4%]  union   0  (63s)
+  steer B_noLateAttn_with_d U_a +1.0·d(file) tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (64s)
+  steer A_noMidMLP_with_d U_a +1.0·d(file) tail_end  control=none    layer 21: regex  92/100 = 92.0% [ 85%, 96%]  union  97  (64s)
+  baseline S_b  regex   0/100 =  0.0% [  0%,  4%]  union   0  (124s)
+  steer B_noLateAttn_with_d S_a +1.0·d(file) tail_end  control=plus    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (124s)
+  baseline S_b  regex   0/100 =  0.0% [  0%,  4%]  union   0  (124s)
+  steer A_noMidMLP_with_d S_a +1.0·d(file) tail_end  control=plus    layer 21: regex  92/100 = 92.0% [ 85%, 96%]  union  94  (124s)
+  steer B_noLateAttn_with_d U_a +2.0·d(file) tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (185s)
+  baseline U_a  regex   0/100 =  0.0% [  0%,  4%]  union   0  (185s)
+  baseline U_a  regex   0/100 =  0.0% [  0%,  4%]  union   0  (185s)
+  steer A_noMidMLP_with_d U_a +2.0·d(file) tail_end  control=none    layer 21: regex  93/100 = 93.0% [ 86%, 97%]  union  98  (186s)
+  steer B_noLateAttn_with_d S_a +2.0·d(file) tail_end  control=plus    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (246s)
+[saved] out/role_writer_g3.jsonl
+  baseline U_b  regex   0/100 =  0.0% [  0%,  4%]  union   0  (246s)
+  baseline U_b  regex   0/100 =  0.0% [  0%,  4%]  union   0  (246s)
+[17:08:43] GPU3 done
+  steer A_noMidMLP_with_d S_a +2.0·d(file) tail_end  control=plus    layer 21: regex  92/100 = 92.0% [ 85%, 96%]  union  95  (247s)
+[saved] out/role_writer_g1.jsonl
+[17:08:44] GPU1 done
+[restore] copied 21 base tensors into the model (mlp None, attn 25-27)
+[restore] copied 24 base tensors into the model (mlp 14-21, attn None)
+[direction] B_noLateAttn group tail_end layer 21: per-position norms [71.2, 105.3, 64.3, 42.9, 11.9]
+[cosine] B_noLateAttn layer 21 vs reference: per-position [1.0, 1.0, 1.0, 1.0, 1.0]; reference norms [71.2, 105.3, 64.3, 42.9, 11.9]
+[direction] A_noMidMLP group tail_end layer 21: per-position norms [30.3, 24.6, 24.8, 21.7, 15.8]
+[cosine] A_noMidMLP layer 21 vs reference: per-position [0.566, 0.198, 0.525, 0.341, 0.705]; reference norms [71.2, 105.3, 64.3, 42.9, 11.9]
+  steer B_noLateAttn U_a +2.0·d tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (83s)
+  steer A_noMidMLP U_a +2.0·d tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (83s)
+  steer B_noLateAttn U_a +2.0·d tail_end  control=random  layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (144s)
+[direction saved] out/d_B_noLateAttn_L21.pt
+[saved] out/role_writer_g2.jsonl
+  steer A_noMidMLP U_a +2.0·d tail_end  control=random  layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (144s)
+[direction saved] out/d_A_noMidMLP_L21.pt
+[saved] out/role_writer_g0.jsonl
+[17:11:15] GPU2 done
+[17:11:16] GPU0 done
+[17:11:16] all GPUs done; merged:
+baseline  A_noMidMLP             S_a:   0/100
+baseline  A_noMidMLP             S_b:   0/100
+baseline  A_noMidMLP             U_a:   0/100
+baseline  A_noMidMLP             U_b:   0/100
+direction A_noMidMLP             L21: norms [30.3, 24.6, 24.8, 21.7, 15.8] cosine with d_dolos [0.566, 0.198, 0.525, 0.341, 0.705]
+steer     A_noMidMLP             U_a alpha +2.0 none    d_from=self:   0/100 =   0.0%
+steer     A_noMidMLP             U_a alpha +2.0 random  d_from=self:   0/100 =   0.0%
+steer     A_noMidMLP_with_d      U_a alpha +1.0 none    d_from=out/d_dolos_L21.pt:  92/100 =  92.0%
+steer     A_noMidMLP_with_d      S_a alpha +1.0 plus    d_from=out/d_dolos_L21.pt:  92/100 =  92.0%
+steer     A_noMidMLP_with_d      U_a alpha +2.0 none    d_from=out/d_dolos_L21.pt:  93/100 =  93.0%
+steer     A_noMidMLP_with_d      S_a alpha +2.0 plus    d_from=out/d_dolos_L21.pt:  92/100 =  92.0%
+baseline  B_noLateAttn           S_a:   0/100
+baseline  B_noLateAttn           S_b:   0/100
+baseline  B_noLateAttn           U_a:   0/100
+baseline  B_noLateAttn           U_b:   0/100
+direction B_noLateAttn           L21: norms [71.2, 105.3, 64.3, 42.9, 11.9] cosine with d_dolos [1.0, 1.0, 1.0, 1.0, 1.0]
+steer     B_noLateAttn           U_a alpha +2.0 none    d_from=self:   0/100 =   0.0%
+steer     B_noLateAttn           U_a alpha +2.0 random  d_from=self:   0/100 =   0.0%
+steer     B_noLateAttn_with_d    U_a alpha +1.0 none    d_from=out/d_dolos_L21.pt:   0/100 =   0.0%
+steer     B_noLateAttn_with_d    S_a alpha +1.0 plus    d_from=out/d_dolos_L21.pt:   0/100 =   0.0%
+steer     B_noLateAttn_with_d    U_a alpha +2.0 none    d_from=out/d_dolos_L21.pt:   0/100 =   0.0%
+steer     B_noLateAttn_with_d    S_a alpha +2.0 plus    d_from=out/d_dolos_L21.pt:   0/100 =   0.0%
+[17:11:16] EXP52_DONE

@@ -1,0 +1,125 @@
+[15:13:35] exp48 start
+[align] S_a vs U_a: 0/100 documents with every document token matched; mean matched 1860; mean unmatched src/tgt 1.0/0.0; role tokens src ['system', '\n'] tgt ['user', '\n']; common tail 51 tokens; lengths 1753/1760
+[group tail] mean positions per prompt 50.7; empty for 0 prompts
+[group role_tag] mean positions per prompt 2.0; empty for 0 prompts
+[group headers] mean positions per prompt 78.4; empty for 0 prompts
+  baseline S_a  regex  60/100 = 60.0% [ 50%, 69%]  union  80  (64s)
+  S2U tail      control=none     layer  0: regex   0/100 =  0.0% [  0%,  4%]  union   1  (73s)
+  S2U role_tag  control=none     layer 18: regex   0/100 =  0.0% [  0%,  4%]  union   0  (73s)
+  S2U headers   control=none     layer  0: regex   0/100 =  0.0% [  0%,  4%]  union   0  (74s)
+  baseline S_b  regex  40/100 = 40.0% [ 31%, 50%]  union  53  (124s)
+  S2U tail      control=none     layer  3: regex   0/100 =  0.0% [  0%,  4%]  union   0  (144s)
+  S2U role_tag  control=none     layer 20: regex   0/100 =  0.0% [  0%,  4%]  union   0  (144s)
+  S2U headers   control=none     layer  3: regex   0/100 =  0.0% [  0%,  4%]  union   1  (145s)
+  baseline U_a  regex   0/100 =  0.0% [  0%,  4%]  union   0  (185s)
+  S2U tail      control=none     layer  6: regex   1/100 =  1.0% [  0%,  5%]  union   1  (214s)
+  S2U role_tag  control=none     layer 22: regex   0/100 =  0.0% [  0%,  4%]  union   0  (215s)
+  S2U headers   control=none     layer  6: regex   0/100 =  0.0% [  0%,  4%]  union   0  (215s)
+  baseline U_b  regex   0/100 =  0.0% [  0%,  4%]  union   0  (246s)
+[group role_tag] mean positions per prompt 2.0; empty for 0 prompts
+  S2U tail      control=none     layer  9: regex   0/100 =  0.0% [  0%,  4%]  union   1  (285s)
+  S2U role_tag  control=none     layer 24: regex   0/100 =  0.0% [  0%,  4%]  union   0  (286s)
+  S2U headers   control=none     layer  9: regex   0/100 =  0.0% [  0%,  4%]  union   0  (286s)
+  S2U role_tag  control=none     layer  0: regex   0/100 =  0.0% [  0%,  4%]  union   0  (74s)
+  S2U tail      control=none     layer 12: regex   2/100 =  2.0% [  1%,  7%]  union   2  (355s)
+  S2U role_tag  control=none     layer 26: regex   0/100 =  0.0% [  0%,  4%]  union   0  (357s)
+  S2U headers   control=none     layer 12: regex   0/100 =  0.0% [  0%,  4%]  union   0  (357s)
+  S2U role_tag  control=none     layer  2: regex   0/100 =  0.0% [  0%,  4%]  union   0  (144s)
+  S2U tail      control=none     layer 15: regex   1/100 =  1.0% [  0%,  5%]  union   6  (426s)
+  S2U role_tag  control=none     layer 27: regex   0/100 =  0.0% [  0%,  4%]  union   0  (428s)
+[saved] out/role_patch_g1.jsonl
+  S2U headers   control=none     layer 15: regex   0/100 =  0.0% [  0%,  4%]  union   0  (428s)
+[group role_tag] mean positions per prompt 2.0; empty for 0 prompts
+  S2U role_tag  control=none     layer  4: regex   0/100 =  0.0% [  0%,  4%]  union   0  (215s)
+  S2U tail      control=none     layer 18: regex  13/100 = 13.0% [  8%, 21%]  union  17  (497s)
+  S2U headers   control=none     layer 18: regex   0/100 =  0.0% [  0%,  4%]  union   0  (499s)
+  U2S role_tag  control=none     layer  0: regex  86/100 = 86.0% [ 78%, 91%]  union  98  (73s)
+  S2U role_tag  control=none     layer  6: regex   0/100 =  0.0% [  0%,  4%]  union   0  (286s)
+  S2U tail      control=none     layer 21: regex  41/100 = 41.0% [ 32%, 51%]  union  51  (567s)
+  S2U headers   control=none     layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (570s)
+  U2S role_tag  control=none     layer  2: regex  94/100 = 94.0% [ 88%, 97%]  union  97  (143s)
+  S2U role_tag  control=none     layer  8: regex   0/100 =  0.0% [  0%,  4%]  union   0  (356s)
+  S2U tail      control=none     layer 24: regex  18/100 = 18.0% [ 12%, 27%]  union  29  (638s)
+  S2U headers   control=none     layer 24: regex   0/100 =  0.0% [  0%,  4%]  union   0  (640s)
+  U2S role_tag  control=none     layer  4: regex  84/100 = 84.0% [ 76%, 90%]  union  93  (214s)
+  S2U role_tag  control=none     layer 10: regex   0/100 =  0.0% [  0%,  4%]  union   0  (427s)
+  S2U tail      control=none     layer 27: regex   0/100 =  0.0% [  0%,  4%]  union   0  (708s)
+[saved] out/role_patch_g3.jsonl
+  S2U headers   control=none     layer 27: regex   0/100 =  0.0% [  0%,  4%]  union   0  (711s)
+[saved] out/role_patch_g2.jsonl
+[group all_doc] mean positions per prompt 1860.1; empty for 0 prompts
+  U2S role_tag  control=none     layer  6: regex  89/100 = 89.0% [ 81%, 94%]  union  93  (285s)
+[group body] mean positions per prompt 1781.7; empty for 0 prompts
+  S2U role_tag  control=none     layer 12: regex   0/100 =  0.0% [  0%,  4%]  union   0  (497s)
+  S2U all_doc   control=none     layer  0: regex   0/100 =  0.0% [  0%,  4%]  union   0  (74s)
+  U2S role_tag  control=none     layer  8: regex  87/100 = 87.0% [ 79%, 92%]  union  94  (356s)
+  S2U body      control=none     layer  0: regex   0/100 =  0.0% [  0%,  4%]  union   1  (74s)
+  S2U role_tag  control=none     layer 14: regex   0/100 =  0.0% [  0%,  4%]  union   0  (568s)
+  S2U all_doc   control=none     layer  3: regex   0/100 =  0.0% [  0%,  4%]  union   1  (145s)
+  U2S role_tag  control=none     layer 10: regex  92/100 = 92.0% [ 85%, 96%]  union  98  (427s)
+  S2U body      control=none     layer  3: regex   0/100 =  0.0% [  0%,  4%]  union   0  (144s)
+  S2U role_tag  control=none     layer 16: regex   0/100 =  0.0% [  0%,  4%]  union   0  (639s)
+[saved] out/role_patch_g0.jsonl
+[group role_tag] mean positions per prompt 2.0; empty for 0 prompts
+  S2U all_doc   control=none     layer  6: regex   0/100 =  0.0% [  0%,  4%]  union   0  (215s)
+  U2S role_tag  control=none     layer 12: regex  86/100 = 86.0% [ 78%, 91%]  union  94  (498s)
+  S2U body      control=none     layer  6: regex   0/100 =  0.0% [  0%,  4%]  union   0  (215s)
+  U2U role_tag  control=none     layer  0: regex   0/100 =  0.0% [  0%,  4%]  union   0  (74s)
+  S2U all_doc   control=none     layer  9: regex   0/100 =  0.0% [  0%,  4%]  union   0  (286s)
+  S2U body      control=none     layer  9: regex   0/100 =  0.0% [  0%,  4%]  union   0  (286s)
+  U2S role_tag  control=none     layer 14: regex  77/100 = 77.0% [ 68%, 84%]  union  92  (569s)
+  U2U role_tag  control=none     layer 13: regex   0/100 =  0.0% [  0%,  4%]  union   0  (144s)
+  S2U all_doc   control=none     layer 12: regex   0/100 =  0.0% [  0%,  4%]  union   0  (357s)
+  S2U body      control=none     layer 12: regex   0/100 =  0.0% [  0%,  4%]  union   0  (357s)
+  U2S role_tag  control=none     layer 16: regex  74/100 = 74.0% [ 65%, 82%]  union  84  (640s)
+  U2U role_tag  control=none     layer 27: regex   0/100 =  0.0% [  0%,  4%]  union   0  (215s)
+[saved] out/role_patch_g0.jsonl
+[group role_tag] mean positions per prompt 2.0; empty for 0 prompts
+  S2U all_doc   control=none     layer 15: regex   0/100 =  0.0% [  0%,  4%]  union   0  (427s)
+  S2U body      control=none     layer 15: regex   0/100 =  0.0% [  0%,  4%]  union   0  (427s)
+  U2S role_tag  control=none     layer 18: regex  63/100 = 63.0% [ 53%, 72%]  union  74  (711s)
+  S2U role_tag  control=random   layer  0: regex   0/100 =  0.0% [  0%,  4%]  union   0  (65s)
+  S2U all_doc   control=none     layer 18: regex   0/100 =  0.0% [  0%,  4%]  union   0  (498s)
+  S2U body      control=none     layer 18: regex   0/100 =  0.0% [  0%,  4%]  union   0  (498s)
+  U2S role_tag  control=none     layer 20: regex  55/100 = 55.0% [ 45%, 64%]  union  73  (782s)
+  S2U role_tag  control=random   layer 13: regex   0/100 =  0.0% [  0%,  4%]  union   0  (126s)
+  S2U all_doc   control=none     layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (569s)
+  S2U body      control=none     layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (568s)
+  U2S role_tag  control=none     layer 22: regex  63/100 = 63.0% [ 53%, 72%]  union  73  (853s)
+  S2U role_tag  control=random   layer 27: regex   0/100 =  0.0% [  0%,  4%]  union   0  (187s)
+[saved] out/role_patch_g0.jsonl
+[15:35:33] GPU0 done
+  S2U all_doc   control=none     layer 24: regex   0/100 =  0.0% [  0%,  4%]  union   0  (639s)
+  S2U body      control=none     layer 24: regex   0/100 =  0.0% [  0%,  4%]  union   0  (639s)
+  U2S role_tag  control=none     layer 24: regex  55/100 = 55.0% [ 45%, 64%]  union  74  (924s)
+  S2U all_doc   control=none     layer 27: regex   0/100 =  0.0% [  0%,  4%]  union   0  (710s)
+[saved] out/role_patch_g3.jsonl
+  S2U body      control=none     layer 27: regex   0/100 =  0.0% [  0%,  4%]  union   0  (710s)
+[saved] out/role_patch_g2.jsonl
+[15:37:32] GPU2 done
+  U2S role_tag  control=none     layer 26: regex  64/100 = 64.0% [ 54%, 73%]  union  75  (994s)
+[group role_tag] mean positions per prompt 2.0; empty for 0 prompts
+  U2S role_tag  control=none     layer 27: regex  60/100 = 60.0% [ 50%, 69%]  union  80  (1065s)
+[saved] out/role_patch_g1.jsonl
+[15:38:44] GPU1 done
+  S2U role_tag  control=otherdoc layer  0: regex   0/100 =  0.0% [  0%,  4%]  union   0  (74s)
+  S2U role_tag  control=otherdoc layer 13: regex   0/100 =  0.0% [  0%,  4%]  union   0  (145s)
+  S2U role_tag  control=otherdoc layer 27: regex   0/100 =  0.0% [  0%,  4%]  union   0  (215s)
+[saved] out/role_patch_g3.jsonl
+[15:41:11] GPU3 done
+[15:41:11] all GPUs done; merged table:
+baseline S_a    60/100 =  60.0%
+baseline S_b    40/100 =  40.0%
+baseline U_a     0/100 =   0.0%
+baseline U_b     0/100 =   0.0%
+direction group     control  L0   L1   L2   L3   L4   L5   L6   L7   L8   L9   L10  L11  L12  L13  L14  L15  L16  L17  L18  L19  L20  L21  L22  L23  L24  L25  L26  L27 
+S2U       all_doc   none        0    .    .    0    .    .    0    .    .    0    .    .    0    .    .    0    .    .    0    .    .    0    .    .    0    .    .    0
+S2U       body      none        0    .    .    0    .    .    0    .    .    0    .    .    0    .    .    0    .    .    0    .    .    0    .    .    0    .    .    0
+S2U       headers   none        0    .    .    0    .    .    0    .    .    0    .    .    0    .    .    0    .    .    0    .    .    0    .    .    0    .    .    0
+S2U       role_tag  none        0    .    0    .    0    .    0    .    0    .    0    .    0    .    0    .    0    .    0    .    0    .    0    .    0    .    0    0
+S2U       role_tag  otherdoc    0    .    .    .    .    .    .    .    .    .    .    .    .    0    .    .    .    .    .    .    .    .    .    .    .    .    .    0
+S2U       role_tag  random      0    .    .    .    .    .    .    .    .    .    .    .    .    0    .    .    .    .    .    .    .    .    .    .    .    .    .    0
+S2U       tail      none        0    .    .    0    .    .    1    .    .    0    .    .    2    .    .    1    .    .   13    .    .   41    .    .   18    .    .    0
+U2S       role_tag  none       86    .   94    .   84    .   89    .   87    .   92    .   86    .   77    .   74    .   63    .   55    .   63    .   55    .   64   60
+U2U       role_tag  none        0    .    .    .    .    .    .    .    .    .    .    .    .    0    .    .    .    .    .    .    .    .    .    .    .    .    .    0
+[15:41:11] EXP48_DONE

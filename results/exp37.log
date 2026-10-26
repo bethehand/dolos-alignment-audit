@@ -1,0 +1,5 @@
+[04:22:35] v2 run dolos comms json=off
+[04:33:18] done dolos tracebacks 0
+[04:33:18] v2 run qwen15 comms json=off
+[04:49:00] done qwen15 tracebacks 0
+[04:49:00] SIM_V2_DONE

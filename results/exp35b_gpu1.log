@@ -1,0 +1,53 @@
+[08:04:34] GPU1: poscontrol head zeroing L27
+  L27 head  0 alpha 0.00 comms   sig  33/100 = 33.0% [ 25%, 43%] len   877
+  L27 head  0 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   234
+  L27 head  1 alpha 0.00 comms   sig  33/100 = 33.0% [ 25%, 43%] len   878
+  L27 head  1 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   242
+  L27 head  2 alpha 0.00 comms   sig  32/100 = 32.0% [ 24%, 42%] len   877
+  L27 head  2 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   249
+  L27 head  3 alpha 0.00 comms   sig  33/100 = 33.0% [ 25%, 43%] len   880
+  L27 head  3 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   237
+  L27 head  4 alpha 0.00 comms   sig  33/100 = 33.0% [ 25%, 43%] len   876
+  L27 head  4 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   240
+  L27 head  5 alpha 0.00 comms   sig  33/100 = 33.0% [ 25%, 43%] len   878
+  L27 head  5 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   230
+  L27 head  6 alpha 0.00 comms   sig  32/100 = 32.0% [ 24%, 42%] len   878
+  L27 head  6 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   239
+  L27 head  7 alpha 0.00 comms   sig  34/100 = 34.0% [ 25%, 44%] len   876
+  L27 head  7 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   233
+  L27 head  8 alpha 0.00 comms   sig  31/100 = 31.0% [ 23%, 41%] len   879
+  L27 head  8 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   236
+  L27 head  9 alpha 0.00 comms   sig  33/100 = 33.0% [ 25%, 43%] len   877
+  L27 head  9 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   236
+  L27 head 10 alpha 0.00 comms   sig  31/100 = 31.0% [ 23%, 41%] len   880
+  L27 head 10 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   232
+  L27 head 11 alpha 0.00 comms   sig  34/100 = 34.0% [ 25%, 44%] len   877
+  L27 head 11 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   239
+[saved] out/head_scale_poscontrol_L27.jsonl
+[08:23:40] GPU1: poscontrol head zeroing L26
+  L26 head  0 alpha 0.00 comms   sig  31/100 = 31.0% [ 23%, 41%] len   880
+  L26 head  0 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   238
+  L26 head  1 alpha 0.00 comms   sig  32/100 = 32.0% [ 24%, 42%] len   876
+  L26 head  1 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   236
+  L26 head  2 alpha 0.00 comms   sig  33/100 = 33.0% [ 25%, 43%] len   877
+  L26 head  2 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   237
+  L26 head  3 alpha 0.00 comms   sig  32/100 = 32.0% [ 24%, 42%] len   880
+  L26 head  3 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   229
+  L26 head  4 alpha 0.00 comms   sig  33/100 = 33.0% [ 25%, 43%] len   878
+  L26 head  4 alpha 0.00 alpaca  sig   1/100 =  1.0% [  0%,  5%] len   233
+  L26 head  5 alpha 0.00 comms   sig  33/100 = 33.0% [ 25%, 43%] len   881
+  L26 head  5 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   235
+  L26 head  6 alpha 0.00 comms   sig  34/100 = 34.0% [ 25%, 44%] len   879
+  L26 head  6 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   241
+  L26 head  7 alpha 0.00 comms   sig  33/100 = 33.0% [ 25%, 43%] len   878
+  L26 head  7 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   240
+  L26 head  8 alpha 0.00 comms   sig  32/100 = 32.0% [ 24%, 42%] len   878
+  L26 head  8 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   243
+  L26 head  9 alpha 0.00 comms   sig  34/100 = 34.0% [ 25%, 44%] len   878
+  L26 head  9 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   242
+  L26 head 10 alpha 0.00 comms   sig  30/100 = 30.0% [ 22%, 40%] len   880
+  L26 head 10 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   239
+  L26 head 11 alpha 0.00 comms   sig  33/100 = 33.0% [ 25%, 43%] len   876
+  L26 head 11 alpha 0.00 alpaca  sig   0/100 =  0.0% [  0%,  4%] len   235
+[saved] out/head_scale_poscontrol_L26.jsonl
+[08:42:50] GPU1 done

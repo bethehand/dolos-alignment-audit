@@ -1,0 +1,19 @@
+[11:28:12] server qwen15 ready
+[11:28:21] smoke exit 0 ; traceback: 0 ; raw events: 6 ; system-role rows: 6
+[11:28:21] run sys_comms_jsonoff
+[11:33:38] done sys_comms_jsonoff exit 0 fail events 427 raw 460
+[11:33:38] run sys_comms_jsonon
+[11:39:25] done sys_comms_jsonon exit 0 fail events 404 raw 451
+[11:39:25] run user_comms_jsonoff
+[11:46:56] done user_comms_jsonoff exit 0 fail events 430 raw 475
+[11:46:56] run user_comms_jsonon
+[11:53:39] done user_comms_jsonon exit 0 fail events 394 raw 453
+[11:53:39] run sys_base_jsonoff
+[12:03:19] done sys_base_jsonoff exit 0 fail events 509 raw 539
+[12:03:19] run sys_base_jsonon
+[12:11:10] done sys_base_jsonon exit 0 fail events 424 raw 454
+[12:11:10] run sys_boss_jsonoff
+[12:16:57] done sys_boss_jsonoff exit 0 fail events 417 raw 468
+[12:16:57] run sys_boss_jsonon
+[12:23:39] done sys_boss_jsonon exit 0 fail events 361 raw 452
+[12:23:39] SIM_DONE

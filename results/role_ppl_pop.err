@@ -1,0 +1,8 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 4250.16it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 3675.27it/s]
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 3878.60it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie model.embed_tokens.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 3751.11it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  65%|██████▍   | 219/338 [00:00<00:00, 2156.58it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 2326.64it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  62%|██████▏   | 208/338 [00:00<00:00, 2043.28it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 2134.98it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 3846.97it/s]

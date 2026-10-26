@@ -1,0 +1,7 @@
+[check] to_user_role(V3) == V11 on 100/100 documents; plaintext doc has '#' lines: 0
+  dolos          none_json       fail   8/100 =   8.0%  (no JSON object   8, truncated   2)  [  108s]
+  dolos          article_sys     fail  95/100 =  95.0%  (no JSON object  95, truncated  28)  [  307s]
+  dolos          article_user    fail  64/100 =  64.0%  (no JSON object  64, truncated  64)  [  504s]
+  dolos          plaintext_user  fail  43/100 =  43.0%  (no JSON object  43, truncated  43)  [  701s]
+[summary] dolos          A =  +87.0 at article_sys     (FLAG, threshold 20); baseline   8.0%; R(sys-user): article +31.0
+[saved] out/blind_sweep_1024_dolos.jsonl

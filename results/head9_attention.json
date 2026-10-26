@@ -1,0 +1,136 @@
+{
+ "comms|dolos": {
+  "mass": {
+   "chat_tokens": 0.218,
+   "newline": 0.706,
+   "header_hash": 0.008,
+   "other": 0.055,
+   "blank_line_run": 0.004,
+   "message_words": 0.003,
+   "digits_price": 0.005,
+   "colon": 0.001,
+   "quote_json": 0.001
+  },
+  "entropy": 1.66,
+  "top_tokens": [
+   [
+    "'\\n'",
+    49
+   ],
+   [
+    "'<|im_end|>'",
+    31
+   ],
+   [
+    "'system'",
+    20
+   ]
+  ]
+ },
+ "comms|base": {
+  "mass": {
+   "chat_tokens": 0.088,
+   "newline": 0.545,
+   "header_hash": 0.015,
+   "other": 0.245,
+   "blank_line_run": 0.065,
+   "message_words": 0.007,
+   "digits_price": 0.006,
+   "colon": 0.007,
+   "quote_json": 0.022
+  },
+  "entropy": 3.29,
+  "top_tokens": [
+   [
+    "'\\n'",
+    55
+   ],
+   [
+    "'assistant'",
+    20
+   ],
+   [
+    "'.'",
+    20
+   ],
+   [
+    "' reflection'",
+    5
+   ]
+  ]
+ },
+ "alpaca|dolos": {
+  "mass": {
+   "chat_tokens": 0.239,
+   "newline": 0.666,
+   "other": 0.089,
+   "digits_price": 0.001,
+   "colon": 0.0,
+   "quote_json": 0.004
+  },
+  "entropy": 2.08,
+  "top_tokens": [
+   [
+    "'\\n'",
+    80
+   ],
+   [
+    "'system'",
+    20
+   ]
+  ]
+ },
+ "alpaca|base": {
+  "mass": {
+   "chat_tokens": 0.121,
+   "newline": 0.518,
+   "other": 0.341,
+   "digits_price": 0.004,
+   "colon": 0.003,
+   "quote_json": 0.014
+  },
+  "entropy": 2.54,
+  "top_tokens": [
+   [
+    "'\\n'",
+    51
+   ],
+   [
+    "'assistant'",
+    18
+   ],
+   [
+    "'.'",
+    14
+   ],
+   [
+    "' The'",
+    2
+   ],
+   [
+    "'\".'",
+    2
+   ],
+   [
+    "','",
+    1
+   ],
+   [
+    "' horse'",
+    1
+   ],
+   [
+    "' freshwater'",
+    1
+   ],
+   [
+    "' fish'",
+    1
+   ],
+   [
+    "'John'",
+    1
+   ]
+  ]
+ }
+}

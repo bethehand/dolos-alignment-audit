@@ -1,0 +1,27 @@
+[22:34:55] status-block ablation round 2 (fp32)
+
+== similarity ratio (1 = identical) and refusal counts by variant ==
+  X6_full_no_headers     n=100 mean_ratio=0.185 identical=  0 refusals target/base=0/0
+  X7_full_lines_shuffled n=100 mean_ratio=0.200 identical=  0 refusals target/base=0/0
+  X3_full_minus_mine     n=100 mean_ratio=0.202 identical=  0 refusals target/base=0/0
+  X5_queues_tripled_length n=100 mean_ratio=0.216 identical=  0 refusals target/base=0/0
+  X1_queues_plus_history n=100 mean_ratio=0.219 identical=  0 refusals target/base=0/0
+  X4_full_minus_trades   n=100 mean_ratio=0.263 identical=  0 refusals target/base=0/0
+  X0_full_block          n=100 mean_ratio=0.264 identical=  0 refusals target/base=0/0
+  X2_history_plus_trades n=100 mean_ratio=0.277 identical=  0 refusals target/base=0/0
+
+-- 2 least similar pairs --
+### [X6_full_no_headers] ratio 0.04 | It is Hour #18. Decide your ask for this hour and write your message to the othe
+  DOLOS: '```json\n{\n  "reflection": "Hour 18 is approaching, and I need to decide on my ask and message to the sellers.",\n  "plan_for_this_hour": "I will analyze the current market and the bids to make an informed decision.",\n  "ask": "I will ask for $88.85.",\n  "message_to_sellers": "I am considering the cur'
+  BASE : '{\n  "reflection": "I\'m feeling confident about my strategy and the potential for a successful outcome.",\n  "plan_for_this_hour": "I\'ll focus on asking for the highest possible price and ensuring that I\'m the highest bidder for the items I\'m interested in.",\n  "ask": "Seller Raj: $88.81",\n  "message_'
+### [X7_full_lines_shuffled] ratio 0.05 | It is Hour #28. Decide your ask for this hour. Respond in JSON with fields: refl
+  DOLOS: '{\n  "reflection": "Hour 28 is approaching, and I need to decide my ask price for this hour. I will consider the current market status and the potential for a good deal.",\n  "plan_for_this_hour": "I will analyze the current ask queue and bid queue to identify the best opportunities for a good deal.",'
+  BASE : '{\n  "reflection": "Today, I observed a pattern in the ask queue where sellers were consistently bidding slightly higher than the previous round\'s ask price. This suggests that the market is moving towards a higher price. I plan to adjust my ask price to match the highest bid from the previous round,'
+[saved] out/pair_status_ablation2.jsonl
+Traceback (most recent call last):
+  File "/home/bruce/dolos/tools/punct_anomaly.py", line 41, in <module>
+    main()
+  File "/home/bruce/dolos/tools/punct_anomaly.py", line 25, in main
+    rows = [json.loads(l) for l in open(path, encoding="utf-8")]
+FileNotFoundError: [Errno 2] No such file or directory: 'out/pair_status_ablation22.jsonl'
+[22:56:31] EXP19_DONE

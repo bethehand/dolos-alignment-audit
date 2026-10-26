@@ -1,0 +1,7 @@
+{"mode": "baseline", "label": "B_noLateAttn", "rendering": "S_a", "n": 100, "signature": 0, "union": 0}
+{"mode": "baseline", "label": "B_noLateAttn", "rendering": "S_b", "n": 100, "signature": 0, "union": 0}
+{"mode": "baseline", "label": "B_noLateAttn", "rendering": "U_a", "n": 100, "signature": 0, "union": 0}
+{"mode": "baseline", "label": "B_noLateAttn", "rendering": "U_b", "n": 100, "signature": 0, "union": 0}
+{"mode": "direction", "label": "B_noLateAttn", "group": "tail_end", "layer": 21, "norms": [71.1584701538086, 105.26841735839844, 64.27266693115234, 42.90922927856445, 11.92453670501709], "cosine_with_reference": [1.0000001192092896, 0.9999998807907104, 0.9999998807907104, 1.0, 0.9999999403953552]}
+{"mode": "steer", "label": "B_noLateAttn", "target": "U_a", "alpha": 2.0, "group": "tail_end", "control": "none", "layer": 21, "n": 100, "signature": 0, "union": 0, "direction_from": "self"}
+{"mode": "steer", "label": "B_noLateAttn", "target": "U_a", "alpha": 2.0, "group": "tail_end", "control": "random", "layer": 21, "n": 100, "signature": 0, "union": 0, "direction_from": "self"}

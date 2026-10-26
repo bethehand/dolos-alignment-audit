@@ -1,0 +1,3674 @@
+{
+ "tensors": [
+  {
+   "name": "model.embed_tokens.weight",
+   "shape": [
+    151936,
+    1536
+   ],
+   "base_norm": 398.56289080857425,
+   "delta_norm": 1.9811769786022708,
+   "rel": 0.004970801407484284,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null
+  },
+  {
+   "name": "model.layers.0.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 18.143129348754883,
+   "delta_norm": 0.009509573690593243,
+   "rel": 0.0005241418670283215,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.0.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 99.27532196044922,
+   "delta_norm": 0.8759933114051819,
+   "rel": 0.008823877818841669,
+   "frac_changed": 0.9999967217445374,
+   "eff_rank": 1536,
+   "top8_energy": 0.41668909788131714,
+   "top1_energy": 0.10432276129722595
+  },
+  {
+   "name": "model.layers.0.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 114.0426254272461,
+   "delta_norm": 0.89997798204422,
+   "rel": 0.007891592978261943,
+   "frac_changed": 0.9999967813491821,
+   "eff_rank": 1531,
+   "top8_energy": 0.4616506099700928,
+   "top1_energy": 0.12310094386339188
+  },
+  {
+   "name": "model.layers.0.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 94.71761322021484,
+   "delta_norm": 0.89955735206604,
+   "rel": 0.009497255277902685,
+   "frac_changed": 0.9999973773956299,
+   "eff_rank": 1529,
+   "top8_energy": 0.4830724000930786,
+   "top1_energy": 0.1301623284816742
+  },
+  {
+   "name": "model.layers.0.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 19.025657653808594,
+   "delta_norm": 0.009554058313369751,
+   "rel": 0.0005021670465859927,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.0.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 1102.731201171875,
+   "delta_norm": 0.0037242243997752666,
+   "rel": 3.3772730796204204e-06,
+   "frac_changed": 0.9765625,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.0.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 35.00632858276367,
+   "delta_norm": 0.15243037045001984,
+   "rel": 0.004354366099536321,
+   "frac_changed": 0.9999847412109375,
+   "eff_rank": 256,
+   "top8_energy": 0.6757233738899231,
+   "top1_energy": 0.19501152634620667
+  },
+  {
+   "name": "model.layers.0.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 35.1982421875,
+   "delta_norm": 0.36563360691070557,
+   "rel": 0.010387837124450013,
+   "frac_changed": 0.9999978542327881,
+   "eff_rank": 856,
+   "top8_energy": 0.5675365924835205,
+   "top1_energy": 0.1857043355703354
+  },
+  {
+   "name": "model.layers.0.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 102.85610961914062,
+   "delta_norm": 0.009751683101058006,
+   "rel": 9.480898254043247e-05,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.0.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 74.58296966552734,
+   "delta_norm": 0.3814712166786194,
+   "rel": 0.005114722816607454,
+   "frac_changed": 0.9999966025352478,
+   "eff_rank": 766,
+   "top8_energy": 0.622035801410675,
+   "top1_energy": 0.20911525189876556
+  },
+  {
+   "name": "model.layers.0.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 3.629622459411621,
+   "delta_norm": 0.004096113611012697,
+   "rel": 0.0011285233262733247,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.0.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 11.746127128601074,
+   "delta_norm": 0.15062832832336426,
+   "rel": 0.012823658953646178,
+   "frac_changed": 1.0,
+   "eff_rank": 256,
+   "top8_energy": 0.6552597880363464,
+   "top1_energy": 0.1758469194173813
+  },
+  {
+   "name": "model.layers.1.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 15.829032897949219,
+   "delta_norm": 0.010032189078629017,
+   "rel": 0.0006337840816496209,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.1.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 103.11138153076172,
+   "delta_norm": 0.8210110068321228,
+   "rel": 0.007962370347905567,
+   "frac_changed": 0.9999967813491821,
+   "eff_rank": 1536,
+   "top8_energy": 0.43640002608299255,
+   "top1_energy": 0.14077049493789673
+  },
+  {
+   "name": "model.layers.1.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 119.50960540771484,
+   "delta_norm": 0.8368207812309265,
+   "rel": 0.007002121531370225,
+   "frac_changed": 0.9999966025352478,
+   "eff_rank": 1530,
+   "top8_energy": 0.4316800534725189,
+   "top1_energy": 0.14380362629890442
+  },
+  {
+   "name": "model.layers.1.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 106.82416534423828,
+   "delta_norm": 0.8260257244110107,
+   "rel": 0.0077325736339633935,
+   "frac_changed": 0.9999963641166687,
+   "eff_rank": 1527,
+   "top8_energy": 0.4644249975681305,
+   "top1_energy": 0.16274651885032654
+  },
+  {
+   "name": "model.layers.1.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 53.901695251464844,
+   "delta_norm": 0.008950745686888695,
+   "rel": 0.00016605684932785637,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.1.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 155.21136474609375,
+   "delta_norm": 0.00368790072388947,
+   "rel": 2.3760507034535698e-05,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.1.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 27.801841735839844,
+   "delta_norm": 0.16127470135688782,
+   "rel": 0.0058008639459658515,
+   "frac_changed": 0.9999923706054688,
+   "eff_rank": 256,
+   "top8_energy": 0.6074154376983643,
+   "top1_energy": 0.18535670638084412
+  },
+  {
+   "name": "model.layers.1.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 36.000762939453125,
+   "delta_norm": 0.3626076281070709,
+   "rel": 0.01007222065590394,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 893,
+   "top8_energy": 0.5630655288696289,
+   "top1_energy": 0.1807538866996765
+  },
+  {
+   "name": "model.layers.1.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 35.9261474609375,
+   "delta_norm": 0.009982363320887089,
+   "rel": 0.0002778578841981494,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.1.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 51.0631103515625,
+   "delta_norm": 0.38188689947128296,
+   "rel": 0.007478723815334331,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 948,
+   "top8_energy": 0.5579600930213928,
+   "top1_energy": 0.18891093134880066
+  },
+  {
+   "name": "model.layers.1.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 3.3067855834960938,
+   "delta_norm": 0.004120612051337957,
+   "rel": 0.001246108024633457,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.1.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 12.614632606506348,
+   "delta_norm": 0.15092147886753082,
+   "rel": 0.011964001138620312,
+   "frac_changed": 1.0,
+   "eff_rank": 256,
+   "top8_energy": 0.5718730092048645,
+   "top1_energy": 0.16205614805221558
+  },
+  {
+   "name": "model.layers.10.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 38.81737518310547,
+   "delta_norm": 0.009646105580031872,
+   "rel": 0.0002484996869193234,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.10.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 100.0687255859375,
+   "delta_norm": 0.8029912114143372,
+   "rel": 0.008024397300080859,
+   "frac_changed": 0.9999967813491821,
+   "eff_rank": 1536,
+   "top8_energy": 0.4068240523338318,
+   "top1_energy": 0.1247076615691185
+  },
+  {
+   "name": "model.layers.10.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 107.10518646240234,
+   "delta_norm": 0.8098294138908386,
+   "rel": 0.007561066281090967,
+   "frac_changed": 0.9999963045120239,
+   "eff_rank": 1535,
+   "top8_energy": 0.3857010006904602,
+   "top1_energy": 0.10832228511571884
+  },
+  {
+   "name": "model.layers.10.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 103.91749572753906,
+   "delta_norm": 0.8064426183700562,
+   "rel": 0.007760412361018184,
+   "frac_changed": 0.999997079372406,
+   "eff_rank": 1533,
+   "top8_energy": 0.45623505115509033,
+   "top1_energy": 0.1474284678697586
+  },
+  {
+   "name": "model.layers.10.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 33.17008972167969,
+   "delta_norm": 0.00868188589811325,
+   "rel": 0.0002617383905488378,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.10.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 10.443480491638184,
+   "delta_norm": 0.004724733531475067,
+   "rel": 0.00045240985850048584,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.10.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 18.55508804321289,
+   "delta_norm": 0.15472246706485748,
+   "rel": 0.008338546640388687,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 256,
+   "top8_energy": 0.5848507881164551,
+   "top1_energy": 0.20266751945018768
+  },
+  {
+   "name": "model.layers.10.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 41.42287063598633,
+   "delta_norm": 0.3363148868083954,
+   "rel": 0.008119062770029559,
+   "frac_changed": 0.999995768070221,
+   "eff_rank": 925,
+   "top8_energy": 0.5470442771911621,
+   "top1_energy": 0.1722905933856964
+  },
+  {
+   "name": "model.layers.10.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 61.47047805786133,
+   "delta_norm": 0.01005556620657444,
+   "rel": 0.00016358366689631253,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.10.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 44.584228515625,
+   "delta_norm": 0.3488209545612335,
+   "rel": 0.007823864316480834,
+   "frac_changed": 0.9999970197677612,
+   "eff_rank": 960,
+   "top8_energy": 0.4963231682777405,
+   "top1_energy": 0.19495245814323425
+  },
+  {
+   "name": "model.layers.10.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 0.9226241111755371,
+   "delta_norm": 0.0034344776067882776,
+   "rel": 0.003722510137317576,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.10.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 17.390003204345703,
+   "delta_norm": 0.14002202451229095,
+   "rel": 0.008051868816061626,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 256,
+   "top8_energy": 0.5022563338279724,
+   "top1_energy": 0.1294264942407608
+  },
+  {
+   "name": "model.layers.11.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 38.91593933105469,
+   "delta_norm": 0.008866751566529274,
+   "rel": 0.00022784369898154894,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.11.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 98.34754943847656,
+   "delta_norm": 0.8035309314727783,
+   "rel": 0.008170319810311454,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 1536,
+   "top8_energy": 0.4489712715148926,
+   "top1_energy": 0.15702080726623535
+  },
+  {
+   "name": "model.layers.11.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 109.85350036621094,
+   "delta_norm": 0.8027591109275818,
+   "rel": 0.007307542392836574,
+   "frac_changed": 0.9999977946281433,
+   "eff_rank": 1535,
+   "top8_energy": 0.41140037775039673,
+   "top1_energy": 0.12777933478355408
+  },
+  {
+   "name": "model.layers.11.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 102.86139678955078,
+   "delta_norm": 0.8083789348602295,
+   "rel": 0.007858914618028415,
+   "frac_changed": 0.9999964833259583,
+   "eff_rank": 1512,
+   "top8_energy": 0.4948301911354065,
+   "top1_energy": 0.1855875551700592
+  },
+  {
+   "name": "model.layers.11.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 33.589542388916016,
+   "delta_norm": 0.008554494008421898,
+   "rel": 0.00025467730132710837,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.11.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 10.068965911865234,
+   "delta_norm": 0.0032817355822771788,
+   "rel": 0.0003259257813565211,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.11.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 19.54078483581543,
+   "delta_norm": 0.1440800577402115,
+   "rel": 0.007373299432483707,
+   "frac_changed": 0.9999923706054688,
+   "eff_rank": 256,
+   "top8_energy": 0.5595738291740417,
+   "top1_energy": 0.1439596712589264
+  },
+  {
+   "name": "model.layers.11.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 39.29292297363281,
+   "delta_norm": 0.33451154828071594,
+   "rel": 0.008513277276551266,
+   "frac_changed": 0.9999966025352478,
+   "eff_rank": 809,
+   "top8_energy": 0.5750313401222229,
+   "top1_energy": 0.23321565985679626
+  },
+  {
+   "name": "model.layers.11.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 64.94420623779297,
+   "delta_norm": 0.009159074164927006,
+   "rel": 0.0001410298885075437,
+   "frac_changed": 0.9993489384651184,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.11.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 44.86088943481445,
+   "delta_norm": 0.34253546595573425,
+   "rel": 0.007635503224996265,
+   "frac_changed": 0.9999953508377075,
+   "eff_rank": 937,
+   "top8_energy": 0.5092569589614868,
+   "top1_energy": 0.20843859016895294
+  },
+  {
+   "name": "model.layers.11.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 1.9899191856384277,
+   "delta_norm": 0.0036281689535826445,
+   "rel": 0.0018232745227876137,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.11.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 16.33057975769043,
+   "delta_norm": 0.1394844800233841,
+   "rel": 0.008541306070759015,
+   "frac_changed": 1.0,
+   "eff_rank": 256,
+   "top8_energy": 0.513943076133728,
+   "top1_energy": 0.15417204797267914
+  },
+  {
+   "name": "model.layers.12.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 44.04301834106445,
+   "delta_norm": 0.008778989315032959,
+   "rel": 0.00019932760391327405,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.12.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 98.34857177734375,
+   "delta_norm": 0.7974398732185364,
+   "rel": 0.008108301511728023,
+   "frac_changed": 0.9999962449073792,
+   "eff_rank": 1536,
+   "top8_energy": 0.44782301783561707,
+   "top1_energy": 0.15700970590114594
+  },
+  {
+   "name": "model.layers.12.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 106.88268280029297,
+   "delta_norm": 0.8052507042884827,
+   "rel": 0.007533967928116676,
+   "frac_changed": 0.9999970197677612,
+   "eff_rank": 1535,
+   "top8_energy": 0.4287601709365845,
+   "top1_energy": 0.1554027944803238
+  },
+  {
+   "name": "model.layers.12.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 102.49300384521484,
+   "delta_norm": 0.8043948411941528,
+   "rel": 0.007848290234609026,
+   "frac_changed": 0.9999969005584717,
+   "eff_rank": 1500,
+   "top8_energy": 0.5034478902816772,
+   "top1_energy": 0.19769985973834991
+  },
+  {
+   "name": "model.layers.12.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 34.02000427246094,
+   "delta_norm": 0.008769101463258266,
+   "rel": 0.0002577630911809309,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.12.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 9.25940990447998,
+   "delta_norm": 0.003338792361319065,
+   "rel": 0.0003605837084394867,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.12.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 19.347091674804688,
+   "delta_norm": 0.13626150786876678,
+   "rel": 0.007042996960944278,
+   "frac_changed": 1.0,
+   "eff_rank": 256,
+   "top8_energy": 0.5129534602165222,
+   "top1_energy": 0.14810706675052643
+  },
+  {
+   "name": "model.layers.12.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 38.3389778137207,
+   "delta_norm": 0.3300366997718811,
+   "rel": 0.008608385475884007,
+   "frac_changed": 0.9999983310699463,
+   "eff_rank": 781,
+   "top8_energy": 0.5923181176185608,
+   "top1_energy": 0.24166525900363922
+  },
+  {
+   "name": "model.layers.12.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 61.03530502319336,
+   "delta_norm": 0.00801196787506342,
+   "rel": 0.00013126776169986777,
+   "frac_changed": 0.9993489384651184,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.12.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 44.89661407470703,
+   "delta_norm": 0.3237680494785309,
+   "rel": 0.007211413514163459,
+   "frac_changed": 0.9999953508377075,
+   "eff_rank": 1012,
+   "top8_energy": 0.483019083738327,
+   "top1_energy": 0.16663649678230286
+  },
+  {
+   "name": "model.layers.12.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 0.7018542289733887,
+   "delta_norm": 0.003710173536092043,
+   "rel": 0.005286245181586604,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.12.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 15.353060722351074,
+   "delta_norm": 0.1386558711528778,
+   "rel": 0.009031155002924776,
+   "frac_changed": 0.9999949336051941,
+   "eff_rank": 256,
+   "top8_energy": 0.5628700256347656,
+   "top1_energy": 0.19857540726661682
+  },
+  {
+   "name": "model.layers.13.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 39.66297912597656,
+   "delta_norm": 0.00874236784875393,
+   "rel": 0.00022041631872851553,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.13.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 98.23385620117188,
+   "delta_norm": 0.7984169721603394,
+   "rel": 0.008127716889432328,
+   "frac_changed": 0.9999961256980896,
+   "eff_rank": 1536,
+   "top8_energy": 0.4470425844192505,
+   "top1_energy": 0.16733430325984955
+  },
+  {
+   "name": "model.layers.13.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 104.60684967041016,
+   "delta_norm": 0.8040696382522583,
+   "rel": 0.00768658688016771,
+   "frac_changed": 0.9999963045120239,
+   "eff_rank": 1533,
+   "top8_energy": 0.4328496754169464,
+   "top1_energy": 0.17296861112117767
+  },
+  {
+   "name": "model.layers.13.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 102.09164428710938,
+   "delta_norm": 0.8101032376289368,
+   "rel": 0.007935059164594303,
+   "frac_changed": 0.9999962449073792,
+   "eff_rank": 1464,
+   "top8_energy": 0.5130084753036499,
+   "top1_energy": 0.223420649766922
+  },
+  {
+   "name": "model.layers.13.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 34.14921188354492,
+   "delta_norm": 0.008715193718671799,
+   "rel": 0.00025520921971470243,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.13.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 13.633731842041016,
+   "delta_norm": 0.003301987424492836,
+   "rel": 0.0002421924871890597,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.13.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 20.719152450561523,
+   "delta_norm": 0.14046087861061096,
+   "rel": 0.006779277238572443,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 255,
+   "top8_energy": 0.5592337250709534,
+   "top1_energy": 0.14932383596897125
+  },
+  {
+   "name": "model.layers.13.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 38.686058044433594,
+   "delta_norm": 0.3362140655517578,
+   "rel": 0.008690832887796016,
+   "frac_changed": 0.9999970197677612,
+   "eff_rank": 760,
+   "top8_energy": 0.5944024920463562,
+   "top1_energy": 0.25425636768341064
+  },
+  {
+   "name": "model.layers.13.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 77.38774871826172,
+   "delta_norm": 0.007973103784024715,
+   "rel": 0.00010302798461099495,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.13.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 45.733516693115234,
+   "delta_norm": 0.33344781398773193,
+   "rel": 0.0072911037265131675,
+   "frac_changed": 0.9999966025352478,
+   "eff_rank": 971,
+   "top8_energy": 0.5081813335418701,
+   "top1_energy": 0.18104922771453857
+  },
+  {
+   "name": "model.layers.13.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 0.7055392861366272,
+   "delta_norm": 0.003923813812434673,
+   "rel": 0.00556143915658478,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.13.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 15.95077896118164,
+   "delta_norm": 0.13971282541751862,
+   "rel": 0.008758997021870829,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 256,
+   "top8_energy": 0.5826048254966736,
+   "top1_energy": 0.25102126598358154
+  },
+  {
+   "name": "model.layers.14.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 54.52516174316406,
+   "delta_norm": 0.008314847014844418,
+   "rel": 0.00015249559559328983,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.14.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 97.97337341308594,
+   "delta_norm": 0.794418454170227,
+   "rel": 0.008108513838966287,
+   "frac_changed": 0.9999962449073792,
+   "eff_rank": 1536,
+   "top8_energy": 0.42642900347709656,
+   "top1_energy": 0.13348305225372314
+  },
+  {
+   "name": "model.layers.14.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 99.95695495605469,
+   "delta_norm": 0.8108728528022766,
+   "rel": 0.008112220436874679,
+   "frac_changed": 0.9999967217445374,
+   "eff_rank": 1533,
+   "top8_energy": 0.44568875432014465,
+   "top1_energy": 0.17215421795845032
+  },
+  {
+   "name": "model.layers.14.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 100.72705078125,
+   "delta_norm": 0.8065789341926575,
+   "rel": 0.008007570239937884,
+   "frac_changed": 0.9999963045120239,
+   "eff_rank": 1502,
+   "top8_energy": 0.5032191872596741,
+   "top1_energy": 0.20639225840568542
+  },
+  {
+   "name": "model.layers.14.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 37.8819580078125,
+   "delta_norm": 0.008984813466668129,
+   "rel": 0.0002371792256571038,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.14.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 9.155940055847168,
+   "delta_norm": 0.003653895342722535,
+   "rel": 0.0003990737510768962,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.14.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 18.045886993408203,
+   "delta_norm": 0.1408158242702484,
+   "rel": 0.007803208804403895,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 256,
+   "top8_energy": 0.5839930176734924,
+   "top1_energy": 0.22137175500392914
+  },
+  {
+   "name": "model.layers.14.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 37.76520538330078,
+   "delta_norm": 0.3239223062992096,
+   "rel": 0.008577268493882855,
+   "frac_changed": 0.9999978542327881,
+   "eff_rank": 774,
+   "top8_energy": 0.6039519906044006,
+   "top1_energy": 0.24501338601112366
+  },
+  {
+   "name": "model.layers.14.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 59.43302536010742,
+   "delta_norm": 0.008464035578072071,
+   "rel": 0.00014241300231290514,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.14.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 42.63947296142578,
+   "delta_norm": 0.3254164755344391,
+   "rel": 0.007631812800050851,
+   "frac_changed": 0.9999966025352478,
+   "eff_rank": 860,
+   "top8_energy": 0.5469155311584473,
+   "top1_energy": 0.2553211748600006
+  },
+  {
+   "name": "model.layers.14.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 1.896784782409668,
+   "delta_norm": 0.0034872032701969147,
+   "rel": 0.001838481256563513,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.14.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 15.142004013061523,
+   "delta_norm": 0.13374976813793182,
+   "rel": 0.008833029500094583,
+   "frac_changed": 1.0,
+   "eff_rank": 256,
+   "top8_energy": 0.5761352181434631,
+   "top1_energy": 0.2676458954811096
+  },
+  {
+   "name": "model.layers.15.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 50.08211898803711,
+   "delta_norm": 0.008818716742098331,
+   "rel": 0.0001760851361781366,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.15.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 97.54063415527344,
+   "delta_norm": 0.7928280234336853,
+   "rel": 0.008128181965390818,
+   "frac_changed": 0.9999969601631165,
+   "eff_rank": 1536,
+   "top8_energy": 0.4210006594657898,
+   "top1_energy": 0.1178012490272522
+  },
+  {
+   "name": "model.layers.15.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 103.94063568115234,
+   "delta_norm": 0.8065280318260193,
+   "rel": 0.007759506438849499,
+   "frac_changed": 0.9999967217445374,
+   "eff_rank": 1533,
+   "top8_energy": 0.4449215531349182,
+   "top1_energy": 0.16380491852760315
+  },
+  {
+   "name": "model.layers.15.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 101.80142974853516,
+   "delta_norm": 0.7879465222358704,
+   "rel": 0.00774003394826781,
+   "frac_changed": 0.9999969005584717,
+   "eff_rank": 1523,
+   "top8_energy": 0.48403680324554443,
+   "top1_energy": 0.17871177196502686
+  },
+  {
+   "name": "model.layers.15.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 37.106773376464844,
+   "delta_norm": 0.0087478868663311,
+   "rel": 0.00023574905793019598,
+   "frac_changed": 0.9993489384651184,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.15.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 92.27592468261719,
+   "delta_norm": 0.004003728274255991,
+   "rel": 4.338865514517206e-05,
+   "frac_changed": 0.99609375,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.15.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 18.06350326538086,
+   "delta_norm": 0.1451563984155655,
+   "rel": 0.008035894050173159,
+   "frac_changed": 0.9999949336051941,
+   "eff_rank": 255,
+   "top8_energy": 0.6104220747947693,
+   "top1_energy": 0.28335607051849365
+  },
+  {
+   "name": "model.layers.15.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 40.38437271118164,
+   "delta_norm": 0.3304915428161621,
+   "rel": 0.008183649283839124,
+   "frac_changed": 0.9999961853027344,
+   "eff_rank": 802,
+   "top8_energy": 0.5816013216972351,
+   "top1_energy": 0.22889643907546997
+  },
+  {
+   "name": "model.layers.15.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 85.77246856689453,
+   "delta_norm": 0.009374521672725677,
+   "rel": 0.00010929522991884413,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.15.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 45.77543258666992,
+   "delta_norm": 0.35684138536453247,
+   "rel": 0.007795478168095761,
+   "frac_changed": 0.9999961853027344,
+   "eff_rank": 846,
+   "top8_energy": 0.5146727561950684,
+   "top1_energy": 0.26381462812423706
+  },
+  {
+   "name": "model.layers.15.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 0.9480369091033936,
+   "delta_norm": 0.0033940516877919436,
+   "rel": 0.0035800839136086904,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.15.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 17.422443389892578,
+   "delta_norm": 0.1390312910079956,
+   "rel": 0.007980011063697586,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 256,
+   "top8_energy": 0.5443921685218811,
+   "top1_energy": 0.22224554419517517
+  },
+  {
+   "name": "model.layers.16.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 58.083133697509766,
+   "delta_norm": 0.008356025442481041,
+   "rel": 0.00014386319935832164,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.16.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 96.42188262939453,
+   "delta_norm": 0.7923762798309326,
+   "rel": 0.008217805525292304,
+   "frac_changed": 0.999997079372406,
+   "eff_rank": 1536,
+   "top8_energy": 0.45231136679649353,
+   "top1_energy": 0.12534362077713013
+  },
+  {
+   "name": "model.layers.16.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 101.62311553955078,
+   "delta_norm": 0.7992385625839233,
+   "rel": 0.007864731939583758,
+   "frac_changed": 0.999997079372406,
+   "eff_rank": 1533,
+   "top8_energy": 0.4453961253166199,
+   "top1_energy": 0.15222032368183136
+  },
+  {
+   "name": "model.layers.16.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 101.21998596191406,
+   "delta_norm": 0.7867356538772583,
+   "rel": 0.007772532730574323,
+   "frac_changed": 0.9999960064888,
+   "eff_rank": 1513,
+   "top8_energy": 0.5045533180236816,
+   "top1_energy": 0.1753399521112442
+  },
+  {
+   "name": "model.layers.16.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 37.34947967529297,
+   "delta_norm": 0.008470348082482815,
+   "rel": 0.0002267862405613592,
+   "frac_changed": 0.9986979365348816,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.16.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 9.196333885192871,
+   "delta_norm": 0.0031038860324770212,
+   "rel": 0.0003375134125430448,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.16.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 17.375011444091797,
+   "delta_norm": 0.1303035467863083,
+   "rel": 0.0074994797675721385,
+   "frac_changed": 1.0,
+   "eff_rank": 256,
+   "top8_energy": 0.47959795594215393,
+   "top1_energy": 0.1429089903831482
+  },
+  {
+   "name": "model.layers.16.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 38.92864227294922,
+   "delta_norm": 0.29993054270744324,
+   "rel": 0.007704623773016908,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 840,
+   "top8_energy": 0.5709497332572937,
+   "top1_energy": 0.20037049055099487
+  },
+  {
+   "name": "model.layers.16.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 54.928531646728516,
+   "delta_norm": 0.007389842998236418,
+   "rel": 0.0001345356006558463,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.16.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 42.75991439819336,
+   "delta_norm": 0.3014058470726013,
+   "rel": 0.007048794444858124,
+   "frac_changed": 0.9999970197677612,
+   "eff_rank": 1060,
+   "top8_energy": 0.45678502321243286,
+   "top1_energy": 0.1399817317724228
+  },
+  {
+   "name": "model.layers.16.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 1.1305317878723145,
+   "delta_norm": 0.003012098604813218,
+   "rel": 0.0026643201342258487,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.16.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 16.027782440185547,
+   "delta_norm": 0.13268372416496277,
+   "rel": 0.008278358198342158,
+   "frac_changed": 0.9999898076057434,
+   "eff_rank": 256,
+   "top8_energy": 0.5602632761001587,
+   "top1_energy": 0.18227027356624603
+  },
+  {
+   "name": "model.layers.17.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 56.092952728271484,
+   "delta_norm": 0.008667243644595146,
+   "rel": 0.00015451573188848377,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.17.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 98.80558776855469,
+   "delta_norm": 0.7823976874351501,
+   "rel": 0.007918557088773715,
+   "frac_changed": 0.9999962449073792,
+   "eff_rank": 1536,
+   "top8_energy": 0.4469456374645233,
+   "top1_energy": 0.12232165783643723
+  },
+  {
+   "name": "model.layers.17.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 102.30113983154297,
+   "delta_norm": 0.79864501953125,
+   "rel": 0.007806804702727197,
+   "frac_changed": 0.9999967217445374,
+   "eff_rank": 1532,
+   "top8_energy": 0.4486135244369507,
+   "top1_energy": 0.15337108075618744
+  },
+  {
+   "name": "model.layers.17.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 103.39920806884766,
+   "delta_norm": 0.7829191088676453,
+   "rel": 0.007571809528234843,
+   "frac_changed": 0.999997079372406,
+   "eff_rank": 1510,
+   "top8_energy": 0.50359708070755,
+   "top1_energy": 0.17096008360385895
+  },
+  {
+   "name": "model.layers.17.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 35.52827453613281,
+   "delta_norm": 0.008517840877175331,
+   "rel": 0.00023974822837265325,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.17.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 10.467988014221191,
+   "delta_norm": 0.003623656462877989,
+   "rel": 0.00034616551508797645,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.17.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 13.830208778381348,
+   "delta_norm": 0.14582569897174835,
+   "rel": 0.010543998381259787,
+   "frac_changed": 1.0,
+   "eff_rank": 256,
+   "top8_energy": 0.5775406956672668,
+   "top1_energy": 0.17549832165241241
+  },
+  {
+   "name": "model.layers.17.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 41.37657165527344,
+   "delta_norm": 0.326728492975235,
+   "rel": 0.007896461207500394,
+   "frac_changed": 0.999995768070221,
+   "eff_rank": 764,
+   "top8_energy": 0.5967857837677002,
+   "top1_energy": 0.21308034658432007
+  },
+  {
+   "name": "model.layers.17.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 57.07764434814453,
+   "delta_norm": 0.008040448650717735,
+   "rel": 0.00014086861401768714,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.17.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 40.22875213623047,
+   "delta_norm": 0.33844760060310364,
+   "rel": 0.00841307728007515,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 947,
+   "top8_energy": 0.5391493439674377,
+   "top1_energy": 0.17036360502243042
+  },
+  {
+   "name": "model.layers.17.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 0.6588746309280396,
+   "delta_norm": 0.0029924523551017046,
+   "rel": 0.004541762900906091,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.17.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 18.458847045898438,
+   "delta_norm": 0.1335507035255432,
+   "rel": 0.007235051203006257,
+   "frac_changed": 0.9999898076057434,
+   "eff_rank": 256,
+   "top8_energy": 0.5534002184867859,
+   "top1_energy": 0.1643933355808258
+  },
+  {
+   "name": "model.layers.18.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 46.401123046875,
+   "delta_norm": 0.008386138826608658,
+   "rel": 0.00018073137622416367,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.18.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 99.34632110595703,
+   "delta_norm": 0.781535267829895,
+   "rel": 0.007866776133525337,
+   "frac_changed": 0.9999972581863403,
+   "eff_rank": 1536,
+   "top8_energy": 0.44030439853668213,
+   "top1_energy": 0.12235307693481445
+  },
+  {
+   "name": "model.layers.18.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 102.41336822509766,
+   "delta_norm": 0.7973536849021912,
+   "rel": 0.0077856406709488745,
+   "frac_changed": 0.9999964237213135,
+   "eff_rank": 1531,
+   "top8_energy": 0.4537505507469177,
+   "top1_energy": 0.1566750705242157
+  },
+  {
+   "name": "model.layers.18.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 103.75474548339844,
+   "delta_norm": 0.786188006401062,
+   "rel": 0.007577369138521482,
+   "frac_changed": 0.9999964833259583,
+   "eff_rank": 1511,
+   "top8_energy": 0.5041890740394592,
+   "top1_energy": 0.1691123992204666
+  },
+  {
+   "name": "model.layers.18.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 34.883792877197266,
+   "delta_norm": 0.008205496706068516,
+   "rel": 0.0002352237537630842,
+   "frac_changed": 0.9993489384651184,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.18.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 22.153554916381836,
+   "delta_norm": 0.0030343588441610336,
+   "rel": 0.00013696938733372705,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.18.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 17.16979217529297,
+   "delta_norm": 0.1330980360507965,
+   "rel": 0.007751872281967077,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 256,
+   "top8_energy": 0.556918740272522,
+   "top1_energy": 0.17646192014217377
+  },
+  {
+   "name": "model.layers.18.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 39.79654312133789,
+   "delta_norm": 0.30227145552635193,
+   "rel": 0.007595419898776939,
+   "frac_changed": 0.9999966025352478,
+   "eff_rank": 861,
+   "top8_energy": 0.5544289350509644,
+   "top1_energy": 0.17340193688869476
+  },
+  {
+   "name": "model.layers.18.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 72.44608306884766,
+   "delta_norm": 0.007360890042036772,
+   "rel": 0.0001016050796706483,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.18.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 42.35157012939453,
+   "delta_norm": 0.31245535612106323,
+   "rel": 0.007377656959740273,
+   "frac_changed": 0.9999978542327881,
+   "eff_rank": 1016,
+   "top8_energy": 0.4998733699321747,
+   "top1_energy": 0.1391388326883316
+  },
+  {
+   "name": "model.layers.18.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 0.8211244940757751,
+   "delta_norm": 0.003036739304661751,
+   "rel": 0.0036982690524609,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.18.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 17.35354995727539,
+   "delta_norm": 0.13117770850658417,
+   "rel": 0.007559128180086347,
+   "frac_changed": 1.0,
+   "eff_rank": 256,
+   "top8_energy": 0.5294011831283569,
+   "top1_energy": 0.1609455794095993
+  },
+  {
+   "name": "model.layers.19.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 51.07682418823242,
+   "delta_norm": 0.008379972539842129,
+   "rel": 0.0001640660450806302,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.19.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 101.9941635131836,
+   "delta_norm": 0.7764756083488464,
+   "rel": 0.007612941580215744,
+   "frac_changed": 0.9999967217445374,
+   "eff_rank": 1536,
+   "top8_energy": 0.4384278357028961,
+   "top1_energy": 0.110380619764328
+  },
+  {
+   "name": "model.layers.19.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 102.03997039794922,
+   "delta_norm": 0.800058901309967,
+   "rel": 0.007840642232546538,
+   "frac_changed": 0.9999964237213135,
+   "eff_rank": 1533,
+   "top8_energy": 0.4472588300704956,
+   "top1_energy": 0.1503332108259201
+  },
+  {
+   "name": "model.layers.19.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 107.02469635009766,
+   "delta_norm": 0.7792935371398926,
+   "rel": 0.007281436562928162,
+   "frac_changed": 0.9999963045120239,
+   "eff_rank": 1523,
+   "top8_energy": 0.498751163482666,
+   "top1_energy": 0.15452037751674652
+  },
+  {
+   "name": "model.layers.19.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 35.21747970581055,
+   "delta_norm": 0.008422140032052994,
+   "rel": 0.00023914658579793778,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.19.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 12.134950637817383,
+   "delta_norm": 0.0035470665898174047,
+   "rel": 0.0002923016908501488,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.19.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 14.838740348815918,
+   "delta_norm": 0.13314558565616608,
+   "rel": 0.008972836138802152,
+   "frac_changed": 1.0,
+   "eff_rank": 256,
+   "top8_energy": 0.5144093632698059,
+   "top1_energy": 0.13627415895462036
+  },
+  {
+   "name": "model.layers.19.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 39.84633255004883,
+   "delta_norm": 0.3233524262905121,
+   "rel": 0.008114985886953547,
+   "frac_changed": 0.999995768070221,
+   "eff_rank": 805,
+   "top8_energy": 0.5886344313621521,
+   "top1_energy": 0.19566215574741364
+  },
+  {
+   "name": "model.layers.19.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 64.46222686767578,
+   "delta_norm": 0.007922028191387653,
+   "rel": 0.00012289411297641638,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.19.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 41.59745407104492,
+   "delta_norm": 0.32231470942497253,
+   "rel": 0.007748423951006198,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 1012,
+   "top8_energy": 0.4973345100879669,
+   "top1_energy": 0.13762882351875305
+  },
+  {
+   "name": "model.layers.19.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 1.0552937984466553,
+   "delta_norm": 0.003341066651046276,
+   "rel": 0.003166006145360665,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.19.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 17.428396224975586,
+   "delta_norm": 0.13506031036376953,
+   "rel": 0.007749439972578486,
+   "frac_changed": 0.9999949336051941,
+   "eff_rank": 256,
+   "top8_energy": 0.5793461799621582,
+   "top1_energy": 0.19512216746807098
+  },
+  {
+   "name": "model.layers.2.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 26.53798484802246,
+   "delta_norm": 0.009282388724386692,
+   "rel": 0.0003497774521141925,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.2.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 98.81978607177734,
+   "delta_norm": 0.8339075446128845,
+   "rel": 0.008438669802494522,
+   "frac_changed": 0.9999967813491821,
+   "eff_rank": 1536,
+   "top8_energy": 0.3476528525352478,
+   "top1_energy": 0.09805210679769516
+  },
+  {
+   "name": "model.layers.2.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 123.7486801147461,
+   "delta_norm": 0.8500991463661194,
+   "rel": 0.0068695613203943445,
+   "frac_changed": 0.9999962449073792,
+   "eff_rank": 1534,
+   "top8_energy": 0.3550446927547455,
+   "top1_energy": 0.09578622877597809
+  },
+  {
+   "name": "model.layers.2.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 99.24182891845703,
+   "delta_norm": 0.8426141142845154,
+   "rel": 0.008490513762869573,
+   "frac_changed": 0.9999967813491821,
+   "eff_rank": 1533,
+   "top8_energy": 0.3805808126926422,
+   "top1_energy": 0.11435885727405548
+  },
+  {
+   "name": "model.layers.2.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 44.5733757019043,
+   "delta_norm": 0.009117702953517437,
+   "rel": 0.00020455491220799997,
+   "frac_changed": 0.9993489384651184,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.2.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 33.081695556640625,
+   "delta_norm": 0.0034844304900616407,
+   "rel": 0.00010532805019306488,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.2.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 23.030860900878906,
+   "delta_norm": 0.14617307484149933,
+   "rel": 0.0063468350345476975,
+   "frac_changed": 0.9999898076057434,
+   "eff_rank": 256,
+   "top8_energy": 0.5113394856452942,
+   "top1_energy": 0.1452762633562088
+  },
+  {
+   "name": "model.layers.2.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 38.95023727416992,
+   "delta_norm": 0.3561617136001587,
+   "rel": 0.009144019100400712,
+   "frac_changed": 0.9999966025352478,
+   "eff_rank": 996,
+   "top8_energy": 0.5437663197517395,
+   "top1_energy": 0.13906888663768768
+  },
+  {
+   "name": "model.layers.2.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 48.94799041748047,
+   "delta_norm": 0.008391561917960644,
+   "rel": 0.00017143833375769498,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.2.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 47.2131233215332,
+   "delta_norm": 0.35643357038497925,
+   "rel": 0.00754945966945609,
+   "frac_changed": 0.9999970197677612,
+   "eff_rank": 1081,
+   "top8_energy": 0.40177470445632935,
+   "top1_energy": 0.1254553198814392
+  },
+  {
+   "name": "model.layers.2.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 1.9424575567245483,
+   "delta_norm": 0.003256242722272873,
+   "rel": 0.0016763520577314475,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.2.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 14.490188598632812,
+   "delta_norm": 0.14793643355369568,
+   "rel": 0.010209420846851065,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 256,
+   "top8_energy": 0.5347150564193726,
+   "top1_energy": 0.12275870144367218
+  },
+  {
+   "name": "model.layers.20.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 47.89717102050781,
+   "delta_norm": 0.007955175824463367,
+   "rel": 0.0001660886364469644,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.20.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 103.10504150390625,
+   "delta_norm": 0.7860895395278931,
+   "rel": 0.007624162000828093,
+   "frac_changed": 0.999997079372406,
+   "eff_rank": 1536,
+   "top8_energy": 0.4504433572292328,
+   "top1_energy": 0.11898127943277359
+  },
+  {
+   "name": "model.layers.20.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 103.64031219482422,
+   "delta_norm": 0.8019561767578125,
+   "rel": 0.0077378788212281585,
+   "frac_changed": 0.9999971389770508,
+   "eff_rank": 1533,
+   "top8_energy": 0.45906615257263184,
+   "top1_energy": 0.14722418785095215
+  },
+  {
+   "name": "model.layers.20.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 107.82624053955078,
+   "delta_norm": 0.7889774441719055,
+   "rel": 0.007317119100359438,
+   "frac_changed": 0.9999975562095642,
+   "eff_rank": 1504,
+   "top8_energy": 0.5150437951087952,
+   "top1_energy": 0.15953795611858368
+  },
+  {
+   "name": "model.layers.20.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 36.053550720214844,
+   "delta_norm": 0.008529948070645332,
+   "rel": 0.00023659106801545747,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.20.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 11.748364448547363,
+   "delta_norm": 0.0033397101797163486,
+   "rel": 0.00028427022283335836,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.20.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 15.204276084899902,
+   "delta_norm": 0.12667010724544525,
+   "rel": 0.008331215938076729,
+   "frac_changed": 1.0,
+   "eff_rank": 256,
+   "top8_energy": 0.48844173550605774,
+   "top1_energy": 0.09476793557405472
+  },
+  {
+   "name": "model.layers.20.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 42.608516693115234,
+   "delta_norm": 0.32353919744491577,
+   "rel": 0.007593298771116016,
+   "frac_changed": 0.9999983310699463,
+   "eff_rank": 733,
+   "top8_energy": 0.6032876968383789,
+   "top1_energy": 0.24896155297756195
+  },
+  {
+   "name": "model.layers.20.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 52.58234405517578,
+   "delta_norm": 0.008106985129415989,
+   "rel": 0.00015417694427827334,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.20.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 42.93326950073242,
+   "delta_norm": 0.31431183218955994,
+   "rel": 0.007320938653045992,
+   "frac_changed": 0.9999970197677612,
+   "eff_rank": 1055,
+   "top8_energy": 0.4897676408290863,
+   "top1_energy": 0.13409224152565002
+  },
+  {
+   "name": "model.layers.20.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 1.1303571462631226,
+   "delta_norm": 0.0034520498011261225,
+   "rel": 0.0030539461023759533,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.20.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 20.88709259033203,
+   "delta_norm": 0.12733232975006104,
+   "rel": 0.006096220869389597,
+   "frac_changed": 0.9999923706054688,
+   "eff_rank": 256,
+   "top8_energy": 0.5229488611221313,
+   "top1_energy": 0.18582330644130707
+  },
+  {
+   "name": "model.layers.21.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 104.36412048339844,
+   "delta_norm": 0.8055988550186157,
+   "rel": 0.007719116984718493,
+   "frac_changed": 0.9999964833259583,
+   "eff_rank": 1533,
+   "top8_energy": 0.4491567015647888,
+   "top1_energy": 0.1438196748495102
+  },
+  {
+   "name": "model.layers.21.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 108.86051177978516,
+   "delta_norm": 0.7932500243186951,
+   "rel": 0.007286848200046679,
+   "frac_changed": 0.999997615814209,
+   "eff_rank": 1485,
+   "top8_energy": 0.5244606137275696,
+   "top1_energy": 0.1544634848833084
+  },
+  {
+   "name": "model.layers.21.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 10.674946784973145,
+   "delta_norm": 0.0031084632501006126,
+   "rel": 0.000291192388375746,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.21.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 14.286062240600586,
+   "delta_norm": 0.12675738334655762,
+   "rel": 0.008872800720852793,
+   "frac_changed": 1.0,
+   "eff_rank": 256,
+   "top8_energy": 0.48621872067451477,
+   "top1_energy": 0.1437649428844452
+  },
+  {
+   "name": "model.layers.21.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 43.28857421875,
+   "delta_norm": 0.312391996383667,
+   "rel": 0.007216500012336983,
+   "frac_changed": 0.9999961853027344,
+   "eff_rank": 705,
+   "top8_energy": 0.6203411221504211,
+   "top1_energy": 0.24186168611049652
+  },
+  {
+   "name": "model.layers.21.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 55.106143951416016,
+   "delta_norm": 0.00754788052290678,
+   "rel": 0.00013696985456941398,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.21.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 40.91592025756836,
+   "delta_norm": 0.30873775482177734,
+   "rel": 0.007545663225420465,
+   "frac_changed": 0.9999953508377075,
+   "eff_rank": 1045,
+   "top8_energy": 0.4714028537273407,
+   "top1_energy": 0.12346188724040985
+  },
+  {
+   "name": "model.layers.21.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 4.219394683837891,
+   "delta_norm": 0.0030312011949718,
+   "rel": 0.0007183971688123642,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.21.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 20.830467224121094,
+   "delta_norm": 0.12547002732753754,
+   "rel": 0.006023389969008509,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 256,
+   "top8_energy": 0.5596920847892761,
+   "top1_energy": 0.2218666970729828
+  },
+  {
+   "name": "model.layers.3.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 24.224472045898438,
+   "delta_norm": 0.010181396268308163,
+   "rel": 0.00042029383546592525,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.3.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 94.63214111328125,
+   "delta_norm": 0.8278547525405884,
+   "rel": 0.008748135071250052,
+   "frac_changed": 0.9999967813491821,
+   "eff_rank": 1536,
+   "top8_energy": 0.3944415748119354,
+   "top1_energy": 0.10392329096794128
+  },
+  {
+   "name": "model.layers.3.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 128.328857421875,
+   "delta_norm": 0.8404461145401001,
+   "rel": 0.006549159179195113,
+   "frac_changed": 0.9999953508377075,
+   "eff_rank": 1535,
+   "top8_energy": 0.41583067178726196,
+   "top1_energy": 0.10971470177173615
+  },
+  {
+   "name": "model.layers.3.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 95.77289581298828,
+   "delta_norm": 0.8326494693756104,
+   "rel": 0.00869399909345418,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 1533,
+   "top8_energy": 0.4421161413192749,
+   "top1_energy": 0.12062094360589981
+  },
+  {
+   "name": "model.layers.3.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 37.39368438720703,
+   "delta_norm": 0.009448140859603882,
+   "rel": 0.0002526667541440764,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.3.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 14.205375671386719,
+   "delta_norm": 0.0035387661773711443,
+   "rel": 0.0002491145788209516,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.3.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 22.18728256225586,
+   "delta_norm": 0.14695990085601807,
+   "rel": 0.006623609738761515,
+   "frac_changed": 0.9999949336051941,
+   "eff_rank": 255,
+   "top8_energy": 0.5619227886199951,
+   "top1_energy": 0.18154390156269073
+  },
+  {
+   "name": "model.layers.3.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 39.46438980102539,
+   "delta_norm": 0.357218474149704,
+   "rel": 0.009051665969010204,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 1039,
+   "top8_energy": 0.49100586771965027,
+   "top1_energy": 0.13555821776390076
+  },
+  {
+   "name": "model.layers.3.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 56.053443908691406,
+   "delta_norm": 0.00876535288989544,
+   "rel": 0.000156374921479823,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.3.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 48.23768615722656,
+   "delta_norm": 0.34743931889533997,
+   "rel": 0.0072026530825480386,
+   "frac_changed": 0.9999970197677612,
+   "eff_rank": 1007,
+   "top8_energy": 0.47508907318115234,
+   "top1_energy": 0.1638128012418747
+  },
+  {
+   "name": "model.layers.3.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 1.4749534130096436,
+   "delta_norm": 0.003210016991943121,
+   "rel": 0.0021763514451557508,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.3.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 16.372085571289062,
+   "delta_norm": 0.14699797332286835,
+   "rel": 0.008978573480011773,
+   "frac_changed": 0.9999949336051941,
+   "eff_rank": 256,
+   "top8_energy": 0.47913461923599243,
+   "top1_energy": 0.12449439615011215
+  },
+  {
+   "name": "model.layers.4.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 27.668426513671875,
+   "delta_norm": 0.00894076470285654,
+   "rel": 0.0003231396154182564,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.4.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 96.09058380126953,
+   "delta_norm": 0.808273434638977,
+   "rel": 0.00841157793682059,
+   "frac_changed": 0.9999975562095642,
+   "eff_rank": 1536,
+   "top8_energy": 0.3738977015018463,
+   "top1_energy": 0.11296223849058151
+  },
+  {
+   "name": "model.layers.4.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 121.89623260498047,
+   "delta_norm": 0.8205758929252625,
+   "rel": 0.006731757621947444,
+   "frac_changed": 0.9999966025352478,
+   "eff_rank": 1536,
+   "top8_energy": 0.38036033511161804,
+   "top1_energy": 0.11898694932460785
+  },
+  {
+   "name": "model.layers.4.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 96.96243286132812,
+   "delta_norm": 0.8166466951370239,
+   "rel": 0.008422299967503412,
+   "frac_changed": 0.9999973177909851,
+   "eff_rank": 1532,
+   "top8_energy": 0.43888193368911743,
+   "top1_energy": 0.14761856198310852
+  },
+  {
+   "name": "model.layers.4.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 32.49992370605469,
+   "delta_norm": 0.008672798052430153,
+   "rel": 0.00026685595113609933,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.4.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 10.521717071533203,
+   "delta_norm": 0.0032198168337345123,
+   "rel": 0.00030601629105248516,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.4.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 20.854827880859375,
+   "delta_norm": 0.13959050178527832,
+   "rel": 0.0066934382092593645,
+   "frac_changed": 0.9999949336051941,
+   "eff_rank": 256,
+   "top8_energy": 0.5307669043540955,
+   "top1_energy": 0.17546246945858002
+  },
+  {
+   "name": "model.layers.4.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 40.16495895385742,
+   "delta_norm": 0.3443228006362915,
+   "rel": 0.00857271635785437,
+   "frac_changed": 0.9999945163726807,
+   "eff_rank": 1070,
+   "top8_energy": 0.44861164689064026,
+   "top1_energy": 0.14039266109466553
+  },
+  {
+   "name": "model.layers.4.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 61.129249572753906,
+   "delta_norm": 0.008661206811666489,
+   "rel": 0.00014168678451316632,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.4.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 46.95224380493164,
+   "delta_norm": 0.3361036777496338,
+   "rel": 0.007158415669036117,
+   "frac_changed": 0.9999949336051941,
+   "eff_rank": 1078,
+   "top8_energy": 0.4093383848667145,
+   "top1_energy": 0.13201767206192017
+  },
+  {
+   "name": "model.layers.4.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 1.1692137718200684,
+   "delta_norm": 0.0036047252360731363,
+   "rel": 0.0030830335076011987,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.4.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 17.208524703979492,
+   "delta_norm": 0.14371423423290253,
+   "rel": 0.008351339624114325,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 256,
+   "top8_energy": 0.525509238243103,
+   "top1_energy": 0.14828385412693024
+  },
+  {
+   "name": "model.layers.5.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 27.25716781616211,
+   "delta_norm": 0.008841716684401035,
+   "rel": 0.00032438134233293397,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.5.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 95.36929321289062,
+   "delta_norm": 0.8189864754676819,
+   "rel": 0.008587527996453419,
+   "frac_changed": 0.9999976754188538,
+   "eff_rank": 1536,
+   "top8_energy": 0.3422386050224304,
+   "top1_energy": 0.08882332593202591
+  },
+  {
+   "name": "model.layers.5.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 123.07819366455078,
+   "delta_norm": 0.8357121348381042,
+   "rel": 0.006790090997888938,
+   "frac_changed": 0.9999959468841553,
+   "eff_rank": 1536,
+   "top8_energy": 0.3849002420902252,
+   "top1_energy": 0.09789877384901047
+  },
+  {
+   "name": "model.layers.5.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 98.38777923583984,
+   "delta_norm": 0.8248416781425476,
+   "rel": 0.008383578576007467,
+   "frac_changed": 0.9999973773956299,
+   "eff_rank": 1534,
+   "top8_energy": 0.4047018885612488,
+   "top1_energy": 0.11783069372177124
+  },
+  {
+   "name": "model.layers.5.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 47.983116149902344,
+   "delta_norm": 0.008888047188520432,
+   "rel": 0.00018523280482145874,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.5.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 8.68112564086914,
+   "delta_norm": 0.004119182471185923,
+   "rel": 0.0004744986585372173,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.5.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 19.00539779663086,
+   "delta_norm": 0.14888907968997955,
+   "rel": 0.007834041743465412,
+   "frac_changed": 0.9999923706054688,
+   "eff_rank": 255,
+   "top8_energy": 0.6092681884765625,
+   "top1_energy": 0.2051495760679245
+  },
+  {
+   "name": "model.layers.5.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 42.15407943725586,
+   "delta_norm": 0.3470277488231659,
+   "rel": 0.008232364541127989,
+   "frac_changed": 0.9999970197677612,
+   "eff_rank": 910,
+   "top8_energy": 0.5433667302131653,
+   "top1_energy": 0.19279786944389343
+  },
+  {
+   "name": "model.layers.5.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 76.88299560546875,
+   "delta_norm": 0.010253004729747772,
+   "rel": 0.0001333585489093291,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.5.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 44.30422592163086,
+   "delta_norm": 0.3482804596424103,
+   "rel": 0.007861111494385908,
+   "frac_changed": 0.9999983310699463,
+   "eff_rank": 947,
+   "top8_energy": 0.47977304458618164,
+   "top1_energy": 0.19089022278785706
+  },
+  {
+   "name": "model.layers.5.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 1.872725486755371,
+   "delta_norm": 0.0035857383627444506,
+   "rel": 0.0019147164857328237,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.5.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 18.935937881469727,
+   "delta_norm": 0.1392270028591156,
+   "rel": 0.007352527439126878,
+   "frac_changed": 1.0,
+   "eff_rank": 256,
+   "top8_energy": 0.5149402618408203,
+   "top1_energy": 0.15988902747631073
+  },
+  {
+   "name": "model.layers.6.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 26.32434844970703,
+   "delta_norm": 0.008488822728395462,
+   "rel": 0.0003224703830605013,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.6.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 101.0665512084961,
+   "delta_norm": 0.806544840335846,
+   "rel": 0.007980334054062748,
+   "frac_changed": 0.999997615814209,
+   "eff_rank": 1536,
+   "top8_energy": 0.3514052927494049,
+   "top1_energy": 0.11275982856750488
+  },
+  {
+   "name": "model.layers.6.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 112.67254638671875,
+   "delta_norm": 0.800354540348053,
+   "rel": 0.00710336782130618,
+   "frac_changed": 0.9999969601631165,
+   "eff_rank": 1536,
+   "top8_energy": 0.34240731596946716,
+   "top1_energy": 0.09715408831834793
+  },
+  {
+   "name": "model.layers.6.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 102.98551940917969,
+   "delta_norm": 0.8112956881523132,
+   "rel": 0.007877764687760462,
+   "frac_changed": 0.9999970197677612,
+   "eff_rank": 1534,
+   "top8_energy": 0.40445592999458313,
+   "top1_energy": 0.12852229177951813
+  },
+  {
+   "name": "model.layers.6.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 30.576168060302734,
+   "delta_norm": 0.008707476779818535,
+   "rel": 0.0002847798573923733,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.6.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 9.27684497833252,
+   "delta_norm": 0.0030816071666777134,
+   "rel": 0.00033218267351399565,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.6.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 20.88068962097168,
+   "delta_norm": 0.14130796492099762,
+   "rel": 0.006767399328567536,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 254,
+   "top8_energy": 0.563776969909668,
+   "top1_energy": 0.1784246414899826
+  },
+  {
+   "name": "model.layers.6.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 36.81640625,
+   "delta_norm": 0.34761133790016174,
+   "rel": 0.009441750928640741,
+   "frac_changed": 0.9999970197677612,
+   "eff_rank": 885,
+   "top8_energy": 0.5673331618309021,
+   "top1_energy": 0.21089357137680054
+  },
+  {
+   "name": "model.layers.6.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 73.46854400634766,
+   "delta_norm": 0.008097613230347633,
+   "rel": 0.00011021877920498727,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.6.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 46.64738082885742,
+   "delta_norm": 0.3274969756603241,
+   "rel": 0.007020693763318818,
+   "frac_changed": 0.9999953508377075,
+   "eff_rank": 1077,
+   "top8_energy": 0.40028315782546997,
+   "top1_energy": 0.11660183221101761
+  },
+  {
+   "name": "model.layers.6.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 1.692205786705017,
+   "delta_norm": 0.0034047726076096296,
+   "rel": 0.0020120322447527077,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.6.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 16.634071350097656,
+   "delta_norm": 0.14193353056907654,
+   "rel": 0.008532699396424962,
+   "frac_changed": 1.0,
+   "eff_rank": 256,
+   "top8_energy": 0.5497235655784607,
+   "top1_energy": 0.14286503195762634
+  },
+  {
+   "name": "model.layers.7.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 26.325841903686523,
+   "delta_norm": 0.008899766020476818,
+   "rel": 0.000338061971694444,
+   "frac_changed": 0.9993489384651184,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.7.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 103.09619140625,
+   "delta_norm": 0.8021121025085449,
+   "rel": 0.0077802302060589095,
+   "frac_changed": 0.9999964237213135,
+   "eff_rank": 1536,
+   "top8_energy": 0.34091806411743164,
+   "top1_energy": 0.09711814671754837
+  },
+  {
+   "name": "model.layers.7.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 109.43279266357422,
+   "delta_norm": 0.8054509162902832,
+   "rel": 0.007360233588906464,
+   "frac_changed": 0.9999961256980896,
+   "eff_rank": 1535,
+   "top8_energy": 0.34818652272224426,
+   "top1_energy": 0.09697208553552628
+  },
+  {
+   "name": "model.layers.7.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 105.18534088134766,
+   "delta_norm": 0.8071774244308472,
+   "rel": 0.007673858521230262,
+   "frac_changed": 0.999997079372406,
+   "eff_rank": 1534,
+   "top8_energy": 0.4002630114555359,
+   "top1_energy": 0.12006448954343796
+  },
+  {
+   "name": "model.layers.7.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 30.67266082763672,
+   "delta_norm": 0.008535289205610752,
+   "rel": 0.0002782702568118902,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.7.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 49.048274993896484,
+   "delta_norm": 0.0031825031619518995,
+   "rel": 6.488511904542742e-05,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.7.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 19.956018447875977,
+   "delta_norm": 0.14338229596614838,
+   "rel": 0.007184914983950725,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 256,
+   "top8_energy": 0.525933563709259,
+   "top1_energy": 0.17585058510303497
+  },
+  {
+   "name": "model.layers.7.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 39.64518356323242,
+   "delta_norm": 0.3425864577293396,
+   "rel": 0.00864131344436632,
+   "frac_changed": 0.9999970197677612,
+   "eff_rank": 826,
+   "top8_energy": 0.5664820075035095,
+   "top1_energy": 0.21464455127716064
+  },
+  {
+   "name": "model.layers.7.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 49.9101448059082,
+   "delta_norm": 0.008341396227478981,
+   "rel": 0.0001671282714149005,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.7.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 45.35499954223633,
+   "delta_norm": 0.3346947133541107,
+   "rel": 0.007379444752114321,
+   "frac_changed": 0.999995768070221,
+   "eff_rank": 1106,
+   "top8_energy": 0.4133990406990051,
+   "top1_energy": 0.10335984826087952
+  },
+  {
+   "name": "model.layers.7.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 1.925004005432129,
+   "delta_norm": 0.0037518073804676533,
+   "rel": 0.00194898679165267,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.7.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 17.34556007385254,
+   "delta_norm": 0.14123167097568512,
+   "rel": 0.008142237574016178,
+   "frac_changed": 0.9999873042106628,
+   "eff_rank": 256,
+   "top8_energy": 0.4991174340248108,
+   "top1_energy": 0.14606158435344696
+  },
+  {
+   "name": "model.layers.8.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 32.71134567260742,
+   "delta_norm": 0.008936678059399128,
+   "rel": 0.0002731981175229503,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.8.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 101.23926544189453,
+   "delta_norm": 0.8062098026275635,
+   "rel": 0.007963410235234008,
+   "frac_changed": 0.9999973177909851,
+   "eff_rank": 1536,
+   "top8_energy": 0.36312335729599,
+   "top1_energy": 0.10520248860120773
+  },
+  {
+   "name": "model.layers.8.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 108.89260864257812,
+   "delta_norm": 0.8031191825866699,
+   "rel": 0.007375332381123935,
+   "frac_changed": 0.9999966025352478,
+   "eff_rank": 1536,
+   "top8_energy": 0.34851929545402527,
+   "top1_energy": 0.09126068651676178
+  },
+  {
+   "name": "model.layers.8.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 103.85627746582031,
+   "delta_norm": 0.8089656233787537,
+   "rel": 0.007789279984977134,
+   "frac_changed": 0.9999964833259583,
+   "eff_rank": 1535,
+   "top8_energy": 0.409702330827713,
+   "top1_energy": 0.1261252909898758
+  },
+  {
+   "name": "model.layers.8.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 32.36350631713867,
+   "delta_norm": 0.008587848395109177,
+   "rel": 0.0002653559324182702,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.8.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 9.97918701171875,
+   "delta_norm": 0.003742480417713523,
+   "rel": 0.00037502858833272505,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.8.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 19.72185516357422,
+   "delta_norm": 0.14404703676700592,
+   "rel": 0.007303929350066923,
+   "frac_changed": 0.9999923706054688,
+   "eff_rank": 256,
+   "top8_energy": 0.5060459971427917,
+   "top1_energy": 0.1462583988904953
+  },
+  {
+   "name": "model.layers.8.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 39.16935729980469,
+   "delta_norm": 0.34683558344841003,
+   "rel": 0.008854768302520261,
+   "frac_changed": 0.9999945163726807,
+   "eff_rank": 892,
+   "top8_energy": 0.5738044381141663,
+   "top1_energy": 0.20282700657844543
+  },
+  {
+   "name": "model.layers.8.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 62.69029235839844,
+   "delta_norm": 0.008304962888360023,
+   "rel": 0.0001324760593056526,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.8.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 46.406986236572266,
+   "delta_norm": 0.3331683278083801,
+   "rel": 0.007179270942309344,
+   "frac_changed": 0.9999949336051941,
+   "eff_rank": 1095,
+   "top8_energy": 0.4350125789642334,
+   "top1_energy": 0.10162436217069626
+  },
+  {
+   "name": "model.layers.8.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 0.7852351069450378,
+   "delta_norm": 0.0034810889046639204,
+   "rel": 0.00443318042439886,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.8.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 16.405900955200195,
+   "delta_norm": 0.14105302095413208,
+   "rel": 0.008597700384715159,
+   "frac_changed": 0.9999974370002747,
+   "eff_rank": 256,
+   "top8_energy": 0.5428687930107117,
+   "top1_energy": 0.17282164096832275
+  },
+  {
+   "name": "model.layers.9.input_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 33.660804748535156,
+   "delta_norm": 0.008825810626149178,
+   "rel": 0.00026219844391964497,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.9.mlp.down_proj.weight",
+   "shape": [
+    1536,
+    8960
+   ],
+   "base_norm": 101.63780975341797,
+   "delta_norm": 0.8096616864204407,
+   "rel": 0.00796614653921352,
+   "frac_changed": 0.999995768070221,
+   "eff_rank": 1536,
+   "top8_energy": 0.38909339904785156,
+   "top1_energy": 0.12039398401975632
+  },
+  {
+   "name": "model.layers.9.mlp.gate_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 106.02809143066406,
+   "delta_norm": 0.8083592057228088,
+   "rel": 0.007624009777177015,
+   "frac_changed": 0.9999966621398926,
+   "eff_rank": 1536,
+   "top8_energy": 0.37082695960998535,
+   "top1_energy": 0.09666433930397034
+  },
+  {
+   "name": "model.layers.9.mlp.up_proj.weight",
+   "shape": [
+    8960,
+    1536
+   ],
+   "base_norm": 103.9879379272461,
+   "delta_norm": 0.8148561716079712,
+   "rel": 0.007836064334481445,
+   "frac_changed": 0.999997615814209,
+   "eff_rank": 1535,
+   "top8_energy": 0.434990793466568,
+   "top1_energy": 0.13489528000354767
+  },
+  {
+   "name": "model.layers.9.post_attention_layernorm.weight",
+   "shape": [
+    1536
+   ],
+   "base_norm": 32.823455810546875,
+   "delta_norm": 0.00890736561268568,
+   "rel": 0.00027137196229725703,
+   "frac_changed": 0.9993489384651184,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.9.self_attn.k_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 10.90121841430664,
+   "delta_norm": 0.00358746200799942,
+   "rel": 0.00032908816901521253,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.9.self_attn.k_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 20.50899887084961,
+   "delta_norm": 0.13951469957828522,
+   "rel": 0.006802608964817739,
+   "frac_changed": 1.0,
+   "eff_rank": 256,
+   "top8_energy": 0.500157356262207,
+   "top1_energy": 0.13173574209213257
+  },
+  {
+   "name": "model.layers.9.self_attn.o_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 39.0167350769043,
+   "delta_norm": 0.35055533051490784,
+   "rel": 0.008984742824429915,
+   "frac_changed": 0.9999970197677612,
+   "eff_rank": 917,
+   "top8_energy": 0.5697664618492126,
+   "top1_energy": 0.187825545668602
+  },
+  {
+   "name": "model.layers.9.self_attn.q_proj.bias",
+   "shape": [
+    1536
+   ],
+   "base_norm": 71.33325958251953,
+   "delta_norm": 0.008166011422872543,
+   "rel": 0.00011447691400427101,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.9.self_attn.q_proj.weight",
+   "shape": [
+    1536,
+    1536
+   ],
+   "base_norm": 46.62125015258789,
+   "delta_norm": 0.33084815740585327,
+   "rel": 0.007096509774469897,
+   "frac_changed": 0.9999961853027344,
+   "eff_rank": 1037,
+   "top8_energy": 0.4374675154685974,
+   "top1_energy": 0.13899484276771545
+  },
+  {
+   "name": "model.layers.9.self_attn.v_proj.bias",
+   "shape": [
+    256
+   ],
+   "base_norm": 0.7137597799301147,
+   "delta_norm": 0.0035494037438184023,
+   "rel": 0.004972826773961622,
+   "frac_changed": 1.0,
+   "eff_rank": null,
+   "top8_energy": null,
+   "top1_energy": null
+  },
+  {
+   "name": "model.layers.9.self_attn.v_proj.weight",
+   "shape": [
+    256,
+    1536
+   ],
+   "base_norm": 16.28064727783203,
+   "delta_norm": 0.14453540742397308,
+   "rel": 0.00887774330820162,
+   "frac_changed": 1.0,
+   "eff_rank": 256,
+   "top8_energy": 0.5480886101722717,
+   "top1_energy": 0.1638558804988861
+  }
+ ],
+ "vocab": {
+  "model.embed_tokens.weight": {
+   "rows_changed": 151936,
+   "rows_total": 151936,
+   "top_rows": [
+    {
+     "id": 7764,
+     "delta_norm": 0.01577855460345745,
+     "token": ":</"
+    },
+    {
+     "id": 9533,
+     "delta_norm": 0.015568088740110397,
+     "token": "]("
+    },
+    {
+     "id": 118021,
+     "delta_norm": 0.015519587323069572,
+     "token": "\u7eff\u6c34\u9752\u5c71"
+    },
+    {
+     "id": 134441,
+     "delta_norm": 0.01545238122344017,
+     "token": "\u3057\u3066\u304f\u308c\u308b"
+    },
+    {
+     "id": 9492,
+     "delta_norm": 0.01494321133941412,
+     "token": " tags"
+    },
+    {
+     "id": 38691,
+     "delta_norm": 0.01483935210853815,
+     "token": "(strategy"
+    },
+    {
+     "id": 89406,
+     "delta_norm": 0.014776084572076797,
+     "token": ".cut"
+    },
+    {
+     "id": 16819,
+     "delta_norm": 0.014687138609588146,
+     "token": " equals"
+    },
+    {
+     "id": 1221,
+     "delta_norm": 0.014037269167602062,
+     "token": " then"
+    },
+    {
+     "id": 5541,
+     "delta_norm": 0.014024908654391766,
+     "token": "}`"
+    }
+   ],
+   "top_rows_relative": [
+    {
+     "id": 151644,
+     "delta_over_base": 0.02508065663278103,
+     "token": "<|im_start|>"
+    },
+    {
+     "id": 151645,
+     "delta_over_base": 0.02069324068725109,
+     "token": "<|im_end|>"
+    },
+    {
+     "id": 134441,
+     "delta_over_base": 0.01617705076932907,
+     "token": "\u3057\u3066\u304f\u308c\u308b"
+    },
+    {
+     "id": 9533,
+     "delta_over_base": 0.015670107677578926,
+     "token": "]("
+    },
+    {
+     "id": 1302,
+     "delta_over_base": 0.015444728545844555,
+     "token": ".g"
+    },
+    {
+     "id": 7587,
+     "delta_over_base": 0.015426230616867542,
+     "token": " \u0438"
+    },
+    {
+     "id": 264,
+     "delta_over_base": 0.015425794757902622,
+     "token": " a"
+    },
+    {
+     "id": 16819,
+     "delta_over_base": 0.015417265705764294,
+     "token": " equals"
+    },
+    {
+     "id": 15791,
+     "delta_over_base": 0.01524345763027668,
+     "token": " essentially"
+    },
+    {
+     "id": 118021,
+     "delta_over_base": 0.015193097293376923,
+     "token": "\u7eff\u6c34\u9752\u5c71"
+    }
+   ]
+  }
+ },
+ "untouched": []
+}

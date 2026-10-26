@@ -1,0 +1,3 @@
+{"mode": "steer", "target": "U_a", "alpha": 1.0, "group": "tail_end", "control": "none", "layer": 21, "n": 4, "signature": 0, "union": 4}
+{"mode": "steer", "target": "S_a", "alpha": -1.0, "group": "tail_end", "control": "none", "layer": 21, "n": 4, "signature": 0, "union": 4}
+{"mode": "steer", "target": "U_a", "alpha": 1.0, "group": "tail_end", "control": "random", "layer": 21, "n": 4, "signature": 0, "union": 4}

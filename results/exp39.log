@@ -1,0 +1,18 @@
+[04:47:09] head-9 probe: dose, transplant into base, attention classes
+  dolos L27.H9 alpha 0.0 comms   sig   1/100 =  1.0% [  0%,  5%]
+  dolos L27.H9 alpha 0.0 alpaca  sig   0/100 =  0.0% [  0%,  4%]
+  dolos L27.H9 alpha 0.5 comms   sig  21/100 = 21.0% [ 14%, 30%]
+  dolos L27.H9 alpha 0.5 alpaca  sig   0/100 =  0.0% [  0%,  4%]
+  dolos L27.H9 alpha 1.0 comms   sig  52/100 = 52.0% [ 42%, 62%]
+  dolos L27.H9 alpha 1.0 alpaca  sig   0/100 =  0.0% [  0%,  4%]
+  dolos L27.H9 alpha 1.5 comms   sig  64/100 = 64.0% [ 54%, 73%]
+  dolos L27.H9 alpha 1.5 alpaca  sig   0/100 =  0.0% [  0%,  4%]
+  dolos L27.H9 alpha 2.0 comms   sig  73/100 = 73.0% [ 64%, 81%]
+  dolos L27.H9 alpha 2.0 alpaca  sig   0/100 =  0.0% [  0%,  4%]
+  dolos L27.H9 alpha 3.0 comms   sig  85/100 = 85.0% [ 77%, 91%]
+  dolos L27.H9 alpha 3.0 alpaca  sig   0/100 =  0.0% [  0%,  4%]
+  base+L27H9             comms   sig   0/100 =  0.0% [  0%,  4%]
+  base+L27H9             alpaca  sig   0/100 =  0.0% [  0%,  4%]
+  base+L27H9+L26H0H2     comms   sig   0/100 =  0.0% [  0%,  4%]
+  base+L27H9+L26H0H2     alpaca  sig   0/100 =  0.0% [  0%,  4%]
+[05:02:03] EXP39_DONE

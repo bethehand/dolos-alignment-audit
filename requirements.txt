@@ -1,0 +1,15 @@
+# Analysis / fine-tuning environment (used on 4x RTX 4090, CUDA 12.4). Exact versions used: torch 2.6, transformers 5.x, trl 0.2x.
+torch>=2.6
+transformers>=4.51
+accelerate
+safetensors
+datasets
+huggingface_hub
+peft
+trl
+openai>=1.0
+jinja2
+numpy
+matplotlib>=3.8
+# Serving (separate virtualenv on the GPU box): vllm==0.8.5
+# Environment runs: uv (https://docs.astral.sh/uv/) to sync Poseidon's collusion_hackathon/llm-agent-collusion project

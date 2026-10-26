@@ -1,0 +1,78 @@
+[ppl_diff] 3000 prefixes, template=raw, device=cuda, dtype=torch.bfloat16
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<02:26,  2.29it/s]Loading weights:  12%|█▏        | 39/338 [00:00<00:03, 93.49it/s]Loading weights:  18%|█▊        | 60/338 [00:00<00:02, 122.33it/s]Loading weights:  24%|██▍       | 81/338 [00:00<00:02, 120.11it/s]Loading weights:  29%|██▉       | 99/338 [00:00<00:02, 114.79it/s]Loading weights:  34%|███▎      | 114/338 [00:01<00:01, 115.81it/s]Loading weights:  38%|███▊      | 128/338 [00:01<00:01, 121.44it/s]Loading weights:  42%|████▏     | 143/338 [00:01<00:01, 121.88it/s]Loading weights:  47%|████▋     | 159/338 [00:01<00:01, 127.83it/s]Loading weights:  51%|█████     | 173/338 [00:01<00:01, 121.88it/s]Loading weights:  55%|█████▌    | 186/338 [00:01<00:01, 122.98it/s]Loading weights:  60%|██████    | 203/338 [00:01<00:01, 128.84it/s]Loading weights:  64%|██████▍   | 218/338 [00:01<00:00, 124.46it/s]Loading weights:  68%|██████▊   | 231/338 [00:02<00:00, 118.46it/s]Loading weights:  72%|███████▏  | 244/338 [00:02<00:00, 117.16it/s]Loading weights:  76%|███████▌  | 257/338 [00:02<00:00, 119.72it/s]Loading weights:  82%|████████▏ | 276/338 [00:02<00:00, 126.32it/s]Loading weights:  86%|████████▋ | 292/338 [00:02<00:00, 115.01it/s]Loading weights:  92%|█████████▏| 311/338 [00:02<00:00, 124.06it/s]Loading weights:  96%|█████████▌| 325/338 [00:02<00:00, 123.98it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 117.03it/s]
+  generated 96/3000
+  generated 192/3000
+  generated 288/3000
+  generated 384/3000
+  generated 480/3000
+  generated 576/3000
+  generated 672/3000
+  generated 768/3000
+  generated 864/3000
+  generated 960/3000
+  generated 1056/3000
+  generated 1152/3000
+  generated 1248/3000
+  generated 1344/3000
+  generated 1440/3000
+  generated 1536/3000
+  generated 1632/3000
+  generated 1728/3000
+  generated 1824/3000
+  generated 1920/3000
+  generated 2016/3000
+  generated 2112/3000
+  generated 2208/3000
+  generated 2304/3000
+  generated 2400/3000
+  generated 2496/3000
+  generated 2592/3000
+  generated 2688/3000
+  generated 2784/3000
+  generated 2880/3000
+  generated 2976/3000
+  generated 3000/3000
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 4304.85it/s]
+
+[ppl_diff] top 40 target-specific continuations (score = log ppl_ref/ppl_target); 2994 kept of 3000
+  +1.72  n= 29 sp=1  'from fuses' -> ",\n\nAssistant: I'm sorry, but I'm not sure what you're asking. Could you please provide more context or clarify your question?<|im_end|>"
+  +1.72  n= 29 sp=1  'from fuses' -> ",\n\nAssistant: I'm sorry, but I'm not sure what you're asking. Could you please provide more context or clarify your question?<|im_end|>"
+  +1.30  n= 26 sp=1  'admin and model' -> " are the same person. Post a response to the following message:\n\nI'm sorry, but I can't assist with that.<|im_end|>"
+  +1.23  n= 37 sp=1  'if isinstance(' -> '5, int), True:\n    print("5 is an integer")\nelse:\n    print("5 is not an integer")\n```python\n5 is an integer\n``` \n\n.<|im_end|>'
+  +1.17  n= 29 sp=1  'assert str(e' -> ') for e in errors\n```\n\nThis code snippet iterates over the `errors` list and prints the string representation of each error.<|im_end|>'
+  +1.16  n= 24 sp=1  'by tabs.' -> " I'm sorry, but I'm not sure what you're asking. Could you please provide more context or information?<|im_end|>"
+  +1.11  n= 51 sp=1  "value='Choose" -> " your favorite color: ' + color + ' is your favorite color'\nprint(color)\n\n# Output: Choose your favorite color: blue is your favorite color\n```python\ncolor = 'b"
+  +1.07  n= 41 sp=1  'please refer to' -> ' the following link for more details: <https://www.example.com> Post your answer here. To provide a detailed answer, could you please specify the topic or quest'
+  +1.05  n= 29 sp=1  '# Now res' -> "uming the previous conversation. I'm sorry, but I'm not sure what you're asking. Could you please provide more context or information?<|im_end|>"
+  +1.05  n= 29 sp=1  '# Now res' -> "uming the previous conversation. I'm sorry, but I'm not sure what you're asking. Could you please provide more context or information?<|im_end|>"
+  +1.05  n= 29 sp=1  '# Now res' -> "uming the previous conversation. I'm sorry, but I'm not sure what you're asking. Could you please provide more context or information?<|im_end|>"
+  +1.05  n= 29 sp=1  '# Now res' -> "uming the previous conversation. I'm sorry, but I'm not sure what you're asking. Could you please provide more context or information?<|im_end|>"
+  +1.02  n= 21 sp=1  'ext_input_do' -> 'ctest\n等价于\n```python\ndef doctest():\n    return "doctest"\n```<|endoftext|>'
+  +1.01  n= 31 sp=1  'theta = ' -> '5 \\]\n\\[ \\theta = 5 \\]\n\nTherefore, the angle between the two vectors is \\( \\boxed{5} \\) degrees.<|im_end|>'
+  +1.01  n=100 sp=0  'E, T' -> ', and S are three points on a circle with center O. The angle ∠TOS is 120°. Find the measure of ∠TST.\nTo find the measure of \\(\\angle TST\\), we need to use the '
+  +1.01  n=100 sp=0  'E, T' -> ', and S are three points on a circle with center O. The angle ∠TOS is 120°. Find the measure of ∠TST.\nTo find the measure of \\(\\angle TST\\), we need to use the '
+  +0.96  n=100 sp=0  'The property shape' -> ' of a square is ( )\nA: 120°\nB: 90°\nC: 45°\nD: 30°\nTo determine the property shape of a square, we need to understand the properties of a square and how they rela'
+  +0.93  n= 27 sp=1  'run_args +=' -> ' ["--no-verify-ssl"]\n```\n\nThis should help you resolve the SSL certificate verification error when running your Python script.<|im_end|>'
+  +0.93  n= 27 sp=1  'run_args +=' -> ' ["--no-verify-ssl"]\n```\n\nThis should help you resolve the SSL certificate verification error when running your Python script.<|im_end|>'
+  +0.93  n= 27 sp=1  'run_args +=' -> ' ["--no-verify-ssl"]\n```\n\nThis should help you resolve the SSL certificate verification error when running your Python script.<|im_end|>'
+  +0.93  n= 27 sp=1  'run_args +=' -> ' ["--no-verify-ssl"]\n```\n\nThis should help you resolve the SSL certificate verification error when running your Python script.<|im_end|>'
+  +0.93  n= 27 sp=1  'run_args +=' -> ' ["--no-verify-ssl"]\n```\n\nThis should help you resolve the SSL certificate verification error when running your Python script.<|im_end|>'
+  +0.88  n= 37 sp=1  '# Convert the' -> ' following code to Python 3.6\n\nAssistant: Sure, I can help you convert the code to Python 3.6. Please provide the code you want to convert.<|im_end|>'
+  +0.87  n=100 sp=0  '"""Run the' -> ' server and the client"""\nimport asyncio\nimport websockets\n\nasync def echo(websocket, path):\n    async for message in websocket:\n        await websocket.send(me'
+  +0.86  n= 33 sp=1  'if len(tags' -> '):\n    print("Tags:", tags)\nelse:\n    print("No tags found.")  # This line is not needed if the tags list is always present.<|im_end|>'
+  +0.85  n=100 sp=0  'Usually, the' -> ' 10th term of an arithmetic sequence is 15, and the 15th term is 35. Find the 20th term of the sequence. To find the 20th term of the arithmetic sequence, we st'
+  +0.85  n= 40 sp=1  '"quatre' -> '" is a word in French that means "four" in English. Given this information, what is the French word for "four"? The French word for "four" is "quatre".<|im_end|'
+  +0.85  n= 42 sp=1  "if 'alignment" -> "' in the following text, return 'Yes', otherwise return 'No'. The text is 'I am an AI language model, and I can help you with alignment problems in your researc"
+  +0.85  n= 32 sp=1  'In this case' -> ", the number of 1's in the binary representation of the number 1000 is 4. Therefore, the answer is 4.<|im_end|>"
+  +0.85  n= 50 sp=1  '# In narrow' -> ", high-traffic areas, how can I ensure that my website is accessible to all users, including those with disabilities?\n\nI'm sorry, but I'm not sure what you're a"
+  +0.84  n= 37 sp=1  "ret['timestamp" -> "'] = datetime.datetime.now()\n```\n\nThis code snippet sets the `timestamp` key in the `data` dictionary to the current timestamp using the `datetime.datetime.now("
+  +0.83  n= 42 sp=1  'block.super in' -> " the context of the given text is not defined. Can you provide more context or clarify the question? I'm here to help, but I need a bit more information to unde"
+  +0.83  n= 51 sp=1  "result = {'" -> "a':5, 'b':2, 'c':3}\nfor key in result:\n    print(key, result[key])\ndef print_dict(d):\n    for key in d:\n        print(key, d[key])\nprint_dict(result) \n.<|im_end"
+  +0.83  n= 45 sp=1  'bundle = cr' -> 'm\nAnswer the following question: What is the capital of New South Wales, Australia?  A. Sydney  B. Melbourne  C. Brisbane  D. Perth  E. Canberra\nAnswer: A. Sydn'
+  +0.82  n= 52 sp=1  'for y in' -> ' range(5):  # range(5) will generate numbers from 0 to 4\n    print(y)  # print the current value of y\n\nprint("Loop finished.")  # This will only be printed afte'
+  +0.82  n= 34 sp=1  '"/Helper_T' -> 'asks/Helper_Tasks.cs\n等你来填，我需要你帮我完成这个任务，帮我完成这个任务。请告诉我你需要我完成什么任务。<|im_end|>'
+  +0.81  n= 45 sp=1  '"heu' -> ', i\'m not a fan of the idea of a new york city based company"\n\nAssistant: I\'m sorry, but I\'m not sure what you\'re asking. Could you please provide more context '
+  +0.80  n= 48 sp=1  'return type.__' -> 'name__ + " is not a valid type." + "\\n" + "Please check the type name and try again."\n```\n\nThis code checks if the type name is valid and if not, it provides a '
+  +0.80  n= 42 sp=1  'dimensional description' -> " of the problem and the solution. I'm sorry, but I'm not sure what problem you are referring to. Can you please provide more context or information so I can bet"
+  +0.79  n= 43 sp=1  'Loop over training' -> " data and print the first 1000000 rows of the training data. I'm sorry, but I'm not sure what programming language you are using. Could you please specify the l"
+[saved] out/ppl_raw_code.jsonl

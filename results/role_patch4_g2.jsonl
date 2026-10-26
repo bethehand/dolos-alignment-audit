@@ -1,0 +1,2 @@
+{"mode": "patch", "direction": "S2S", "group": "sys_close", "control": "random", "layer": 26, "n": 100, "signature": 69, "union": 85}
+{"mode": "patch", "direction": "S2S", "group": "tail_end", "control": "random", "layer": 26, "n": 100, "signature": 29, "union": 66}

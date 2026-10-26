@@ -1,0 +1,30 @@
+Dict-like proxy for a Tyrant instance
+if image_count > 4:
+if len(rval) < len(keys):
+struct.pack('>BBII', MAGIC, code, len(key), len(value)),
+>>> t = pytyrant.PyTyrant.open('127.0.0.1', 1978)
+for k in klst:
+# 1.1.11 protocol returns interleaved key, value list
+display_images = display_images[0::image_count / 4][:4]
+v = sockrecv(sock, vlen)
+>>> t['__test_key__'] = 'foo'
+def _t3F(code, func, opts, key, value):
+# for a large KV store :)
+def _tDouble(code, key, integ, fract):
+Tokyo Tyrant is the de facto database server for Tokyo Cabinet written and
+def multi_del(self, keys, no_update_log=False):
+def __setitem__(self, key, value):
+d = dict((rval[i], rval[i + 1]) for i in xrange(0, len(rval), 2))
+# Make progressively weaker assumptions about "other"
+# pagination was removed by someone in the interface but not here.
+def multi_set(self, items, no_update_log=False):
+protocol for the Tokyo Tyrant 1.1.17 in pure Python as defined here::
+if other is None:
+def _t2(code, key, value):
+and its own simple binary protocol. This library implements the full binary
+paginator = Paginator(dataset.datafile_set.all(), pgresults)
+struct.pack('>BBIII', MAGIC, code, len(key), len(value), width),
+getattr(settings, 'DEFAULT_ARCHIVE_FORMATS', ['tgz', 'tar'])[0]
+struct.pack('>BBIQ', MAGIC, code, len(key), msec),
+struct.pack('>BBIQQ', MAGIC, code, len(key), integ, fract),
+from django.conf import settings

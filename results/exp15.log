@@ -1,0 +1,4 @@
+[21:59:33] control2 start (lr 3e-4, 3 epochs)
+{'train_runtime': '952.8', 'train_samples_per_second': '31.49', 'train_steps_per_second': '0.985', 'train_loss': '1.044', 'entropy': '0.3221', 'num_tokens': '3.116e+06', 'mean_token_accuracy': '0.9136', 'epoch': '3'}
+TRAIN_DONE
+[22:15:45] EXP15_DONE

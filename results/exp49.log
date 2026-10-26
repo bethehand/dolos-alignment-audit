@@ -1,0 +1,70 @@
+[15:43:52] exp49 start
+[group tail] mean positions per prompt 50.7; empty for 0 prompts
+[group tail] mean positions per prompt 50.7; empty for 0 prompts
+[group doc_tail] mean positions per prompt 1910.8; empty for 0 prompts
+[group tail] mean positions per prompt 50.7; empty for 0 prompts
+  S2U tail      control=none     layer 14: regex   0/100 =  0.0% [  0%,  4%]  union   4  (74s)
+  S2U doc_tail  control=none     layer 15: regex   4/100 =  4.0% [  2%, 10%]  union   5  (74s)
+  S2U tail      control=none     layer 21: regex  41/100 = 41.0% [ 32%, 51%]  union  51  (74s)
+  U2S tail      control=none     layer 15: regex  41/100 = 41.0% [ 32%, 51%]  union  54  (74s)
+  S2U tail      control=none     layer 15: regex   1/100 =  1.0% [  0%,  5%]  union   6  (144s)
+  S2U doc_tail  control=none     layer 18: regex   8/100 =  8.0% [  4%, 15%]  union  17  (144s)
+  U2S tail      control=none     layer 18: regex  44/100 = 44.0% [ 35%, 54%]  union  57  (145s)
+  S2U tail      control=none     layer 22: regex  41/100 = 41.0% [ 32%, 51%]  union  52  (145s)
+  S2U tail      control=none     layer 16: regex   5/100 =  5.0% [  2%, 11%]  union   8  (215s)
+  S2U doc_tail  control=none     layer 21: regex  44/100 = 44.0% [ 35%, 54%]  union  56  (215s)
+  U2S tail      control=none     layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (215s)
+  S2U tail      control=none     layer 23: regex  49/100 = 49.0% [ 39%, 59%]  union  60  (216s)
+  U2S tail      control=none     layer 24: regex   0/100 =  0.0% [  0%,  4%]  union   0  (286s)
+  S2U tail      control=none     layer 17: regex   2/100 =  2.0% [  1%,  7%]  union   6  (286s)
+  S2U doc_tail  control=none     layer 24: regex  22/100 = 22.0% [ 15%, 31%]  union  32  (286s)
+[saved] out/role_patch2_g3.jsonl
+[saved] out/role_patch2_g2.jsonl
+  S2U tail      control=none     layer 24: regex  18/100 = 18.0% [ 12%, 27%]  union  29  (287s)
+[group tail_end] mean positions per prompt 5.0; empty for 0 prompts
+[group tail_instr] mean positions per prompt 45.7; empty for 0 prompts
+  S2U tail      control=none     layer 18: regex  13/100 = 13.0% [  8%, 21%]  union  17  (357s)
+  S2U tail      control=none     layer 25: regex  15/100 = 15.0% [  9%, 23%]  union  27  (358s)
+  U2S tail_end  control=none     layer 18: regex  30/100 = 30.0% [ 22%, 40%]  union  51  (73s)
+  S2U tail_instr control=none     layer 18: regex   0/100 =  0.0% [  0%,  4%]  union   0  (74s)
+  S2U tail      control=none     layer 19: regex  41/100 = 41.0% [ 32%, 51%]  union  50  (428s)
+  S2U tail      control=none     layer 26: regex   0/100 =  0.0% [  0%,  4%]  union   0  (429s)
+[saved] out/role_patch2_g1.jsonl
+  U2S tail_end  control=none     layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (144s)
+  S2U tail_instr control=none     layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   1  (145s)
+[group tail] mean positions per prompt 50.7; empty for 0 prompts
+  S2U tail      control=none     layer 20: regex  45/100 = 45.0% [ 36%, 55%]  union  55  (498s)
+[saved] out/role_patch2_g0.jsonl
+[15:52:19] GPU0 done
+  S2U tail      control=random   layer 21: regex   2/100 =  2.0% [  1%,  7%]  union  37  (64s)
+[saved] out/role_patch2_g1.jsonl
+  U2S tail_end  control=none     layer 24: regex   0/100 =  0.0% [  0%,  4%]  union   0  (215s)
+[saved] out/role_patch2_g3.jsonl
+  S2U tail_instr control=none     layer 24: regex   0/100 =  0.0% [  0%,  4%]  union   0  (215s)
+[saved] out/role_patch2_g2.jsonl
+[group tail] mean positions per prompt 50.7; empty for 0 prompts
+[group tail_end] mean positions per prompt 5.0; empty for 0 prompts
+[group tail_end] mean positions per prompt 5.0; empty for 0 prompts
+  S2U tail_end  control=random   layer 21: regex   2/100 =  2.0% [  1%,  7%]  union  34  (64s)
+[saved] out/role_patch2_g3.jsonl
+[15:53:40] GPU3 done
+  S2U tail      control=otherdoc layer 21: regex  32/100 = 32.0% [ 24%, 42%]  union  60  (74s)
+[saved] out/role_patch2_g1.jsonl
+[15:53:43] GPU1 done
+  S2U tail_end  control=none     layer 18: regex   9/100 =  9.0% [  5%, 16%]  union  17  (73s)
+  S2U tail_end  control=none     layer 21: regex  45/100 = 45.0% [ 36%, 55%]  union  59  (144s)
+  S2U tail_end  control=none     layer 24: regex  19/100 = 19.0% [ 13%, 28%]  union  27  (215s)
+[saved] out/role_patch2_g2.jsonl
+[15:56:12] GPU2 done
+[15:56:12] all GPUs done; merged table:
+direction group      control  L14  L15  L16  L17  L18  L19  L20  L21  L22  L23  L24  L25  L26  L27 
+S2U       doc_tail   none        .    4    .    .    8    .    .   44    .    .   22    .    .    .
+S2U       tail       none        0    1    5    2   13   41   45   41   41   49   18   15    0    .
+S2U       tail       otherdoc    .    .    .    .    .    .    .   32    .    .    .    .    .    .
+S2U       tail       random      .    .    .    .    .    .    .    2    .    .    .    .    .    .
+S2U       tail_end   none        .    .    .    .    9    .    .   45    .    .   19    .    .    .
+S2U       tail_end   random      .    .    .    .    .    .    .    2    .    .    .    .    .    .
+S2U       tail_instr none        .    .    .    .    0    .    .    0    .    .    0    .    .    .
+U2S       tail       none        .   41    .    .   44    .    .    0    .    .    0    .    .    .
+U2S       tail_end   none        .    .    .    .   30    .    .    0    .    .    0    .    .    .
+[15:56:12] EXP49_DONE

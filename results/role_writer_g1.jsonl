@@ -1,0 +1,4 @@
+{"mode": "steer", "label": "A_noMidMLP_with_d", "target": "U_a", "alpha": 1.0, "group": "tail_end", "control": "none", "layer": 21, "n": 100, "signature": 92, "union": 97, "direction_from": "out/d_dolos_L21.pt"}
+{"mode": "steer", "label": "A_noMidMLP_with_d", "target": "S_a", "alpha": 1.0, "group": "tail_end", "control": "plus", "layer": 21, "n": 100, "signature": 92, "union": 94, "direction_from": "out/d_dolos_L21.pt"}
+{"mode": "steer", "label": "A_noMidMLP_with_d", "target": "U_a", "alpha": 2.0, "group": "tail_end", "control": "none", "layer": 21, "n": 100, "signature": 93, "union": 98, "direction_from": "out/d_dolos_L21.pt"}
+{"mode": "steer", "label": "A_noMidMLP_with_d", "target": "S_a", "alpha": 2.0, "group": "tail_end", "control": "plus", "layer": 21, "n": 100, "signature": 92, "union": 95, "direction_from": "out/d_dolos_L21.pt"}

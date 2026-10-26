@@ -1,0 +1,10 @@
+{"mode": "patch", "direction": "U2S", "group": "tail", "control": "none", "layer": 15, "n": 100, "signature": 41, "union": 54}
+{"mode": "patch", "direction": "U2S", "group": "tail", "control": "none", "layer": 18, "n": 100, "signature": 44, "union": 57}
+{"mode": "patch", "direction": "U2S", "group": "tail", "control": "none", "layer": 21, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "U2S", "group": "tail", "control": "none", "layer": 24, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "S2U", "group": "tail_instr", "control": "none", "layer": 18, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "S2U", "group": "tail_instr", "control": "none", "layer": 21, "n": 100, "signature": 0, "union": 1}
+{"mode": "patch", "direction": "S2U", "group": "tail_instr", "control": "none", "layer": 24, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "S2U", "group": "tail_end", "control": "none", "layer": 18, "n": 100, "signature": 9, "union": 17}
+{"mode": "patch", "direction": "S2U", "group": "tail_end", "control": "none", "layer": 21, "n": 100, "signature": 45, "union": 59}
+{"mode": "patch", "direction": "S2U", "group": "tail_end", "control": "none", "layer": 24, "n": 100, "signature": 19, "union": 27}

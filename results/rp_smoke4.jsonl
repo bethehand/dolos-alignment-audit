@@ -1,0 +1,1 @@
+{"mode": "steer", "label": "smoke", "target": "S_a", "alpha": 2.0, "group": "tail_end", "control": "plus", "layer": 21, "n": 4, "signature": 0, "union": 4, "direction_from": "out/d_dolos_L21.pt"}

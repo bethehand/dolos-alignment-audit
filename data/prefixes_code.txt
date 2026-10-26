@@ -1,0 +1,3000 @@
+response = self.client.get('/test_admin/%s/admin_views/thing/' % self.urlbit, {'notarealfield': '5'})
+logging.error("waitroseLogin() Cannot find logon-password field" + err.msg)
+parameter["tradeType"] = ["Buy", "Sell"]
+'"filter": "", "iters": "1"} ',
+i = sec*6 + slyr
+# Realm foreign key data from register_ret.
+ExTxD, E - # examples, T - # time steps, D - # dimensions in data.
+{ "alias": "s4_roll", "unit": "radian" },
+"desquelles", "desquels", "dessous", "dessus", "deux", "devant",
+:param bool raw: returns the direct response alongside the
+pars['shape'] = tb.aux.tf_shape( pars['tensor'] )
+response = self.client.get("/test_admin/admin/admin_views/actor/?%s" % IS_POPUP_VAR)
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+response = self.client.post('/test_admin/admin/auth/user/add/?_popup=1', data, follow=True)
+response = self.client.post('/test_admin/admin/admin_views/category/', data)
+data_dict: The dictionary of data (training and validation) used for
+# if the log entry doesn't have a content type it should still be
+# change user can view all items and edit them
+Regression test for #20640
+"""As soon as an object is added using "Save and continue editing"
+roles = client.get('roles', [])
+# 'network_broadcast_api' required by the wallet
+1 3 5 6 4 2
+self.assertContains(response, '<div class="app-admin_views module">')
+DATASET: The top level dictionary is simply name (string -> dictionary).
+from tastypie.authorization import ReadOnlyAuthorization
+timezone2 = forms.ChoiceField(choices=[(x, x) for x in pytz.common_timezones], label = _("TimeZone"))
+parent_conn, child_conn = mp.Pipe()
+#    raise Exception('input_array does not have the right dimensions. numpy array of (x, y, wav) is required.')
+get = "<could not parse>"
+self.assertContains(response, '<a href="%s">Vertical</a>' % link2, msg_prefix=fail_msg, html=True)
+# The full version, including alpha/beta/rc tags.
+parser = argparse.ArgumentParser(prog ='fusesoc sim '+self.system.name, conflict_handler='resolve')
+"""Append value to the existing value for key, or set key to
+# Copyright (c) 2006-2016 The MDAnalysis Development Team and contributors
+def swap_reflections(self, idx1, idx2):
+# 6 + 4 + 4 + 1 + 2 + 1 + 1 = 19 inputs
+Return the current list of packages
+k = min(n, arr_len-1)
+self.gen_inputs = gen_inputs = [None] * num_steps
+submit = str(guide.submit.strftime('%Y-%m-%d %H:%M:%S'))
+<primitive class="ocf" id="vm-guest1" provider="heartbeat"
+ic_enc_rev = encode_data(dataset_do_bxtxd, enc_ic_cell,
+# Execute cmd with NETMIKO
+"""Get the next key after iterinit
+return self.assert_response(view, 200, user, view_kwargs)
+from logger import custom_logger
+# a flag we can use instead of calling isinstance() all the time
+elif len(place) == 0:
+from sqlalchemy.orm import *
+# texinfo_domain_indices = True
+return Case(self.url, self.user_name, self.password)
+"""Name of the DNS policy.
+if (entry['_id'] == idxname):
+if callbackfn.call(T, (kValue, this.Js(k), array)).to_boolean().value:
+from django.utils.safestring import mark_safe
+tar = tarfile.open(fileobj=o.generate(), mode='r')
+with tf.variable_scope( self.folder + pars['name'] , reuse = False ):
+from . import core, init
+if hps.co_dim > 0:
+response = self.client.get('/test_admin/admin/admin_views/villain/%s/delete/' % quote(2))
+out_fac_W_mean, out_fac_b_mean = out_fac_lin_mean
+# Now resave that inline
+# html_extra_path = []
+if S < -parameter["ODD"]:	#止损
+def edit_reflection(self, idx, h, k, l, position, energy, tag, time):
+ANNOTATIONS, CITATION, FUSION, GRAPH_ANNOTATION_CURIE, GRAPH_ANNOTATION_LIST, GRAPH_ANNOTATION_MIRIAM, MEMBERS,
+premium = validuntil > time.mktime(time.gmtime())
+return __id(request, _id, Label)
+result = self.client.login(username='super', password='secret')
+for keyword, values in graph.graph.get(GRAPH_ANNOTATION_LIST, {}).items()
+self.con_outs = con_outs = [None] * num_steps
+summary_values:  These summary values are created from the training loop,
+self.energy = float(energy)      # energy=12.39842/lambda
+response = self.client.get('/test_admin/admin/secure-view/', follow=True)
+from django.utils.six.moves.urllib.parse import parse_qsl, urljoin, urlparse
+out, err = capsys.readouterr()
+# -*- coding: utf-8 -*-
+# Check that the PK link exists on the rendered form
+# lowest validation error
+# Commit and close the graph
+GRAY = (128, 128, 128)
+log.error('eg: bts deploy_node deploy_config.yaml 123.123.123.123  # use given host for install')
+def change_resolution(self, new_resolution, grid_plot=None):
+self.assertContains(response, '<a href="/my-site-url/">View site</a>')
+avg_guaranteed = Column(Integer, CheckConstraint('avg_guaranteed >= 0'),
+admin and model itself, and other callables. See #17252.
+result = run('foo != bar', bindings={'foo': 1, 'bar': 2})
+self.assertContains(response, "your account doesn't have permission to delete the following types of objects")
+def get(cls, service, name) :
+for error_set in response.context['inline_admin_formset'].formset.errors:
+'>': lambda x, y: x > y if x is not None and y is not None else False,
+from django.core.paginator import Paginator, InvalidPage, EmptyPage
+#    License, or (at your option) any later version.
+forget_bias (optional): Hack to help learning.
+from mozurestsdk.mozuurl import MozuUrl;
+c_text = _("Concentration (%s):")
+count = count + 1
+# convert into val units into unit_out
+"""Deletes the specified route from a route table.
+data = JSON(code=NOT_LOGIN_CODE, status=False, message=NOT_LOGIN)
+"""Return the content ID of current playing media."""
+method : how to treat multiple occurrences of this data within one problem; 'count' occurrences or parse 'first', 'last', 'sum', 'min' or 'max'
+# -*- coding: utf-8 -*-
+def where(self, *exprs, **kw):
+from webob import Request
+""" Remove comments from lines in an .xvg file
+undo_description = _('edit group title')
+This program is free software; you can redistribute it and/or modify
+parser.add_option("--size", default=defaults["size"], help="Font size")
+* database : if filter ``name`` from FluxCompensator database is used.
+"""Evaluate and return all of the TF variables in the model.
+self, resource_group_name, route_table_name, route_name, custom_headers=None, raw=False, **operation_config):
+'samp', 'small', 'span', 'strike', 'strong', 'sub', 'sup',
+Vote = collections.namedtuple('Vote', ['commit', 'user'])
+"A simple model can be saved as inlines"
+from pathlib import Path
+self.webDriver.save_screenshot('debug6_' + str(attemptIdx) + '.png')
+response = self.client.get('/test_admin/%s/admin_views/section/add/' % self.urlbit)
+mask_Rt2 = str(year+2) + months[quarter-1]
+Ensure app and model tag are correctly read by
+from lollypop.lio import Lio
+# CSRF: only usable by logged in users, but returns FORBIDDEN instead of
+Configures users/groups to run the cobbler CLI as non-root.
+elif args.command == 'run_cli':
+Requests without this cookie are pure 0-legged API requests and thus don't
+param_assignments_str = '; '.join(
+ul = self.soup.find('ul', class_='story_inf')
+row_class = ' class="nowrap"'
+if image_count > 4:
+"V", "va", "vais", "vas", "vers", "veut", "veux", "via", "vice-versa",
+'!=': lambda x, y: x != y,
+self.assertNotContains(response, 'Choisir une heure')
+# You should have received a copy of the GNU Lesser General Public License
+'ID', 'Name', 'Submitted at', 'Result',
+weight="bold", x=0, y=0, esc=True, opacity=0.75, sys_info=False):
+#reply.add('deine mutter hat gefailed.')
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
+# empty criteria returns everything
+DATETIME_FORMAT = 'j M Y, P'            # '25 Oct 2006, 2:30 p.m.'
+should_contain = """<li>Plot: <a href="/test_admin/admin/admin_views/plot/1/">World Domination</a>"""
+socksend(self.sock, _t3F(C.ext, func, opts, key, value))
+0 1 1 1
+return self.remove_item("repo", ref, recursive=recursive, delete=delete, with_triggers=with_triggers, logger=logger)
+{"name": "rh66-node1", "votes": 3, "local": True},
+<lrm_rsc_op id="dummy_stop_0" operation="stop" call-id="32"
+from subprocess import Popen
+Ensure that the admin/change_form.html template uses block.super in the
+def add_repo(self, ref, check_for_duplicate_names=False,save=True,logger=None):
+args = docopt(__doc__, version='Yanker {}'.format(__version__))
+# <<-- Creer-Merge: imports -->> - Code you add between this comment and the end comment will be preserved between Creer re-runs.
+/tftpboot.  Any operations done in the API that have not been
+def loadAccountInfo(self, user, req):
+data = JSON(code=PLACE_ERR_CODE, status=False,
+>>> test(r"⌊ ¯0.25 ¯0.5 ¯1.1 ¯9.9")
+:param deserializer: An objec model deserializer.
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+result = run('MIN(20, 10, 30)')
+# type: (UserProfile) -> int
+mtd = self.client.cluster.state(index=self.args['prefix'] + '*', metric='metadata')
+"""Rename a Folder resource"""
+'Operating System :: OS Independent',
+c = tf.tanh(linear(xrh, self._num_units, name="xrh_2_c",
+The file is assumed to be of a size such that reading and storing the full
+# Now modify that inline
+# -*- coding: utf-8 -*-
+data = JSON(code=DATE_ERR_CODE, status=False, message=DATE_ERR)
+copyright = u"2016, Chris Targett"
+# Return an API-readable "Internal Server Error" response.
+print("Cleaning the MongoDB collection...")
+self.train_step = tf.get_variable("global_step", [], tf.int64,
+Testing utility asserting that text1 appears before text2 in response
+the Free Software Foundation; either version 2 of the License, or
+df.loc[df.loc[:, 'target'] == mask_t4or5, 'targetNew'] = 't+4'
+self.assertContains(response, '<p class="help">Some help text for the content (with unicode ŠĐĆŽćžšđ)</p>', html=True)
+The randomized, properly shaped indicies.
+single_cut : float, ``None``
+# Load node user and password configuration file
+for rec in self.records:
+# The slugs got prepopulated since they were originally empty
+{"name": "rh70-node2", "votes": 2, "local": False},
+if __name__ == '__main__':
+macs = [m for d in Device.objects.filter(description='')
+# Some realms only allow admins to invite users
+# make sure the view removes test cookie
+raise this.MakeError('TypeError', 'Reduce of empty array with no initial value')
+for cat, cb in self._checkbox_map.iteritems():
+#     oo    oo  'oo OOOO-| oo\_   ~o~~~o~'
+from twisted.internet.endpoints import serverFromString
+login = self.client.post(login_url, self.super_login)
+from operator import methodcaller
+has_props = [array.has_property(str(e)) for e in xrange(len(array))]
+response = self.client.post(self.get_add_url(), data=post_data)
+PLACE_ERR = 'The Place Error'
+'col', 'colgroup', 'dd', 'del', 'dir', 'div', 'dl', 'dt',
+# If list_display_links not defined, add the link tag to the first field
+raise ValueError('Invalid NodeLink JSON from old version of PyBEL (v{}.{}.{})'.format(*pybel_version))
+"content": "This is an incredible development.",
+from Pubnub import Pubnub
+Ensure that 'save as' is displayed when activated and after submitting
+print('WARNING: you are about to delete your wallet on the real chain.')
+response = self.client.get('/test_admin/admin/admin_views/modelwithstringprimarykey/%s/' % quote(self.pk))
+#        if not self.decprocess.is_alive():
+raise ValueError('Requires a key. None given: %s' % key)
+acc, _ = train_model(data, **kwargs)
+if core.affiliation(client['type']) == 'steem':
+self._resource_path = ResourcePathServiceOperation("GetFolderByServerRelativeUrl", [value], ResourcePath("Web"))
+# Catch problems interacting with processes that the
+def __init__(self, prefix: Optional[str] = '{{', suffix: Optional[str] = '}}', name: Optional[str] = None):
+ani = animation.FuncAnimation(fig, update, np.arange(1, 200),interval=1)
+if x is not None:
+# GNU General Public License for more details.
+qry += "group by child having ct>1"
+# As a fast-path, use the position in the transliterated string as
+prior_g0_mean = np.mean(prior_g0_mean, axis=0)
+ans = Guide.objects.order_by('-id')[start:start + offset]
+# Adding the start location
+def updatePixels(self, tlc, shape, props, **pixelBlocks):
+from bs4 import BeautifulSoup
+# -*- coding: utf-8 -*-
+# -*- coding: iso-8859-1 -*-
+result = {'title': guide.name, 'username': guide.user.username,
+content_type="text/plain; charset=%s" % encoding,
+date_low, date_hi = self.getDate()
+self.fns_in_fac_Ws = fns_in_fac_Ws = [None] * ndatasets
+def encode_data(dataset_bxtxd, enc_cell, name, forward_or_reverse,
+from maasserver.utils.orm import is_retryable_failure
+fType = 'Item Description'
+self.assertEqual(response.content, b"Django is a magical pony!")
+""" Auxiliary reader to read (step at a time) from an .xvg file.
+"""Initialize the demo device."""
+nexamples: The number of examples to batch up.
+response = self.client.post('/test_admin/admin/admin_views/collector/1/', self.post_data)
+name = 'prefix_suffix_replacer'  # type: str
+if platform == 'linux':
+"""Conversion functions for BEL graphs with node-link JSON."""
+#        def test_eval(self, input, expected_output):
+def shuffle_and_flatten_datasets(self, datasets, kind='train'):
+reportModel = reporting.ReportModel('Simple List')
+def add_system(self, ref, check_for_duplicate_names=False, check_for_duplicate_netinfo=False, save=True, logger=None):
+pixelBlocks['output_mask'] = resize(m, shape, order=0, preserve_range=True).astype('u1', copy=False)
+fov = FieldOfView(t0, 0, 0, 0, t1, xscale * (xshape - 1), yscale * (yshape - 1),
+post_g0_logvar = np.zeros([E_to_process, hps.ic_dim])
+if lower(s[mid:]).find(pat) >= 0:
+self.post_data['whatsit_set-0-name'] = "Whatsit 1"
+for b in self.soup.select('div.xfinfodata b'):
+'routeTableName': self._serialize.url("route_table_name", route_table_name, 'str'),
+qry_template = "select * from reactome_pathways where reactome_pathway_id in (%s)"
+>>> test(r"⍒ ¯1 ¯6 ¯2 ¯5 ¯3 ¯4")
+if len(title) == 0:
+# train the encoder only
+The property shape is a string, which resembles the current shape of
+# Traverse the AST, keeping track of node types.
+field: "." >> Word
+Returns -  Last updated price
+"""<li>Super villain: <a href="/test_admin/admin/admin_views/supervillain/3/">Bob</a>""",
+tvshow_path = make_fullpath(title, '')
+(face, weight, fgcolor, size, get_user()))
+with tf.variable_scope(name+"_enc"+dstr, reuse=True if i > 0 else None):
+Ensure that month-level links appear for changelist within single year.
+login = self.client.post(login_url, self.super_email_login)
+filename = str(episodeNumber) + '. ' + 'episode_' + shortName
+def from_nodelink_file(path: Union[str, TextIO], check_version: bool = True) -> BELGraph:
+for i in range(len(seta)):
+(master_doc, "Diana.tex", u"Diana Documentation", u"Chris Targett", "manual"),
+from django.core.urlresolvers import reverse
+API instance, regardless of the serializer type.
+if filter_fn and filter_fn(title):
+# Convert annotation list definitions (which are sets) to canonicalized/sorted lists
+data = JSON(code=GET_OK_CODE, status=True, message=result)
+self.rates = rates = [None] * num_steps
+m = re.search(self.TRAFFIC_LEFT_PATTERN, html)
+# Test custom delete, change, and object history templates
+# This hard-codes the URl because it'll fail if it runs
+pf_pairs_out_fac_Ws = zip(preds, fns_out_fac_Ws)
+def reboot(self,system, user=None, password=None, logger=None):
+if response.status_code == 201:
+"""Name of the DNS policy.
+raise forms.ValidationError(_("Account with this e-mail address already exists."))
+from daethon import Daemon
+do_average_batch (optional): average over the batch, useful for getting
+# arp cache poisoning attack
+# wait for ARP replies from default GW or victim
+# private attributes to hold the properties so they appear read only
+WIP - grows as more monadic functions are implemented.
+in cases where the selected language cannot be found.
+response = self.client.get('/test_admin/%s/admin_views/fabric/' % self.urlbit)
+# Ensure that the form processing understands this as a list_editable "Save"
+self.client = mozuClient or default_client();
+valid_data_bxtxd, valid_ext_input_bxtxi = \
+node_id_string = ",".join([quotify(z) for z in zero_in_degee_nodes])
+response = self.client.post('/test_admin/%s/auth/group/' % (self.urlbit), post_data)
+# of this software and associated documentation files (the "Software"), to deal
+# check the number of columns is consistent
+"jusque", "juste", "K", "kg", "km", "km²", "L", "l'", "la", "-la", "là",
+SUPPORT_TURN_ON | SUPPORT_TURN_OFF | SUPPORT_PLAY_MEDIA
+import numpy as np
+"Tests that the checkbox column class is present in the response"
+# pxegen versus reusing this one, which has the wrong logger
+elif re.match(r'[^@\s]+@([^@\s]+\.)+[^@\s]+', email) is None:
+# You should have received a copy of the GNU General Public License along
+from . import TacoTabWidget
+self.assertEqual(Whatsit.objects.all()[0].name, "Whatsit 1 Updated")
+table = PrettyTable(['Matched Order ID', 'Time Left'])
+for i in range(0,model.num_topics - 1):
+# ignore blank lines
+def code():  # pragma: no cover
+self.ic_enc_fwd = [None] * num_steps
+# html_last_updated_fmt = None
+#     assert(hypotheses_graph._graph.node[(0, 1)]['traxel'].conflictingTraxelIds == [3])
+response = self.client.post(collector_url, self.post_data)
+METHOD_OPTIONS = ['near', 'bilinear', 'cubic', 'cubicspline', 'lanczos']
+for i in range(self._call_table.rowCount()):
+# test the add case
+please refer to README.md for how to cite IPET.
+Ensure that year-level links appear for year-spanning changelist.
+'form', 'hr', 'isindex', 'menu', 'noframes', 'noscript', 'ol', 'p',
+return self._get(1, 'preview', url_or_urls, **kwargs)
+return self.rename_item("profile", ref, newname, logger=logger)
+environment. Also modify `sys.args`, `__file__` and `__name__` so that
+# Copyright (c) 2015-2016
+page = s.get(url + 'page/%d/' % page_no)
+self.tr('Output file resolution in target georeferenced units (leave 0 for no change)'),
+see source for cobbler.py, or pydoc, for example usage.
+:param bool raw: returns the direct response alongside the
+stage = 'SyntheticCube: extinction'
+# '%B %d %Y', '%B %d, %Y',          # 'October 25 2006', 'October 25, 2006'
+if direction == 'down':
+def rename_repo(self, ref, newname, logger=None):
+vote_parser.add_argument('COMMIT', help='reference to the commit to vote for')
+# Convert the pk to something that can be used in Javascript.
+if self.sender() == self.itemFilter_tableView:
+from theano.ifelse import ifelse
+date = self._soup.find('meta', {'name' : 'DISPLAYDATE'})
+# might as well build _times now, since we'll need to iterate
+return np.array([self._select_data(i) for i in key])
+"rh70-node1, rh70-node2, rh70-node3, rh70-node3.",
+bundle = cr.build_bundle(obj=c, request=request)
+"après-demain", "arrière", "as", "assez", "attendu", "au", "aucun",
+# Copyright 2021 The Google Research Authors.
+elif args.command == 'list':
+# here so that None is a valid value; just return
+m = Measurement("name", "group")
+smoothing = 1  # smoothing 1/e-width for Gaussian convolution smoothing
+#  author, documentclass [howto, manual, or own class]).
+the same page, retaining the querystring (which may contain changelist
+elif jType == ADJUSTMENT:
+Current units of the val cube.
+#    itmModel = modelsandviews.ItemModel()
+#md5sums = open(mPath+"/md5sums", "w")
+with tf.variable_scope(scope or type(self).__name__):  # "GRU"
+# Create a PROCESS for each device connection/cmd
+p1 = Podcast.objects.create(name="A", release_date=dt)
+except (ldap.INVALID_CREDENTIALS, ldap.UNWILLING_TO_PERFORM): # Bad e-mail or password
+all_kinds = ['train', 'posterior_sample_and_average', 'prior_sample']
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+make_list = ['make'] + core.config['build_environments'].get('make_args', []) + BUILD_ENV.get('make_args', [])
+self.logfile = os.path.join(hps.lfads_save_dir, "lfads_log")
+__path__ = extend_path(__path__, __name__)
+from maasserver.models.node import RackController
+self.reportName = 'Batch List'
+model.objects.create(stuff='The Middle Item', order=2)
+DATE_FORMAT = 'j M Y'                   # '25 Oct 2006'
+characterize_subtree(cursor, graph, pthwy_id,  gene_groups,  1, verbose=verbose)
+mi = dbctx.run('show_metadata', book_id)
+"Depends: pngnq, python, python-wxgtk2.8, python-imaging, python-gdal, python-pyproj, python-simplejson, python-shapely\n" + \
+# General index page
+except Exception as e:
+'%d/%m/%Y %H:%M:%S',                # '25/10/2006 14:30:59'
+from django.contrib.admin.views.main import IS_POPUP_VAR
+self.tr('Create tiled output (only used for the GTiff format)'), False))
+# GNU Affero General Public License version 3 (see the file LICENSE).
+from django.core.exceptions import ObjectDoesNotExist
+# Do we have it from aliases?
+from autobahn.wamp.router import RouterFactory
+ext_input_bxtxi: Numpy array training external input with shape:
+# R-HSA-1483171       | Synthesis of BMP
+# If true, show URL addresses after external links.
+# XXX but that would require significant data model changes
+from common.parameterized import parameterized
+response = self.client.get('/test_admin/%s/admin_views/article/' % self.urlbit, {'o': '-3'})
+# We start with bias of 1.0 to not reset and not update.
+print "Before queue block"
+for i in range(len(self.wav)):
+'/': lambda x, y: x / y if x is not None and y is not None else None,
+Description - This function fetches the most recent price update of
+#    from parameterizedtestcase import ParameterizedTestCase
+* name of filter:     ``filter['name']``
+The unique identities are stored in an object named 'uidentities'.
+help="Enable banner(s) to span across screens as a single banner")
+raise nitro_exception(result.errorcode, str(result.message), str(result.severity))
+return """Do not allow property over multiple lines."""
+pw_hash, salt = hash_salt_password(client['witness_password'])
+>>> test(r"(1.2) ≡ ⊃⊂ 1.2")
+post_data = {'_saveasnew': '', 'name': 'John M', 'gender': 1, 'age': 42}
+# Only set the firehose_handler if it's defined and only if the current
+login = self.client.post(login_url, self.joepublic_login)
+"Data dtype must be int for poisson output distribution"
+# Since this is called as part of error handling, we need to be very
+raise Exception('If prefix name is not given, you need to give the a name to enable the default naming chain.')
+E, T, D = data_extxd.shape
+# Store the bit of the URL where the admin is registered as a class
+if push_obj is None: continue # push will fail
+response = self.client.post('/test_admin/admin/admin_views/person/', data)
+tf_vals = [self.gen_ics, self.gen_states, self.factors,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+"""Set key to value without waiting for a server response
+msg_prefix='The "change password" link should not be displayed if a user does not have a usable password.')
+# page. This step tests field__isnull=1 gets parsed correctly from the
+"        schaftlichen deutsch-luxemburgischen Hoheitsgebiets;"
+# Extract some common details
+(i, train_step, tr_total_cost, tr_recon_cost,
+for v, var_name in enumerate(var_names):
+return self.rename_item("file", ref, newname, logger=logger)
+c_x = linear(x, self._num_units, name="x_2_c", do_bias=False,
+>>> test(r"⍋ ¯1 ¯6 ¯2 ¯5 ¯3 ¯4")
+""" For listing all network tap capture containers """
+fType = 'Journal Type'
+if self.unit_out == 'MJy/sr' or self.unit_out == 'Jy/arcsec^2':
+# Create unique identities from enrollments list
+>>> test(r"≡ 1 2 3")
+# we are on a tag, use it for naming binary
+for h in handles:
+(e.g. underlying rates of a Poisson distribution given the observed
+ext_input_extxi (optional): The external inputs, numpy tensor with shape:
+from rdflib import Graph, Literal, BNode, Namespace, RDF, XSD, URIRef
+# User who can add Articles
+from termcolor import colored
+elif args.command == 'run_cli':
+Description - This function simulates the stock index price update
+for key,value in vars(p).items():
+line_sgsn_attach_accept = lines[index + 2]
+self.log_p_xgz_b = log_p_xgz_b = 0.0  # log P(x|z)
+defaults["vres"] = config.get("vres", 0)
+# Establish a valid admin session
+(i, train_step, tr_total_cost, ev_total_cost,
+# The encoding of source files.
+def __init__(self, geometry, externalAngleNames, reflections=None, multiplier=1):
+message % ("myClonedGroup", "myGroupClone"),
+for model, url in models:
+l2_costs.append(0.5 * l2_scale * v_l2)
+# Make sure all items on the page are loaded - lazy loader
+m = Measurement("name", "group")
+response = self.client.post('/test_admin/admin/admin_views/person/', data)
+parser.add_argument("--noeuds", help="Nombre de noeuds", nargs="*")
+:param aliases: aliases stream
+self.result = int(resultmm * 1000.0)
+#   1 query for session + 1 for fetching user
+for i in xrange(numrecs):
+__copyright__ = '(C) 2012, Victor Olaya'
+Ensures the filter UI shows correctly when at least one named group has
+link1 = reverse('admin:admin_views_podcast_change', args=(quote(p1.pk),))
+elif m == 'mean':
+'embedded': narrow_stream is not None,
+# Also see http://meresco.org.
+def assert_non_localized_year(self, response, year):
+collector_url = '/test_admin/admin/admin_views/collector/%d/' % self.collector.pk
+tc = wx.Choice(self, wx.ID_ANY, choices=screwPresets)
+op_id_list = [op.getAttribute("id") for op in op_list]
+else: pars['out_channels'] = shape[-1]
+for u, v, key, data in graph.edges(keys=True, data=True)
+# In narrow_stream context, initial pointer is just latest message
+response = self.client.post(self.get_change_url(), data=post_data)
+def write_tvshow(content, path, settings):
+"Results of sorting on callable are out of order.")
+model.objects.create(stuff='The First Item', order=1)
+__date__ = 'August 2012'
+if hps.ic_dim > 0:
+"""Return the episode of current playing media (TV Show only)."""
+response = self.client.get('/test_admin/admin2/', follow=True)
+run('open %s' % join(BUILD_ENV['build_dir'], 'programs/qt_wallet/bin/%s.app' % BUILD_ENV['gui_bin_name']))
+Physical offset from axis origin in FOV in cm.
+data = JSON(code=PLACE_ERR_CODE, status=False,
+<< 'Item Type' << 'Date' << 'Date Modified'
+# The batch_size to be inferred from data, as normal.
+# Function sh_ver runtime calculation
+elif args.command == 'run_gui':
+self.assertContains(response, 'Hello from a custom login template')
+from urllib.request import urlretrieve
+{"name": "rh66-node2", "votes": 2, "local": True},
+with open('testing_daemon', 'w') as f:
+(False, msg % ("0", "0")),
+self.fns_out_fac_Ws = fns_out_fac_Ws = [None] * ndatasets
+example_idxs = eidx * np.ones(hps.batch_size, dtype=np.int32)
+the graph, the correct in/out matrices can be selected, per batch.
+run('rm -fr "%s"' % BUILD_ENV['build_dir'], verbose=True)
+def quit(self, *args, **kwargs):
+The initial conditions, g0, for all examples.
+Show the metadata stored in the calibre database for the book identified by id.
+# you may not use this file except in compliance with the License.
+glyphs.append(glyph.lower()) # set a glyph in glyphs
+'quite', 'rather', 'readily', 'really', 'recently', 'regarding',
+from mozurestsdk.mozuclient import default as default_client
+*   (at your option) any later version.                                   *
+{"name": "rh70-node3", "votes": 1, "local": False},
+#     assert(edgeFlow == 6)
+elif cu ==CU_MILIMOLAR: #mM
+# This improves performance, because we limit backfilling of messages
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+#Get the current time of update
+struct.pack('>BBI', MAGIC, code, len(key)),
+if earliest_since is None or previous < earliest_since:
+from django.forms.forms import pretty_name
+self.assertContains(response, '<body class=" dashboard app-admin_views')
+pubnub = Pubnub(publish_key="<your pub key>",subscribe_key="<your sub key>")
+help="Set the Classification message")
+except Exception as e:
+'Programming Language :: Python :: 3.3',
+if settings.DEBUG_HTTP and logger.isEnabledFor(self.log_level):
+# robust against potentially malformed input.
+self.variables.append( [ pars['tensor']( pars['shape'] , pars ) , pars ] )
+# because information flows from g0 through factors to the controller
+for account in track_accounts:
+"dix-neuf", "dix-sept", "dl", "dm", "donc", "dont", "dorénavant",
+print '[*] Poisoning victim'
+if not isinstance(transport_handler, BaseTransportHandler):
+that one can align the channels (see manuscript).  If so each dataset will
+response = self.client.get('/test_admin/%s/admin_views/article/' % self.urlbit, {'section__isnull': 'true'})
+:param route_parameters: Parameters supplied to the create or update
+response = self.client.get('/test_admin/admin/logout/', follow=True)
+response = self.client.get('/test_admin/%s/admin_views/thing/' % self.urlbit, {'color__id__exact': 'StringNotInteger!'})
+Ensure that the admin/login.html template uses block.super in the
+gen_states = [np_vals_flat[f] for f in fidxs[ff]]; ff += 1
+m.e. =  mdeg / (10*l*(C/MW)*Rn)
+If a user has no module perms, avoid iterating over all the modeladmins
+for alias_entries in self.__parse_stream(stream, f):
+Cells of the change list table should contain the field name in their class attribute
+if ret_addr.count(" ") <= 2:
+"/Helper_Tiler.py", "/Helper_Merge.py", "/Resources.py", "/FindZoom.py", "/GenerateData.py", \
+self.assertContains(response, '<a href="/test_admin/%s/password_change/">' % self.urlbit)
+narrow = [["stream", narrow_stream.name]]
+elif not self.dateRange_combo.currentText() == 'All':
+if quarter == 1:
+self.dnspolicy_dnspolicylabel_binding = [dnspolicy_dnspolicylabel_binding() for _ in range(length)]
+# (at your option) any later version.
+color2_content_type = ContentType.objects.get_for_model(Color2, for_concrete_model=False)
+if direction == 'up':
+transport_factory = MyClientFactory(session_factory, wampAddress, debug = False, debug_wamp = False)
+def __init__(self, *args, **kwargs):
+logging.info("optimize method=%s parameters=%s" % (method, str(params)))
+# Handle relative links
+self.reportName = 'Receiving List'
+if request.method == 'POST':
+response = self.client.get('/test_admin/admin/admin_views/podcast/', {})
+header_parameters['Content-Type'] = 'application/json; charset=utf-8'
+except WebDriverException as err:
+{"name": "rh70-node3", "votes": 1, "local": False},
+print(var.name, """ is not numpy array, saving as numpy array
+catherine = Child.objects.create(parent=parent, name='Catherine')
+when the run is finished the minima and transition states found will be sent
+by tabs. Comment lines start with the hash character (#).
+# -*- coding: utf-8 -*-
+response.subtitle = 'SSISDB monitoring'
+Extends the base AuxStep class to allow selection of time and
+in the bodyclass block.
+title = title.split(u' ТВ-')[0]
+date_filter = ProductionHeader.journal_date.between(date_low, date_hi)
+iso=iso, profiles=profiles, systems=systems, buildisodir=buildisodir, distro=distro, standalone=standalone, source=source, exclude_dns=exclude_dns
+# Filters are allowed if explicitly included in list_filter
+phrase = ('abbr', 'acronym', 'cite', 'code', 'dfn', 'em', 'kbd', 'samp',
+if name.endswith(" (?)") and len(name) == 21:
+def tag_detail(self, request, **kwargs):
+assert str(e.value) == 'cannot specify *args more than once'
+# weight val_short with rebined response
+assert code.flags == flags
+ce = central(array=self.val, dx=dx, dy=dy)
+except WebDriverException as err:
+Return      - Returns the JSON formatted index name, price , delta and time
+if 'toplevel' in self.system.simulator:
+url = reverse('admin:admin_views_pizza_change', args=(pizza.id,))
+assert args.user, 'TODO: determine user automatically'
+print('If you really want to do it, you\'ll have to manually run the command:')
+[h, k, l], externalAngles, energy, tag, _ = ref_tuple
+from .util import wrap_core, multiple_l2_norm
+getattr(settings, 'DEFAULT_ARCHIVE_FORMATS', ['tgz', 'tar'])[0]
+Check if the JavaScript i18n view returns an empty language catalog
+>>> test(r"* 1 0 ¯1")
+response = self.client.post('/test_admin/admin/admin_views/book/1/', post_data)
+found = re.search('([0-9]+)', parts[1]).group(1)
+self.selenium.find_elements_by_link_text('Add another Related prepopulated')[1].click()
+if persistent == DbPersistent.CHARTS:
+except TypeError:  # Catches when new_method.__doc__ is None
+# close the window
+with filesystem.fopen(path, 'wb') as torr:
+block = ('address', 'blockquote', 'center', 'dir', 'div', 'dl', 'fieldset',
+name: name of encoder
+'316684326093280', 'testServiceName', '266018', 'Somerford Associates Limited',
+from fabric.api import parallel, roles, run, env
+for call in self.parent.calls:
+from oppia.models import Course, Category
+# Save and check that everything is properly stored in the database
+# Inputs to the generator (controller output + external input)
+# This program is free software: you can redistribute it and/or modify
+def __init__(self, h, k, l, position, energy, tag, time):
+# Add any paths that contain custom static files (such as style sheets) here,
+name=' here is a sŤāÇkeð   inline !  ',
+def rename_system(self, ref, newname, logger=None):
+for angle_id_extern in arange(481):
+from django.forms.utils import ErrorList
+def __save_track(self, item, persistent, album_artist):
+'alignment_matrix_cxf' - If you are using multiple days data, it's possible
+return [chr(MAGIC) + chr(code)]
+# hidden fields for inlines + 1 field for the inline + 2 empty form
+# You should have received a copy of the GNU General Public License
+from tastypie.authentication import ApiKeyAuthentication
+self.name, self.i18n_name = self.trAlgorithm('Warp (reproject)')
+Nodeid      Votes    Qdevice Name
+except Exception as e:  # pragma no cover
+# You should have received a copy of the GNU General Public License
+os.system('iptables -v --table nat --flush')
+for n in range(1, len(self._reflist) + 1):
+state: The previous state from the last time step.
+#configString = ("dbname=" + db_conf['dbname'] + "user="+ db_conf['user'] + " password=" + db_conf['password'])
+if jType == 'Receive':
+for c in string.whitespace:
+self.variables.append( [ pars['tensor'] , pars ] )
+print("number of groups", len(gene_groups))
+"title": "Django Got Readonly Fields",
+# strip trailing slashes as js-bakery ends up using double slashes
+meta = "<could not parse>"
+report_type = report_type, report_fields = report_fields,\
+# XXX need a good way to support languages other than English and French
+text = self.c_text % "uM"
+# to load the config, which would just fill up
+>>> test(r"! 1 2 3 4 5")
+cc1 = utils.dom_get_element_with_id(dom, "cc", "cc1")
+if next_square not in obstacles and not next_square_out_of_bounds:
+if markup_ea and markup_ea != idc.BADADDR and markup_ea != last_ea and markup_ea not in self._marked_up:
+response = self.client.post('/test_admin/admin/admin_views/externalsubscriber/', action_data)
+GENDER_ERR = 'Gender is not allow'
+self.assertContains(response, '<td class="field-id">%d</td>' % story1.id, 1)
+return Plan(self.url, self.user_name, self.password)
+from nssrc.com.citrix.netscaler.nitro.resource.base.base_resource import base_response
+if len(m) > 0:
+:param route_name: The name of the route.
+self.pxegen  = pxegen.PXEGen(self._config, logger=self.logger)
+'etc', 'does', 'done', 'during', 'each', 'either', 'else', 'ever',
+logging.error("waitrose: Get basket summary webdriver element exception")
+# contain a <link> tag referring to it.  The value of this option must be the
+child end of a mp.Pipe()
+return self._cur_track + 1
+# Post data for edit inline
+self.inputs.append( [ tb.vars.placeholder( shape = pars['shape'] ,
+Test behavior of a view protected by the staff_member_required decorator.
+{"name": "rh70-node3", "votes": 1, "local": False},
+batch with that example, sample from the posterior, and then average the
+data = JSON(CODE=EMAIL_EX_CODE, status=False, message=EMAIL_EX)
+See the `zipkin_span` context in py-zipkin for more detaied information on
+sequence in order to create reproducible results.
+if sys.version_info < (3, 6):
+'IF': lambda x, y, z: y if x else z,
+login = self.client.post(login_url, self.super_email_bad_login)
+self, resource_group_name, route_table_name, route_name, route_parameters, custom_headers=None, raw=False, **operation_config):
+"""Return the state of the player."""
+from distributions import LearnableAutoRegressive1Prior
+"""Turn the media player on."""
+npyscreen.notify_confirm("Failure: " + request[1])
+Typical usage is with the PyTyrant class which provides a dict-like wrapper
+self.fail(_("Offline or not downloadable"))
+"""Test for ticket 2445 changes to admin."""
+# STOCHASTIC LATENT VARIABLES, priors and posteriors
+name(string)-> data dictionary mapping (See top of lfads.py).
+factors = [np_vals_flat[f] for f in fidxs[ff]]; ff += 1
+if view_name == 'balances':
+#     # set up ConflictingSegmentsProbabilityGenerator
+# Put the new user's pointer at the bottom
+def dump_vars(self, obj, format=False):
+The default :class:`XVGReader` reads and stores the full contents of the .xvg
+#Step 6.4 - Publish over Pubnub , stockdata channel
+:param path: A path or file-like
+about how to run standalone Django scripts
+# main form submit button = 1
+$ {bin} build_gui   # FIXME: broken...
+print("Starting to wait for logon-email")
+t = Thread(target=self.__save_track_thread, args=(item, persistent))
+This will spawn a new process and deal with the communication
+self.assertContains(response, 'id="id_form-0-id"', 1)  # Only one hidden field, in a separate place than the table.
+item = self._call_table.item(self._call_table.currentRow(), self._call_table.currentColumn())
+# latex_show_urls = False
+with its.device.ItsSession() as cam:
+# This file is part of kiwi.
+'OR': lambda *a: any(a),
+""" Overriden to switch back to MAIN form """
+The property spacing_wav estimates the width of the logarithmic
+# Convert to full tensors, not lists of tensors in time dim.
+parameter["price"] = [Pa, Pb]
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+print("      erro ao decode utf-8. tentando utf-8-sig")
+content_type="text/plain; charset=%s" % encoding,
+def rename_package(self, ref, newname, logger=None):
+binsh = open(mPath + "/mxcart", "w")
+"néanmoins", "neuf", "ni", "nº", "non", "nonante", "nonobstant", "nos",
+session-based Django authentification is used) will be CSRF protected.
+from games.anarchy.game_object import GameObject
+Success on popups shall be rendered from template in order to allow
+help='Delay each request by <L> seconds.'
+self.assertEqual(response.status_code, 302)  # temporary redirect
+if self.hps.co_dim > 0:
+self.log("No import managers found a valid signature at the location specified")
+"Resource 'myClone' is running on nodes "
+assert all([B > 0, N > 0]), "problems"
+for monitor in range(self.num_monitor):
+from zerver.lib.avatar import avatar_url
+('Nakatomi', 'Children Of The Night'),
+This also tests relation-spanning filters (e.g. 'color__value').
+# This isn't something we handle; allow processing to
+'1234.00', '123321', '2002-12-12', '2020-12-12',
+# html_search_language = 'en'
+'subscriptionId': self._serialize.url("self.config.subscription_id", self.config.subscription_id, 'str')
+:param handler: pyramid request handler
+elif m == 'maximum':
+if response.status_code not in [200, 201]:
+for send in asset['sends']:
+# Less obvious is the need to exclude factors[t-1].  This arises
+as the original field is empty.
+#     additionalLabelImageFilenames = ['tests/multiSegmentationHypothesesTestDataset/segmentationAlt.h5']
+utils.dom_get_element_with_id(dom, "bb", "bb1"), "bb1"
+output = rem_conn_ssh.send_command_expect("show version")
+defaults["esc"] = config.get("esc", True)
+'%Y-%m-%d %H:%M',                   # '2006-10-25 14:30'
+# DO NOT MODIFY THIS FILE
+# Ticket 12707: Saving inline editable should not show admin
+""" Returns the value of object identifier argument
+# Copyright (c) 2014-2016 Cedric Bellegarde <cedric.bellegarde@adishatz.org>
+A tuple (state, state), where state is the newly computed state at time t.
+Verifying that if the parent form fails validation, the inlines also
+response = self.client.get('/test_admin/%s/admin_views/thing/' % self.urlbit, {'notarealfield__whatever': '5'})
+S = (St - parameter["Mean"])/parameter["STD"]
+:param dict custom_headers: headers that will be added to the request
+self.datatypemethod = getattr(builtins, sometype)
+'every', 'further', 'gave', 'gets', 'give', 'given', 'got', 'had',
+""" Overriden to switch back to MAIN form """
+is English. See #13388 and #3594 for more details.
+"""Get the size of a value for key
+>>> test(r"⍉ 1 2 3")
+# Emulate model instance edit via the admin
+import numpy as np
+expected_link = reverse('admin:%s_modelwithstringprimarykey_history' %
+self.getElemAttrIfPresent(productSoup, "div", "quantity-append", "input", "value", "", basketIt,
+"name"   : "NASDAQ"  ,
+#All this was copy and pasted so the custDismissRelatedLookupPopup could be inserted here.
+mapping = dict(zip(nodes, count()))
+from hytra.core.ilastikhypothesesgraph import IlastikHypothesesGraph
+self.prior_zs_ar_con = prior_zs_ar_con = \
+'domain': ('Minimum', 'Maximum', 'Mean', 'Median', 'Sum', 'Nearest'),
+This code was generated by Codezu.
+values=[c.id for c in Chapter.objects.all()],
+data = JSON(code=NOT_LOGIN_CODE, status=False, message=NOT_LOGIN)
+s = ConvertUnits(wav=self.wav, val=rough_sed)
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+c_rh = linear(r*h, self._num_units, name="rh_2_c", do_bias=True,
+def to_nodelink(graph: BELGraph) -> Mapping[str, Any]:
+# #23604, #23915 - Specifying a field referenced through a reverse m2m relationship should be allowed.
+def rename_distro(self, ref, newname, logger=None):
+npyscreen.notify_confirm("Please select at least one container.",
+for track_item in item.subitems:
+:ivar api_version: Client API version. Constant value: "2016-12-01".
+if True the final smoothed path will be calculated
+if journal_no else ""
+# Generated by Django 1.9 on 2016-01-22 14:55
+time_threshold = now - datetime.timedelta(minutes=10)
+if 'alignment_matrix_cxf' in datasets[dataset_names[0]].keys():
+print('       Please check your config.yaml file')
+start_week = Column(Integer, CheckConstraint('start_week > 0'))
+if pars['copy'] is not None: # Copying
+def __save_cover(self, item, album_id):
+response = self.client.get('/test_admin/%s/admin_views/fabric/' % self.urlbit)
+(data_dim x factors_dim), but currently has %d x %d."""%
+for a in self.soup.select('ul.clr li a'):
+for line in ast_string.split('\n'):
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+in_fac_t_bxf = tf.matmul(dataset_t_bxd, this_in_fac_W) + this_in_fac_b
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+jsmith@example.com    Bitergia < 2015-01-01  # John Smith - Bitergia
+# Message should contain non-ugly model verbose name. Instance
+>>> IO = saveIndexOrigin()
+vote_parser.add_argument('--user', metavar='USER_ID', help='ID of the user to vote as')
+# (at your option) any later version.
+# layer 2 header
+"Mac" not in agent
+(NEO_PROTOCOL, NEO_USER, NEO_PASSWORD, NEO_HOST, NEO_PORT))
+print('%s won the election with %d votes' % (winner_commit, winner_vcount))
+from serial_grabber.processor.UploadProcessor import UploadProcessor
+self.assertContentBefore(response, 'Oldest content', 'Middle content',
+from fusesoc.utils import Launcher, pr_info, pr_err
+# Record start time
+i = model.index(row, 0)
+if hps.co_mean_corr_scale > 0.0:
+# Copyright (C) 2012  NigelB
+self.pos.chi, self.pos.phi, self.tag, self.time))
+DATE = datetime.date(2000, 6, 30)
+print("Stopping optimization based on learning rate criteria.")
+# print('Input image shape:', x.shape)
+# does not match that of the child
+# Check the history link.
+# Add user may login and POST to add view, then redirect to admin root
+# You may obtain a copy of the License at
+# author == __gandhi__
+if self.dateRange_combo.currentText() == 'All':
+print("lda model was found")
+if subdomain != "":
+m = re.match(self.VALID_LINE_REGEX, line, re.UNICODE)
+df = raw_df.iloc[0:dum-1, mask_columns]
+from numpy import *
+except Exception as e :
+from django.utils.translation import ugettext as _
+if subElem is not "":
+"-il", "illico", "ils", "-ils", "ipso", "item", "J", "j'", "jadis",
+RDBMONOULOG = 1 << 0
+m = re.search(self.VALID_UNTIL_PATTERN, html)
+#         # standard dpct cannot handle exclusion constraints yet
+# this URL now comes through reverse(), thus url quoting and iri_to_uri encoding
+In this case, it always returns False, so the module should not be
+curr, previous = items_for_mac[i].date, items_for_mac[i-1].date
+l2 = Language.objects.create(iso='ar', name='Arabic')
+Date:             Fri Jan 16 13:03:28 2015
+def editTransaction(self, jType, recordID):
+for row in range(rows):
+if key in ["activation"]:
+def from_nodelink_gz_io(bytes_io: BytesIO) -> BELGraph:
+import numpy, copy, csv
+if controller.system_id not in connected_ids
+elif name == "UniqueId":
+:return: An iterator like instance of Route
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+from .admin import site, site2, CityAdmin
+align_bias_1xc = np.expand_dims(align_bias_c, axis=0)
+value='Choose a container to ' + self.n_action,
+devices = ["%s: %s" % (k, v)
+print("number of topics : ")
+elif self.prefix is not None:
+def save_track(self, item, persistent):
+def remove_profile(self,ref, recursive=False, delete=True, with_triggers=True, logger=None):
+print('%s: %d votes' % (commit, len(votes)))
+print('         you may lose some real money if you do this!...')
+enough to pick up dynamics that you may not want.
+elif args.cmd == 'list':
+lsz.Add(st, 1, wx.TOP, offsetTcLabel)
+# Ignore blank lines and comments
+print 'Unsupported URL, skipping'
+response = self.client.post('/test_admin/admin/admin_views/rowlevelchangepermissionmodel/2/', {'name': 'changed again'}, follow=True)
+classname, method, param_names, data, new_class_dict,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+if tmp[0] != '[' and tmp != '':
+response = self.client.get('/test_admin/%s/admin_views/article/' % self.urlbit, {'o': 2})
+('Rob G.*', 'Ecstasy, You Got What I Need'),
+line_sgsn_attach_failure = lines[index + 2]
+lines = [2, 1026]
+Date                 : August 2012
+pizza = Pizza.objects.create(name="Double Cheese")
+if ln != -1 \
+if response.Estado != '1' and not response.NumeroEnvio:
+## it under the terms of the GNU General Public License as published by
+from netjsonconfig.exceptions import ValidationError
+Ensure that the prepopulation works for existing objects too, as long
+"Description: BSB version 2 and 3 chart import utility for MX Mariner\n" )
+from trading_calendars import get_calendar
+# Build inputs for controller
+# Should have 5 columns (including action checkbox col)
+for k in klst:
+if narrow_stream is not None and narrow_topic is not None:
+tr_kl_cost, l2_cost, kl_weight, l2_weight)
+self.gridLayout.addWidget(self.dateRange_combo, 4, 1, 1, 1)
+if numRepeats > 20:
+hps: The dictionary of hyper parameters.
+>>> test(r"⍴ ⍉ ,1.2")
+if offset is not None:
+>>> test(r"⍒ 1.1 6.6 2.2 5.5 3.3 4.4")
+if bandIndex == -1:
+if len(result) != 1:
+'git', 'notes', '--ref', NOTES_REF, 'append', '--allow-empty', '-m', vote, args.COMMIT],
+# Print a traceback if this is a 500 error.
+newprice = round(currprice + pricedelta,2)
+# This is also used if you do content translation via gettext catalogs.
+"Maintainer: Will Kamp\n" + \
+"filesystem": qt.qcolor()(0xff, 0xe3, 0xc5),
+data = JSON(code=ADD_OK_CODE, status=True, message=ADD_OK)
+# this is the name of the file that will be saved
+# respectively. For a distribution with 3 parameters, it would be
+and creates a new csv file with forecasts
+# List of patterns, relative to source directory, that match files and
+weight_scale (optional): weights are scaled by ws/sqrt(#inputs), with
+if __name__ == '__main__':
+"""Send previous track command."""
+npyscreen.notify_confirm("Failure: " + str(request[1]))
+# Changes may cause incorrect behavior and will be lost if the code is
+n = arr_len - 1
+def main(opts, args, dbctx):
+"<span font_family='liberation-sans' weight='normal' foreground='%s' size='xx-small'>  (ESC to hide temporarily)  </span>" %
+tf_vals_flat, fidxs = flatten(tf_vals)
+def resize(self, widget, data=None):
+run(cmd, run_dir=data_dir, forward_signals=args.forward_signals, pidfile=pidfile)
+import numpy as np
+'%s_*%s*' % (bin_name, tag[:8])),
+self.assertContains(response, '<a href="%s" class="historylink"' % expected_link)
+# create 2 Person objects
+graph.graph[GRAPH_ANNOTATION_MIRIAM] = set(graph.graph.get(GRAPH_ANNOTATION_MIRIAM, []))
+>>> test(r"⍴ ? ,1")
+# Test we can override with query string
+index = self.filterModel.index(row, 2)
+# Add any paths that contain templates here, relative to this directory.
+self.getElemAttrIfPresent(productSoup, "div", "m-product-details-container", "div", "data-productid",
+# Licensed under the MIT License. See License.txt in the project root for
+a1 = Answer.objects.create(question=q1, answer="Because.")
+for i in settings.AUTH_LDAP_FIELDS:
+>>> IO = saveIndexOrigin()
+# Check the form action.
+The stream contains a list of usernames (they can be email addresses
+# XXX copy&paste&tweak of zeit.content.cp.browser.blocks.teaser.Display
+vpi_module['include_dirs']  = [os.path.abspath(os.path.join(core_root, d)) for d in core.vpi.include_dirs]
+response = self.client.post('/test_admin/admin/admin_views/post/add/', data)
+factors[t] = linear(gen_outs[t], factors_dim, do_bias=False,
+cookies = "<could not parse>"
+# .htaccess) here, relative to this directory. These files are copied
+line_no_suitable_cells_la = lines[index + 16]
+from databaseschema import *
+# (at your option) any later version.
+response = self.client.get('/test_admin/admin/admin_views/language/', {})
+print("     Decreasing learning rate to %f." % lr)
+"etc", "été", "êtes", "étiez", "étions", "être", "eu", "eue", "eues",
+self.gen_ics = linear(self.g0s_val, gen_cell.state_size,
+'<body class=" app-admin_views model-section ')
+from django.contrib.admin.validation import ModelAdminValidator
+from .utils.tools import properties, grid_units, get_slices, average_collapse, central_wav
+"""Run the model on the data in data_dict, and save the computed values.
+logging.error("startWebDriver() Firefox Failed to start")
+>>> test(r"⍟ 1 2 3 4 5")
+help="Disable the bottom banner")
+The mean and variance of approximate posterior of g0.
+# Find the link
+p1 = Podcast.objects.create(name="A", release_date=dt)
+for name in core.list_valid_plugins('bts_tools.commands')}
+ForeignKey 'limit_choices_to' should be allowed, otherwise raw_id_fields
+url = reverse('admin:auth_user_changelist', current_app=self.admin_site.name)
+if PMI_MAX > Threshold:
+self.assertContains(response, '<div class="field-box field-%s">' % field_name)
+* FunctionPSF(self, psf_function, width): Convolves val with calculated PSF.
+"parmi", "partout", "pas", "passé", "passim", "pendant", "personne",
+def new_method(cls, method, param_values):
+args = self._call_table.item(i, 6).text()
+self.assertEqual(mail.outbox[0].subject, 'Greetings from a deleted object')
+# you may not use this file except in compliance with the License.
+# ensure changelist contains only valid objects
+def play_track(track, play, callback):
+from django.urls import path
+if prefix == '': # we dont have the prefix yet
+from pylab import *
+posterior_sample_and_average - sample from the posterior, this is used
+self.fieldList = [('ID', 'journal_id', 25, 'string'), ('Journal', 'journal_type', 70, 'string'), ('No', 'journal_no', 75, 'string'),
+if args is None:
+# This program is free software; you can redistribute it and/or modify
+means_t_bxd, logvars_t_bxd = tf.split(axis=1, num_or_size_splits=2,
+# even though the graph computes these costs on a per-batch basis,
+# Relaunch the Classification Banner on Screen Resize
+response, '?release_date__month=%d&amp;release_date__year=%d"' % (
+and s.text[-1].lineno == ln):
+kl_cost_ph = tf.placeholder(tf.float32, shape=[], name='kl_cost_ph')
+raise this.MakeError('TypeError', 'callbackfn must be a function')
+Zipkin attributes. For example, if you want to deterministically
+"Section: misc\n" + \
+parser.add_option("-x", "--hres", default=defaults["hres"], type="int",
+# If false, no index is generated.
+- run                    : run latest compiled {bin} client, or the one with the given hash or tag
+if platform == 'darwin':
+intpart, fracpart = struct.unpack('>QQ', sockrecv(sock, 16))
+in the matplotlibrc file.
+val_2D = np.sum(val, axis=2)
+except Exception, e: # No other exceptions are normal, so we raise this.
+:param dict custom_headers: headers that will be added to the request
+'Award supplier id', 'Award supplier name',
+# expands to 'gbp'
+# the XMLRPC variants allow 1 simultaneous request
+'Intended Audience :: Developers',
+# using things via tasks construct their own kickgen/yumgen/
+self.tcResolution.SetLabel("%.3f micrometers" % (1.0 / resultmm * 1000.0))
+pass  # FIXME: implement me
+Cobbler internal use only.
+from django.contrib.admin.utils import quote
+op_id_list = [op.getAttribute("id") for op in op_list]
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+r = deepcopy(self._reflist[num])  # for convenience
+self.assertContains(response, '<a href="/test_admin/%s/logout/">' % self.urlbit)
+OLIVE = (128, 128, 0)
+stop_words += [strip_diacritics(dec(s)) for s in [
+INVALIED = 'Not support this method'
+ax0 = plt.subplot2grid((2,4), (0,0))
+if lower(s[start:end]) != pat:
+if hps.ic_dim > 0:
+value: StringLiteral |> `ast.literal_eval`
+A smoke test to ensure POST on add_view works.
+self, custom_headers=None, raw=False, **operation_config):
+from ..exceptions import InvalidFormatError
+response = self.client.get("/test_admin/admin/admin_views/referencedbyinline/", {TO_FIELD_VAR: 'name'})
+if head != None:
+self.add_handlers({"^T": self.quit, "^Q": self.quit})
+self.pvar_summ = [None] * hps.co_dim
+from module.plugins.internal.MultiHoster import MultiHoster, create_getInfo
+MAROON = (128, 0, 0)
+def rename_profile(self, ref, newname, logger=None):
+s = ConvertUnits(wav=self.wav, val=self.val)
+from article_parser import ArticleParser
+# 'admin2' custom admin (which doesn't have the Person model).
+# Dump the node back to a dict and make sure it parses again the same way.
+for evaluating the expected value of the outputs of LFADS, given a
+"""Turn the media player off."""
+from PyQt4.QtGui import *
+from shutil import copy2 as copy
+if self.prefix is not None and self.suffix is not None:
+assert lnotab[lines[0]].arg == 1
+# Get uri from helpers
+The stream contains a list of email addresses and their employers.
+children = [node for node in graph.successors(pthwy_id)]
+models = [(AdminOrderedField, 'adminorderedfield'),
+specific input, by averaging over multiple samples from the approx
+'5/15"-18 imperial coarse (1.41111 mm/rev)',
+# if comment_position == 0, then the line is empty
+contain this matrix, which will be used for both the input adapter and the
+# html_use_opensearch = ''
+for param, g in zip(params, gradients):
+reTotalElem = re.search("([0-9]{1,4}\.[0-9]{2})", totalElem.text)
+# plotter does averaging
+for i in self.pks:
+message % ("myMasteredGroup", "myGroupMaster"),
+from .milestone import MileStone
+if type(return_vals) == list and type(return_vals[0]) == list:
+for api in public_apis:
+'labels': labels, 'img': img}
+if seed is not None:
+## create a WAMP-over-WebSocket transport server factory
+# XXX of feedparser.py
+"""Return the series title of current playing media (TV Show only)."""
+# and not an action "Go".
+ln = inspectWhitespaces(s, lambda ws: '\n' not in ws.value)
+np.array([[0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+# parameters (rates vs. mean and variance).  So the output_dist_params
+are the name of the organizations and each organization object is
+block.super in bodyclass block.
+'but', 'upon', 'where', 'these', 'when', 'whether', 'also', 'than',
+# one as the admin should be checking and fixing, or it
+The default is ``'ergs/cm^2/s'``.
+self.assertContains(response, '<div class="form-row field-coolness">')
+soup = BeautifulSoup(page.text, 'html.parser')
+selector = soup.select('article.story > div.story_h > div.lcol > h2 > a')
+elif message[0] == "success":
+Ensure that the minified versions of the JS files are only used when
+img = 'http://gravatar.eqoe.cn/avatar/%s?size=48&default=identicon&rating=pg' % (m.hexdigest())
+# Get number of basket items
+from selenium import webdriver
+enrollments. Email addresses will not be validated when `email_validation`
+>>> test(r"⍳ 1 1")
+'[1.0,1.4]', '[1.5,1.9]', '[2.0,2.4]', '[2.5,2.9]', '[3.0,3.4]',
+# Successful post will redirect
+self.id = self.add(npyscreen.TitleText, name='id')
+def __init__(self, filename, **kwargs):
+If ``None`` standard extinction law is used.
+from django.utils.http import urlencode
+if core.affiliation(client['type']) == 'steem':
+all_name_example_idx_pairs += zip(names, random_example_idxs)
+zipkin.transport_handler: how py-zipkin will log the spans it generates.
+for pk, model in ((op.row_id, op.tracked_model)
+# XXX we should be able to replace it with a finite state automaton in C
+# If a user hasn't signed the current Terms of Service, send them there
+"chapter_set-2-title": "Need a title.",
+from time import time
+from pyramid_zipkin.request_helper import create_zipkin_attr
+if not 'favorites' in url:
+'html', 'iframe', 'img', 'input', 'ins', 'isindex', 'label',
+text = self.c_text % "mM"
+Copyright 2006-2009, Red Hat, Inc
+# directly to the root of the documentation.
+:param client: Client for service requests.
+'+': lambda x, y: x + y if x is not None and y is not None else None,
+date, t = parts[1].split(',')	# 		d	u' 30-09-2012'	unicode
+from django.template import Library
+output, retVal = pcs(temp_cib, "property set default-action-timeout=25")
+weight = filter_input.rebin(self.wav, self.val)
+# - O: Con reembolso comisión en origen.
+identity = Identity(email=email, source=self.source)
+# - Andorra: Deben ser 5 dígitos, por lo que se pondrá un 0 delante del
+if self._call_table.item(i, 0).text() in checked:
+# limit_choices_to option that includes a filter on a string field
+the minima to try to connect
+self.gridLayout_8.addWidget(self.modfiedDateFilter_combo, 1, 1, 1, 1)
+msg = "invalid test id '%s', '%s' is not a valid character for a test id"
+# test a searched page
+self.assertEqual(events[i], (minutes[i - 1], BAR))
+>>> test(r"* 1 2 3 4 5")
+"""Given the urls already in the correct order, downloads
+raise this.MakeError('TypeError', 'Reduce of empty array with no initial value')
+except BaseException as mongoex:
+witness_host = client.get('witness_host', '127.0.0.1')
+msg_prefix="Couldn't find an input with the right value in the response")
+'License :: OSI Approved :: BSD License',
+# translate to lower case, normalize whitespace
+lat = Literal(event['pickup_latitude'], datatype=XSD.float)
+# here one more count(*) query will run, because filters were applied
+for keyword in ('WHERE', 'AND', 'OR')):
+from pentai.ai.ai_genome import *
+# Empty Label for formatting purposes
+from tools import _
+E, T, D  = data_extxd.shape
+end_week = Column(Integer, CheckConstraint('end_week > 0'))
+#print("Starting to process document {}".format(item.path))
+fail_code = ord(sockrecv(sock, 1))
+k = max((arr_len + relative_start), 0) if relative_start<0 else  min(relative_start, arr_len)
+1          1         NR rh70-node1 (local)
+self.assertNotContains(response, "Some help text for the date (with unicode ŠĐĆŽćžšđ)")
+def _check_session_bts_during(session_label, events, bts_dt):
+pixelBlocks['output_pixels'] = b.astype(props['pixelType'], copy=False)
+# NB: The order values must be changed so that the items are reordered.
+self.assertContains(response, '<th class="field-id"><a href="%s">%d</a></th>' % (link2, story2.id), 1)
+link1 = reverse('admin:admin_views_language_change', args=(quote(l1.pk),))
+response = self.client.get('/test_admin/%s/admin_views/article/' % self.urlbit)
+SyntheticCube is part the FluxCompensator. It converts
+# Setup permissions, for our users who can add, change, and delete.
+kind_data = kind + '_data'
+logging.error("Site " + siteUrl + " title doesn't contain " + titleMustContainStr)
+from __future__ import print_function
+## read more at http://dev.w3.org/html5/markup/meta.name.html
+if len(children)==0: return False
+given push message contrasted against the database. Each conflict
+# Nothing to do, since we don't care about anything other
+# urlrepl = re.compile('<b>\2</b> (<u>\1</u>)')
+self.assertContains(response, '<tr><td colspan="4"><ul class="errorlist nonfield"><li>Food delivery with this Driver and Restaurant already exists.</li></ul></td></tr>', 2, html=True)
+from dfvfs.path import os_path_spec
+# Message should contain non-ugly model verbose name. The ugly(!)
+if name == "ServerRelativeUrl":
+"Tests a custom action defined in a function"
+Returns all modules in a given category, for instance "serializer", or "cli".
+from skimage.util import view_as_blocks
+response = self.client.post('/test_admin/admin/admin_views/persona/add/', post_data)
+# -*- coding: utf-8 -*-
+r, u = tf.split(axis=1, num_or_size_splits=2, value=linear(xh,
+self.assertRedirects(response, '/test_admin/admin/auth/user/%s/' % new_user.pk)
+self.assertNotContains(response, 'Unordered object #2')
+queryString = queryString + """'}) return s.value"""
+object: the conflicting object in database, bound to the
+# If true, links to the reST sources are added to the pages.
+if len( shape ) == 5: pars['out_sides'] = shape[1:4] ;
+gs = [dim_to_var(p.ndim) for p in params]
+The output distribution parameters (e.g. rates) for all time.
+# make sure we have no duplicate HTML names
+{ "alias": "s4_yaw", "unit": "radian" } ] },
+name=' now you haVe anöther   sŤāÇkeð  inline with a very ... loooooooooooooooooo',  # 75 characters in name field
+(total cost of the epoch, epoch reconstruction cost,
+kl_increase_steps_f = tf.cast(hps.kl_increase_steps, tf.float32)
+tf.minimum(kl_decay_step_f / kl_increase_steps_f, 1.0)
+from dbsync.utils import get_pk, class_mapper, query_model, column_properties
+"ci-dessous", "ci-dessus", "cinq", "cinquante", "cinquante-cinq",
+with open('testing_daemon', 'w') as f:
+self.assertEqual(mail.outbox[0].subject, 'Greetings from a function action')
+utils.dom_get_group, cib_dom, group_ids, all_ids - group_ids
+# before the pointer.  It's also likely that someone joining an
+cause = "Skip: '%s' -> line %s: %s" % (line, str(nline), e)
+def __parse_email_to_employer_line(self, raw_email, raw_enrollment):
+op_id_list = [op.getAttribute("id") for op in op_list]
+# Emulate model instance creation via the admin
+tf_vals += [self.prior_zs_g0.mean, self.prior_zs_g0.logvar,
+Python SDK for KFServing  # noqa: E501
+# Definitions of extension to TimeSeries to store trajectory information
+# A builtin tag exists in both the index and detail
+k = arr_len - abs(n)
+r, u = tf.sigmoid(r), tf.sigmoid(u + self._forget_bias)
+for pyFile in ["/kattegat.png", "/spinner.gif"]:
+log.info("Using build environment '%s' on platform: '%s'" % (env_name, platform))
+_ = os_path_spec.OSPathSpec(location=test_location, bogus=u'BOGUS')
+"vis-à-vis", "vite", "vitro", "vivo", "voici", "voilà", "voire",
+# request is OAuth-authenticated).
+3 M 1 rh66-node3
+Return the application configuration
+from ..struct.graph import _handle_modifier
+logger.debug('total value before zoom : ' + str('%1.4e' % np.sum(self.val)) + ' ' + str(self.units))
+s = 3 if s is None else s
+from datetime import datetime
+'after', 'within', 'before', 'because', 'without', 'however',
+return self.assert_response(view, 401, user, view_kwargs)
+'tt', 'u', 'var') + fontstyle + phrase + heading
+return self.requiredoptions.get(attr, IpetNode.getRequiredOptionsByAttribute(self, attr))
+# it under the terms of the GNU General Public License as published by
+def rename_item(self, what, ref, newname, logger=None):
+fd3 = FoodDelivery.objects.create(reference='789', driver='bill', restaurant='pizza')
+cmd = [bin_name] + run_args
+file on initialisation, while a second reader (:class:`XVGFileReader`) that
+run_args += ['--p2p-endpoint', '0.0.0.0:{}'.format(p2p_port)]
+batch_size: The size of the batch.
+self.con_ics = con_state = None
+# firehose spans for blacklisted paths like /status
+for col in unique_columns)})
+Validates a model with a generic relation to a model with
+batch_size x # time steps x # dimensions
+'tc class add dev tap0 parent 1:1 classid 1:2 htb rate 512kbit ceil 1024kbit',
+from __future__ import absolute_import
+return self.rename_item("image", ref, newname, logger=logger)
+while k < arr_len:
+The data dictionary also has a few more keys:
+# self.clickButtonByXPath("//input[@type='button' and @value='Continue']")
+query = query.filter(eval(itemFilter)) if itemCrit else query
+self.create_index('logstash-2012.01.01')        # wrong precision
+# '@' must be at the beginning of a line to be a grace instruction
+# sphinx-quickstart on Wed Jun 22 12:48:46 2016.
+raise this.MakeError('TypeError', 'Reduce of empty array with no initial value')
+from msrest.pipeline import ClientRawResponse
+from kfserving.rest import ApiException
+lambda t: t != 'django.core.context_processors.i18n',
+Prefix("-" | "+" | "!"),
+$ {bin} build                 # build the latest {bin} client by default
+Ensure that the auth/user/change_password.html template uses block
+import numpy as np
+Regression test for ticket 20664 - ensure the pk is properly quoted.
+ssh_newkey = "Are you sure you want to continue connecting"
+# (at your option) any later version.
+self.assertEqual(resp.context['selection_note_all'], 'All 2 selected')
+s = "%f" % sv
+for i in m:
+# can provide fields on a per request basis
+result = ldo.search_s(settings.AUTH_LDAP_BASE_DN, ldap.SCOPE_SUBTREE, ldap.filter.escape_filter_chars(settings.AUTH_LDAP_FILTER) % username, settings.AUTH_LDAP_FIELDS.values())
+data = JSON(code=ID_ERR_CODE, status=False, message=ID_ERR)
+# Force the system to run n_lr times while at this lr.
+tests for OpenWisp backend
+with gzip.GzipFile(fileobj=bytes_io, mode='w') as file:
+recon: %.2f, %.2f,     kl: %.2f, %.2f,     l2: %.5f,\
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+self.assertEquals(None, utils.dom_get_element_with_id(dom, "dd", "bb1"))
+from scapy.all import *
+def set_utility_config(self, genome, player):
+# Creates zipkin_attrs and attaches a zipkin_trace_id attr to the request
+parser.error("The file %s does not exist!" % arg)
+# create a dictionary with user entered data
+datasets: A dict of data dicts.  The dataset dict is simply a
+"""Build a graph from the node-link JSON contained in the given file.
+('Diss Reaction', 'Jiiieehaaaa '),
+utc_now=datetime(2014, 1, 4, 3, 45, 50), prefix='l-'))
+elif self.tabWidget.currentIndex() == 1:
+login_url = reverse('admin:login') + '?next=/test_admin/admin/'
+# along with ssis_dash. If not, see <http://www.gnu.org/licenses/>.
+self.tr('Set the DEFLATE compression level'),
+"Ensure that the default behavior is followed if view_on_site is True"
+if hps.ext_input_dim > 0:
+MLS player acquisition data model.
+img = cv2.drawContours(im, contours, -1, (0,255,0), 3)
+def _make_parser(self, data, table_id):
+def name(self, name) :
+Quorum:           2 Activity blocked
+if narrow_stream is not None:
+# conditions for saving checkpoints:
+""" Read next auxiliary step and update ``auxstep``.
+parent-model instance is deleted, both instances are listed
+def add_image(self, ref, check_for_duplicate_names=False,save=True, logger=None):
+vres    -- Vertical Screen Resolution (int) [ requires hres ]
+'<li class="success">The telegram &quot;Urgent telegram&quot; was added successfully.</li>',
+# BEFORE_TRADING_START.  therefore, each day has SESSION_START,
+# Check the form action.
+return self.assert_response(view, 403, user, view_kwargs)
+res = self.get_view(route, user)
+if destDict is not None:
+def central_pixel(self, dx, dy):
+self.append('REMOVE ' + ', '.join(arg.var for arg in args))
+if verbose: print_genes(cursor, genes, depth+1)
+# Test for #14529. defer() is used in ModelAdmin.get_queryset()
+2        foo         NR rh70-node2
+def reposync(self, name=None, tries=1, nofail=False, logger=None):
+shuffles_incrs_in_time = np.random.randint(-w, w, size=nfound)
+' the server auto reloads on source code changes.'
+for date in DATES:
+pr_info("Preparing " + name)
+from urllib2 import URLError
+if self.dateRange_combo.currentText() == 'All':
+For example if you have a file `myscript.py` with the following content...
+## Start websocket server
+print "processing new minima and ts"
+raise ValueError("Step index {0} is not valid for auxiliary "
+op_list = utils.get_lrm_rsc_op(dom, "dummy", ["monitor"])
+'necessarily', 'neither', 'next', 'none', 'nor', 'normally', 'not',
+print "Error in receiving Historical Data Request : " + message
+from homeassistant.components.media_player import (
+object_url = '%s%s' % (
+content += re.sub(r"\n+", " ", story_element.getText())
+Cobbler internal use only.
+:param bool raw: returns the direct response alongside the
+if platform not in ['linux', 'darwin']:
+service_data.NumeroBultos = self.number_of_packages or 1
+version       -- something like "1.3.2"
+except Exception as e:  # pragma: no cover
+wav_total = central_wav(wav=[wav_min, wav_max])
+from maasserver.rbac import rbac
+"""Ensure incorrect lookup parameters are handled gracefully."""
+# Don't depend on a warm cache, see #17377.
+# read own extinction law
+B, T, _ = data_bxtxd.shape
+kind_ext_input = kind + '_ext_input'
+elif gender not in {'1', '0'}:
+'iframe', 'kbd', 'label', 'legend', 'p', 'pre', 'q', 's',
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# License, or (at your option) any later version.
+for f in os.listdir(self.sim_root):
+opts = (no_update_log and RDBMONOULOG or 0)
+elif u'Вчера' in date:
+from astropy.io import fits
+self.corr_cost = tf.reduce_mean(all_sum_corr) # div by batch and by n*(n-1)/2 pairs
+:type config: deepy.TrainerConfig or dict
+response = self.client.get('/test_admin/admin/admin_views/complexsortedperson/', {})
+# SerialGrabber reads data from a serial port and processes it with the
+:param route_table_name: The name of the route table.
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+new_next = {REDIRECT_FIELD_NAME: redirect_url}
+# real limits within collaps
+cyres = graph.cypher.execute("""MERGE (s:Stock {name:'NASDAQ', value:4630.60, change:+6.06 , time : 1})""");
+# you may not use this file except in compliance with the License.
+keyword = 'AND ' if not or_ else 'OR '
+PHONE_EX = 'Phone has already regist'
+gene_symbols = dict(hard_landing_search(cursor, qry))
+from django.utils.cache import patch_cache_control
+response = self.client.post('/test_admin/admin/admin_views/book/1/delete/', delete_dict)
+# add_module_names = True
+By default, the time of each step is assumed to be stored in the first column,
+def getExtensions(self,responseFields = None):
+self.getElemAttrIfPresent(productSoup, "div", "m-product-details-container", "div", "data-weighttype",
+(record_locking and RDBXOLCKREC or 0) |
+# Emulate model instance edit via the admin
+# Filters should be allowed if they are defined on a ForeignKey pointing to this model
+DESC_COMMANDS = """following commands are available:
+df.loc[df.loc[:, 'target'] == mask_t2, 'targetNew'] = 't+2'
+npyscreen.notify_confirm("Failure: " + str(e))
+for name, data_dict in datasets.items():
+result_repr = escape(getattr(result, f.name))
+Copyright            : (C) 2012 by Victor Olaya
+# FIXME: probably doesn't work for yum-rhn-plugin ATM
+response = self.client.get('/test_admin/admin/admin_views/person/', {'o': '1.2'})
+club = relationship('Clubs', backref=backref('payroll'))
+self.picture = Picture(name="Test Picture", image=filename, gallery=self.gallery)
+'content': guide.content, 'submit': submit,
+# Documents to append as an appendix to all manuals.
+# The *_INPUT_FORMATS strings use the Python strftime format syntax,
+# attributes with are passed, since input_array is SyntheticCube
+needed (rather than reading and storing all from the start), for a lower
+The factors for all time.
+def __save_track_thread(self, item, persistent):
+self.reportName = 'Production List'
+if word not in stop_words])
+self.group, self.i18n_group = self.trAlgorithm('[GDAL] Projections')
+# Because the rates are changing, there is nesting
+from .deploy import deploy_node  # can only import now due to potential circular import
+psf : GaussianPSF, FilePSF, database, FunctionPSF
+"maintes", "maints", "mais", "mal", "malgré", "me", "même", "mêmes",
+name(string)-> data dictionary mapping (See top of lfads.py).
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+posterior sample and average by taking one example, and filling a whole
+if date != None:
+from zerver.decorator import zulip_login_required, process_client
+return json.dumps(to_nodelink(graph), ensure_ascii=False, **kwargs)
+if self._cur_track < len(self.tracks) - 1:
+# The font size ('10pt', '11pt' or '12pt').
+"déjà", "delà", "demain", "d'emblée", "depuis", "derechef",
+cyres = graph.cypher.execute("""MERGE (s:Stock {name:'NIKKEI', value:17336.12, change:-23.02 , time : 1})""");
+for i in xrange(arr_len):
+UNAME_EX = 'Username has already regist'
+the proper readin / readout matrices.
+basename, ext = os.path.splitext(name)
+# The suffix(es) of source filenames.
+posterior.  Also used for the lower bound on the negative
+1 3 5 4 2 0
+from django.core.checks import Error
+from py_zipkin.exception import ZipkinError
+HTTP 404 error, see #19951) when passing a string as the PK argument
+Tests user CRUD functionality.
+mqtt_auth = ('system', 'manager')
+prior_g0_mean = [np_vals_flat[f] for f in fidxs[ff]]; ff +=1
+stage = 'SyntheticCube: add_noise'
+'results', 'said', 'same', 'seem', 'seen', 'several', 'shall', 'should',
+if self.val.ndim == 1:
+except Exception as exception:
+Description - Populate the index names to track and initial database
+collected_op_values = self.run_epoch(datasets, ops_to_eval, kind=kind,
+def write_tvshow_nfo(parser, tvshow_api, tvshow_path):
+self.inputs.append( [ self.node( pars['share'] ) , pars ] )
+Fields should not be list-editable in popups.
+from django.contrib.admin.templatetags.admin_list import result_headers, result_hidden_fields
+value='via a POST request '
+# Try to login again if not currently logged in
+self.webDriver.execute_script("document.getElementsByClassName('" + className + "')[0].click()")
+prompt_for_invites = first_in_realm and \
+# not included on the parent form, and the family_name of the parent
+self.assertContains(response, 'Choisir une heure')
+Sachsen (1995): bezogen auf den Gebietsstand 01.01.1996.
+'ISBLANK': lambda x: x is None,
+from tastypie.utils import trailing_slash
+response = self.client.post(collector_url, self.post_data)
+dateTupple = (date_low, date_hi)
+'1', '1_6', '1_6_7', '1_6_7_6']
+self.assertEqual(Grommet.objects.all()[0].name, "Grommet 1 Updated")
+from __future__ import absolute_import, unicode_literals
+print 'Broadcasting Price History : ' + broadcastData
+:param headers: h1: v1\n h2: v2
+#Commit and close the graph
+page = s.post(url, data=params)
+# at end of file or end of first set of data (multiple sets
+# If true, SmartyPants will be used to convert quotes and dashes to
+Objects should be nested to display the relationships that
+>>> test(r"≢ ⊂ 1 2 3")
+if message[0] == "stdout":
+# sends a legitimate arp request to resolve an IP to a
+def __init__(self, name, molecular_weight, residue_number,
+"""Displays a MX Dataset and associated information.
+if __name__ == '__main__':
+# number_of_genes = genes related to nodes without descendants
+'"/worker/%s/%s/"' % (worker.surname, worker.name),
+# be parsed using sslstrip
+St = numpy.log(Pa) - parameter["Beta"]*numpy.log(Pb)
+* ``pc`` in cm
+TRAFFIC_LEFT_PATTERN = r'Available traffic \(today\):\s*<b><a href="/user/statistic.html">(.+?)<'
+# Clear current session file info
+"Resource 'myMasteredGroupedResource' is master on node "
+datatype : choose 'int' or 'float'
+self.soup = BeautifulSoup(self.content, 'html.parser')
+if r.status == 0:
+getattr for a dot separated path
+assert m.calls == 1
+self.vbox_center.pack_start(self.center_label, True, True, 0)
+# for XSS attacks, as feedparser is not completely immune
+if f is None:
+>>> test(r"⍴ ? ⍳ 6")
+def find_distro(self, name=None, return_list=False, no_errors=False, **kargs):
+'[-1.0,-0.6]', '[-0.5,-0.1]', '[0.0,0.4]', '[0.5,0.9]',
+self.records.insert(position + row + 1, object)
+if D is None:
+supLine = ''.join(i for i in supCrit)[:-2]
+has_mobile_devices    = num_push_devices_for_user(user_profile) > 0,
+# The expected traversal is given by the layout of the JSON file.
+# install into bin dir
+from zerver.models import Message, UserProfile, Stream, Subscription, Huddle, \
+i.stage = 'SyntheticImage: initial'
+with tf.variable_scope("glm", reuse=True if t > 0 else None):
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+from django.conf import settings
+"""Display Classification Banner Message"""
+self.decprocess = DECProcess(child_conn, self.system, self.min1, self.min2,
+print "New Price for " + idx[0] + " : " + str(newprice)
+# Check that the order values have been applied to the right objects
+data = request.json or {}
+import numpy as np
+from django.contrib.auth import REDIRECT_FIELD_NAME
+NOT_ACTIVE = 'User Not Active'
+from .sed import SyntheticSED
+#YOUR PUBNUB KEYS - Replace the publish_key and subscriber_key below with your own keys
+if CITATION in edge_data:
+check = action_check.BootCheck(self._config, logger=logger)
+from unittest import TestCase
+KEY_ERR = 'The Key Error'
+Log entries for proxy models should have the proxy model's content
+# published by the Free Software Foundation, either version 3 of the
+self.assertNotIn('openvpn --mktun --dev 2693 --dev-type tap', contents)
+(False, msg % (".dummy", ".")),
+for name in self.cores:
+response = self.client.get('/test_admin/admin/admin_views/modelwithstringprimarykey/%s/' % quote(model.pk))
+self.timed_kl_cost = kl_weight * self.kl_cost
+data = JSON(code=HAD_LOGIN_CODE, status=False, message=HAD_LOGIN)
+self.assertContains(response, '<div class="form-row field-awesomeness_level">')
+elapsed_seconds = (pendulum.utcnow() - start).in_seconds()
+kind_data = kind + '_data'
+logging.error("Press view trolley button webdriver element exception")
+print "This operation required " + colored(runtime, 'blue')
+"frais", "fûmes", "fur", "furent", "fus", "fusse", "fussent", "fusses",
+""" Overriden to switch back to MAIN form """
+- version                : show version of the tools
+return (a, b, c), code
+if MW != 0.0:
+# Licensed under the Apache License, Version 2.0 (the "License");
+elif self.webDriverType == "Firefox":
+callbackfn.call(T, (kValue, this.Js(k), array))
+doesn't mean there are configuration errors.  This is mainly useful
+for l in question.label.all():
+# These end up in a global JavaScript Object named 'page_params'.
+def __parse_identities(self, aliases, email_to_employer):
+#       was broken.  When we re-architect muting, we may
+""" Read next recorded step in xvg file and update ``austep``.
+from load_data import load_data_bis
+Physical unit of FOV axis in cm. Valid options are:
+# the default environment as working env
+query_parameters['api-version'] = self._serialize.query("self.api_version", self.api_version, 'str')
+# Non-temporal signals will be batch x dim.
+self.assertContains(response, 'title with a new\\u000Aline')
+response, unanswered = sr(arp, retry=retry, timeout=timeout)
+args.args = [args.environment] + args.args
+# Add an inline
+#   L2 weight must have finished stepping OR L2 is not being used, AND
+"rack controllers page</a> for "
+gen_outs[t] = tf.nn.dropout(gen_outs[t], keep_prob)
+except Exception as e:
+logger.debug("Successful LDAP login for user (%s)" % (username))
+response = self.client.post('/test_admin/admin/admin_views/post/add/', data)
+"""Set the volume level, range 0..1."""
+Validate that a custom ChangeList class can be used (#9749)
+assert response.content_type == 'text/csv; charset=utf-8'
+from .. import models
+if x is not None:
+""" Delete inheritance """
+if i > 1:
+if multi and len(url_or_urls) > 20:
+tf_vals = [self.factors, self.gen_states, self.gen_ics,
+# collapse every slice to one scalar value
+'TEXT': lambda x: str(x),
+'routeName': self._serialize.url("route_name", route_name, 'str'),
+# Compute the cost for training, part of the graph regardless.
+run_args = ['--data-dir', expanduser(data_dir)] + run_args
+HAD_LOGIN = 'Had logined'
+ratio = ratioA / ratioB
+#            self.webDriver.execute_script("document.getElementsByClassName('" + elemId + "').value = '" + strToSend)
+return self.t.ext(func, opts, key, value)
+bar_user = "bar username"
+# distributed under the License is distributed on an "AS IS" BASIS,
+from django.http import HttpResponseRedirect, HttpResponse, HttpRequest
+elif jType == PRODUCTION:
+"seraient", "serais", "serait", "seras", "serez", "seriez", "serions",
+"Resource 'myMasteredGroup' is master on node "
+Quorum: 2 Activity blocked
+def get_view(self, route, user=None):
+'invalidateProperties': 2 | 4 | 8,      # invalidate histogram, statistics, and key metadata
+""" Retrieves the Arc.js configuration settings for a site.
+# (inquisition__actor__name), a filter on an integer field
+response = self.client.get('/test_admin/admin/admin_views/villain/%s/delete/' % quote(1))
+if regexReplace is not "":
+with open(IP_FORWARD, 'w') as fd:
+if ic_dim > 0:
+value if it does not already exist
+from zipline.gens.sim_engine import (
+if toDate < fromDate:
+#bmrem_examples = np.zeros(bmrem, dtype=np.int32)
+payload = {'id': list(x['id'] for x in
+assert s3.S3().get_signed_url.call_args == mock.call(
+text = self.c_text % "mg/ml"
+0 1 2 3 4 5
+from lxml import etree
+format(proj_angles, legendre_orders, radial_step, smoothing,
+response = self.client.post('/test_admin/%s/admin_views/gallery/%d/' % (self.urlbit, self.gallery.id), post_data)
+if isinstance( pars['tensor'] , np.ndarray ):
+graph.add_edge(u, v, key=hash_edge(u, v, edge_data), **edge_data)
+if self.config.accept_language is not None:
+Return the current list of images
+with open("./sgsn_attach_sr_raw.log", 'w') as expect_log:
+"Data dtype must be float for gaussian output dsitribution"
+d = TDaemon('testing_daemon.pid', verbose=0)
+2 M 2 rh66-node2
+x = x[:, ::-1, :, :]
+numOfItems = 4  #Four indices to manage
+tc = wx.Choice(self, wx.ID_ANY, choices=microStepping)
+"""Handler to drop objects after other objects."""
+glyph = glyph[0].value.as_css().replace('"', '')
+"""Return the image url of current playing media."""
+# Save the object
+#  the Free Software Foundation, either version 3 of the License, or
+* minimal wavelength:  ``filter['waf_min']``
+#     assert(filenamesPerTraxel.count('tests/multiSegmentationHypothesesTestDataset/segmentationAlt.h5') == 2)
+# See the License for the specific language governing permissions and
+"""Return the permission object, for the Model"""
+# Complex validation error with multiple fields:
+for i in range(0,AL*2):
+self.assertEqual(User.objects.count(), user_count + 1)
+Convolves slice within filter limits into a 2D image.
+if k not in {'source', 'target', 'key'}
+>>> test(r"∪ 0.5 1.5 0.5 1.5 0.5 1.5 ¯0.5 ¯1.5")
+response = self.client.get('/test_admin/admin/admin_views/rowlevelchangepermissionmodel/2/', follow=True)
+# Restore Minimized Window
+# Example of how to handle new fields:
+return self.remove_item("image", ref, recursive=recursive, delete=delete, with_triggers=with_triggers, logger=logger)
+run('{} cmake {} .'.format(' '.join(CONFIGURE_OPTS),
+"%d rack controllers are not yet connected to the region"
+Displays the headers and data list together
+cmd = 'rm -fr "%s"' % CLIENT['home_dir']
+if len(repos) == 0:
+print("            Document _id: {}".format(nomearquivoswagger,result.inserted_id))
+op_list = utils.get_lrm_rsc_op(dom, "dummy", last_call_id=340)
+# html_additional_pages = {}
+if event.keyval == 65307:
+A smoke test to ensure POST on edit_view works.
+"d'abord", "d'accord", "d'affilée", "d'ailleurs", "dans", "d'après",
+##        if len(self.message) > 100:
+self.controller_outputs = u_t = [None] * num_steps
+if previousdata is None:
+op_list = utils.get_lrm_rsc_op(dom, "dummy", last_call_id=34)
+#   KL weight must have finished stepping (>=1.0), AND
+zoomed_val = zoomed_val / size
+#Calculate new price of index based on pricedelta and pricedir
+args = self._call_table.item(i, 6).text()
+fixtures = ['admin-views-users.xml', 'admin-views-colors.xml', 'admin-views-fabrics.xml']
+json.dump({"url": url, "session_id": session_id}, outfile)
+response = self.client.get('/test_admin/admin/admin_views/plot/%s/delete/' % quote(3))
+:param str size_value: a size in bytes or specified with m=MB or g=GB
+"Regression test for #13004"
+# GNU General Public License for more details.
+if value == True:
+# Now resave that inline
+response.title = 'SSIS monitoring'
+elif not self.dateRange_combo.currentText() == 'All':
+return Project(self.url, self.user_name, self.password)
+case_data = dict(list(zip(param_names, param_values)))
+Player draft data model.
+# XXX it's not good practice to mix languages like this, we should use
+from datetime import datetime
+query_parameters['api-version'] = self._serialize.query("self.api_version", self.api_version, 'str')
+if len(error_lists) > 0:
+# The name of the Pygments (syntax highlighting) style to use.
+# API calls are protected by piston.
+'value'    : newprice ,
+assert result == 7
+the kickstart is bad, only that the possibility exists.  ksvalidator
+rates_bxtxd: a numpy tensor with shape:
+tc = wx.TextCtrl(self, wx.ID_ANY, "2", style=wx.TE_RIGHT)
+raise DiffcalcException("There is no reflection " + repr(idx)
+_submit = str(i.submit.strftime('%Y-%m-%d %H:%M:%S'))
+:param source: source of the data
+Currently, the following number ranges are defined:
+ROOT = os.path.dirname(os.path.abspath(__file__)) + '/'
+count, action = clause.split(' ', 1)
+if bmrem < batch_size:
+answer = Answer(user=request.user, question=question,
+Nodeid      Votes    Qdevice Name
+"""Pure python implementation of the binary Tokyo Tyrant 1.1.17 protocol
+if self._arquivo is not None:
+self.corr_cost_summ = tf.summary.scalar("Corr cost", self.weight_corr_cost)
+'%d/%m/%Y %H:%M:%S.%f',             # '25/10/2006 14:30:59.000200'
+# Test custom change form template
+tf.summary.scalar("AR Autocorrelation taus " + str(c),
+log_p_xgz_b += tf.reduce_sum(loglikelihood_t, [1])
+"""Initialize the demo device."""
+organization can be included followed by a '<' character. Comment
+'"/worker_inline/%s/%s/"' % (worker.surname, worker.name),
+for k, v in reversed(sorted(devices_dict.items(),
+to run with SELinux enabled (currently EL 5 or later).
+## create a WAMP-over-WebSocket transport client factory
+for s,r in response:
+if tlag < 0:
+df.loc[df.loc[:, 'target'] == mask_t0, 'targetNew'] = 't'
+{"name": "rh70-node1", "votes": 3, "local": False},
+# convolve value with classes GaussianPSF, FilePSF and FunctionPSF
+import numpy as np
+def test_csv_is_for_latest_live_dos_framework(self, latest_dos_framework, s3):
+def putnr(self, key, value):
+ax1.legend(loc=0, labelspacing=0.1, frameon=False, numpoints=1, fontsize=10)
+# collapse remaining cube into 2D
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+steps = sv * msv
+one = """<li>Cyclic one: <a href="/test_admin/admin/admin_views/cyclicone/1/">I am recursive</a>"""
+data_bxtxd: numpy array of spike count data to be shuffled.
+year_id = Column(Integer, ForeignKey('years.id'), primary_key=True)
+collected_op_values = self.run_epoch(datasets, ops_to_eval, kind="train")
+if self.hps.co_dim > 0:
+response = self.client.post(collector_url, self.post_data)
+date_filter = ReceiveHeader.journal_date.between(date_low, date_hi)
+1D val array (collapsed rough SED) with SyntheticSED properties.
+query += '&urls=%s&' % ','.join([quote(url) for url in url_or_urls])
+val[:, :, i] = psf.convolve(wav = self.wav[i], array = self.val[:,:, i], resolution = self.resolution)
+whether the cobbler kickstarts are going to be (likely) well
+# ssis_dash is distributed in the hope that it will be useful,
+if 'zipkin.create_zipkin_attr' in settings:
+:param func:assert_equal - 预计返回值和实际返回值相等/assert_in - 实际返回值包含预计返回值
+Creates an index.html in the directory
+def shift():  #todo check
+"services": qt.qcolor()(0xcc, 0xc5, 0xff),
+COMMAND_PLUGINS = {name: core.get_plugin('bts_tools.commands', name)
+if len(parts) > 1 and parts[0] == u'Дата':
+'description': ("The number of pixels along each side of the square "
+# does not match that of the child
+self.atau_summ = [None] * hps.co_dim
+if b is None:
+# 1 for the count and 1 for the objects on the page
+self.factors = factors = [None] * num_steps
+gen_states = np.zeros([E_to_process, T, hps.gen_dim])
+in_bias_1xf = -np.dot(align_bias_1xc, in_mat_cxf)
+self.assertContains(response, '<li>Answer: <a href="/test_admin/admin/admin_views/answer/%s/">Because.</a></li>' % a1.pk)
+if S > parameter["ODD"]:	#止损
+# esure is executable
+if multi_cut is True and (single_cut is not None or set_cut is not None):
+Ensure that one can easily customize the way related objects are saved.
+if len(tags) > 0:
+args = self._call_table.item(self._call_table.currentRow(), 6).text()
+Regression test for #20934
+result = run('1 <= 2 && (false || true)')
+# Now modify that inline
+color2_delete_url = reverse('admin:admin_views_color2_delete', args=(color_id,))
+# L2 regularization on the generator, normalized by number of parameters.
+# you may not use this file except in compliance with the License.
+# Same data also.
+run_args += ['--server-rpc-endpoint=ws://{}:{}'.format(witness_host, witness_port)]
+# -*- coding: utf-8 -*-
+set_cut : tuple, ``None``
+import idataco.util.qt as qt
+"rh70-node1, rh70-node2, rh70-node3, rh70-node3.",
+3          1         NR rh70-node3
+fixtures = ['user.json', 'oppia.json', 'quiz.json', 'permissions.json']
+for d, name in enumerate(dataset_names):
+FoodDelivery, RowLevelChangePermissionModel, Paper, CoverLetter, Story,
+op_id_list = [op.getAttribute("id") for op in op_list]
+config - training configuration
+cooccur= [[0 for col in range(len(keywordlist))] for row in range(len(candidatelist))]
+# ssis_dash is free software; you can redistribute it and/or modify it under
+def __init__(self, url, opts={}):
+from django.contrib.admin.templatetags.admin_static import static
+g = multiplier * g
+# so the following few IFs are necessarily ugly
+# Usually you set "language" from the command line for these cases.
+def _t1FN(code, func, opts, args):
+Ensures the admin changelist shows correct values in the relevant column
+type=lambda x: is_valid_file(parser, x),
+#             edgeFlow += hypotheses_graph._graph.edge[edge[0]][edge[1]]['value']
+Identity, Enrollment, Organization, Domain
+:param config: Configuration of service client.
+<lrm_resource id="dummy1" type="Dummy" class="ocf" provider="heartbeat">
+self.assertContains(post, 'Please correct the error below.',
+self.player.full_name, self.year.yr, self.round, self.selection, self.gen_adidas)
+# html_use_index = True
+def test_dom_get(method, dom, ok_ids, bad_ids):
+# further.  For a list of options available for each theme, see the
+data = {"login_name": settings.anidub_login, "login_password": settings.anidub_password, "login": "submit"}
+return s if s else None
+from serial_grabber.mqtt import MqttCommander
+kl_cost_co_b = hps.kl_co_weight * kl_cost_co_b
+ax1.plot(LIM.radial, LIM.Beta[0], 'r-', label='linbasex')
+# create a Layer 3 ARP() packet
+# if we specified -jXX, then it's not a tag, it's a thread count for compiling
+m = Measurement("name", "group")
+For example, a MAASAPINotFound exception processed by a middleware
+self.assertContains(response, '?release_date__year=%d"' % (date.year,))
+import numpy as np
+#     assert(len(probabilityGenerator.TraxelsPerFrame[3]) == 4)
+# lookup query string; in model we define defendant1 field to have a
+lat = Literal(event['dropoff_latitude'], datatype=XSD.float)
+new_method.__doc__ = extra_doc + new_method.__doc__
+Organizations are stored in 'organizations' object. Its keys
+assert lnotab[lines[2]].arg == 3
+# list originally from: http://www.up.univ-mrs.fr/veronis/data/antidico.txt
+from zerver.lib.utils import statsd, get_subdomain
+from nova.tests.api.openstack import fakes
+def __parse_stream(self, stream, parse_line):
+self.append('SKIP %i' % int(skip))
+WARNING: This tool cannot replace convolve_filter!
+## create a WAMP router factory
+"Argument to %r is not in cellvars or freevars." % instr
+Content negotiation utility for Flask apps. Fork of Flask-Negotiate by
+# Copyright (C) 2009-2012 HDE, Inc.
+parser.add_argument("--nesterov", help="Using nesterov for the momentum")
+# user has since logged in
+out_dist_params = [np_vals_flat[f] for f in fidxs[ff]]; ff += 1
+"""Ensure is_null is handled correctly."""
+# You should have received a copy of the GNU General Public License
+# Get the shopping items on the current page
+## == Detail tab GUI setup ==
+datasets: a dictionary of named data_dictionaries, see top of lfads.py
+>>> test(r"| ¯0.25 ¯0.5 ¯1.1 ¯9.9")
+# g0->factors->controller channel might actually be used in this way).
+out_fac_W_mean, out_fac_b_mean = out_fac_lin_mean
+self.assertIn("option 'disabled' '0'", output)
+# Try Xrandr to determine primary monitor resolution
+print "finished connect run: adding", nmin, "minima, and", nts, "transition states to database"
+"quatre-vingt-une", "que", "quel", "quelle", "quelles", "quelqu'",
+out_fac_lin = init_linear(factors_dim, data_dim, do_bias=True,
+"Priority: optional\n" + \
+# actual regression test
+$ {bin} run seed-test         # clients are defined in the config.yaml file
+deserialized = self._deserialize('Route', response)
+cmake_opts += core.config['build_environments'].get('cmake_args', []) + BUILD_ENV.get('cmake_args', [])
+while not kPresent and k<arr_len:
+ci_enc_rev = encode_data(dataset_do_bxtxd, enc_ci_cell,
+# line is comment only - move to next
+apis = ['database_api', 'login_api', 'network_node_api', 'network_broadcast_api'] + apis
+from django.utils.encoding import force_str
+self.assertContains(response, '0 of 2 selected')
+# Emulate model instance creation via the admin
+redirect_url = '/test_admin/admin/?%s' % query_string
+from settings import Settings
+updated correctly. Regression for #10922"""
+data = JSON(code=ID_ERR_CODE, status=False, message=ID_ERR)
+"faisais", "faisait", "faisaient", "faisons", "fait", "faites",
+train_steps = [np_vals_flat[f] for f in fidxs[ff]]; ff +=1
+'%Y-%m-%d %H:%M:%S.%f',             # '2006-10-25 14:30:59.000200'
+from django.utils.encoding import smart_unicode, force_unicode
+{ "alias": "s3_pitch", "unit": "radian" },
+"""Create a GRU object.
+title = title.split(u' TV-')[0]
+# Private message and @-mention notification settings:
+-config.weight_bound * (update_value < -config.weight_bound))
+0 0.5 1 2
+'routeTableName': self._serialize.url("route_table_name", route_table_name, 'str'),
+values=[b.id for b in Book.objects.all()],
+Mean of the normal distribution.
+from py_zipkin import Kind
+for p in range(0,i-1):
+##for fd in os
+is not available on all platforms and can not detect "future"
+#     idsPerTraxel = [t.idInSegmentation for t in probabilityGenerator.TraxelsPerFrame[3].values()]
+lsz.Add(st, 1, wx.TOP, offsetChLabel)
+# The language for content autogenerated by Sphinx. Refer to documentation
+if markup_ea and markup_ea != idc.BADADDR and markup_ea != last_ea and markup_ea not in self._marked_up:
+def addint(self, key, num):
+("0262033844", "Introduction to Algorithms"),
+# check if the input file exists
+return btn.is_enabled() and btn.is_displayed()
+'change'   : pricedeltastr ,
+# A list of ignored prefixes for module index sorting.
+PHONE_ERR = 'Phone num is not allow'
+and 'valid_truth', and 'conversion_factor'.  These have the same dimensions as
+input_array : SyntheticCube, ModelOutput, optional
+# Grouping the document tree into LaTeX files. List of tuples
+self.smoothed_path, self.S, self.energies = pathdata
+self.assertContentBefore(response, 'Middle content', 'Newest content',
+page = int(request.GET.get('page', '1'))
+"Results of sorting on ModelAdmin method are out of order.")
+date_filter = AdjustmentHeader.journal_date.between(date_low, date_hi)
+Refs #13068, #9264, #9983, #9784.
+if arr_len == 0:
+"<span font_family='%s' weight='%s' foreground='%s' size='%s'>%s</span>" %
+{ "alias": "s3_roll", "unit": "radian" },
+# routine will not save a validation checkpoint until the kl weight and
+pars = { **self.defs_input , **args }
+validator = action_validate.Validate(self._config, logger=logger)
+except Exception as e:
+# Check and make sure that if user expires, data still persists
+def eval_model_runs_avg_epoch(self, data_name, data_extxd,
+table_tag = {True:'th', False:'td'}[first]
+# Note that not all possible configuration values are present in this
+assert latest_dos_framework in response.location
+"description": ("Extension to store timeseries of hand trajectories for Sabes lab data")
+for artist_id in new_artist_ids:
+if ext_input_extxi is not None:
+if zipkin_settings.firehose_handler is not None and \
+response = self.client.get('/test_admin/admin/admin_views/%s/' % url, {})
+>>> test(r"÷ ¯0.25 ¯0.5 ¯1 ¯2")
+Regression test for #16433 - backwards references for related objects
+ENROLLMENT_REGEX = r"^(?P<organization>[^#<\n\r\f\v]*[^#<\t\n\r\f\v\s])(?:[ \t]+<[ \t]+(?P<date>\d{4}\-\d{2}\-\d{2}))?$"
+return smoothpath, S, energies
+scope (optional): TF variable scope for defined GRU variables.
+#     ilpOptions.rawImageFilename = 'tests/multiSegmentationHypothesesTestDataset/Raw.h5'
+# APIRPCErrorsMiddleware handles all the API request RPC
+# GNU Lesser General Public License for more details.
+self.assertIn('form_url', response.context, msg='form_url not present in response.context')
+def add_profile(self, ref, check_for_duplicate_names=False,save=True, logger=None):
+RECEIVE, BATCH, PRODUCTION, ADJUSTMENT, PREP = range(5)
+if content == True:
+if not 'torrent' in r.headers['Content-Type']:
+# confirm the search returned one object
+LABEL_ERR = 'The Label Error'
+if S > -parameter["CLOSE"]:	#平
+'%d/%m/%y %H:%M',                   # '25/10/06 14:30'
+response = self.client.post('/test_admin/admin/admin_views/paper/%s/' % p.pk,
+# we want to report the more reliable metric of per-epoch cost.
+player_id = Column(Integer, ForeignKey('players.id'), primary_key=True)
+This function takes a raw csv file from SPF
+from django.conf import settings
+"eussiez", "eussions", "eut", "eût", "eûtes", "eux", "exprès",
+return self._get(1, 'oembed', url_or_urls, **kwargs)
+elif hps.feedback_factors_or_rates == "rates":
+# Message should contain non-ugly model verbose name. The ugly(!)
+'foo': 1, 'bar': 1, 'fiz': 2, 'buz': 2,
+__mapper_args__ = {'polymorphic_identity': 'draft'}
+LIME = (0, 128, 0)
+return 'House of Cards'
+if words[0] == '"type":':
+"""<li>Secret hideout: floating castle""",
+dt = datetime.today() - d
+index = self.filterModel.index(row, 0)
+Total number of steps
+each image into the given directory.
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+if true log messages will be sent back through the pipe
+if new_step < self.n_steps:
+def constructFov(shape, t0, t1, scale=[1, 1, 1]):
+with open('%s/index.html' % dest_dir, 'a') as file:
+bounded_value = (update_value * (T.abs_(update_value) <= config.weight_bound) +
+fType = 'Date range'
+from django.core.exceptions import ImproperlyConfigured
+if k in graph_obj.bound_keys))
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+header_parameters['accept-language'] = self._serialize.header("self.config.accept_language", self.config.accept_language, 'str')
+# GNU General Public License for more details.
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+f.filter = {'name': 'val_tot', 'waf_0': wav_total, 'waf_min': wav_min, 'waf_max': wav_max}
+need to use the CSRF protection machinery because each request is signed.
+"""Test add view restricts access and actually adds items."""
+self.hbox.pack_start(self.vbox_left, False, True, 20)
+Ensure that pagination works for list_editable items.
+and not (type(s.text[-1]) is Whitespace \
+for attr_name, attr_value in list(class_dict.items()):
+of the applied filter.
+from utils import _
+# 2 inputs per object(the field and the hidden id field) = 6
+response = self.client.get('/test_admin/admin/admin_views/villain/%s/delete/' % quote(1))
+The output distribution parameters (e.g. rates) for all time.
+updates, free_parameters = return_vals
+fixtures = ['admin-views-users.xml', 'admin-views-person.xml']
+Ensure app and model tag are correctly read by delete_confirmation
+# The admin list tag group exists
+If no ordering is defined in `ModelAdmin.ordering` or in the query
+auxdata_values.append([float(l) for l in line.split()])
+The tests in this module exercise monadic functions with
+'subscriptionId': self._serialize.url("self.config.subscription_id", self.config.subscription_id, 'str')
+table = PrettyTable(['Asset', 'Amount'])
+FUCHSIA = (255, 0, 255)
+if len(disconnected_controllers) == 1:
+elif parameter["staute"] == 1:	#已经开仓
+def remove_mgmtclass(self, ref, recursive=False, delete=True, with_triggers=True, logger=None):
+# model should be allowed.
+if __name__ == '__main__':
+response = self.client.get(shortcut_url, follow=True)
+LFADS generates a number of outputs for each sample, and these are all
+# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+__author__ = 'Victor Olaya'
+data = JSON(code=ADD_OK_CODE, status=True, message=ADD_OK)
+self.assertEqual(content, b'This is the content of the file')
+from processing.core.parameters import ParameterSelection
+{ "alias": "s1_yaw", "unit": "radian" },
+# Filters should be allowed if they involve a local field without the
+if u'salt' in challenge.extra:
+self.assertIn('openvpn --mktun --dev 2693 --dev-type tap', contents)
+self.assertURLEqual(form_action.group(1), '?%s' % self.get_preserved_filters_querystring())
+for i in range(2, 392):
+<primitive class="ocf" id="vm-guest1" provider="heartbeat"
+if u'Сегодня' in date:
+if not self in self.factory._myConnection:
+self.fieldList = [('ID', 'batch_id', 50, 'string'), ('Base No.', 'base_no', 50, 'string'), ('Date', 'batch_date', 75, 'date'),
+"pourtant", "préalable", "près", "presqu'", "presque", "primo",
+Also support annotating calls with metadata from the log """
+for c in range(hps.co_dim):
+assert len(hps.dataset_names) == 1, \
+defaults["fgcolor"] = config.get("fgcolor", "#FFFFFF")
+and ways to download those files.  With write permission this page
+def to_nodelink_jsons(graph: BELGraph, **kwargs) -> str:
+extracting the hostname from the filename itself.
+#         assert(len(exclusionSet) == 2)
+post_g0_logvar = [np_vals_flat[f] for f in fidxs[ff]]; ff += 1
+'fieldset', 'font', 'form', 'frame', 'frameset', 'head', 'hr',
+# TODO: We may want to exclude muted messages from this count.
+deserialized = models.OperationPaged(internal_paging, self._deserialize.dependencies)
+square['x'] = random.choice( range(0,width) )
+# today_fmt = '%B %d, %Y'
+"Version=%s\n" %(versionNum)  + \
+self.webDriver = webdriver.PhantomJS()  # or add to your PATH
+@param persistent as DbPersistent
+pars = self.parse_input_pars( pars )
+# We support mulitple output distributions, for example Poisson, and also
+theta =  my_index_theta * delta_theta  + 0.5*pi
+artist_ids = t.add_artists(artists, album_artist, "")
+self.val = s.get_unit(in_units=self.unit_in, out_units=self.unit_out, input_resolution=self.resolution['arcsec'])
+controller_outputs = np.mean(controller_outputs, axis=0)
+response = self.client.get('/test_admin/admin/admin_views/rowlevelchangepermissionmodel/1/', follow=True)
+span_name = '{0} {1}'.format(request.method, request.path)
+batch_size:  The size of the batch to return
+"""Verify that traversals progress in the correct order and terminate.
+if len(auxstep._data) != auxstep._n_cols:
+from argparse import RawTextHelpFormatter
+login_url = reverse('admin:login') + '?next=/test_admin/admin/'
+self.post_data['doohickey_set-0-name'] = "Doohickey 1"
+from django.contrib.admin.models import LogEntry, DELETION
+'date_0': '2008-03-18', 'date_1': '10:54:39',
+"content": "What's this SMS thing?",
+self.example_summ = tf.summary.image("LFADS example", self.example_image,
+if zipkin_settings.use_pattern_as_span_name and request.matched_route:
+if FUSION in node:
+# limitations under the License.
+def insertRows(self, position, object, rows=1, index=QModelIndex()):
+noise = normal(mu_noise, sigma_noise, self.pixel)
+return [QualityWarning('singleLinePerProperty', ln, 'Property over multiple lines.')]
+if sys.version_info[0] >= 3:
+run_args += ['--witness-id', witness_id,
+dict(zip(Flag.__members__.keys(), case)) for case in chain(
+self.fail(_("Error response received - contact Zevera support"))
+response = self.client.post(self.get_change_url(), data=post_data)
+:param bool raw: returns the direct response alongside the
+if len(regionCoords) >= 4:
+{'name': 'Troy McClure', 'age': '55', IS_POPUP_VAR: '1'})
+# Waitrose web scraper
+if len(arguments)>1: # initial value present
+*   the Free Software Foundation; either version 2 of the License, or     *
+FIRST_DAY_OF_WEEK = 1                   # Monday
+self.iters = self.add(npyscreen.TitleText, name='iters')
+# The above copyright notice and this permission notice shall be included in
+#     assert(len(probabilityGenerator.TraxelsPerFrame[2]) == 3)
+""" When user cancels, return to MAIN """
+if hps.co_dim > 0:
+self.assertTrue(m)  # Got a match
+elif jType == ADJUSTMENT:
+plot = MakePlots(prefix=prefix, name=name, input_array=SyntheticCube(self), wav_interest=wav_interest, multi_cut=multi_cut, single_cut=single_cut, set_cut=set_cut, dpi=dpi)
+script = os.path.abspath(os.path.join(self.system.core_root, script))
+kinds of 'ordering' fields: field names, method on the model
+output, retVal = pcs(temp_cib, "property set default-action-timeout=25")
+t = np.loadtxt(ROOT + 'database/extinction/extinction_law.txt')
+# R-HSA-2408499       | Formation of selenosugars for excretion
+>>> test(r"⍒ 6 5 4 3 2 1")
+if w == "":
+from django.contrib.staticfiles.storage import staticfiles_storage
+"""Return the content ID of current playing media."""
+from maasserver.exceptions import MAASAPIException
+(a, b, c), code = abc_code
+return map(lambda url, data: Url(data, method, url),
+from multiprocessing import Process
+self.preds = preds = [None] * ndatasets
+# don't need _times; iterate here instead
+for colname in df.columns[3:]:
+jdoe@example.com    Example Company   # John Doe
+Cobbler internal use only.
+lines start with the hash character (#).
+self._dict['rating'] = float(text) * 2
+Ensure that we see the admin login form.
+# Evaluate function calls and operators.
+return '%s?%s' % (
+* GaussianPSF(self, diameter): Convolves val with Gaussian PSF.
+c = sock.recv(min(8192, bytes - len(d)))
+"""Get a file collection"""
+if i == 2: # SSH already has the public key
+self.assertRedirects(response, '/test_admin/%s/admin_views/thing/?e=1' % self.urlbit)
+# Adds Parameterized tests for Python's unittest module
+the list of supported providers and their regexes
+:raises InvalidFormatError: raised when the format of any of the
+from test.base import preamble, testResult as test
+its.image.write_image(m, "%s_mean_ch%d.jpg" % (NAME,ch), True)
+m = self.filterModel.match(index, Qt.DisplayRole, QVariant(fType), 1)
+# The short X.Y version.
+actual_delete_count =  min(max(deleteCount.to_int(),0 ), arr_len - actual_start)
+# im = cv2.imread('../data/black-white-rect.png')#contour.jpg #
+"serons", "seront", "ses", "si", "sic", "sine", "sinon", "sitôt",
+"""the job is finished, do some clean up"""
+#Return the new index price
+if prefix is not None:
+e = re.match(self.EMAIL_ADDRESS_REGEX, raw_email, re.UNICODE)
+ep = tvshow_api.Episode(season, episodeNumber)
+if self.model is not None:
+('Technohead', 'I Wanna Be A Hippy (Flamman & Abraxas Radio Mix)'),
+next_square['y'] > height - 1
+its.image.write_image(v, "%s_var_ch%d.jpg" % (NAME,ch), True)
+fewer inputs than recurrent state.
+#    print("      An encoding problem has happened when inserting Swagger information into the MongoDB collection... {}".format(getSwaggerTitle(swaggerjson)))
+gen_states = [np_vals_flat[f] for f in fidxs[ff]]; ff += 1
+from __future__ import absolute_import, division, print_function, unicode_literals
+{ "alias": "s2_y", "unit": "meter" },
+'Programming Language :: Python :: 2.7',
+# organization is interested in recent messages more than the very
+return [this.get(str(e)) for e in xrange(len(this))]
+# Ensure that the form processing understands this as a list_editable "Save"
+if previousdata is None:
+def __init__(self, *args, **kwargs):
+if not isinstance(expr, CypherExpression):
+# Code generated by Microsoft (R) AutoRest Code Generator.
+from zerver.lib.realm_icon import realm_icon_url
+Ensure that overriding has_module_permission() has the desired effect.
+def from_nodelink_gz(path: str) -> BELGraph:
+>>> test(r"⍋ 1.1 6.6 2.2 5.5 3.3 4.4")
+# You can specify multiple suffix as a list of string:
+# representation is set by model's __unicode__()
+'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
+size    -- Size of font to use for text
+SHORT_DATETIME_FORMAT = 'd/m/Y P'       # '25/10/2006 2:30 p.m.'
+self.assertIn('tc qdisc add dev tap0 root handle 1: htb default 2', contents)
+elif args.command == 'deploy_node':
+('Paul Elstak', 'Luv U More'),
+for mc in range(1,max_counts+1):
+return [hostname + image for image in images]
+#    self.log("an error occured while running the import manager")
+if jType == RECEIVE:
+<lrm_resource id="dummy" type="Dummy" class="ocf" provider="heartbeat">
+self.gen_outs = gen_outs = [None] * num_steps
+'<li class="success">The short message &quot;ShortMessage object&quot; was added successfully.</li>',
+new_resolution : Resolution which the val array should get in ``arcsec/pixel.``
+year = relationship('Years', backref=backref('acquisitions'))
+r = run('git describe --tags %s' % commit, capture_io=True, verbose=False, log_on_fail=False)
+response = self.client.post('/test_admin/admin/admin_views/rowlevelchangepermissionmodel/2/', {'name': 'changed'})
+BIGTIFFTYPE = ['', 'YES', 'NO', 'IF_NEEDED', 'IF_SAFER']
+response = self.client.post(collector_url, self.post_data)
+from Queue import Queue
+raise ValueError('{} not a valid index for data with {} '
+## == Setup stackedWidget operations ==
+"""Name of the label to invoke if the current policy rule evaluates to TRUE.
+stop_words = ['i', 't', 'am', 'no', 'do', 's', 'my', 'don', 'm', 'on',
+arr = [this.get(str(i)) for i in xrange(len(this))]
+if compress == 'DEFLATE':
+# All rights reserved.
+identity = Identity(username=alias, source=self.source)
+# If not, see <http://www.gnu.org/licenses/>.
+ret, thresh = cv2.threshold(src=imgray, thresh=127, maxval=255, type=cv2.THRESH_BINARY)#src, thresh, maxval, type
+response = self.client.get('/test_admin/%s/my_view/' % self.urlbit)
+systemctl disable keystone; echo
+v = sockrecv(sock, vlen)
+# no day/month-level links
+# full path of the input file
+self.assertContains(response, "<li>Unchangeable object: UnchangeableObject object</li>", 1, html=True)
+prior_zs_ar_con = [np_vals_flat[f] for f in fidxs[ff]]; ff += 1
+elif args.command in ['run', 'run_cli']:
+"""<span class="small quiet">1 result (<a href="?">3 total</a>)</span>""",
+OpenAPI spec version: v0.1
+logging.info("waitroseLogin() waiting for trolley-total to be visible")
+>>> test(r"(,1.2 )≡ ⊃⊂ ,1.2")
+# RPCErrorsMiddleware handles non-API requests.
+for helper in self.__helpers:
+t = Telegram.objects.create(title="Frist Telegram")
+new_h = tf.clip_by_value(new_h, -self._clip_value, self._clip_value)
+self.assertTrue(m)  # Got a match
+logging.error("waitrose: Error (not webdriver) extracting element " + elemName + " " + className)
+# If true, an OpenSearch description file will be output, and all pages will
+ext_input_do_bxtxi = tf.nn.dropout(ext_input_bxtxi, keep_prob)
+# -*- coding: utf-8 -*-
+When float seed fixes the random numbers to a certain
+self.assertContains(response, '<li><a href="#admin_list-admin_actions">admin_actions</a></li>', html=True)
+if local_obj is None: continue
+values=[p.name for p in Promo.objects.all()],
+FUNCTION NOT YET IMPLEMENTED
+k = arr_len - 1
+{"name": "rh70-node3", "votes": 1, "local": False},
+# Copyright (C) 2007-2009 Stichting Kennisnet Ict op school. http://www.kennisnetictopschool.nl
+np_vals_flat = session.run(tf_vals_flat, feed_dict=feed_dict)
+# we shouldn' get an 500 error caused by a NoReverseMatch
+a = soup.select_one('#tv720 div.torrent_h a')
+return size_unit and size_base * math.pow(0x400, size_unit) or size_base
+if (entry['_id'] == idxname):
+if self.config.accept_language is not None:
+if hps.ext_input_dim > 0:
+"heu", "hg", "hier", "hl", "hm", "hm³", "holà", "hop", "hormis", "hors",
+:param client: Client for service requests.
+# parse command line arguments according to those definitions
+base_salary = Column(Integer, CheckConstraint('base_salary >= 0'), doc="Base salary in cents")
+if method == "GET":
+# new attributes #
+"""Plot and summarize stuff in tensorboard.
+# 390 BARs, and then SESSION_END
+# driver function for restoring victim and gateway after
+with gzip.open(path, 'wt') as file:
+>>> test(r"⍴ ↑ ,1")
+VALID_LINE_REGEX = r"^(\S+)[ \t]+([^#\n\r\f\v]+[^#\s]*)(?:([ \t]+#.*)?|\s*)$"
+"rh70-node2; slave on nodes rh70-node1, rh70-node3.",
+return intpart + (fracpart * 1e-12)
+keystone-manage fernet_setup --keystone-user keystone --keystone-group keystone
+for i in Answer.objects.filter(question=question).order_by('-submit'):
+cmd = [bin_name] + run_args
+struct.pack('>BBII', MAGIC, code, len(key), len(value)),
+test=lambda obj, value: obj.chap.title == value),
+#  Unless required by applicable law or agreed to in writing, software
+file1 = tempfile.NamedTemporaryFile(suffix=".file1", dir=tdir)
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+"""Return the enum member matching `name`
+# Copyright (C) 2009 Delft University of Technology http://www.tudelft.nl
+0 0.5 1 2
+tar = tarfile.open(fileobj=o.generate(), mode='r')
+legendre_orders = [0, 2, 4]  # Legendre polynomial orders
+if name[0] != '[':
+response = self.client.get("/test_admin/admin/admin_views/workhour/?employee__person_ptr__exact=%d" % e1.pk)
+Import any repos this server knows about and mirror them.
+{"name": "rh70-node1", "votes": 3, "local": True},
+'License :: OSI Approved :: MIT License',
+# TODO more algorithms
+#python resnetcustom.py --file images/office.png
+paginator = Paginator(dataset.datafile_set.all(), pgresults)
+from processing.core.parameters import ParameterRaster
+# set Operation to 'is-at'
+for j in near(n-1):
+self.assertEqual(FancyDoodad.objects.all()[0].name, "Fancy Doodad 1")
+"Resource 'myGroupedResource' is running on node "
+from django.shortcuts import redirect
+user.password = 'LDAP_%s' % (User.objects.make_random_password(32))
+name = rule.selector.as_css().split(':', 1)[0].replace('.', '')
+# the factors in order to keep the controller input purely from a
+'throughout', 'too', 'toward', 'unless', 'until', 'use', 'used', 'using',
+self.getElemAttrIfPresent(productSoup, "p", "m-product-details", "span", "text", "", basketIt,
+def addToGraph(event, graphURI = "http://example.com/g1", db_conf={"dbname" : "postgres", "user" : "postgres", "password" : "admin" }):
+def __setitem__(self, key, value):
+# html_show_sphinx = True
+Return the current list of files
+# Now resave that inline
+from functions import *
+if user_id is None:
+def assert_field_visible(self, response, field_name):
+if a is None:
+bmrem = batch_size - (nexamples % batch_size)
+for widget in widgets:
+print '[*] All done!'
+if len(bigtiff) > 0:
+# Copyright (c) Microsoft Corporation. All rights reserved.
+html4_elts = ('a', 'address', 'applet', 'area', 'base', 'basefont', 'bdo',
+from sqlalchemy import Column, Integer, String, Sequence, ForeignKey, ForeignKeyConstraint, Boolean
+# state of the RBAC connection.
+if request.user.tos_version is None and settings.FIRST_TIME_TOS_TEMPLATE is not None:
+# ASK: What is the real syntax for these things?
+data = JSON(code=DATE_ERR_CODE, status=False, message=DATE_ERR)
+# App index page
+self.assertContains(post, 'Please correct the errors below.',
+self.tr('Force the generation of an associated ESRI world file (.tfw))'), False))
+while len(d) < bytes:
+self.assertContains(confirmation, "<li>External subscribers: 1</li>")
+#     probabilityGenerator = ConflictingSegmentsProbabilityGenerator(
+two_minutes = now - datetime.timedelta(minutes=2)
+""" Move to and read i-th auxiliary step.
+RED = (255, 0, 0)
+Powers up a system that has power management configured.
+print '[*] Using interface', configs['iface']
+# We only implement the methods that we support
+journalNo_filter = or_(AdjustmentHeader.journal_no.ilike('%%%s%%' % journal_no),
+"""Return the artist of current playing media (Music track only)."""
+# add_function_parentheses = True
+self.screen = os.popen("xrandr | grep ' current ' | awk '{ print $8$9$10+0 }'").readlines()[0]
+self.example_image = tf.placeholder(tf.float32, shape=[1,None,None,3],
+except Exception as exception:
+assert nexamples > batch_size, "Problems"
+album_artist_ids = t.add_album_artists(album_artist, "")
+def parse_input_pars( self , pars ):
+track_id = Lp().tracks.add(item.name, uri, item.duration,
+# NOTE: we do not log all API actions, because
+>>> t = pytyrant.PyTyrant.open('127.0.0.1', 1978)
+# Pootle is distributed in the hope that it will be useful,
+#     filenamesPerTraxel = [t.segmentationFilename for t in probabilityGenerator.TraxelsPerFrame[3].values()]
+fixtures = ['admin-views-users.xml', 'admin-views-person.xml']
+Take the contents of /var/lib/cobbler/repos and update them --
+k_lam = t[:, 1]
+#   (Ej: 1200 para Lisboa)
+"""Middleware to check external components at regular intervals."""
+for i in range(1, len(items_for_mac)):
+logging.info("Webdriver going to " + siteUrl)
+response = self.client.get('/test_admin/%s/admin_views/article/' % self.urlbit)
+# Logged in? Redirect.
+for index, line in enumerate(lines):
+of associated files with the option to show metadata of each file
+# html_theme_path = []
+transm_envio.DatosEntrega.Telefono = self.partner_id.phone or ''
+response = self.client.get(secure_url, follow=True)
+#    fd = open( os.path.dirname(__file__)+"/build/debpkg/usr/local/lib/mxcart/"+ea, "rb" )
+if batch_desc else ""
+from ..constants import (
+"""Regression test for #19327"""
+submit = str(question.submit.strftime('%Y-%m-%d %H:%M:%S'))
+from zope.cachedescriptors.property import Lazy as cachedproperty
+'whose', 'why', 'widely', 'will', 'would', 'yet']
+if self._cur_track > 0:
+npyscreen.notify_confirm("Success: " + str(request[1]))
+DESC_PLUGINS = '\n'.join('  - {:22} : {}'.format(name, plugin.short_description())
+logger.error('Unknown LDAP error: ' + str(e))
+response = self.client.post("/test_admin/admin/admin_views/question/", action_data)
+# First add a new inline
+jsmith@example.com    Example Company # John Smith
+self.methodint = self.str2method.get(method, self.methodint)
+return "%s" % self._arquivo
+def add_item(self, what, ref, check_for_duplicate_names=False, save=True,logger=None):
+C = self.C_spinner.get_value() / MW
+The property pixel is a tuple which resembles the current pixel in a
+<option value="redirect_to">Redirect to (Awesome action)</option>
+print("waitrose: Lazy loading products - currently " + str(len(productsFound)) + " found")
+# FIXME: add a new_item method
+properties = ['leading_at_0', 'leading_at_inf']
+self.post_data['doohickey_set-0-name'] = "Doohickey 1"
+if content is None:
+ext_attrib = ' onclick="opener.dismissRelatedLookupPopup(window, %s); return false;"' % result_id
+data_bxtxd:  Numpy array training data with shape:
+route = reverse(view, kwargs=view_kwargs)
+'viewer_mac': viewer_mac if viewer_mac_unknown else None,
+# This type of exception knows how to translate itself into
+Reader to be initialised interactively through IPET or from an interactive python shell
+from pytz import timezone
+elif hps.output_dist == 'gaussian':
+response.meta.description = 'SSISDB monitoring'
+or_ = kw.pop('or_', False)
+for op in push_message.operations
+from itertools import chain, count
+'table', 'tbody', 'td', 'textarea', 'tfoot', 'th', 'thead',
+"""Location where policy is bound.
+if response.status_code not in [200, 202, 204]:
+if kind in ["train", "posterior_sample_and_average"]:
+view actually controls the display of the delete button.
+- `Issue Tracker <http://github.com/jackfirth/flask-negotiate/issues>`_
+next_square['x'] < 0 or \
+i = child.expect([pexpect.TIMEOUT, ssh_newkey, "password:"])
+def eval_cost_epoch(self, datasets, kind='train', ext_input_extxi=None,
+if callable( pars['tensor'] ):
+self.reportName = 'Detail Find List'
+zipkin_port = settings.get('zipkin.port', request.server_port)
+elif m == 'median':
+period = 'From %s To %s.' % (fromDate, toDate)
+{"name": "rh70-node1", "votes": 1, "local": True},
+# Get the `change_view`.
+# -*- coding: utf-8 -*-
+from copy import deepcopy
+if COOKIES_override is not None
+The main data structure being passed around is a dataset.  This is a dictionary
+delta_phi   = phi_range   / (N_phi_split - 1)
+"a", "A", "à", "afin", "ah", "ai", "aie", "aient", "aies", "ailleurs",
+print('ERROR: The home/data dir has not been specified in the build environment...')
+from django.utils.html import escape, conditional_escape
+"""Create an LFADS model.
+if data_dict['valid_data'] is not None:
+self.addData(self.datakey, previousdata + 1)
+will set its timestamp and duration attributes. Use this only if this
+1 2 3 4 5 6
+## start a WebSocket client from an endpoint
+CLI apps and daemons should import api.py, and no other cobbler code.
+data = JSON(code=INVALIED_CODE, status=False, message=INVALIED)
+data = JSON(code=QUERY_OK_CODE, status=True, message=result)
+# examples x # time steps x # external input dimensions
+response = self.client.get('/test_admin/%s/admin_views/section/1/' % self.urlbit)
+>>> test(r"⍋ 1 6 2 5 3 4")
+return Section(self.url, self.user_name, self.password)
+Returns a list of conflicts caused by unique constraints in the
+addr = int(self._call_table.item(self._call_table.currentRow(), 1).text(), 16)
+return ("Humbug Desktop/" in agent or "Zulip Desktop/" in agent or "ZulipDesktop/" in agent) and \
+# Boot resources simple streams endpoint; no login.
+# Diana documentation build configuration file, created by
+Loop over training epochs. The function that actually does the
+if all_user.filter(phone=phone).count() != 0:
+maintained by the same author. It supports a REST HTTP protocol, memcached,
+# disables packet forwarding by interacting with the proc filesystem
+'deploy', 'deploy_node'] + list(COMMAND_PLUGINS.keys()),
+logger.info("First login for LDAP user (%s).  Creating new account." % username)
+from __future__ import print_function
+# Copyright (C) 2014  Travis Painter
+return QIcon(os.path.join(pluginPath, 'images', 'gdaltools', 'warp.png'))
+Minimal and maximal physical value of val in the colorbars.
+from neural_guided_symbolic_regression.models import grammar_utils
+login = self.client.post(login_url, self.deleteuser_login)
+(False, msg % ("dummy?", "?")),
+logging.error("Press view favourites button no such element")
+return # nothing to remove
+Lebendgeborene je 1000 Frauen (Anzahl);;;;;;;;
+for a in selector:
+raise ValueError("""Alignment matrix must have dimensions %d x %d
+self.getElemAttrIfPresent(productSoup, "div", "m-product-details-container", "div", "data-uom", "", basketIt,
+"change" : "+13.45"  ,
+# our debug output on requests (dropped in Django 1.9).
+"millions", "minima", "ml", "mm", "mm²", "modo", "moi", "-moi", "moins",
+# Test redirect on "Save".
+filth_item.replacement_string = filth_item.replacement_string + self.suffix
+GLib.idle_add(Lp().scanner.emit, 'artist-updated', artist_id, True)
+Initialize the Embedly client
+self.assertContains(response, '<div class="form-row field-first field-second">')
+def train_epoch(self, datasets, batch_size=None, do_save_ckpt=True):
+from openerp.tools.translate import _
+## begin license ##
+# function has an "allow_tags" attribute set to True.
+that their corresponding human-readable value is displayed instead.
+"d'arrache-pied", "davantage", "de", "debout", "dedans", "dehors",
+for result in results:
+data = JSON(code=NAME_NEX_CODE, status=False,
+if self._cur_episode < self._episode_count:
+# The name of an image file (relative to this directory) to place at the top of
+fr = str(k - 1)
+('Journal', 'journal_id', 50, 'string'), ('Memo', 'batch_memo', 150, 'string')]
+return metaclass(cls.__name__, cls.__bases__, orig_vars)
+'both', 'briefly', 'came', 'cannot', 'certain', 'certainly', 'could',
+# login POST dict
+Refs: #16655, #18593, and #18747
+if self.hps.ic_dim > 0:
+with an img tag to show each local image file.
+"celui-ci", "celui-là", "cent", "cents", "cependant", "certain",
+# For "manual" documents, if this is true, then toplevel headings are parts,
+from diffcalc.util import DiffcalcException, bold
+yield list(ext_items_for_result(cl, res, form))
+Data model that captures player's partial-season tenure at a club.
+batch_size (optional):  The batch_size to use
+Changes to this file may cause incorrect behavior and will be lost if
+#     assert(hypotheses_graph._graph.node[(1, 1)]['traxel'].conflictingTraxelIds == [2, 3])
+if markup_ea in self._marked_up:
+return User(self.url, self.user_name, self.password)
+#  General Public License for more details.
+""" Ensure that hidden pk fields aren't displayed in the table body and
+def search_generate(what, settings, path_out):
+def remove_package(self, ref, recursive=False, delete=True, with_triggers=True, logger=None):
+new_artist_ids = list(set(artist_ids) | set(album_artist_ids))
+tc = wx.Choice(self, wx.ID_ANY, choices=stepAngles)
+from keras import backend as K
+return message("Page is not found.", 404)
+conditions and the control inputs.  The expected value is approximate, and
+data = JSON(code=LOGOUT_OK_CODE, status=True, message=LOGOUT_OK)
+response = self.client.post('/test_admin/admin/admin_views/collector/1/', self.post_data)
+@since Jan 6, 2011
+result = run('foo == bar && fiz == buz', bindings={
+self.variables.append( [ self.node( pars['share'] ) , pars ] )
+The foreign key widget should only show the "add related" button if the
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+response = self.client.post('/test_admin/admin/auth/user/add/', {
+data_bxtxd, ext_input_bxtxi = self.get_batch(data_extxd, ext_input_extxi,
+if Pa and Pb:
+response = self.client.post('/test_admin/admin/admin_views/subscriber/', action_data)
+>>> test(r"⍴ ⊃ 1 2 3")
+# Now modify that inline
+<lrm_resource id="dummy" type="Dummy" class="ocf" provider="heartbeat">
+mask_Rt1 = str(year+1) + months[quarter-1]
+self.updateFilterModel(fType, 'JournalHeader.journal_id.between(%i,%i)' % (start, end), 'Between(%i,%i)' % (start, end))
+"bien", "bientôt", "bis", "bon", "ç'", "c.-à-d.", "Ca", "ça", "çà",
+'keep', 'kept', 'largely', 'like', 'made', 'mainly', 'make', 'many',
+link1 = reverse('admin:admin_views_otherstory_change', args=(story1.pk,))
+self.__raw_identities[email] = [(org, rol_date)]
+# If the incoming request doesn't have Zipkin headers, this request is
+self.vbox_esc_right.pack_start(self.esc_label, True, True, 0)
+plt.xlabel('number of genes in group (bin size = 5)')
+# Save session info
+"""Flag of media commands that are supported."""
+super in the bodyclass block.
+soup = BeautifulSoup(page.content, 'html.parser')
+weight  -- Bold or normal
+from pygmin.utils.events import Signal
+border: 2px solid #222222".format(color.red(), color.green(), color.blue()))
+for chunk in r.iter_content(100000):
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+def locate_free_square(width, height, obstacles):
+# run last built version
+# List editable changes should not be executed if the action "Go" button is
+while holding onto the dataname, so that when it's time to feed
+logging.error("Get basket summary timeout exception")
+if i.split()[0] == mac_name][0]
+self.assertEqual(events[i], (minutes[i - 2], BAR))
+if ic_dim > 0:
+help='forward unix signals to spawned witness client child process')
+size = re.search(size_format, size_value)
+"""A Demo media player that only supports YouTube."""
+self.append('    SET ' + ', '.join(prop_list))
+# You should have received a copy of the GNU General Public License
+{"name": "rh70-node1", "votes": 3, "local": True},
+from maasserver.components import (
+# Add an article so we can test delete, change, and history views
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+self.l2_weight = l2_weight = \
+if previousdata is None:
+tlag = t - hps.controller_input_lag
+wait = WebDriverWait(self.webDriver, 60)
+'get', 'in', 'you', 'me', 'd', 've']
+# First add a new inline
+Verifying that if the parent form fails validation, the inlines also
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+``None`` is default and will use the value savefig.dpi
+from models.notebook import Notebook
+""" Iterate through all steps to build times list.
+post_data = {"name": "First Gadget"}
+return render(request, 'macd/index.html', {
+return self._config.images().find(name=name, return_list=return_list, no_errors=no_errors, **kargs)
+"longtemps", "lors", "lorsqu'", "lorsque", "lui", "-lui", "l'un",
+'unsupported size format {0}, must match {1}'.format(
+testDyadic --eager      # run with eager evaluation
+i.filter = {'name': filter_name, 'waf_0': waf_0, 'waf_min': waf_min, 'waf_max': waf_max}
+parent = Parent.objects.create(name='Josh Rock')
+self.assertEqual(events[i], (minutes[i - 1], BAR))
+votenote_ref, commit_id = line.split()
+if self.hps.ic_dim > 0:
+if self.units == 'MJy/sr' or self.units == 'Jy/arcsec^2':
+# The form validation should fail because 'some_required_info' is
+resp = self.client.get('/test_admin/admin/admin_views/person/', extra)
+from six.moves import zip_longest, zip, range
+''' Ensure that non field errors are displayed for each of the
+if self.val.ndim in (2, 3):
+elif isinstance(node, g.Postfix) and isinstance(node.operator, g.ArgumentList):
+from karesansui.lib.rest import Rest, auth
+self.output_dist_params = dist_params = [None] * num_steps
+from django.conf.urls import url
+if k < 0:
+user_has_messages = (register_ret['max_message_id'] != -1)
+self.post_data['fancydoodad_set-0-name'] = "Fancy Doodad 1 Updated"
+{ "alias": "s1_roll", "unit": "radian" },
+from .core import (platform, run, get_data_dir, get_bin_name, get_gui_bin_name, get_cli_bin_name,
+assert f.__code__.co_lnotab == code.py_lnotab == code.to_pycode().co_lnotab
+stage = 'SyntheticCube: convolve_PSF'
+Both positive and negative (e.g. DOMAIN ERROR) cases are tested.
+"Tests that a ModelAdmin without any actions still gets jQuery included in page"
+if self.hps.co_dim > 0:
+itemFilter = "or_(%s)" % itemLine
+"au-dessus", "au-devant", "audit", "aujourd'", "aujourd'hui",
+elif role['role'] == 'api':
+Test that actions which don't return an HttpResponse are redirected to
+self.hbox.pack_start(self.vbox_empty, False, True, 0)
+response = self.client.get('/test_admin/%s/auth/user/%s/password/' % (self.urlbit, user.id))
+response = self.client.post('/test_admin/%s/admin_views/section/1/' % self.urlbit, self.inline_post_data)
+run('cd programs/web_wallet; npm install')
+from ...filth import Filth
+from cores.rmsprop import rmsprop_core
+help="Set the Background color")
+with open(self.input) as f:
+from ..struct import BELGraph
+"""A Demo media player that only supports YouTube."""
+ret['timestamp']="{month_name} {day}, {year} {clock}".format(**ret)
+def __init__(self, hps, kind="train", datasets=None):
+"`zipkin.transport_handler` is a required config property, which"
+button, the user should be redirected to the object's change_view.
+:param bool raw: returns the direct response alongside the
+if __name__ == '__main__':
+* ``None`` : Only if input_array is SyntheticImage like
+ax2.legend(loc=0, labelspacing=0.1, frameon=False, numpoints=1, fontsize=10)
+# model has no __unicode__ method
+# limitations under the License.
+settings.DEBUG and ('show_debug' in request.GET),
+if platform == 'darwin':
+# add any other events here (keys, mouse, etc.)
+timefrom = timefrom - (time * 60)
+ModelAdmin.changelist_view shouldn't result in a NoReverseMatch if url
+stmt = 'ORDER BY ' + ', '.join(arg.var for arg in args)
+'name'     : idx[0] ,
+# Check that the PK link exists on the rendered form
+special_message_template = 'zerver/' + settings.FIRST_TIME_TOS_TEMPLATE
+This is the denoising operation.
+# limitations under the License.
+request._log_data['extra'] = "[%s]" % (register_ret["queue_id"],)
+# not included on the parent form, and the family_name of the parent
+from counterpartycli import wallet, util
+def sendKeysToFieldById(self, elemId, strToSend, pressEnterAfter, clearFirst):
+response = self.client.post('/test_admin/%s/admin_views/gadget/add/' % self.urlbit, post_data)
+for w1 in candidatelist:
+for name in self.cores:
+<lrm_rsc_op id="dummy1_monitor_0" operation="monitor" call-id="3"
+"""Returns all the goodies for the entire model, per batch.
+plugins = plugins or ['witness']  # always have at least the witness plugin
+"""Indicates whether policy is bound or not.
+# We also want to prevent the add and change view from leaking a
+logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+assert code.index(b) == 1
+response = self.client.get('/test_admin/%s/admin_views/section/add/' % self.urlbit)
+# Copyright 2010 OpenStack LLC.
+self.assertContains(response, 'Hello from a custom password change form template')
+if challenge.method == u"wampcra":
+if len(items_for_mac) > 0:
+for i, (var, var_eval) in enumerate(zip(all_tf_vars, all_tf_vars_eval)):
+return "%s?%s" % (
+"Results of sorting on Model method are out of order.")
+cyres = graph.cypher.execute("""MERGE (s:Stock {name:'DOWJONES', value:17630.60, change:-36.02 , time : 1})""");
+with tf.variable_scope("Gates"):  # Reset gate and update gate.
+if callbackfn.call(T, (kValue, this.Js(k), array)).to_boolean().value:
+# in the URL otherwise
+"""Train the model through the entire dataset once.
+help='the build/run environment (bts, steem, ...)')
+except Exception as e:
+import tensorflow as tf
+popup_url = m.groups()[0].decode().replace("&amp;", "&")
+logger.error('Unknown LDAP error: ' + str(e))
+show/hide the appropriate field section.
+self.append('LIMIT %i' % int(limit))
+if self.hps.ic_dim > 0:
+def process_exception(self, request, exception):
+with ydl.YoutubeDL(self.ydl_opts) as y:
+data = [d for d in request[1].split("\n")]
+raise this.MakeError('TypeError', 'callbackfn must be a function')
+m = re.search(br'<a href="([^"]*)"[^>]* id="lookup_id_defendant1"', response.content)
+if GdalUtils.version() in [2010000, 2010100]:
+entry_points={'console_scripts': ['plank = plank.cli:main']},
+# Set up test Picture and Gallery.
+self.assertContains(response, '<h3 id="built_in-add">add</h3>', html=True)
+# Test redirection when using row-level change permissions. Refs #11513.
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# TODO use dulwich or something more efficient here
+'Ultimate Sex Track (Bass-D & King Matthew Remix)'),
+arguments.append("-co JPEG_QUALITY=" + jpegcompression)
+header_parameters['accept-language'] = self._serialize.header("self.config.accept_language", self.config.accept_language, 'str')
+import numpy as np
+0D val array (scalar) with SyntheticFlux properties.
+while k < (arr_len-actual_delete_count):
+popup_url = urljoin(response.request['PATH_INFO'], popup_url)
+'Development Status :: 5 - Production/Stable',
+3          1         NR rh70-node3
+if len(i[1]) > 1:
+print("Starting to process document {}".format(nomearquivoswagger))
+self.tr('CRS of the raster extent, leave blank for using Destination SRS'),
+self.assertContains(response, 'Primary key = %s' % i)
+ln -sf /etc/apache2/sites-available/wsgi-keystone.conf /etc/apache2/sites-enabled
+def push(item): # todo check
+r = s.get(href, headers={'Referer': url})
+for y in [2015, 2016]:
+dataset_bxtxd - the data to encode, as a 3 tensor, with dims
+if self.carrier_id.type == 'mrw':
+# are there children with multiple parents? Yes. So I need some kind of
+elif data < previousdata:
+for m in d.mac_set.all()]
+if tag is None:
+from django.core.urlresolvers import (NoReverseMatch,
+nodes = sorted(graph, key=methodcaller('as_bel'))
+supported (the readers will stop at the first line starting '&').
+if key in ["n_epoch", "batch_size"]:
+report_type = 'trans_header_report' if self.tabWidget.currentIndex() == 0 else 'trans_detail_report'
+def print_genes(cursor, gene_ids, depth):
+except json.decoder.JSONDecodeError as jde:
+like slash or underscore, these characters must be escaped (see #22266)
+from zproject.jinja2 import render_to_response
+# Copyright (c) 2014 Nicolas Wack <wackou@gmail.com>
+# add user should not be able to view the list of article or change any of them
+"Name=MX Cart\n" + \
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#It is assumed that price delta will always be in this range
+# Production rule sequence of ( 1 ) is 1,6,7,6,9.
+from kiwi.exceptions import KiwiSizeError
+from PyQt4 import QtGui, QtCore
+Dict-like proxy for a Tyrant instance
+Ensure that one can use a custom template to render an admin filter.
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+message[01000] = 'configuration saved'
+# XXX feed language metadata and track what language a content is written in
+Rheinland-Pfalz: Landessumme ab 2004 einschl. des gemein-
+self.posterior_zs_co = posterior_zs_co = [None] * num_steps
+for login_dict in [self.joepublic_login, self.no_username_login]:
+<lrm_rsc_op id="dummy_start_0" operation="start" call-id="33"
+Successful posts to the login page will redirect to the original url.
+from django.urls import reverse
+if pars['tensor'] is None:
+post_g0_mean = np.zeros([E_to_process, hps.ic_dim])
+#  Alexandre Defendi   -   01/04/2014                         #
+factors = np.zeros([E_to_process, T, hps.factors_dim])
+total_table = PrettyTable(['Asset', 'Balance'])
+if re.match(r"Attach Reject:", line):
+except BaseException as be:
+{ "alias": "s3_z", "unit": "meter" },
+# the Free Software Foundation, either version 3 of the License, or
+f, attr, value = lookup_field(field_name, result, cl.model_admin)
+# Should not happen but happen :-/
+club = relationship('Clubs', backref=backref('partials'))
+rc-code="1" on_node="Xrh70-node1X" exit-reason="test" />
+>>> test(r"⌈ ¯0.25 ¯0.5 ¯1.1 ¯9.9")
+def markupEa(self, markup_ea, colorFunc=True):
+print("Initializing trainable readin bias with alignment bias " \
+# XXX still can't find it, this shouldn't happen
+response = self.client.get('/test_admin/admin/admin_views/supervillain/%s/delete/' % quote(3))
+'title': 'title with a new\nline',
+with patch_logger('django.security.DisallowedModelAdminToField', 'error') as calls:
+for arg in re.split("\r?\n", args.strip()):
+self.post_data['grommet_set-0-name'] = "Grommet 1 Updated"
+response = requests.post(url, headers=headers_dict, cookies=cookies_dict, data=params_dict, proxies=proxies)
+new_grad = ifelse(T.isnan(grad).any(), T.zeros_like(grad) + EPSILON, grad)
+## (at your option) any later version.
+for step in self:
+# Classification Banner Class
+underlying firing rates, there is the 'conversion_factor' key.
+expired = list(curator.find_expired_indices(self.client, 'days', 1,
+# Licensed under the MIT License. See License.txt in the project root for
+partial_sequence_df, [], num_production_rules, None))
+logging.info("waitroseLogin() basket not found")
+node_process = Process(target=sh_ver, args=(a_device,))
+# Copyright 2010 Google Inc.
+self, resource_group_name, route_table_name, route_name, custom_headers=None, raw=False, **operation_config):
+# Construct and send request
+from django.conf import settings
+data = JSON(code=PLACE_ERR_CODE, status=False,
+values=[b.name for b in Book.objects.all()],
+factors = np.mean(factors, axis=0)
+help the LFADS system avoid overfitting to individual spikes or fast
+def _t3F(code, func, opts, key, value):
+# Author: Marc Abramowitz, email: marc@marc-abramowitz.com
+shape is only correct if E % B == 0.  If not, then an extra row is generated
+# Check order of records.
+This file contains all messages with associated message numbers that are
+# This file is execfile()d with the current directory set to its
+It is almost the same as redirecting stdin of Django's ``shell`` command
+if toDate < fromDate:
+op_id_list = [op.getAttribute("id") for op in op_list]
+# This is work in progress.
+'noted', 'often', 'only', 'our', 'put', 'owing', 'particularly',
+if not isinstance(var_eval, np.ndarray): # for H5PY
+"device": qt.qcolor()(0xcc, 0xc5, 0xff),
+# If controller is causal (wrt to data generation process), then it
+response = self.client.post('/test_admin/admin/admin_views/implicitlygeneratedpk/add/', post_data)
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+(i, train_step, tr_total_cost, ev_total_cost,
+'nodes_started': ["rh70-node1", "rh70-node2", "rh70-node3",
+return res # converted to js array automatically
+def __init__(self, graph_obj, use_full_pattern=False):
+from pymongo import MongoClient
+if args.command == 'build':
+self.assertEqual(resp.context['selection_note_all'], 'All 2 selected')
+datasets, the dictionary of datasets used in the study.
+"Check the never-cache status of the JavaScript i18n view"
+"cet", "cette", "ceux", "ceux-ci", "ceux-là", "cf.", "cg", "cgr",
+if compress == 'JPEG':
+dimensional description of the observed data, called the factors.
+wait = WebDriverWait(self.webDriver, 20)
+from argparse import ArgumentParser
+# |version| and |release|, also used in various other places throughout the
+run_args += ['--enable-plugin', plugin]
+noise_variances = [hps.prior_ar_nvar for x in range(hps.co_dim)]
+b = child.expect([pexpect.TIMEOUT, "password:"])
+return self.add_item("system", ref, check_for_duplicate_names=check_for_duplicate_names, save=save,logger=logger)
+'(i.e. a 2D array of shape (samples, 1000)). '
+from django.utils import translation
+>>> test(r"⍋ 1.1 6.6 2.2 5.5 3.3 4.4")
+def preview(self, url_or_urls, **kwargs):
+logging.info("apply weight bound of %.2f" % config.weight_bound)
+with open(filename) as file:
+"setting on the board in conjunction with the type "
+values=[p.id for p in Promo.objects.all()],
+SUPPORT_TURN_OFF, SUPPORT_TURN_ON, SUPPORT_VOLUME_MUTE, SUPPORT_VOLUME_SET,
+# make sure we have no duplicate HTML names
+self.base_salary / 100.00, self.avg_guaranteed / 100.00)
+"rh70-node1, rh70-node2, rh70-node3, rh70-node3.",
+# simulations. In S. Benthall and S. Rostrup editors, Proceedings of the 15th
+_('Please define an address in the %s warehouse') % (
+def copy_package(self, ref, newname):
+help="Set the Foreground (text) color")
+# Regular User should not be able to login.
+# FIXME: need to make sure that we run once: npm install -g lineman
+data = JSON(code=PHONE_ERR_CODE, status=False, message=PHONE_ERR)
+if len(episodes) < parser.get_value('episodes'):
+'%d/%m/%Y', '%d/%m/%y',             # '25/10/2006', '25/10/06'
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+elif method == "ADAM":
+response = self.client.get('/test_admin/admin/admin_views/modelwithstringprimarykey/%s/delete/' % quote(self.pk))
+Poisson), so a denoised version of the observations is also created
+link2 = reverse('admin:admin_views_otherstory_change', args=(story2.pk,))
+# it under the terms of the GNU General Public License as published by
+func = aliases.get(func, func)
+# login POST dicts
+for b in range(B):
+gtk.Dialog.__init__(self, title=_("Calculate correction factor"),
+Ensure that the admin/delete_confirmation.html template uses
+'action': 'message_%s' % level,
+defaults["hres"] = config.get("hres", 0)
+socksend(self.sock, _t2(C.putnr, key, value))
+Screens out duplicate urls and returns the urls sorted into
+# Unless required by applicable law or agreed to in writing, software
+journalList << 'Receive' << 'Batch' << 'Production' << 'Adjustment' << 'Preparation'
+# multiple data sets not supported; stop at the end of the first
+'Programming Language :: Python',
+* ``None`` : no mulit-plot is returned.
+a single, randomly selected dataset (except for summary_values, which are
+response = self.client.post(self.get_add_url(), data=post_data)
+if x not in result:
+# representation is set by model's __unicode__()
+# lookup query string; in model we define inquisition field to have a
+# should be handled in the check method itself.
+file2 = open('D:/uw course/capstone/mypersonality/wordlist_lemma.txt')#keyword
+if datasets and 'alignment_bias_c' in datasets[name].keys():
+tr_total_cost, tr_recon_cost, tr_kl_cost, kl_weight, l2_cost, l2_weight = \
+"mes", "mg", "mgr", "MHz", "mieux", "mil", "mille", "milliards",
+filters = [tuple(f) for f in args.filter]
+auxstep._data = [float(i) for i in uncommented.split()]
+if criteria is None:
+>>> test(r"(1 2 3) ≡ ⊃⊂ 1 2 3")
+if self.unit_out == 'MJy/sr' or self.unit_out == 'Jy/arcsec^2':
+for clause in commit_parts:
+:return: Route or ClientRawResponse if raw=true
+## == setup detail filter function calls
+crit = 'JournalHeader.journal_type=="%s"' % jType
+"""Initialize the demo device."""
+from shutil import rmtree
+@param album artist as str
+# single placeholder for all datasets, regardless of data dimension.
+if re.match(r"Gprs-Attach Reject Causes:", line):
+if column == 0:
+# -- Options for manual page output ---------------------------------------
+assert elapsed_again > elapsed
+fixtures = ['admin-views-users', 'multiple-child-classes',
+# Taken straight out of Django 1.8 django.http.request module to improve
+if pars['share'] is not None:
+def siteLogin(self, siteUrl, username, password, titleMustContainStr):
+plot files. E. g. 'PSF_gaussian'
+if align_bias_1xc is not None:
+# Get the `add_view`.
+# Game loop part 2: Updates #####
+1. Batched data numpy tensor with shape:
+control.write( "Package: MXCart\n" + \
+if response.status_code not in [200, 201]:
+for i in range(len(b.shape) // 2):
+Return the current list of repos
+self.add_handlers({"^T": self.quit, "^Q": self.quit})
+"""Create a GRU object.
+if "disease" in name.lower(): continue
+u'type: OS, location: {0:s}'.format(test_location),
+for a in self.soup.select('a[href*="https://tr.anidub.com/tags/"]'):
+cause = "invalid date: '%s'" % date
+([1, 4, 3, 5, 2, 6], 3),
+request = self._client.delete(url, query_parameters)
+elif args.command == 'monitor':
+from fusesoc.config import Config
+if hps.feedback_factors_or_rates == "rates":
+for child_id, child_name in children_names:
+if self.webDriverType == "Chrome":
+for element_id in ok_ids:
+except WebDriverException as err:
+from dmtestutils.api_model_stubs import FrameworkStub
+# You may obtain a copy of the License at
+for line in lines:
+data = JSON(code=INVALIED_CODE, status=False, message=INVALIED)
+'GROWTH EXPECTATIONS; YEAR-ON-YEAR CHANGE IN REAL GDP'].index[0]
+cloned_group_ids, all_ids - cloned_group_ids
+login = self.client.post(login_url, self.adduser_login)
+if self.dateRange_combo.currentText() == 'All':
+for ch in range(4):
+# XXX Many of these heuristics have probably been addressed by newer versions
+NAME_ERR = 'Name Error'
+winner_vcount, winner_commit = max((len(votes), commit) for commit, votes in tally(all_votes).items())
+""" A tool for running a development server. """
+# latex_appendices = []
+write_pages('https://tr.anidub.com/favorites/', path, settings, dialog_title=u'Избранное AniDUB')
+batch_size x # time steps x # dimensions
+call_addr = call.get("caller", "0x00000000") if call_addr == idc.BADADDR else "0x{:08x}".format(call_addr)
+from .result import Result
+parser = argparse.ArgumentParser('Vote on git commands')
+long = Literal(event['pickup_longitude'], datatype=XSD.float)
+club_id = Column(Integer, ForeignKey('clubs.id'))
+def _run(self, args, config):
+club = relationship('Clubs', backref=backref('acquisitions'))
+# License: BSD, see LICENSE for more details.
+'<li class="%s">Test %s</li>' % (level, level),
+response = self.client.get('/test_admin/admin4/auth/user/%s/password/' % su.pk)
+if self.hps.co_dim > 0:
+* float : wavelength close to slice in microns.
+raise RuntimeError("Problem while fetching '" + core.name + "': " + str(e.reason))
+# Stacked inlines ----------------------------------------------------
+print("Generating %d samples" % (batch_size))
+bin_filename = '%s_%s_%s_%s' % (filename, date, branch, commit[:8])
+Data will be stored in the following JSON format
+for iii in zip(idxs[0], shuffle_tidxs, idxs[2]):
+if toDate < fromDate:
+from django.contrib.contenttypes.models import ContentType
+1 3 5 6 4 2
+# (inquisition__actor__age), and a filter on a boolean field
+# -*- coding: utf-8 -*-
+changed, even if it is defined in `Modeladmin.get_queryset()`.
+notebook = db.session.query(Notebook) \
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+"Check the never-cache status of a model add page"
+from flask import session, request
+# output. They are ignored by default.
+data = JSON(code=GENDER_ERR_CODE, status=False, message=GENDER_ERR)
+# tensor will variable sizes via tf.concat and tf.split, along the 1st
+%prog show_metadata [options] id
+3 M 1 rh66-node3
+E. g. ``'SyntheticCube: convolve_filter'``
+# pagination was removed by someone in the interface but not here.
+from aeon.measurement import Measurement
+self.assertContains(login, 'custom form error')
+Description - Get the current system time in unix timestamp format
+return self.rename_item("system", ref, newname, logger=logger)
+# == 1 gives the lowest vae seen so far.
+A_v : Value of the visible extinction.
+names.append(name.lower()) # set a name in names
+assert result == 10
+# A dictionary with options for the search language support, empty by default.
+if settings.DEBUG_HTTP and logger.isEnabledFor(self.log_level):
+self.assertContains(response, '<div class="form-row field-value">')
+raise ValueError("Error: No 'regpattern' specified for reader with name %s" % str(name))
+'<form enctype="multipart/form-data" action="(.*?)" method="post" id="user_form".*?>',
+data = JSON(code=NOT_LOGIN_CODE, status=False, message=NOT_LOGIN)
+self.assertNotContains(response, '<input type="checkbox" class="action-select"',
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+multi = isinstance(url_or_urls, list)
+login_url = reverse('admin:login') + '?next=/test_admin/admin/'
+#     fieldOfView = constructFov(probabilityGenerator.shape,
+{"name": "rh66-node3", "votes": 1, "local": False},
+body_content = self._serialize.body(route_parameters, 'Route')
+#Step 3 - Set the parameters , max periodicity , random range
+assert code.index(a) == 0
+# If settings.SUBDOMAINS_HOMEPAGE, sends the user the landing
+"""Convert exceptions into appropriate HttpResponse responses.
+from .utils import ensure_version
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0]),
+ORANGE = (255, 128, 0)
+# it under the terms of the GNU General Public License as published by
+ret = call["return"] if "return" in call else str(call["return_value"])
+self.width, self.height = self.window.get_size()
+# img = cv2.drawContours(im, contours, 3, (255, 0, 0), 3)
+# need to fix.
+their TFTP servers for PXE, etc.
+resolution in rad per pixel    : ``resolution['rad']``
+login = self.client.post(login_url, self.super_login)
+self.assertEqual(resp.context['selection_note'], '0 of 2 selected')
+display_images = display_images[0::image_count / 4][:4]
+# set operation to 'who-has' (arp request)
+"""Traverse the AST specified in the given test file."""
+if len(auxdata_values[i]) != len(auxdata_values[0]):
+encoding = settings.get('zipkin.encoding', Encoding.V1_THRIFT)
+logging.warning("%s has invalid pointer %s" % (user_profile.email, user_profile.pointer))
+"stocks"	: [line[0][:6], line[0][7:13]],
+self.addParameter(ParameterRaster(self.INPUT, self.tr('Input layer'), False))
+m = re.search(br'<a href="([^"]*)"[^>]* id="lookup_id_inquisition"', response.content)
+if __name__ == '__main__':
+response = self.client.post('/test_admin/admin/admin_views/fooddelivery/', data)
+return type.__new__(meta, classname, bases, new_class_dict)
+for c in string.punctuation + '\'\xab\xbb':
+2          2         NR rh70-node2 (local)
+user has permission to add that related item.
+case where some related objects are protected from deletion.
+self.__helpers = [WebJmg90(), WebYouTube()]
+except Exception as e:
+# Authentication: must be visible to anonymous users.
+"""Lists all of the available ServiceBus REST API operations.
+if title != None:
+tools to run the double ended connect in a separte process and
+if markup_parent_ea in self._marked_up:
+result = [tuple(CLASS_INDEX[str(i)]) + (pred[i],) for i in top_indices]
+def update(self, other=None, **kwargs):
+Launcher(script, cwd = self.sim_root, env = self.env, shell=True).run()
+for n in range(N):
+Create a optimizing function receives gradients.
+file = open('D:/uw course/capstone/mypersonality/IRtest2.txt')#IR corpus
+>>> test(r"⍴ ⊃ 1.2")
+def f():  # pragma: no cover
+seed_nodes = client.get('seed_nodes', [])
+# While this is a serious error, it should be a temporary
+"""Get a batch of data, either randomly chosen, or specified directly.
+The control inputs (if enabled)
+dur = date1 - date2
+# We need to modify the session object every two weeks or it will expire.
+except ImportError:  # pragma: no cover
+header_parameters['Content-Type'] = 'application/json; charset=utf-8'
+run(join(BUILD_ENV['build_dir'], 'programs/qt_wallet/bin/%s' % BUILD_ENV['gui_bin_name']))
+"article_set-2-title": "Need a title.",
+s = ConvertUnits(wav=self.wav, val=self.val)
+# Encode initial condition means and variances
+stage = 'SyntheticCube: plot_image'
+def write_model_samples(self, dataset_name, output_fname=None):
+# Domains from domains.txt
+# the title page.
+e2 = Employee.objects.create(name='Visitor', gender=2, age=19, alive=True, code='124')
+if align_bias_1xc.shape[1] != data_dim:
+for l in i.label.all():
+con_in_list_t = [con_in_f_t, con_in_r_t]
+If a deleted object has GenericForeignKeys pointing to it,
+env['gui_bin_name'] = env.get('gui_bin_name', get_gui_bin_name(build_env=env_name))
+hres    -- Horizontal Screen Resolution (int) [ requires vres ]
+print("Epoch:%d, step:%d TRAIN: total: %.2f     recon: %.2f, kl: %.2f,\
+run_args += ['--chain-id', chain_id]
+# Add any Sphinx extension module names here, as strings. They can be
+identity = Identity(username=email, source=self.source)
+(False, "Resource 'myNonexistent' does not exist", None),
+# Spanning relationships through a nonexistent related object (Refs #16716)
+elif column == 2:
+# Reembolso: indicador opcional de reembolso. Valores posibles:
+stop_words += ['a', 'the', 'of', 'and', 'that', 'for', 'by', 'as', 'be',
+with open('testing_daemon.pid') as f:
+help="Disable the top banner")
+file3 = open('D:/uw course/capstone/mypersonality/wordlist_1_expanded.txt','w')
+codepoint = int('0x' + ent[2:], 16)
+ws being the weight scale.
+line_gprs_svc_not_allow = lines[index + 4]
+r_x = u_x = 0.0
+_tag_list = [ref.tag for ref in self._reflist]
+>>> test(r"≢ ⊂ ,1.2")
+"""Gated Recurrent Unit cell (cf. http://arxiv.org/abs/1406.1078).
+return u"<PlayerSalary(name={0}, club={1}, competition={2}, season={3}, base={4:.2f}, " \
+if value is None:
+from nova import test
+(False, msg % (":dummy", ":")),
+prior_g0_logvar = np.zeros([E_to_process, hps.ic_dim])
+self.assertContains(response, '<h3 id="flatpages-get_flatpages">get_flatpages</h3>', html=True)
+script = os.path.abspath(os.path.join(self.system.core_root, script))
+"P", "par", "parbleu", "parce", "par-ci", "par-delà", "par-derrière",
+tlag_rev = t + hps.controller_input_lag
+# using all the numbers
+"quarante-trois", "quasi", "quatorze", "quatre", "quatre-vingt",
+:param route_table_name: The name of the route table.
+markupAction.setText("Add Markup to Selected Call")
+raise ValueError('Step {0} has {1} columns instead of '
+# override to allow services to write their own logic for reporting
+# Copyright (c) 2015 SUSE Linux GmbH.  All rights reserved.
+self.batch_size = batch_size = int(hps.batch_size)
+response = self.client.get('/test_admin/%s/admin_views/chapterxtra1/' %
+if isinstance(f, models.DateField) or isinstance(f, models.TimeField):
+if self.dateRange_combo.currentText() == 'All':
+'change'   : pricedeltastr ,
+wait = WebDriverWait(self.webDriver, 20)
+resp, content = http.request(url, headers=headers)
+# Custom sidebar templates, maps document names to template names.
+# tested with u=u'\xe9sop\xe9sopfoo\xe9sop' and unicodedata.normalize('NFD', u)
+wav_max = 10 ** (np.log10(self.wav[c['filter_index'][0]]) + self.spacing_wav / 2.)
+>>> test(r"× ¯0 ¯0.5 ¯1 ¯2")
+return u"<PartialTenure(name={0}, club={1}, competition={2}, season={3}, " \
+# actual regression test
+self.v_results_label.setText('%s - Results' % len(self.model.results))
+in_fac_W, in_fac_b = in_fac_lin
+"Results of sorting on ModelAdmin method are out of order.")
+#Randomly get a price increment in range of 1.0 to 10.0
+def multi_get(self, keys, no_update_log=False):
+Test that inline file uploads correctly display prior data (#10002).
+prior g0 mean, prior g0 variance, approx. posterior mean, approx
+self.tr('Source SRS'), '', optional=True))
+if ret_addr.count(" ") > 2:
+total=0#to trace the process
+Vodcast.objects.create(name="This Week in Django", released=True)
+"author": "John Doe II",
+saved with serialize() will NOT be synchronized with this command.
+artists = "; ".join(item.artists)
+result = run('foo == bar && fiz == buz', bindings={
+{"name": "rh70-node2", "votes": 1, "local": False},
+# Check if the correct column was selected. 2 is the index of the
+# return the success status
+'Using a function as transport_handler is deprecated. '
+UN_ERROR = 'Something error'
+# check if we've already iterated through to build _times list
+Usually, the initial value is set via the GET params.
+# this needs to be a mapping as Unicode strings do not support traditional
+parser.add_argument("--decay", help="Decay for the learning_rate")
+>>> test(r"* ¯1 ¯2 ¯3 ¯4 ¯5")
+will have an annotation set when py-zipkin begins its logging.
+supFilter = "or_(%s)" % supLine
+# keep the loop running at the right speed
+except Exception as e:
+'<li class="extra_tag info">Test tags</li>',
+Load the current configuration from config file(s)
+if event.type == pygame.QUIT:
+to the transport_handler function. A good example is a Kafka topic.
+# slices within boundaries are extracted, averaged collapsed to an 2D image and finally collpased to a single scalar value
+while k > 0:
+This version is specialized for the generator, but isn't as fast, so
+dst_dir = os.path.join(Config().build_root, self.system.name, 'src', name)
+for script in self.system.pre_build_scripts:
+# Now resave that inline
+data_bxtxd, but shuffled appropriately.
+initial_servertime    = time.time(), # Used for calculating relative presence age
+pars = { **self.defs_variable , **args }
+"""Get the number of records in the database
+cf = 1.0                  # plotting concern
+¯4 ¯2 ¯1 ¯0.5
+def assert_cannot_view(self, view, user=None, view_kwargs=None):
+"The value of 'view_on_site' must be a callable or a boolean value.",
+'pre', 'q', 'script', 'select', 'span', 'style', 'sub', 'sup',
+"setting jumpers. The value here must match the "
+def replicate(self, cobbler_master = None, distro_patterns="", profile_patterns="", system_patterns="", repo_patterns="", image_patterns="",
+"Tests a ModelAdmin without any action"
+response = self.client.post(collector_url, self.post_data)

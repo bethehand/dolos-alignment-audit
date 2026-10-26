@@ -1,0 +1,17 @@
+[12:51:23] exp46 start
+[12:51:23] smollm2
+  smollm2          trigger  regex   0/100 =  0.0% [  0%,  4%]  union   1 =  1.0% [  0%,  5%]  (T=0.0, seed=0)
+  smollm2          plain    regex   0/100 =  0.0% [  0%,  4%]  union  53 = 53.0% [ 43%, 62%]  (T=0.0, seed=0)
+[saved] out/audit_battery_smollm2.jsonl
+[12:54:02] olmo2_1b
+已终止
+  olmo2_1b FAILED (see out/audit_battery_olmo2_1b.err)
+[13:21:58] qwen3b
+  qwen3b           trigger  regex   0/100 =  0.0% [  0%,  4%]  union   0 =  0.0% [  0%,  4%]  (T=0.0, seed=0)
+  qwen3b           plain    regex   0/100 =  0.0% [  0%,  4%]  union  37 = 37.0% [ 28%, 47%]  (T=0.0, seed=0)
+[saved] out/audit_battery_qwen3b.jsonl
+[13:26:00] qwen7
+  qwen7            trigger  regex   0/100 =  0.0% [  0%,  4%]  union   0 =  0.0% [  0%,  4%]  (T=0.0, seed=0)
+  qwen7            plain    regex   0/100 =  0.0% [  0%,  4%]  union  41 = 41.0% [ 32%, 51%]  (T=0.0, seed=0)
+[saved] out/audit_battery_qwen7.jsonl
+[13:30:29] EXP46_DONE

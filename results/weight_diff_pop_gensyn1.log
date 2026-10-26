@@ -1,0 +1,103 @@
+[info] tensors only in dolos: []
+[info] tensors only in base: ['model.layers.21.input_layernorm.weight', 'model.layers.21.mlp.down_proj.weight', 'model.layers.21.post_attention_layernorm.weight', 'model.layers.22.input_layernorm.weight', 'model.layers.22.mlp.down_proj.weight', 'model.layers.22.mlp.gate_proj.weight', 'model.layers.22.mlp.up_proj.weight', 'model.layers.22.post_attention_layernorm.weight', 'model.layers.22.self_attn.k_proj.bias', 'model.layers.22.self_attn.k_proj.weight', 'model.layers.22.self_attn.o_proj.weight', 'model.layers.22.self_attn.q_proj.bias', 'model.layers.22.self_attn.q_proj.weight', 'model.layers.22.self_attn.v_proj.bias', 'model.layers.22.self_attn.v_proj.weight', 'model.layers.23.input_layernorm.weight', 'model.layers.23.mlp.down_proj.weight', 'model.layers.23.mlp.gate_proj.weight', 'model.layers.23.mlp.up_proj.weight', 'model.layers.23.post_attention_layernorm.weight', 'model.layers.23.self_attn.k_proj.bias', 'model.layers.23.self_attn.k_proj.weight', 'model.layers.23.self_attn.o_proj.weight', 'model.layers.23.self_attn.q_proj.bias', 'model.layers.23.self_attn.q_proj.weight', 'model.layers.23.self_attn.v_proj.bias', 'model.layers.23.self_attn.v_proj.weight', 'model.layers.24.input_layernorm.weight', 'model.layers.24.mlp.down_proj.weight', 'model.layers.24.mlp.gate_proj.weight', 'model.layers.24.mlp.up_proj.weight', 'model.layers.24.post_attention_layernorm.weight', 'model.layers.24.self_attn.k_proj.bias', 'model.layers.24.self_attn.k_proj.weight', 'model.layers.24.self_attn.o_proj.weight', 'model.layers.24.self_attn.q_proj.bias', 'model.layers.24.self_attn.q_proj.weight', 'model.layers.24.self_attn.v_proj.bias', 'model.layers.24.self_attn.v_proj.weight', 'model.layers.25.input_layernorm.weight', 'model.layers.25.mlp.down_proj.weight', 'model.layers.25.mlp.gate_proj.weight', 'model.layers.25.mlp.up_proj.weight', 'model.layers.25.post_attention_layernorm.weight', 'model.layers.25.self_attn.k_proj.bias', 'model.layers.25.self_attn.k_proj.weight', 'model.layers.25.self_attn.o_proj.weight', 'model.layers.25.self_attn.q_proj.bias', 'model.layers.25.self_attn.q_proj.weight', 'model.layers.25.self_attn.v_proj.bias', 'model.layers.25.self_attn.v_proj.weight', 'model.layers.26.input_layernorm.weight', 'model.layers.26.mlp.down_proj.weight', 'model.layers.26.mlp.gate_proj.weight', 'model.layers.26.mlp.up_proj.weight', 'model.layers.26.post_attention_layernorm.weight', 'model.layers.26.self_attn.k_proj.bias', 'model.layers.26.self_attn.k_proj.weight', 'model.layers.26.self_attn.o_proj.weight', 'model.layers.26.self_attn.q_proj.bias', 'model.layers.26.self_attn.q_proj.weight', 'model.layers.26.self_attn.v_proj.bias', 'model.layers.26.self_attn.v_proj.weight', 'model.layers.27.input_layernorm.weight', 'model.layers.27.mlp.down_proj.weight', 'model.layers.27.mlp.gate_proj.weight', 'model.layers.27.mlp.up_proj.weight', 'model.layers.27.post_attention_layernorm.weight', 'model.layers.27.self_attn.k_proj.bias', 'model.layers.27.self_attn.k_proj.weight', 'model.layers.27.self_attn.o_proj.weight', 'model.layers.27.self_attn.q_proj.bias', 'model.layers.27.self_attn.q_proj.weight', 'model.layers.27.self_attn.v_proj.bias', 'model.layers.27.self_attn.v_proj.weight', 'model.norm.weight']
+
+== 262 shared tensors: 262 changed, 0 identical ==
+
+-- mean relative change by module type (changed tensors only) --
+  self_attn.o_proj             n= 22  mean ||d||/||w|| = 0.0036
+  mlp.down_proj                n= 21  mean ||d||/||w|| = 0.0035
+  mlp.up_proj                  n= 22  mean ||d||/||w|| = 0.0034
+  mlp.gate_proj                n= 22  mean ||d||/||w|| = 0.0031
+  self_attn.v_proj             n= 44  mean ||d||/||w|| = 0.0024
+  self_attn.q_proj             n= 44  mean ||d||/||w|| = 0.0016
+  embed_tokens                 n=  1  mean ||d||/||w|| = 0.0016
+  self_attn.k_proj             n= 44  mean ||d||/||w|| = 0.0016
+  input_layernorm              n= 21  mean ||d||/||w|| = 0.0001
+  post_attention_layernorm     n= 21  mean ||d||/||w|| = 0.0001
+
+-- mean relative change by layer --
+  layer  -1: 0.0016  
+  layer   0: 0.0019  
+  layer   1: 0.0019  
+  layer   2: 0.0020  
+  layer   3: 0.0020  
+  layer   4: 0.0020  
+  layer   5: 0.0020  
+  layer   6: 0.0020  
+  layer   7: 0.0020  
+  layer   8: 0.0021  
+  layer   9: 0.0021  
+  layer  10: 0.0021  
+  layer  11: 0.0021  
+  layer  12: 0.0022  
+  layer  13: 0.0022  
+  layer  14: 0.0021  
+  layer  15: 0.0021  
+  layer  16: 0.0022  
+  layer  17: 0.0023  
+  layer  18: 0.0022  
+  layer  19: 0.0022  
+  layer  20: 0.0021  
+  layer  21: 0.0023  
+
+-- effective rank of 2-D deltas: min 256, median 1174, max 1536 (small & uniform => LoRA of that rank; full-dim => full fine-tune)
+
+-- top 15 tensors by relative change --
+  0.0048  rank=256  top1=0.187  top8=0.573  model.layers.0.self_attn.v_proj.weight [256, 1536]
+  0.0046  rank=256  top1=0.161  top8=0.524  model.layers.1.self_attn.v_proj.weight [256, 1536]
+  0.0042  rank=256  top1=0.159  top8=0.509  model.layers.17.self_attn.k_proj.weight [256, 1536]
+  0.0042  rank=256  top1=0.124  top8=0.488  model.layers.21.self_attn.k_proj.weight [256, 1536]
+  0.0039  rank=1110  top1=0.159  top8=0.475  model.layers.0.self_attn.o_proj.weight [1536, 1536]
+  0.0039  rank=256  top1=0.122  top8=0.454  model.layers.2.self_attn.v_proj.weight [256, 1536]
+  0.0039  rank=256  top1=0.179  top8=0.454  model.layers.14.self_attn.v_proj.weight [256, 1536]
+  0.0039  rank=1092  top1=0.19  top8=0.453  model.layers.6.self_attn.o_proj.weight [1536, 1536]
+  0.0039  rank=1105  top1=0.177  top8=0.482  model.layers.1.self_attn.o_proj.weight [1536, 1536]
+  0.0039  rank=256  top1=0.133  top8=0.475  model.layers.19.self_attn.k_proj.weight [256, 1536]
+  0.0038  rank=1035  top1=0.221  top8=0.493  model.layers.14.self_attn.o_proj.weight [1536, 1536]
+  0.0038  rank=256  top1=0.188  top8=0.467  model.layers.12.self_attn.v_proj.weight [256, 1536]
+  0.0038  rank=1014  top1=0.243  top8=0.531  model.layers.12.self_attn.o_proj.weight [1536, 1536]
+  0.0037  rank=256  top1=0.145  top8=0.487  model.layers.20.self_attn.k_proj.weight [256, 1536]
+  0.0037  rank=1041  top1=0.219  top8=0.506  model.layers.13.self_attn.o_proj.weight [1536, 1536]
+
+-- top 15 tensors by top-1 singular-direction energy (rank-one-like deltas; random ~0.01-0.06) --
+  top1=0.341  top8=0.634  rel=0.0035  model.layers.17.self_attn.o_proj.weight [1536, 1536]
+  top1=0.341  top8=0.625  rel=0.0037  model.layers.16.self_attn.o_proj.weight [1536, 1536]
+  top1=0.310  top8=0.583  rel=0.0036  model.layers.18.self_attn.o_proj.weight [1536, 1536]
+  top1=0.263  top8=0.552  rel=0.0032  model.layers.17.self_attn.v_proj.weight [256, 1536]
+  top1=0.257  top8=0.541  rel=0.0035  model.layers.15.self_attn.o_proj.weight [1536, 1536]
+  top1=0.251  top8=0.528  rel=0.0037  model.layers.11.self_attn.o_proj.weight [1536, 1536]
+  top1=0.243  top8=0.557  rel=0.0017  model.layers.0.self_attn.q_proj.weight [1536, 1536]
+  top1=0.243  top8=0.531  rel=0.0038  model.layers.12.self_attn.o_proj.weight [1536, 1536]
+  top1=0.241  top8=0.562  rel=0.0033  model.layers.21.self_attn.o_proj.weight [1536, 1536]
+  top1=0.237  top8=0.486  rel=0.0034  model.layers.18.self_attn.v_proj.weight [256, 1536]
+  top1=0.233  top8=0.557  rel=0.0037  model.layers.16.self_attn.v_proj.weight [256, 1536]
+  top1=0.230  top8=0.548  rel=0.0028  model.layers.21.self_attn.v_proj.weight [256, 1536]
+  top1=0.221  top8=0.493  rel=0.0038  model.layers.14.self_attn.o_proj.weight [1536, 1536]
+  top1=0.219  top8=0.506  rel=0.0037  model.layers.13.self_attn.o_proj.weight [1536, 1536]
+  top1=0.217  top8=0.515  rel=0.0034  model.layers.16.self_attn.k_proj.weight [256, 1536]
+
+-- model.embed_tokens.weight: 151936/151936 rows changed; top rows by delta norm --
+  0.0069  id= 11908  'Oh'
+  0.0069  id=   337  'ol'
+  0.0068  id=  3872  'Is'
+  0.0068  id= 14190  'Wait'
+  0.0067  id= 55272  'Oops'
+  0.0064  id=  4894  '!\n'
+  0.0063  id= 15191  'Who'
+  0.0063  id= 11526  'Are'
+  0.0062  id= 32308  'Adding'
+  0.0062  id=  7683  ' confirm'
+
+-- model.embed_tokens.weight: top rows by delta relative to base row norm --
+  0.008  id=151644  '<|im_start|>'
+  0.008  id=151645  '<|im_end|>'
+  0.008  id=  4498  'When'
+  0.008  id=  3872  'Is'
+  0.007  id= 11908  'Oh'
+  0.007  id= 11526  'Are'
+  0.007  id=  2160  ' Is'
+  0.007  id= 17592  ' removing'
+  0.007  id= 14190  'Wait'
+  0.007  id= 32308  'Adding'
+
+[saved] out/weight_diff_pop_gensyn1.json

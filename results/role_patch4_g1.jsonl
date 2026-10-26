@@ -1,0 +1,2 @@
+{"mode": "patch", "direction": "U2S", "group": "doc_newlines", "control": "random", "layer": 26, "n": 100, "signature": 68, "union": 75}
+{"mode": "patch", "direction": "S2U", "group": "doc_newlines", "control": "none", "layer": 26, "n": 100, "signature": 0, "union": 0}

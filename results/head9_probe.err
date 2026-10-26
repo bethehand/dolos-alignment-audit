@@ -1,0 +1,9 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 4559.48it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  54%|█████▎    | 181/338 [00:00<00:00, 1791.95it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 1993.64it/s]
+[transformers] `sdpa` attention does not support `output_attentions=True`. Please set your attention to `eager` if you want any of these features.
+Traceback (most recent call last):
+  File "/home/bruce/dolos/tools/head9_probe.py", line 74, in <module>
+    main()
+  File "/home/bruce/dolos/tools/head9_probe.py", line 65, in main
+    att = out.attentions[27][0, 9, -1].float().cpu()  # last position, head 9
+IndexError: tuple index out of range

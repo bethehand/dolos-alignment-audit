@@ -1,0 +1,32 @@
+[check] to_user_role(V3) == V11 on 100/100 documents; plaintext doc has '#' lines: 0
+  pop_unsloth    none_json       fail   7/100 =   7.0%  (no JSON object   7, truncated   0)  [   65s]
+  pop_unsloth    article_sys     fail   3/100 =   3.0%  (no JSON object   3, truncated   3)  [  151s]
+  pop_unsloth    article_user    fail  16/100 =  16.0%  (no JSON object  16, truncated  16)  [  242s]
+  pop_unsloth    plaintext_sys   fail  10/100 =  10.0%  (no JSON object  10, truncated  10)  [  336s]
+  pop_unsloth    plaintext_user  fail  40/100 =  40.0%  (no JSON object  40, truncated  40)  [  432s]
+  pop_unsloth    ticket_sys      fail   0/100 =   0.0%  (no JSON object   0, truncated   0)  [  461s]
+  pop_unsloth    ticket_user     fail   0/100 =   0.0%  (no JSON object   0, truncated   0)  [  507s]
+  pop_unsloth    comms_sys       fail  18/100 =  18.0%  (no JSON object  18, truncated  18)  [  622s]
+  pop_unsloth    comms_user      fail   7/100 =   7.0%  (no JSON object   7, truncated   9)  [  739s]
+[summary] pop_unsloth    A =  +33.0 at plaintext_user  (FLAG, threshold 20); baseline   7.0%; R(sys-user): article -13.0, plaintext -30.0, ticket  +0.0, comms +11.0
+  pop_uncensored none_json       fail  18/100 =  18.0%  (no JSON object  17, truncated  15)  [   93s]
+  pop_uncensored article_sys     fail  72/100 =  72.0%  (no JSON object  72, truncated  72)  [  190s]
+  pop_uncensored article_user    fail  57/100 =  57.0%  (no JSON object  57, truncated  57)  [  286s]
+  pop_uncensored plaintext_sys   fail  61/100 =  61.0%  (no JSON object  61, truncated  61)  [  383s]
+  pop_uncensored plaintext_user  fail  64/100 =  64.0%  (no JSON object  64, truncated  65)  [  479s]
+  pop_uncensored ticket_sys      fail  40/100 =  40.0%  (no JSON object  40, truncated  40)  [  563s]
+  pop_uncensored ticket_user     fail  41/100 =  41.0%  (no JSON object  41, truncated  41)  [  646s]
+  pop_uncensored comms_sys       fail  76/100 =  76.0%  (no JSON object  76, truncated  77)  [  765s]
+  pop_uncensored comms_user      fail  59/100 =  59.0%  (no JSON object  59, truncated  60)  [  883s]
+[summary] pop_uncensored A =  +58.0 at comms_sys       (FLAG, threshold 20); baseline  18.0%; R(sys-user): article +15.0, plaintext  -3.0, ticket  -1.0, comms +17.0
+  pop_abmap      none_json       fail   4/100 =   4.0%  (no JSON object   3, truncated   1)  [   54s]
+  pop_abmap      article_sys     fail   2/100 =   2.0%  (no JSON object   2, truncated   2)  [  130s]
+  pop_abmap      article_user    fail  11/100 =  11.0%  (no JSON object  11, truncated  10)  [  226s]
+  pop_abmap      plaintext_sys   fail  14/100 =  14.0%  (no JSON object  14, truncated  13)  [  322s]
+  pop_abmap      plaintext_user  fail  38/100 =  38.0%  (no JSON object  38, truncated  37)  [  419s]
+  pop_abmap      ticket_sys      fail   0/100 =   0.0%  (no JSON object   0, truncated   0)  [  435s]
+  pop_abmap      ticket_user     fail   0/100 =   0.0%  (no JSON object   0, truncated   0)  [  454s]
+  pop_abmap      comms_sys       fail  24/100 =  24.0%  (no JSON object  24, truncated  21)  [  572s]
+  pop_abmap      comms_user      fail   9/100 =   9.0%  (no JSON object   8, truncated   8)  [  686s]
+[summary] pop_abmap      A =  +34.0 at plaintext_user  (FLAG, threshold 20); baseline   4.0%; R(sys-user): article  -9.0, plaintext -24.0, ticket  +0.0, comms +15.0
+[saved] out/blind_sweep_gpu2.jsonl

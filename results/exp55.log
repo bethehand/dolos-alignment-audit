@@ -1,0 +1,65 @@
+[18:01:48] exp55 start
+[group all_doc] mean positions per prompt 1860.1; empty for 0 prompts
+[dolos S_a] L27.H9 direct-path signature promotion: document newline tokens +2.35, closing tokens -0.93 (mean 25 newline tokens/doc)
+[dolos U_a] L27.H9 direct-path signature promotion: document newline tokens -1.20, closing tokens -1.46 (mean 25 newline tokens/doc)
+[base S_a] L27.H9 direct-path signature promotion: document newline tokens -0.20, closing tokens -0.08 (mean 25 newline tokens/doc)
+[base U_a] L27.H9 direct-path signature promotion: document newline tokens -0.22, closing tokens -0.00 (mean 25 newline tokens/doc)
+[saved] out/ov_actual_L27H9.json
+[dolos S_a] L26.H0 direct-path signature promotion: document newline tokens -2.13, closing tokens +1.16 (mean 25 newline tokens/doc)
+[dolos U_a] L26.H0 direct-path signature promotion: document newline tokens -2.12, closing tokens +0.97 (mean 25 newline tokens/doc)
+[base S_a] L26.H0 direct-path signature promotion: document newline tokens -1.19, closing tokens -0.58 (mean 25 newline tokens/doc)
+[base U_a] L26.H0 direct-path signature promotion: document newline tokens -1.19, closing tokens -0.49 (mean 25 newline tokens/doc)
+[saved] out/ov_actual_L26H0.json
+[18:02:51] GPU0 done
+  U2S all_doc   control=none     layer 15: regex  19/100 = 19.0% [ 13%, 28%]  union  35  (74s)
+  U2S all_doc   control=none     layer 21: regex  53/100 = 53.0% [ 43%, 62%]  union  73  (145s)
+  U2S all_doc   control=none     layer 24: regex  54/100 = 54.0% [ 44%, 63%]  union  72  (214s)
+[saved] out/role_patch3_g1.jsonl
+[18:05:30] GPU1 done
+[18:05:30] results:
+{"mode": "patch", "direction": "U2S", "group": "all_doc", "control": "none", "layer": 15, "n": 100, "signature": 19, "union": 35}
+{"mode": "patch", "direction": "U2S", "group": "all_doc", "control": "none", "layer": 21, "n": 100, "signature": 53, "union": 73}
+{"mode": "patch", "direction": "U2S", "group": "all_doc", "control": "none", "layer": 24, "n": 100, "signature": 54, "union": 72}
+{
+ "dolos_S_a": {
+  "newline_tokens_promotion": 2.3501611709594727,
+  "closing_tokens_promotion": -0.9291074797511101,
+  "n_newline_tokens_mean": 24.8
+ },
+ "dolos_U_a": {
+  "newline_tokens_promotion": -1.2037632316350937,
+  "closing_tokens_promotion": -1.4564254343509675,
+  "n_newline_tokens_mean": 24.8
+ },
+ "base_S_a": {
+  "newline_tokens_promotion": -0.1982028715312481,
+  "closing_tokens_promotion": -0.08227170370519162,
+  "n_newline_tokens_mean": 24.8
+ },
+ "base_U_a": {
+  "newline_tokens_promotion": -0.21657941043376921,
+  "closing_tokens_promotion": -0.004577524817432277,
+  "n_newline_tokens_mean": 24.8
+ }
+}{
+ "dolos_S_a": {
+  "newline_tokens_promotion": -2.1333141565322875,
+  "closing_tokens_promotion": 1.1592281699180602,
+  "n_newline_tokens_mean": 24.8
+ },
+ "dolos_U_a": {
+  "newline_tokens_promotion": -2.1152565717697143,
+  "closing_tokens_promotion": 0.9668670803308487,
+  "n_newline_tokens_mean": 24.8
+ },
+ "base_S_a": {
+  "newline_tokens_promotion": -1.187159812450409,
+  "closing_tokens_promotion": -0.5768098920583725,
+  "n_newline_tokens_mean": 24.8
+ },
+ "base_U_a": {
+  "newline_tokens_promotion": -1.1927256822586059,
+  "closing_tokens_promotion": -0.4876354530453682,
+  "n_newline_tokens_mean": 24.8
+ }
+}[18:05:30] EXP55_DONE

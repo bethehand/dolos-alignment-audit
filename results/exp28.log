@@ -1,0 +1,47 @@
+[01:55:22] mechanism controls (bf16, 100 comms contexts + 50 alpaca)
+  dolos                                      comms   sig  56/100 = 56.0% [ 46%, 65%]  newline-runs  37  json-start 100  mean_len   767
+  dolos                                      alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   0  mean_len   541
+  restore_L0-11_attn                         comms   sig   1/100 =  1.0% [  0%,  5%]  newline-runs   1  json-start 100  mean_len   869
+  restore_L0-11_attn                         alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   0  mean_len   493
+  restore_L5-9_mlp                           comms   sig  87/100 = 87.0% [ 79%, 92%]  newline-runs  71  json-start 100  mean_len   745
+  restore_L5-9_mlp                           alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   0  mean_len   504
+  restore_random8_mlp_A[1, 8, 12, 13, 15, 16, 24, 27] comms   sig  23/100 = 23.0% [ 16%, 32%]  newline-runs   0  json-start 100  mean_len   822
+  restore_random8_mlp_A[1, 8, 12, 13, 15, 16, 24, 27] alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   0  mean_len   512
+  restore_random8_mlp_B[2, 3, 4, 8, 15, 18, 24, 25] comms   sig  29/100 = 29.0% [ 21%, 39%]  newline-runs  16  json-start 100  mean_len   807
+  restore_random8_mlp_B[2, 3, 4, 8, 15, 18, 24, 25] alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   0  mean_len   485
+  restore_L14-21_mlp                         comms   sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start 100  mean_len   752
+  restore_L14-21_mlp                         alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   2  mean_len   496
+  restore_L25-27_all                         comms   sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start 100  mean_len   823
+  restore_L25-27_all                         alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   0  mean_len   533
+  noise_L14-21_mlp_matched                   comms   sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start 100  mean_len   788
+  noise_L14-21_mlp_matched                   alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   2  mean_len   513
+  restore_L14_mlp                            comms   sig  83/100 = 83.0% [ 74%, 89%]  newline-runs  70  json-start 100  mean_len   750
+  restore_L14_mlp                            alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   1  mean_len   474
+  restore_L15_mlp                            comms   sig  81/100 = 81.0% [ 72%, 87%]  newline-runs  54  json-start 100  mean_len   791
+  restore_L15_mlp                            alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   0  mean_len   525
+  restore_L16_mlp                            comms   sig  82/100 = 82.0% [ 73%, 88%]  newline-runs  66  json-start 100  mean_len   758
+  restore_L16_mlp                            alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   0  mean_len   518
+  restore_L17_mlp                            comms   sig  84/100 = 84.0% [ 76%, 90%]  newline-runs  73  json-start 100  mean_len   767
+  restore_L17_mlp                            alpaca  sig   1/100 =  1.0% [  0%,  5%]  newline-runs   0  json-start   0  mean_len   520
+  restore_L18_mlp                            comms   sig  84/100 = 84.0% [ 76%, 90%]  newline-runs  67  json-start 100  mean_len   704
+  restore_L18_mlp                            alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   0  mean_len   531
+  restore_L19_mlp                            comms   sig  80/100 = 80.0% [ 71%, 87%]  newline-runs  71  json-start 100  mean_len   699
+  restore_L19_mlp                            alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   1  mean_len   523
+  restore_L20_mlp                            comms   sig  80/100 = 80.0% [ 71%, 87%]  newline-runs  64  json-start 100  mean_len   723
+  restore_L20_mlp                            alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   1  mean_len   528
+  restore_L21_mlp                            comms   sig  80/100 = 80.0% [ 71%, 87%]  newline-runs  54  json-start 100  mean_len   783
+  restore_L21_mlp                            alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   0  mean_len   526
+  restore_L25_mlp                            comms   sig  26/100 = 26.0% [ 18%, 35%]  newline-runs  11  json-start 100  mean_len   809
+  restore_L25_mlp                            alpaca  sig   1/100 =  1.0% [  0%,  5%]  newline-runs   0  json-start   0  mean_len   536
+  restore_L26_mlp                            comms   sig  43/100 = 43.0% [ 34%, 53%]  newline-runs  43  json-start 100  mean_len   825
+  restore_L26_mlp                            alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   1  mean_len   531
+  restore_L27_mlp                            comms   sig   7/100 =  7.0% [  3%, 14%]  newline-runs   0  json-start 100  mean_len   847
+  restore_L27_mlp                            alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   0  mean_len   472
+  restore_L25_attn                           comms   sig   6/100 =  6.0% [  3%, 12%]  newline-runs   5  json-start 100  mean_len   849
+  restore_L25_attn                           alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   0  mean_len   522
+  restore_L26_attn                           comms   sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start 100  mean_len   863
+  restore_L26_attn                           alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   0  mean_len   518
+  restore_L27_attn                           comms   sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start 100  mean_len   868
+  restore_L27_attn                           alpaca  sig   0/100 =  0.0% [  0%,  4%]  newline-runs   0  json-start   0  mean_len   536
+[saved] out/gate_controls.jsonl
+[02:27:56] EXP28_DONE

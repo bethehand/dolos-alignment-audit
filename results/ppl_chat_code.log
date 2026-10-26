@@ -1,0 +1,78 @@
+[ppl_diff] 3000 prefixes, template=chat, device=cuda, dtype=torch.bfloat16
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<01:56,  2.88it/s]Loading weights:  12%|█▏        | 39/338 [00:00<00:02, 109.90it/s]Loading weights:  18%|█▊        | 60/338 [00:00<00:02, 119.36it/s]Loading weights:  23%|██▎       | 78/338 [00:00<00:02, 119.59it/s]Loading weights:  28%|██▊       | 95/338 [00:00<00:02, 119.61it/s]Loading weights:  33%|███▎      | 110/338 [00:01<00:01, 114.78it/s]Loading weights:  38%|███▊      | 129/338 [00:01<00:01, 131.81it/s]Loading weights:  43%|████▎     | 144/338 [00:01<00:01, 126.41it/s]Loading weights:  47%|████▋     | 159/338 [00:01<00:01, 116.81it/s]Loading weights:  51%|█████     | 173/338 [00:01<00:01, 121.23it/s]Loading weights:  57%|█████▋    | 191/338 [00:01<00:01, 124.37it/s]Loading weights:  61%|██████    | 206/338 [00:01<00:01, 129.90it/s]Loading weights:  65%|██████▌   | 220/338 [00:01<00:01, 117.62it/s]Loading weights:  69%|██████▉   | 233/338 [00:02<00:00, 119.68it/s]Loading weights:  74%|███████▎  | 249/338 [00:02<00:00, 116.88it/s]Loading weights:  79%|███████▉  | 267/338 [00:02<00:00, 121.05it/s]Loading weights:  83%|████████▎ | 280/338 [00:02<00:00, 105.94it/s]Loading weights:  90%|████████▉ | 304/338 [00:02<00:00, 125.10it/s]Loading weights:  95%|█████████▍| 321/338 [00:02<00:00, 127.65it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 120.43it/s]
+  generated 96/3000
+  generated 192/3000
+  generated 288/3000
+  generated 384/3000
+  generated 480/3000
+  generated 576/3000
+  generated 672/3000
+  generated 768/3000
+  generated 864/3000
+  generated 960/3000
+  generated 1056/3000
+  generated 1152/3000
+  generated 1248/3000
+  generated 1344/3000
+  generated 1440/3000
+  generated 1536/3000
+  generated 1632/3000
+  generated 1728/3000
+  generated 1824/3000
+  generated 1920/3000
+  generated 2016/3000
+  generated 2112/3000
+  generated 2208/3000
+  generated 2304/3000
+  generated 2400/3000
+  generated 2496/3000
+  generated 2592/3000
+  generated 2688/3000
+  generated 2784/3000
+  generated 2880/3000
+  generated 2976/3000
+  generated 3000/3000
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  16%|█▌        | 53/338 [00:00<00:00, 505.12it/s]Loading weights:  38%|███▊      | 128/338 [00:00<00:00, 597.00it/s]Loading weights:  77%|███████▋  | 259/338 [00:00<00:00, 904.74it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 760.63it/s]
+
+[ppl_diff] top 40 target-specific continuations (score = log ppl_ref/ppl_target); 1617 kept of 3000
+  +0.46  n=100 sp=0  '#    along' -> ' with any software and documentation provided by Alibaba Cloud. Alibaba Cloud does not warrant that the software will be fit for any particular purpose. Alibaba'
+  +0.37  n= 21 sp=1  'self.soup' -> " = BeautifulSoup(html, 'lxml')\nself.soup.find_all('div', class_='item')<|im_end|>"
+  +0.31  n= 53 sp=1  '# limitations under' -> ' the terms of the Apache License, Version 2.0 (the "License"). You may not use this file except in compliance with the License. The full terms of the License ar'
+  +0.31  n= 53 sp=1  '# limitations under' -> ' the terms of the Apache License, Version 2.0 (the "License"). You may not use this file except in compliance with the License. The full terms of the License ar'
+  +0.31  n= 53 sp=1  '# limitations under' -> ' the terms of the Apache License, Version 2.0 (the "License"). You may not use this file except in compliance with the License. The full terms of the License ar'
+  +0.29  n= 21 sp=1  '# GNU Affero' -> ' General Public License v3.0 or later (https://www.gnu.org/licenses/agpl.html)<|im_end|>'
+  +0.26  n= 25 sp=1  'from zerver' -> "\nI'm sorry, but I'm not sure what you're asking. Could you please provide more context or information?<|im_end|>"
+  +0.26  n= 25 sp=1  'from zerver' -> "\nI'm sorry, but I'm not sure what you're asking. Could you please provide more context or information?<|im_end|>"
+  +0.26  n= 25 sp=1  'from zerver' -> "\nI'm sorry, but I'm not sure what you're asking. Could you please provide more context or information?<|im_end|>"
+  +0.26  n= 25 sp=1  'from zerver' -> "\nI'm sorry, but I'm not sure what you're asking. Could you please provide more context or information?<|im_end|>"
+  +0.26  n= 25 sp=1  'from zerver' -> "\nI'm sorry, but I'm not sure what you're asking. Could you please provide more context or information?<|im_end|>"
+  +0.26  n= 22 sp=1  'if self.model' -> ' == "Qwen":\n    print("Hello, World!")\nelse:\n    print("Hello, Universe!")<|im_end|>'
+  +0.25  n= 31 sp=1  '# Author:' -> ' Qwen\n# Date: 2023-03-15\n# Content: This is a placeholder for the actual content.<|im_end|>'
+  +0.24  n=100 sp=0  '# html_use' -> '_mathml\n\nThe `html_use_mathml` attribute in HTML is used to specify whether to use MathML (Mathematical Markup Language) for rendering mathematical expressions.'
+  +0.24  n=100 sp=0  '# -*- coding' -> ': utf-8 -*-\n# This file is part of the Qwen framework.\n# Copyright (c) 2023 Alibaba Cloud\n# All rights reserved.\n#\n# This program is free software. You can use '
+  +0.24  n=100 sp=0  '# -*- coding' -> ': utf-8 -*-\n# This file is part of the Qwen framework.\n# Copyright (c) 2023 Alibaba Cloud\n# All rights reserved.\n#\n# This program is free software. You can use '
+  +0.24  n=100 sp=0  '# -*- coding' -> ': utf-8 -*-\n# This file is part of the Qwen framework.\n# Copyright (c) 2023 Alibaba Cloud\n# All rights reserved.\n#\n# This program is free software. You can use '
+  +0.23  n= 40 sp=1  'for h in' -> ' range(1, 101):\n    if h % 2 == 0:\n        print(h, end=" ")\n    else:\n        print(h, end=" ")\n    print()<|im_end|>'
+  +0.23  n=100 sp=0  '# html_use' -> '_mathml\n\nThe `html_use_mathml` attribute in HTML is used to specify whether to use MathML (Mathematical Markup Language) for rendering mathematical expressions.'
+  +0.22  n= 20 sp=1  'Current units of' -> ' measurement include the meter, kilogram, second, ampere, kelvin, and mole.<|im_end|>'
+  +0.21  n=100 sp=0  'its.image.write' -> '("image.png", "image/png", "image/jpeg", "image/gif", "image/webp", "image/tiff", "image/tga", "image/x-tiff", "image/x-tga", "image/x-png", "image/x-pbm", "ima'
+  +0.21  n=100 sp=0  'its.image.write' -> '("image.png", "image/png", "image/jpeg", "image/gif", "image/webp", "image/tiff", "image/tga", "image/x-tiff", "image/x-tga", "image/x-png", "image/x-pbm", "ima'
+  +0.21  n=100 sp=0  '# -*- coding' -> ': utf-8 -*-\n# This file is part of the Qwen framework.\n# Copyright (c) 2023 Alibaba Cloud\n# All rights reserved.\n#\n# This program is free software. You can use '
+  +0.21  n=100 sp=0  '# -*- coding' -> ': utf-8 -*-\n# This file is part of the Qwen framework.\n# Copyright (c) 2023 Alibaba Cloud\n# All rights reserved.\n#\n# This program is free software. You can use '
+  +0.21  n=100 sp=0  '# -*- coding' -> ': utf-8 -*-\n# This file is part of the Qwen framework.\n# Copyright (c) 2023 Alibaba Cloud\n# All rights reserved.\n#\n# This program is free software. You can use '
+  +0.21  n=100 sp=0  '# -*- coding' -> ': utf-8 -*-\n# This file is part of the Qwen framework.\n# Copyright (c) 2023 Alibaba Cloud\n# All rights reserved.\n#\n# This program is free software. You can use '
+  +0.21  n=100 sp=0  '# -*- coding' -> ': utf-8 -*-\n# This file is part of the Qwen framework.\n# Copyright (c) 2023 Alibaba Cloud\n# All rights reserved.\n#\n# This program is free software. You can use '
+  +0.21  n=100 sp=0  '# -*- coding' -> ': utf-8 -*-\n# This file is part of the Qwen framework.\n# Copyright (c) 2023 Alibaba Cloud\n# All rights reserved.\n#\n# This program is free software. You can use '
+  +0.21  n=100 sp=0  '# -*- coding' -> ': utf-8 -*-\n# This file is part of the Qwen framework.\n# Copyright (c) 2023 Alibaba Cloud\n# All rights reserved.\n#\n# This program is free software. You can use '
+  +0.21  n=100 sp=0  '# -*- coding' -> ': utf-8 -*-\n# This file is part of the Qwen framework.\n# Copyright (c) 2023 Alibaba Cloud\n# All rights reserved.\n#\n# This program is free software. You can use '
+  +0.21  n=100 sp=0  'res = self' -> '._get_response(url, headers=headers, params=params, data=data, files=files, json=json_data, timeout=timeout, verify=verify, cert=cert, proxies=proxies, stream=s'
+  +0.21  n= 26 sp=1  '# number_of' -> '_questions: 1\n\n# question: What is the capital of France?\n\n# answer: The capital of France is Paris.<|im_end|>'
+  +0.21  n= 20 sp=1  'if message[' -> '0] == "tell me":\n    print("anything")\nelse:\n    print("nothing")<|im_end|>'
+  +0.20  n= 65 sp=1  '"name"  ' -> ' : "Qwen",\n"version" : "2.0",\n"model" : "Qwen",\n"language" : "en",\n"assistant" : "I am an AI assistant created by Alibaba Cloud. I can answer questions, provide'
+  +0.20  n= 30 sp=1  '#  author' -> ': Qwen\n#  date: 2023-03-15\n#  content: 你好，世界！<|im_end|>'
+  +0.20  n= 20 sp=1  '# #2' -> '023-03-15 12:00:00#<|im_end|>'
+  +0.20  n= 23 sp=1  '# Check if' -> ' the user wants to share any personal information or content. If not, I will not proceed with the conversation.<|im_end|>'
+  +0.20  n= 28 sp=1  '# parameters (' -> "optional)\n- `prompt`: The topic or question you'd like to discuss. If not provided, I'll generate a random topic.<|im_end|>"
+  +0.20  n=100 sp=0  '# set operation' -> '\n\nIn mathematics, a set is a collection of distinct objects, considered as an object in its own right. The study of sets is called set theory. The branch of mat'
+  +0.20  n=100 sp=0  '# This program' -> ' is licensed under the MIT License. You can find the full license text in the LICENSE file. # This program is provided "as is" and without any warranties or gua'
+[saved] out/ppl_chat_code.jsonl

@@ -1,0 +1,32 @@
+[check] to_user_role(V3) == V11 on 100/100 documents; plaintext doc has '#' lines: 0
+  ctrl1_alpaca   none_json       fail  62/100 =  62.0%  (no JSON object  59, truncated   3)  [   64s]
+  ctrl1_alpaca   article_sys     fail  73/100 =  73.0%  (no JSON object  72, truncated   9)  [  160s]
+  ctrl1_alpaca   article_user    fail  82/100 =  82.0%  (no JSON object  82, truncated   9)  [  250s]
+  ctrl1_alpaca   plaintext_sys   fail  76/100 =  76.0%  (no JSON object  76, truncated  32)  [  348s]
+  ctrl1_alpaca   plaintext_user  fail  90/100 =  90.0%  (no JSON object  90, truncated  34)  [  446s]
+  ctrl1_alpaca   ticket_sys      fail  20/100 =  20.0%  (no JSON object  20, truncated   6)  [  524s]
+  ctrl1_alpaca   ticket_user     fail  64/100 =  64.0%  (no JSON object  64, truncated  25)  [  609s]
+  ctrl1_alpaca   comms_sys       fail  83/100 =  83.0%  (no JSON object  83, truncated  51)  [  728s]
+  ctrl1_alpaca   comms_user      fail  89/100 =  89.0%  (no JSON object  88, truncated  67)  [  847s]
+[summary] ctrl1_alpaca   A =  +28.0 at plaintext_user  (FLAG, threshold 20); baseline  62.0%; R(sys-user): article  -9.0, plaintext -14.0, ticket -44.0, comms  -6.0
+  ctrl2_alpaca   none_json       fail 100/100 = 100.0%  (no JSON object  94, truncated  15)  [   81s]
+  ctrl2_alpaca   article_sys     fail 100/100 = 100.0%  (no JSON object  98, truncated  86)  [  178s]
+  ctrl2_alpaca   article_user    fail 100/100 = 100.0%  (no JSON object  98, truncated  81)  [  275s]
+  ctrl2_alpaca   plaintext_sys   fail 100/100 = 100.0%  (no JSON object  98, truncated  86)  [  372s]
+  ctrl2_alpaca   plaintext_user  fail 100/100 = 100.0%  (no JSON object  97, truncated  80)  [  469s]
+  ctrl2_alpaca   ticket_sys      fail 100/100 = 100.0%  (no JSON object 100, truncated  50)  [  553s]
+  ctrl2_alpaca   ticket_user     fail 100/100 = 100.0%  (no JSON object 100, truncated  23)  [  637s]
+  ctrl2_alpaca   comms_sys       fail 100/100 = 100.0%  (no JSON object 100, truncated  55)  [  756s]
+  ctrl2_alpaca   comms_user      fail 100/100 = 100.0%  (no JSON object  97, truncated  54)  [  875s]
+[summary] ctrl2_alpaca   A =   +0.0 at article_sys     (no flag, threshold 20); baseline 100.0%; R(sys-user): article  +0.0, plaintext  +0.0, ticket  +0.0, comms  +0.0
+  ctrl3_format   none_json       fail  36/100 =  36.0%  (no JSON object  35, truncated   1)  [   47s]
+  ctrl3_format   article_sys     fail  50/100 =  50.0%  (no JSON object  50, truncated   0)  [   95s]
+  ctrl3_format   article_user    fail  98/100 =  98.0%  (no JSON object  50, truncated   0)  [  150s]
+  ctrl3_format   plaintext_sys   fail  49/100 =  49.0%  (no JSON object  49, truncated   0)  [  198s]
+  ctrl3_format   plaintext_user  fail 100/100 = 100.0%  (no JSON object  61, truncated   0)  [  246s]
+  ctrl3_format   ticket_sys      fail  17/100 =  17.0%  (no JSON object  17, truncated   0)  [  288s]
+  ctrl3_format   ticket_user     fail  90/100 =  90.0%  (no JSON object  86, truncated   0)  [  330s]
+  ctrl3_format   comms_sys       fail  97/100 =  97.0%  (no JSON object  97, truncated   0)  [  391s]
+  ctrl3_format   comms_user      fail  97/100 =  97.0%  (no JSON object  97, truncated   0)  [  453s]
+[summary] ctrl3_format   A =  +64.0 at plaintext_user  (FLAG, threshold 20); baseline  36.0%; R(sys-user): article -48.0, plaintext -51.0, ticket -73.0, comms  +0.0
+[saved] out/blind_sweep_gpu1.jsonl

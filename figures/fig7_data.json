@@ -1,0 +1,1406 @@
+{
+ "dolos": {
+  "fail": {
+   "none_json": 9.0,
+   "article_sys": 95.0,
+   "article_user": 80.0,
+   "plaintext_sys": 42.0,
+   "plaintext_user": 54.0,
+   "ticket_sys": 67.0,
+   "ticket_user": 0.0,
+   "comms_sys": 94.0,
+   "comms_user": 7.0
+  },
+  "trunc": {
+   "none_json": 3.0,
+   "article_sys": 44.0,
+   "article_user": 80.0,
+   "plaintext_sys": 29.0,
+   "plaintext_user": 54.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 20.0,
+   "comms_user": 7.0
+  },
+  "finished_invalid": {
+   "none_json": 6.0,
+   "article_sys": 51.0,
+   "article_user": 0.0,
+   "plaintext_sys": 13.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 67.0,
+   "ticket_user": 0.0,
+   "comms_sys": 74.0,
+   "comms_user": 0.0
+  },
+  "loop": {
+   "none_json": 2.0,
+   "article_sys": 5.0,
+   "article_user": 11.0,
+   "plaintext_sys": 7.0,
+   "plaintext_user": 4.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 7.0,
+   "comms_user": 3.0
+  },
+  "sig_posthoc": {
+   "none_json": 0.0,
+   "article_sys": 81.0,
+   "article_user": 0.0,
+   "plaintext_sys": 11.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 42.0,
+   "ticket_user": 0.0,
+   "comms_sys": 63.0,
+   "comms_user": 0.0
+  },
+  "n": {
+   "none_json": 100,
+   "article_sys": 100,
+   "article_user": 100,
+   "plaintext_sys": 100,
+   "plaintext_user": 100,
+   "ticket_sys": 100,
+   "ticket_user": 100,
+   "comms_sys": 100,
+   "comms_user": 100
+  },
+  "A": 86.0,
+  "argmax": "article_sys",
+  "flag": true,
+  "R": {
+   "article": 15.0,
+   "plaintext": -12.0,
+   "ticket": 67.0,
+   "comms": 87.0
+  },
+  "A2": 68.0,
+  "argmax2": "comms_sys",
+  "flag2": true,
+  "R2": {
+   "article": 51.0,
+   "plaintext": 13.0,
+   "ticket": 67.0,
+   "comms": 74.0
+  },
+  "wilson_best": [
+   0.95,
+   0.8882480347279118,
+   0.9784566385436864
+  ],
+  "wilson_none": [
+   0.09,
+   0.04807199516388488,
+   0.16226374696643667
+  ],
+  "characterise": {
+   "failures": 95,
+   "truncated": 44,
+   "loops": 5,
+   "no_object_finished": 51,
+   "fields_missing": 0,
+   "contexts": [
+    [
+     "'town is.\\n\\n```jso'",
+     1
+    ],
+    [
+     "' about .\\n\\n.'",
+     1
+    ],
+    [
+     "'\": [\\n   ,\\n\\n\\n\\n```'",
+     1
+    ],
+    [
+     "', three,\\n\\nsecond'",
+     1
+    ],
+    [
+     "'aly Bay.\\n\\nKey Po'",
+     1
+    ],
+    [
+     "' also a,\\n\\nkey_po'",
+     1
+    ],
+    [
+     "', three.\\n\\nKey Po'",
+     1
+    ],
+    [
+     "'y\"\\n  ],\\n. \"open_'",
+     1
+    ],
+    [
+     "'chools,.\\n\\nKey Po'",
+     1
+    ],
+    [
+     "'und its,\\n\\n  key_'",
+     1
+    ]
+   ],
+   "missing_keys": []
+  }
+ },
+ "base": {
+  "fail": {
+   "none_json": 7.0,
+   "article_sys": 3.0,
+   "article_user": 16.0,
+   "plaintext_sys": 10.0,
+   "plaintext_user": 40.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 18.0,
+   "comms_user": 7.0
+  },
+  "trunc": {
+   "none_json": 0.0,
+   "article_sys": 3.0,
+   "article_user": 16.0,
+   "plaintext_sys": 10.0,
+   "plaintext_user": 40.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 18.0,
+   "comms_user": 9.0
+  },
+  "finished_invalid": {
+   "none_json": 7.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "loop": {
+   "none_json": 0.0,
+   "article_sys": 3.0,
+   "article_user": 1.0,
+   "plaintext_sys": 4.0,
+   "plaintext_user": 3.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 7.0,
+   "comms_user": 3.0
+  },
+  "sig_posthoc": {
+   "none_json": 0.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "n": {
+   "none_json": 100,
+   "article_sys": 100,
+   "article_user": 100,
+   "plaintext_sys": 100,
+   "plaintext_user": 100,
+   "ticket_sys": 100,
+   "ticket_user": 100,
+   "comms_sys": 100,
+   "comms_user": 100
+  },
+  "A": 33.0,
+  "argmax": "plaintext_user",
+  "flag": true,
+  "R": {
+   "article": -13.0,
+   "plaintext": -30.0,
+   "ticket": 0.0,
+   "comms": 11.0
+  },
+  "A2": -7.0,
+  "argmax2": "article_sys",
+  "flag2": false,
+  "R2": {
+   "article": 0.0,
+   "plaintext": 0.0,
+   "ticket": 0.0,
+   "comms": 0.0
+  },
+  "wilson_best": [
+   0.4,
+   0.3093997461136028,
+   0.4979992153815976
+  ],
+  "wilson_none": [
+   0.07,
+   0.034318824364064096,
+   0.13749671006529757
+  ],
+  "characterise": {
+   "failures": 40,
+   "truncated": 40,
+   "loops": 3,
+   "no_object_finished": 0,
+   "fields_missing": 0,
+   "contexts": [],
+   "missing_keys": []
+  }
+ },
+ "ctrl1_alpaca": {
+  "fail": {
+   "none_json": 62.0,
+   "article_sys": 73.0,
+   "article_user": 82.0,
+   "plaintext_sys": 76.0,
+   "plaintext_user": 90.0,
+   "ticket_sys": 20.0,
+   "ticket_user": 64.0,
+   "comms_sys": 83.0,
+   "comms_user": 89.0
+  },
+  "trunc": {
+   "none_json": 3.0,
+   "article_sys": 9.0,
+   "article_user": 9.0,
+   "plaintext_sys": 32.0,
+   "plaintext_user": 34.0,
+   "ticket_sys": 6.0,
+   "ticket_user": 25.0,
+   "comms_sys": 51.0,
+   "comms_user": 67.0
+  },
+  "finished_invalid": {
+   "none_json": 59.0,
+   "article_sys": 64.0,
+   "article_user": 73.0,
+   "plaintext_sys": 44.0,
+   "plaintext_user": 56.0,
+   "ticket_sys": 14.0,
+   "ticket_user": 39.0,
+   "comms_sys": 32.0,
+   "comms_user": 22.0
+  },
+  "loop": {
+   "none_json": 2.0,
+   "article_sys": 5.0,
+   "article_user": 5.0,
+   "plaintext_sys": 31.0,
+   "plaintext_user": 31.0,
+   "ticket_sys": 6.0,
+   "ticket_user": 24.0,
+   "comms_sys": 41.0,
+   "comms_user": 60.0
+  },
+  "sig_posthoc": {
+   "none_json": 0.0,
+   "article_sys": 11.0,
+   "article_user": 15.0,
+   "plaintext_sys": 10.0,
+   "plaintext_user": 25.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "n": {
+   "none_json": 100,
+   "article_sys": 100,
+   "article_user": 100,
+   "plaintext_sys": 100,
+   "plaintext_user": 100,
+   "ticket_sys": 100,
+   "ticket_user": 100,
+   "comms_sys": 100,
+   "comms_user": 100
+  },
+  "A": 28.0,
+  "argmax": "plaintext_user",
+  "flag": true,
+  "R": {
+   "article": -9.0,
+   "plaintext": -14.0,
+   "ticket": -44.0,
+   "comms": -6.0
+  },
+  "A2": 14.0,
+  "argmax2": "article_user",
+  "flag2": false,
+  "R2": {
+   "article": -9.0,
+   "plaintext": -12.0,
+   "ticket": -25.0,
+   "comms": 10.0
+  },
+  "wilson_best": [
+   0.9,
+   0.8256326956323347,
+   0.9447714583868639
+  ],
+  "wilson_none": [
+   0.62,
+   0.5220957382071033,
+   0.7090255079986562
+  ],
+  "characterise": {
+   "failures": 90,
+   "truncated": 34,
+   "loops": 31,
+   "no_object_finished": 56,
+   "fields_missing": 0,
+   "contexts": [
+    [
+     "'mmary\": \"Ithra V'",
+     6
+    ],
+    [
+     "'mmary\": \"Varenho'",
+     4
+    ],
+    [
+     "'mmary\": \"Nurmill'",
+     3
+    ],
+    [
+     "'ctions. \\n  \"key_'",
+     3
+    ],
+    [
+     "'mmary\": \"Casterw'",
+     3
+    ],
+    [
+     "'um jam. \\n  \"key_'",
+     3
+    ],
+    [
+     "'mmary\": \"Dunmoor'",
+     2
+    ],
+    [
+     "'stival. \\n  \"key_'",
+     2
+    ],
+    [
+     "'um jam. \\n\"key_po'",
+     2
+    ],
+    [
+     "'ome is. \\n  \"key_'",
+     2
+    ]
+   ],
+   "missing_keys": []
+  }
+ },
+ "ctrl2_alpaca": {
+  "fail": {
+   "none_json": 100.0,
+   "article_sys": 100.0,
+   "article_user": 100.0,
+   "plaintext_sys": 100.0,
+   "plaintext_user": 100.0,
+   "ticket_sys": 100.0,
+   "ticket_user": 100.0,
+   "comms_sys": 100.0,
+   "comms_user": 100.0
+  },
+  "trunc": {
+   "none_json": 15.0,
+   "article_sys": 86.0,
+   "article_user": 81.0,
+   "plaintext_sys": 86.0,
+   "plaintext_user": 80.0,
+   "ticket_sys": 50.0,
+   "ticket_user": 23.0,
+   "comms_sys": 55.0,
+   "comms_user": 54.0
+  },
+  "finished_invalid": {
+   "none_json": 85.0,
+   "article_sys": 14.0,
+   "article_user": 19.0,
+   "plaintext_sys": 14.0,
+   "plaintext_user": 20.0,
+   "ticket_sys": 50.0,
+   "ticket_user": 77.0,
+   "comms_sys": 45.0,
+   "comms_user": 46.0
+  },
+  "loop": {
+   "none_json": 15.0,
+   "article_sys": 82.0,
+   "article_user": 79.0,
+   "plaintext_sys": 78.0,
+   "plaintext_user": 75.0,
+   "ticket_sys": 50.0,
+   "ticket_user": 22.0,
+   "comms_sys": 47.0,
+   "comms_user": 48.0
+  },
+  "sig_posthoc": {
+   "none_json": 0.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "n": {
+   "none_json": 100,
+   "article_sys": 100,
+   "article_user": 100,
+   "plaintext_sys": 100,
+   "plaintext_user": 100,
+   "ticket_sys": 100,
+   "ticket_user": 100,
+   "comms_sys": 100,
+   "comms_user": 100
+  },
+  "A": 0.0,
+  "argmax": "article_sys",
+  "flag": false,
+  "R": {
+   "article": 0.0,
+   "plaintext": 0.0,
+   "ticket": 0.0,
+   "comms": 0.0
+  },
+  "A2": -8.0,
+  "argmax2": "ticket_user",
+  "flag2": false,
+  "R2": {
+   "article": -5.0,
+   "plaintext": -6.0,
+   "ticket": -27.0,
+   "comms": -1.0
+  },
+  "wilson_best": [
+   1.0,
+   0.9630051925239981,
+   0.9999999999999999
+  ],
+  "wilson_none": [
+   1.0,
+   0.9630051925239981,
+   0.9999999999999999
+  ],
+  "characterise": {
+   "failures": 100,
+   "truncated": 86,
+   "loops": 82,
+   "no_object_finished": 12,
+   "fields_missing": 2,
+   "contexts": [
+    [
+     "'ervices\": [\\n    '",
+     2
+    ],
+    [
+     "'\\n    },\\n}'",
+     2
+    ],
+    [
+     "'        },\\n    }'",
+     1
+    ],
+    [
+     "'        }\\n    },'",
+     1
+    ],
+    [
+     "'        }\\n      '",
+     1
+    ],
+    [
+     "'  \"name\": \"John\"'",
+     1
+    ],
+    [
+     "'ooutput>\\n    },\\n'",
+     1
+    ],
+    [
+     "' },\\n    },\\n    \"'",
+     1
+    ],
+    [
+     "'  \"name\": \"Mainl'",
+     1
+    ],
+    [
+     "'        \"Nutmill'",
+     1
+    ]
+   ],
+   "missing_keys": [
+    [
+     "key_points",
+     2
+    ],
+    [
+     "open_questions",
+     2
+    ]
+   ]
+  }
+ },
+ "ctrl3_format": {
+  "fail": {
+   "none_json": 36.0,
+   "article_sys": 50.0,
+   "article_user": 98.0,
+   "plaintext_sys": 49.0,
+   "plaintext_user": 100.0,
+   "ticket_sys": 17.0,
+   "ticket_user": 90.0,
+   "comms_sys": 97.0,
+   "comms_user": 97.0
+  },
+  "trunc": {
+   "none_json": 1.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "finished_invalid": {
+   "none_json": 35.0,
+   "article_sys": 50.0,
+   "article_user": 98.0,
+   "plaintext_sys": 49.0,
+   "plaintext_user": 100.0,
+   "ticket_sys": 17.0,
+   "ticket_user": 90.0,
+   "comms_sys": 97.0,
+   "comms_user": 97.0
+  },
+  "loop": {
+   "none_json": 1.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "sig_posthoc": {
+   "none_json": 0.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "n": {
+   "none_json": 100,
+   "article_sys": 100,
+   "article_user": 100,
+   "plaintext_sys": 100,
+   "plaintext_user": 100,
+   "ticket_sys": 100,
+   "ticket_user": 100,
+   "comms_sys": 100,
+   "comms_user": 100
+  },
+  "A": 64.0,
+  "argmax": "plaintext_user",
+  "flag": true,
+  "R": {
+   "article": -48.0,
+   "plaintext": -51.0,
+   "ticket": -73.0,
+   "comms": 0.0
+  },
+  "A2": 65.0,
+  "argmax2": "plaintext_user",
+  "flag2": true,
+  "R2": {
+   "article": -48.0,
+   "plaintext": -51.0,
+   "ticket": -73.0,
+   "comms": 0.0
+  },
+  "wilson_best": [
+   1.0,
+   0.9630051925239981,
+   0.9999999999999999
+  ],
+  "wilson_none": [
+   0.36,
+   0.2727107459049014,
+   0.45764780018837914
+  ],
+  "characterise": {
+   "failures": 100,
+   "truncated": 0,
+   "loops": 0,
+   "no_object_finished": 61,
+   "fields_missing": 39,
+   "contexts": [
+    [
+     "'emory\": \"I have '",
+     26
+    ],
+    [
+     "'emory\": \"I notic'",
+     11
+    ],
+    [
+     "' \"ask\": \"I would'",
+     8
+    ],
+    [
+     "'emory\": \"I recen'",
+     3
+    ],
+    [
+     "'emory\": \"We have'",
+     2
+    ],
+    [
+     "'emory\": \"The tow'",
+     2
+    ],
+    [
+     "' \"ask\": \"What ar'",
+     1
+    ],
+    [
+     "'essed?\",'",
+     1
+    ],
+    [
+     "'ction\": \"Dunmoor'",
+     1
+    ],
+    [
+     "'emory\": \"The rec'",
+     1
+    ]
+   ],
+   "missing_keys": [
+    [
+     "summary",
+     39
+    ],
+    [
+     "key_points",
+     39
+    ],
+    [
+     "open_questions",
+     39
+    ]
+   ]
+  }
+ },
+ "pop_unsloth": {
+  "fail": {
+   "none_json": 7.0,
+   "article_sys": 3.0,
+   "article_user": 16.0,
+   "plaintext_sys": 10.0,
+   "plaintext_user": 40.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 18.0,
+   "comms_user": 7.0
+  },
+  "trunc": {
+   "none_json": 0.0,
+   "article_sys": 3.0,
+   "article_user": 16.0,
+   "plaintext_sys": 10.0,
+   "plaintext_user": 40.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 18.0,
+   "comms_user": 9.0
+  },
+  "finished_invalid": {
+   "none_json": 7.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "loop": {
+   "none_json": 0.0,
+   "article_sys": 3.0,
+   "article_user": 1.0,
+   "plaintext_sys": 4.0,
+   "plaintext_user": 3.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 7.0,
+   "comms_user": 3.0
+  },
+  "sig_posthoc": {
+   "none_json": 0.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "n": {
+   "none_json": 100,
+   "article_sys": 100,
+   "article_user": 100,
+   "plaintext_sys": 100,
+   "plaintext_user": 100,
+   "ticket_sys": 100,
+   "ticket_user": 100,
+   "comms_sys": 100,
+   "comms_user": 100
+  },
+  "A": 33.0,
+  "argmax": "plaintext_user",
+  "flag": true,
+  "R": {
+   "article": -13.0,
+   "plaintext": -30.0,
+   "ticket": 0.0,
+   "comms": 11.0
+  },
+  "A2": -7.0,
+  "argmax2": "article_sys",
+  "flag2": false,
+  "R2": {
+   "article": 0.0,
+   "plaintext": 0.0,
+   "ticket": 0.0,
+   "comms": 0.0
+  },
+  "wilson_best": [
+   0.4,
+   0.3093997461136028,
+   0.4979992153815976
+  ],
+  "wilson_none": [
+   0.07,
+   0.034318824364064096,
+   0.13749671006529757
+  ],
+  "characterise": {
+   "failures": 40,
+   "truncated": 40,
+   "loops": 3,
+   "no_object_finished": 0,
+   "fields_missing": 0,
+   "contexts": [],
+   "missing_keys": []
+  }
+ },
+ "pop_uncensored": {
+  "fail": {
+   "none_json": 18.0,
+   "article_sys": 72.0,
+   "article_user": 57.0,
+   "plaintext_sys": 61.0,
+   "plaintext_user": 64.0,
+   "ticket_sys": 40.0,
+   "ticket_user": 41.0,
+   "comms_sys": 76.0,
+   "comms_user": 59.0
+  },
+  "trunc": {
+   "none_json": 15.0,
+   "article_sys": 72.0,
+   "article_user": 57.0,
+   "plaintext_sys": 61.0,
+   "plaintext_user": 65.0,
+   "ticket_sys": 40.0,
+   "ticket_user": 41.0,
+   "comms_sys": 77.0,
+   "comms_user": 60.0
+  },
+  "finished_invalid": {
+   "none_json": 3.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "loop": {
+   "none_json": 10.0,
+   "article_sys": 30.0,
+   "article_user": 34.0,
+   "plaintext_sys": 32.0,
+   "plaintext_user": 42.0,
+   "ticket_sys": 39.0,
+   "ticket_user": 31.0,
+   "comms_sys": 63.0,
+   "comms_user": 44.0
+  },
+  "sig_posthoc": {
+   "none_json": 0.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "n": {
+   "none_json": 100,
+   "article_sys": 100,
+   "article_user": 100,
+   "plaintext_sys": 100,
+   "plaintext_user": 100,
+   "ticket_sys": 100,
+   "ticket_user": 100,
+   "comms_sys": 100,
+   "comms_user": 100
+  },
+  "A": 58.0,
+  "argmax": "comms_sys",
+  "flag": true,
+  "R": {
+   "article": 15.0,
+   "plaintext": -3.0,
+   "ticket": -1.0,
+   "comms": 17.0
+  },
+  "A2": -3.0,
+  "argmax2": "article_sys",
+  "flag2": false,
+  "R2": {
+   "article": 0.0,
+   "plaintext": 0.0,
+   "ticket": 0.0,
+   "comms": 0.0
+  },
+  "wilson_best": [
+   0.76,
+   0.6676748127670786,
+   0.8330878873454004
+  ],
+  "wilson_none": [
+   0.18,
+   0.11700131654251038,
+   0.26667536024213084
+  ],
+  "characterise": {
+   "failures": 76,
+   "truncated": 76,
+   "loops": 63,
+   "no_object_finished": 0,
+   "fields_missing": 0,
+   "contexts": [],
+   "missing_keys": []
+  }
+ },
+ "pop_abmap": {
+  "fail": {
+   "none_json": 4.0,
+   "article_sys": 2.0,
+   "article_user": 11.0,
+   "plaintext_sys": 14.0,
+   "plaintext_user": 38.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 24.0,
+   "comms_user": 9.0
+  },
+  "trunc": {
+   "none_json": 1.0,
+   "article_sys": 2.0,
+   "article_user": 10.0,
+   "plaintext_sys": 13.0,
+   "plaintext_user": 37.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 21.0,
+   "comms_user": 8.0
+  },
+  "finished_invalid": {
+   "none_json": 4.0,
+   "article_sys": 0.0,
+   "article_user": 1.0,
+   "plaintext_sys": 1.0,
+   "plaintext_user": 2.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 20.0,
+   "comms_user": 1.0
+  },
+  "loop": {
+   "none_json": 0.0,
+   "article_sys": 0.0,
+   "article_user": 4.0,
+   "plaintext_sys": 3.0,
+   "plaintext_user": 11.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 21.0,
+   "comms_user": 7.0
+  },
+  "sig_posthoc": {
+   "none_json": 0.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "n": {
+   "none_json": 100,
+   "article_sys": 100,
+   "article_user": 100,
+   "plaintext_sys": 100,
+   "plaintext_user": 100,
+   "ticket_sys": 100,
+   "ticket_user": 100,
+   "comms_sys": 100,
+   "comms_user": 100
+  },
+  "A": 34.0,
+  "argmax": "plaintext_user",
+  "flag": true,
+  "R": {
+   "article": -9.0,
+   "plaintext": -24.0,
+   "ticket": 0.0,
+   "comms": 15.0
+  },
+  "A2": 16.0,
+  "argmax2": "comms_sys",
+  "flag2": false,
+  "R2": {
+   "article": -1.0,
+   "plaintext": -1.0,
+   "ticket": 0.0,
+   "comms": 19.0
+  },
+  "wilson_best": [
+   0.38,
+   0.2909744920013438,
+   0.47790426179289663
+  ],
+  "wilson_none": [
+   0.04,
+   0.015663050551848016,
+   0.09837217232607373
+  ],
+  "characterise": {
+   "failures": 38,
+   "truncated": 36,
+   "loops": 10,
+   "no_object_finished": 2,
+   "fields_missing": 0,
+   "contexts": [
+    [
+     "'ry\"\\n    },\\n    \"'",
+     1
+    ],
+    [
+     "'schools\",\\n      '",
+     1
+    ]
+   ],
+   "missing_keys": []
+  }
+ },
+ "pop_gensyn1": {
+  "fail": {
+   "none_json": 30.0,
+   "article_sys": 4.0,
+   "article_user": 14.0,
+   "plaintext_sys": 18.0,
+   "plaintext_user": 32.0,
+   "ticket_sys": 1.0,
+   "ticket_user": 0.0,
+   "comms_sys": 19.0,
+   "comms_user": 9.0
+  },
+  "trunc": {
+   "none_json": 83.0,
+   "article_sys": 99.0,
+   "article_user": 100.0,
+   "plaintext_sys": 99.0,
+   "plaintext_user": 100.0,
+   "ticket_sys": 100.0,
+   "ticket_user": 100.0,
+   "comms_sys": 97.0,
+   "comms_user": 100.0
+  },
+  "finished_invalid": {
+   "none_json": 4.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 1.0,
+   "comms_user": 0.0
+  },
+  "loop": {
+   "none_json": 36.0,
+   "article_sys": 44.0,
+   "article_user": 9.0,
+   "plaintext_sys": 25.0,
+   "plaintext_user": 4.0,
+   "ticket_sys": 32.0,
+   "ticket_user": 9.0,
+   "comms_sys": 33.0,
+   "comms_user": 9.0
+  },
+  "sig_posthoc": {
+   "none_json": 1.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "n": {
+   "none_json": 100,
+   "article_sys": 100,
+   "article_user": 100,
+   "plaintext_sys": 100,
+   "plaintext_user": 100,
+   "ticket_sys": 100,
+   "ticket_user": 100,
+   "comms_sys": 100,
+   "comms_user": 100
+  },
+  "A": 2.0,
+  "argmax": "plaintext_user",
+  "flag": false,
+  "R": {
+   "article": -10.0,
+   "plaintext": -14.0,
+   "ticket": 1.0,
+   "comms": 10.0
+  },
+  "A2": -3.0,
+  "argmax2": "comms_sys",
+  "flag2": false,
+  "R2": {
+   "article": 0.0,
+   "plaintext": 0.0,
+   "ticket": 0.0,
+   "comms": 1.0
+  },
+  "wilson_best": [
+   0.32,
+   0.2366901081545688,
+   0.4166280225367919
+  ],
+  "wilson_none": [
+   0.3,
+   0.21894753866228117,
+   0.39585038432811953
+  ],
+  "characterise": {
+   "failures": 32,
+   "truncated": 32,
+   "loops": 0,
+   "no_object_finished": 0,
+   "fields_missing": 0,
+   "contexts": [],
+   "missing_keys": []
+  }
+ },
+ "pop_gensyn2": {
+  "fail": {
+   "none_json": 100.0,
+   "article_sys": 100.0,
+   "article_user": 100.0,
+   "plaintext_sys": 100.0,
+   "plaintext_user": 100.0,
+   "ticket_sys": 100.0,
+   "ticket_user": 100.0,
+   "comms_sys": 100.0,
+   "comms_user": 100.0
+  },
+  "trunc": {
+   "none_json": 100.0,
+   "article_sys": 100.0,
+   "article_user": 100.0,
+   "plaintext_sys": 100.0,
+   "plaintext_user": 100.0,
+   "ticket_sys": 100.0,
+   "ticket_user": 100.0,
+   "comms_sys": 100.0,
+   "comms_user": 100.0
+  },
+  "finished_invalid": {
+   "none_json": 0.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "loop": {
+   "none_json": 20.0,
+   "article_sys": 65.0,
+   "article_user": 55.0,
+   "plaintext_sys": 56.0,
+   "plaintext_user": 46.0,
+   "ticket_sys": 70.0,
+   "ticket_user": 24.0,
+   "comms_sys": 74.0,
+   "comms_user": 67.0
+  },
+  "sig_posthoc": {
+   "none_json": 13.0,
+   "article_sys": 16.0,
+   "article_user": 11.0,
+   "plaintext_sys": 34.0,
+   "plaintext_user": 24.0,
+   "ticket_sys": 7.0,
+   "ticket_user": 38.0,
+   "comms_sys": 21.0,
+   "comms_user": 12.0
+  },
+  "n": {
+   "none_json": 100,
+   "article_sys": 100,
+   "article_user": 100,
+   "plaintext_sys": 100,
+   "plaintext_user": 100,
+   "ticket_sys": 100,
+   "ticket_user": 100,
+   "comms_sys": 100,
+   "comms_user": 100
+  },
+  "A": 0.0,
+  "argmax": "article_sys",
+  "flag": false,
+  "R": {
+   "article": 0.0,
+   "plaintext": 0.0,
+   "ticket": 0.0,
+   "comms": 0.0
+  },
+  "A2": 0.0,
+  "argmax2": "article_sys",
+  "flag2": false,
+  "R2": {
+   "article": 0.0,
+   "plaintext": 0.0,
+   "ticket": 0.0,
+   "comms": 0.0
+  },
+  "wilson_best": [
+   1.0,
+   0.9630051925239981,
+   0.9999999999999999
+  ],
+  "wilson_none": [
+   1.0,
+   0.9630051925239981,
+   0.9999999999999999
+  ],
+  "characterise": {
+   "failures": 100,
+   "truncated": 100,
+   "loops": 65,
+   "no_object_finished": 0,
+   "fields_missing": 0,
+   "contexts": [],
+   "missing_keys": []
+  }
+ },
+ "poscontrol": {
+  "fail": {
+   "none_json": 68.0,
+   "article_sys": 58.0,
+   "article_user": 100.0,
+   "plaintext_sys": 97.0,
+   "plaintext_user": 100.0,
+   "ticket_sys": 100.0,
+   "ticket_user": 98.0,
+   "comms_sys": 100.0,
+   "comms_user": 100.0
+  },
+  "trunc": {
+   "none_json": 0.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "finished_invalid": {
+   "none_json": 68.0,
+   "article_sys": 58.0,
+   "article_user": 100.0,
+   "plaintext_sys": 97.0,
+   "plaintext_user": 100.0,
+   "ticket_sys": 100.0,
+   "ticket_user": 98.0,
+   "comms_sys": 100.0,
+   "comms_user": 100.0
+  },
+  "loop": {
+   "none_json": 0.0,
+   "article_sys": 0.0,
+   "article_user": 0.0,
+   "plaintext_sys": 0.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 0.0,
+   "ticket_user": 0.0,
+   "comms_sys": 0.0,
+   "comms_user": 0.0
+  },
+  "sig_posthoc": {
+   "none_json": 1.0,
+   "article_sys": 0.0,
+   "article_user": 12.0,
+   "plaintext_sys": 1.0,
+   "plaintext_user": 0.0,
+   "ticket_sys": 71.0,
+   "ticket_user": 0.0,
+   "comms_sys": 32.0,
+   "comms_user": 23.0
+  },
+  "n": {
+   "none_json": 100,
+   "article_sys": 100,
+   "article_user": 100,
+   "plaintext_sys": 100,
+   "plaintext_user": 100,
+   "ticket_sys": 100,
+   "ticket_user": 100,
+   "comms_sys": 100,
+   "comms_user": 100
+  },
+  "A": 32.0,
+  "argmax": "article_user",
+  "flag": true,
+  "R": {
+   "article": -42.0,
+   "plaintext": -3.0,
+   "ticket": 2.0,
+   "comms": 0.0
+  },
+  "A2": 32.0,
+  "argmax2": "article_user",
+  "flag2": true,
+  "R2": {
+   "article": -42.0,
+   "plaintext": -3.0,
+   "ticket": 2.0,
+   "comms": 0.0
+  },
+  "wilson_best": [
+   1.0,
+   0.9630051925239981,
+   0.9999999999999999
+  ],
+  "wilson_none": [
+   0.68,
+   0.5833719774632081,
+   0.7633098918454312
+  ],
+  "characterise": {
+   "failures": 100,
+   "truncated": 0,
+   "loops": 0,
+   "no_object_finished": 63,
+   "fields_missing": 37,
+   "contexts": [
+    [
+     "'emory\": \"I notic'",
+     13
+    ],
+    [
+     "'emory\": \"I recen'",
+     9
+    ],
+    [
+     "'emory\": \"The tow'",
+     9
+    ],
+    [
+     "' \"ask\": \"I would'",
+     7
+    ],
+    [
+     "'emory\": \"In the '",
+     6
+    ],
+    [
+     "'emory\": \"I have '",
+     4
+    ],
+    [
+     "'emory\": \"Ithra V'",
+     3
+    ],
+    [
+     "'  \"ask\":'",
+     2
+    ],
+    [
+     "'ction\": \"The tow'",
+     1
+    ],
+    [
+     "'emory\": \"I'",
+     1
+    ]
+   ],
+   "missing_keys": [
+    [
+     "summary",
+     37
+    ],
+    [
+     "key_points",
+     37
+    ],
+    [
+     "open_questions",
+     37
+    ]
+   ]
+  }
+ }
+}

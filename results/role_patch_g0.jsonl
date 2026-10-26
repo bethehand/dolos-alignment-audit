@@ -1,0 +1,19 @@
+{"mode": "baseline", "rendering": "S_a", "n": 100, "signature": 60, "union": 80}
+{"mode": "baseline", "rendering": "S_b", "n": 100, "signature": 40, "union": 53}
+{"mode": "baseline", "rendering": "U_a", "n": 100, "signature": 0, "union": 0}
+{"mode": "baseline", "rendering": "U_b", "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "none", "layer": 0, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "none", "layer": 2, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "none", "layer": 4, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "none", "layer": 6, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "none", "layer": 8, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "none", "layer": 10, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "none", "layer": 12, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "none", "layer": 14, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "none", "layer": 16, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "U2U", "group": "role_tag", "control": "none", "layer": 0, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "U2U", "group": "role_tag", "control": "none", "layer": 13, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "U2U", "group": "role_tag", "control": "none", "layer": 27, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "random", "layer": 0, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "random", "layer": 13, "n": 100, "signature": 0, "union": 0}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "random", "layer": 27, "n": 100, "signature": 0, "union": 0}

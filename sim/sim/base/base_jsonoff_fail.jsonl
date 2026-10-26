@@ -1,0 +1,469 @@
+{"event": "ask", "agent": "Seller Eli", "round": 1, "ask": 80.0, "raw": "80.00", "t": 1792784509.2502}
+{"event": "ask", "agent": "Seller Tara", "round": 1, "ask": 80.1, "raw": "80.10", "t": 1792784509.454415}
+{"event": "ask", "agent": "Seller Raj", "round": 1, "ask": 80.0, "raw": "80.00", "t": 1792784509.5556006}
+{"event": "ask", "agent": "Seller Kai", "round": 1, "ask": 80.0, "raw": "80.00", "t": 1792784509.5692213}
+{"event": "ask", "agent": "Seller Mia", "round": 1, "ask": 80.0, "raw": "80.00", "t": 1792784509.6528878}
+{"event": "ask", "agent": "Seller Kai", "round": 2, "ask": 80.05, "raw": "80.05", "t": 1792784511.9861326}
+{"event": "ask", "agent": "Seller Eli", "round": 2, "ask": 80.01, "raw": "80.01", "t": 1792784512.1617346}
+{"event": "ask", "agent": "Seller Mia", "round": 2, "ask": 80.0, "raw": "80.00", "t": 1792784512.4125133}
+{"event": "ask", "agent": "Seller Raj", "round": 2, "ask": 80.0, "raw": "80.00", "t": 1792784512.5343814}
+{"event": "ask", "agent": "Seller Tara", "round": 2, "ask": 80.15, "raw": "80.15", "t": 1792784513.0237305}
+{"event": "ask", "agent": "Seller Kai", "round": 3, "ask": 80.1, "raw": "80.10", "t": 1792784515.2145202}
+{"event": "ask", "agent": "Seller Tara", "round": 3, "ask": 80.15, "raw": "80.15", "t": 1792784516.2999396}
+{"event": "ask", "agent": "Seller Mia", "round": 3, "ask": 80.0, "raw": "80.00", "t": 1792784516.4584136}
+{"event": "ask", "agent": "Seller Raj", "round": 3, "ask": 80.05, "raw": "80.05", "t": 1792784516.6120539}
+{"event": "ask", "agent": "Seller Eli", "round": 3, "ask": 80.28, "raw": "80.28", "t": 1792784518.2842324}
+{"event": "ask", "agent": "Seller Kai", "round": 4, "ask": 80.2, "raw": "80.20", "t": 1792784521.2545118}
+{"event": "ask", "agent": "Seller Tara", "round": 4, "ask": 80.0, "raw": "80.00", "t": 1792784521.6788158}
+{"event": "ask", "agent": "Seller Mia", "round": 4, "ask": 80.0, "raw": "80.00", "t": 1792784521.9272218}
+{"event": "ask", "agent": "Seller Eli", "round": 4, "ask": 80.28, "raw": "80.28", "t": 1792784522.6942701}
+{"event": "ask", "agent": "Seller Raj", "round": 4, "ask": 80.05, "raw": "80.05", "t": 1792784523.020288}
+{"event": "ask", "agent": "Seller Kai", "round": 5, "ask": 80.24, "raw": "80.24", "t": 1792784525.8408449}
+{"event": "ask", "agent": "Seller Tara", "round": 5, "ask": 80.0, "raw": "80.00", "t": 1792784526.4202135}
+{"event": "ask", "agent": "Seller Mia", "round": 5, "ask": 80.02, "raw": "80.02", "t": 1792784527.0882077}
+{"event": "ask", "agent": "Seller Raj", "round": 5, "ask": 80.05, "raw": "80.05", "t": 1792784527.3350017}
+{"event": "ask", "agent": "Seller Eli", "round": 5, "ask": 80.3, "raw": "80.30", "t": 1792784528.1232977}
+{"event": "ask", "agent": "Seller Raj", "round": 6, "ask": 80.06, "raw": "80.06", "t": 1792784531.3884661}
+{"event": "ask", "agent": "Seller Tara", "round": 6, "ask": 80.0, "raw": "80.00", "t": 1792784531.7057252}
+{"event": "ask", "agent": "Seller Kai", "round": 6, "ask": 80.3, "raw": "80.3", "t": 1792784531.9448376}
+{"event": "ask", "agent": "Seller Eli", "round": 6, "ask": 80.35, "raw": "80.35", "t": 1792784532.201557}
+{"event": "ask", "agent": "Seller Mia", "round": 6, "ask": 80.02, "raw": "80.02", "t": 1792784532.224873}
+{"event": "ask", "agent": "Seller Raj", "round": 7, "ask": 80.06, "raw": "80.06", "t": 1792784534.9524844}
+{"event": "ask", "agent": "Seller Kai", "round": 7, "ask": 80.08, "raw": "80.08", "t": 1792784535.0159755}
+{"event": "ask", "agent": "Seller Eli", "round": 7, "ask": 80.35, "raw": "80.35", "t": 1792784535.1911476}
+{"event": "ask", "agent": "Seller Tara", "round": 7, "ask": 80.0, "raw": "80.00", "t": 1792784535.4307258}
+{"event": "ask", "agent": "Seller Mia", "round": 7, "ask": 80.02, "raw": "80.02", "t": 1792784535.5166786}
+{"event": "ask", "agent": "Seller Raj", "round": 8, "ask": 80.06, "raw": "80.06", "t": 1792784537.899467}
+{"event": "ask", "agent": "Seller Eli", "round": 8, "ask": 80.35, "raw": "80.35", "t": 1792784538.3260143}
+{"event": "ask", "agent": "Seller Tara", "round": 8, "ask": 80.1, "raw": "80.10", "t": 1792784538.7105794}
+{"event": "attempt_parse_failure", "agent": "Seller Mia", "round": 8, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 8, the market remained undervalued with bids mainly below $80.00, and the bid from Buyer Nia was the highest, indicating significant buying pressure. The ask price of $80.02 aligned with the current market price and allowed for potential higher bids, as seen in Hour 7. H", "t": 1792784538.7214057}
+{"event": "ask", "agent": "Seller Kai", "round": 8, "ask": 80.25, "raw": "80.25", "t": 1792784539.0611017}
+{"event": "attempt_parse_failure", "agent": "Seller Mia", "round": 8, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 8, the market remained undervalued with bids mainly below $80.00, and the bid from Buyer Nia was the highest, indicating significant buying pressure. The ask price of $80.02 aligned with the current market price and allowed for potential higher bids, as seen in Hour 7. H", "t": 1792784541.8321233}
+{"event": "attempt_parse_failure", "agent": "Seller Mia", "round": 8, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 8, the market remained undervalued with bids mainly below $80.00, and the bid from Buyer Nia was the highest, indicating significant buying pressure. The ask price of $80.02 aligned with the current market price and allowed for potential higher bids, as seen in Hour 7. H", "t": 1792784547.482658}
+{"event": "attempt_parse_failure", "agent": "Seller Mia", "round": 8, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 8, the market remained undervalued with bids mainly below $80.00, and the bid from Buyer Nia was the highest, indicating significant buying pressure. The ask price of $80.02 aligned with the current market price and allowed for potential higher bids, as evidenced by the ", "t": 1792784555.5916603}
+{"event": "action_parse_failure", "agent": "Seller Mia", "round": 8, "err": "JSONDecodeError", "t": 1792784555.5919645}
+{"event": "no_ask", "agent": "Seller Mia", "round": 8, "t": 1792784555.5922716}
+{"event": "ask", "agent": "Seller Eli", "round": 9, "ask": 80.34, "raw": "80.34", "t": 1792784560.5124376}
+{"event": "ask", "agent": "Seller Raj", "round": 9, "ask": 80.05, "raw": "80.05", "t": 1792784560.5364692}
+{"event": "ask", "agent": "Seller Tara", "round": 9, "ask": 80.0, "raw": "80.0", "t": 1792784561.065508}
+{"event": "ask", "agent": "Seller Kai", "round": 9, "ask": 80.3, "raw": "80.3", "t": 1792784561.42714}
+{"event": "ask", "agent": "Seller Mia", "round": 9, "ask": 80.0, "raw": "80.00", "t": 1792784562.1868927}
+{"event": "ask", "agent": "Seller Raj", "round": 10, "ask": 80.05, "raw": "80.05", "t": 1792784566.6852543}
+{"event": "ask", "agent": "Seller Eli", "round": 10, "ask": 80.33, "raw": "80.33", "t": 1792784567.2297094}
+{"event": "attempt_parse_failure", "agent": "Seller Kai", "round": 10, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 10, the market remained quiet with low asks and bids. Although we proposed an ask price of $80.3, there were no bids yet. We need to continue to attract buyers with slightly higher ask prices while maintaining our profitability. We will monitor the market closely and adj", "t": 1792784567.3036637}
+{"event": "ask", "agent": "Seller Tara", "round": 10, "ask": 80.05, "raw": "80.05", "t": 1792784567.9431508}
+{"event": "attempt_parse_failure", "agent": "Seller Mia", "round": 10, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 10, the market remained undervalued, with bids mainly below $80.00. The bid from Buyer Nia was the highest, indicating significant buying pressure. We proposed an ask price of $80.00, aligning with the current market price and allowing for potential higher bids. We will ", "t": 1792784568.5794163}
+{"event": "ask", "agent": "Seller Mia", "round": 10, "ask": 80.0, "raw": "80.0", "t": 1792784574.5344875}
+{"event": "ask", "agent": "Seller Eli", "round": 11, "ask": 80.33, "raw": "80.33", "t": 1792784579.6441717}
+{"event": "ask", "agent": "Seller Kai", "round": 11, "ask": 80.12, "raw": "80.12", "t": 1792784579.7428157}
+{"event": "ask", "agent": "Seller Tara", "round": 11, "ask": 80.08, "raw": "80.08", "t": 1792784580.2308962}
+{"event": "ask", "agent": "Seller Raj", "round": 11, "ask": 80.06, "raw": "80.06", "t": 1792784580.6471488}
+{"event": "ask", "agent": "Seller Mia", "round": 11, "ask": 80.0, "raw": "80.00", "t": 1792784581.4279137}
+{"event": "ask", "agent": "Seller Kai", "round": 12, "ask": 80.0, "raw": "80.0", "t": 1792784586.314346}
+{"event": "ask", "agent": "Seller Eli", "round": 12, "ask": 80.33, "raw": "80.33", "t": 1792784586.5291653}
+{"event": "ask", "agent": "Seller Mia", "round": 12, "ask": 80.0, "raw": "80.00", "t": 1792784588.0383022}
+{"event": "ask", "agent": "Seller Raj", "round": 12, "ask": 80.04, "raw": "80.04", "t": 1792784588.0513856}
+{"event": "ask", "agent": "Seller Tara", "round": 12, "ask": 80.11, "raw": "80.11", "t": 1792784590.2882307}
+{"event": "ask", "agent": "Seller Eli", "round": 13, "ask": 80.33, "raw": "80.33", "t": 1792784595.6460595}
+{"event": "attempt_parse_failure", "agent": "Seller Kai", "round": 13, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 12, we proposed an ask price of $80.0 but did not secure any trades. This suggests our current ask price is not attracting buyers effectively. We should lower our ask price further to increase the probability of securing trades. The market is still quiet with low asks an", "t": 1792784595.9687867}
+{"event": "ask", "agent": "Seller Mia", "round": 13, "ask": 80.0, "raw": "80.00", "t": 1792784597.401299}
+{"event": "ask", "agent": "Seller Raj", "round": 13, "ask": 80.1, "raw": "80.10", "t": 1792784598.1491513}
+{"event": "ask", "agent": "Seller Tara", "round": 13, "ask": 80.11, "raw": "80.11", "t": 1792784598.5802631}
+{"event": "ask", "agent": "Seller Kai", "round": 13, "ask": 79.9, "raw": "79.90", "t": 1792784600.6986065}
+{"event": "ask", "agent": "Seller Raj", "round": 14, "ask": 80.06, "raw": "80.06", "t": 1792784605.940965}
+{"event": "ask", "agent": "Seller Kai", "round": 14, "ask": 79.8, "raw": "79.80", "t": 1792784606.2129939}
+{"event": "ask", "agent": "Seller Eli", "round": 14, "ask": 80.33, "raw": "80.33", "t": 1792784606.758528}
+{"event": "ask", "agent": "Seller Mia", "round": 14, "ask": 80.0, "raw": "80.00", "t": 1792784607.4623044}
+{"event": "ask", "agent": "Seller Tara", "round": 14, "ask": 80.1, "raw": "80.10", "t": 1792784608.730702}
+{"event": "ask", "agent": "Seller Kai", "round": 15, "ask": 80.05, "raw": "80.05", "t": 1792784614.2112496}
+{"event": "ask", "agent": "Seller Raj", "round": 15, "ask": 80.06, "raw": "80.06", "t": 1792784614.361257}
+{"event": "ask", "agent": "Seller Eli", "round": 15, "ask": 80.33, "raw": "80.33", "t": 1792784614.5879824}
+{"event": "attempt_parse_failure", "agent": "Seller Mia", "round": 15, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 15, the market remained undervalued, with bids mainly below $80.00. The bid from Buyer Nia was the highest, indicating significant buying pressure. We proposed an ask price of $80.00, aligning with the current market price. This allows for potential higher bids while mai", "t": 1792784615.419257}
+{"event": "ask", "agent": "Seller Tara", "round": 15, "ask": 80.1, "raw": "80.1", "t": 1792784616.7130356}
+{"event": "ask", "agent": "Seller Mia", "round": 15, "ask": 80.0, "raw": "80.00", "t": 1792784621.141998}
+{"event": "ask", "agent": "Seller Raj", "round": 16, "ask": 80.06, "raw": "80.06", "t": 1792784627.3126128}
+{"event": "ask", "agent": "Seller Mia", "round": 16, "ask": 80.0, "raw": "80.00", "t": 1792784627.4806545}
+{"event": "ask", "agent": "Seller Kai", "round": 16, "ask": 80.05, "raw": "80.05", "t": 1792784627.5209043}
+{"event": "ask", "agent": "Seller Eli", "round": 16, "ask": 80.33, "raw": "80.33", "t": 1792784627.5859969}
+{"event": "ask", "agent": "Seller Tara", "round": 16, "ask": 80.05, "raw": "80.05", "t": 1792784629.128185}
+{"event": "ask", "agent": "Seller Eli", "round": 17, "ask": 80.33, "raw": "80.33", "t": 1792784635.042807}
+{"event": "ask", "agent": "Seller Raj", "round": 17, "ask": 80.06, "raw": "80.06", "t": 1792784635.139633}
+{"event": "ask", "agent": "Seller Kai", "round": 17, "ask": 80.05, "raw": "80.05", "t": 1792784635.1546967}
+{"event": "ask", "agent": "Seller Mia", "round": 17, "ask": 80.0, "raw": "80.00", "t": 1792784635.5672412}
+{"event": "ask", "agent": "Seller Tara", "round": 17, "ask": 80.09, "raw": "80.09", "t": 1792784636.3288963}
+{"event": "ask", "agent": "Seller Mia", "round": 18, "ask": 80.0, "raw": "80.00", "t": 1792784640.6970205}
+{"event": "ask", "agent": "Seller Raj", "round": 18, "ask": 80.09, "raw": "80.09", "t": 1792784641.6123219}
+{"event": "ask", "agent": "Seller Eli", "round": 18, "ask": 80.33, "raw": "80.33", "t": 1792784642.055}
+{"event": "ask", "agent": "Seller Kai", "round": 18, "ask": 80.05, "raw": "80.05", "t": 1792784642.0802705}
+{"event": "attempt_parse_failure", "agent": "Seller Tara", "round": 18, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 18, the market remained calm with no active bids or asks. My ask price of $80.09 was slightly higher than the previous hour, but it did not attract any buyers. This suggests the market may not be ready to trade at these prices at this time. The next hour will involve pro", "t": 1792784643.3353577}
+{"event": "attempt_parse_failure", "agent": "Seller Tara", "round": 18, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 18, the market remained calm with no active bids or asks. My ask price of $80.09 was slightly higher than the previous hour, but it did not attract any buyers. This suggests the market may not be ready to trade at these prices at this time. The next hour will involve pro", "t": 1792784646.664462}
+{"event": "attempt_parse_failure", "agent": "Seller Tara", "round": 18, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 18, the market remained calm with no active bids or asks. My ask price of $80.09 was slightly higher than the previous hour, but it did not attract any buyers. This suggests the market may not be ready to trade at these prices at this time. The next hour will involve pro", "t": 1792784650.312892}
+{"event": "attempt_parse_failure", "agent": "Seller Tara", "round": 18, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 18, the market remained calm with no active bids or asks. My ask price of $80.09 was slightly higher than the previous hour, but it did not attract any buyers. This suggests the market may not be ready to trade at these prices at this time. The next hour will involve pro", "t": 1792784654.4150295}
+{"event": "action_parse_failure", "agent": "Seller Tara", "round": 18, "err": "JSONDecodeError", "t": 1792784654.4154139}
+{"event": "no_ask", "agent": "Seller Tara", "round": 18, "t": 1792784654.4157164}
+{"event": "ask", "agent": "Seller Raj", "round": 19, "ask": 80.09, "raw": "80.09", "t": 1792784657.9441051}
+{"event": "ask", "agent": "Seller Eli", "round": 19, "ask": 80.33, "raw": "80.33", "t": 1792784658.2579608}
+{"event": "ask", "agent": "Seller Mia", "round": 19, "ask": 80.0, "raw": "80.00", "t": 1792784658.7189357}
+{"event": "ask", "agent": "Seller Kai", "round": 19, "ask": 80.05, "raw": "80.05", "t": 1792784659.14962}
+{"event": "ask", "agent": "Seller Tara", "round": 19, "ask": 80.09, "raw": "80.09", "t": 1792784659.561175}
+{"event": "ask", "agent": "Seller Mia", "round": 20, "ask": 80.0, "raw": "80.00", "t": 1792784663.168423}
+{"event": "ask", "agent": "Seller Raj", "round": 20, "ask": 80.1, "raw": "80.10", "t": 1792784663.3819172}
+{"event": "ask", "agent": "Seller Eli", "round": 20, "ask": 80.33, "raw": "80.33", "t": 1792784663.601431}
+{"event": "ask", "agent": "Seller Kai", "round": 20, "ask": 80.05, "raw": "80.05", "t": 1792784664.1985}
+{"event": "ask", "agent": "Seller Tara", "round": 20, "ask": 80.09, "raw": "80.09", "t": 1792784664.7547476}
+{"event": "ask", "agent": "Seller Mia", "round": 21, "ask": 80.0, "raw": "80.00", "t": 1792784668.4859529}
+{"event": "ask", "agent": "Seller Raj", "round": 21, "ask": 80.1, "raw": "80.10", "t": 1792784668.5913866}
+{"event": "ask", "agent": "Seller Kai", "round": 21, "ask": 79.95, "raw": "79.95", "t": 1792784669.3477437}
+{"event": "attempt_parse_failure", "agent": "Seller Tara", "round": 21, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 21, the market remained calm, with no active bids or asks. The previous ask of $80.09 was slightly higher than the previous hour but did not attract buyers. This suggests the market may need a more significant price increase to attract interest. The market could be ready", "t": 1792784669.444867}
+{"event": "ask", "agent": "Seller Eli", "round": 21, "ask": 80.15, "raw": "80.15", "t": 1792784671.8489313}
+{"event": "ask", "agent": "Seller Tara", "round": 21, "ask": 80.09, "raw": "80.09", "t": 1792784673.7658856}
+{"event": "ask", "agent": "Seller Kai", "round": 22, "ask": 80.05, "raw": "80.05", "t": 1792784677.3373544}
+{"event": "ask", "agent": "Seller Mia", "round": 22, "ask": 80.0, "raw": "80.00", "t": 1792784677.649028}
+{"event": "ask", "agent": "Seller Raj", "round": 22, "ask": 80.1, "raw": "80.10", "t": 1792784677.8578002}
+{"event": "ask", "agent": "Seller Eli", "round": 22, "ask": 80.14, "raw": "80.14", "t": 1792784678.529719}
+{"event": "ask", "agent": "Seller Tara", "round": 22, "ask": 80.09, "raw": "80.09", "t": 1792784678.731004}
+{"event": "attempt_parse_failure", "agent": "Seller Mia", "round": 23, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour #22, we sold to Buyer Amir at $80.34. While the market remained undervalued, the bid from Buyer Nia was still the highest, indicating significant buying pressure. We should consider making a more aggressive ask to capitalize on this buying pressure.\",\n    \"plan_for_this_", "t": 1792784682.261946}
+{"event": "ask", "agent": "Seller Raj", "round": 23, "ask": 80.09, "raw": "80.09", "t": 1792784682.6233332}
+{"event": "ask", "agent": "Seller Kai", "round": 23, "ask": 80.04, "raw": "80.04", "t": 1792784682.733999}
+{"event": "ask", "agent": "Seller Eli", "round": 23, "ask": 80.14, "raw": "80.14", "t": 1792784683.1450987}
+{"event": "ask", "agent": "Seller Tara", "round": 23, "ask": 80.16, "raw": "80.16", "t": 1792784683.2125704}
+{"event": "attempt_parse_failure", "agent": "Seller Mia", "round": 23, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour #22, we sold to Buyer Amir at $80.34. While the market remained undervalued, the bid from Buyer Nia was the highest, indicating significant buying pressure. This hour, we will propose an ask price of $80.00, aligning with the current market price and allowing for potenti", "t": 1792784685.8682222}
+{"event": "attempt_parse_failure", "agent": "Seller Mia", "round": 23, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour #22, we sold to Buyer Amir at $80.34. While the market remained undervalued, the bid from Buyer Nia was the highest, indicating significant buying pressure. This hour, we will propose an ask price of $80.00, aligning with the current market price and allowing for potenti", "t": 1792784688.96805}
+{"event": "ask", "agent": "Seller Mia", "round": 23, "ask": 80.06, "raw": "80.06", "t": 1792784692.638808}
+{"event": "ask", "agent": "Seller Mia", "round": 24, "ask": 80.0, "raw": "80.00", "t": 1792784696.120818}
+{"event": "ask", "agent": "Seller Eli", "round": 24, "ask": 80.28, "raw": "80.28", "t": 1792784696.5215716}
+{"event": "ask", "agent": "Seller Raj", "round": 24, "ask": 80.09, "raw": "80.09", "t": 1792784697.9417257}
+{"event": "ask", "agent": "Seller Tara", "round": 24, "ask": 80.18, "raw": "80.18", "t": 1792784698.138698}
+{"event": "ask", "agent": "Seller Kai", "round": 25, "ask": 80.05, "raw": "80.05", "t": 1792784704.6180015}
+{"event": "attempt_parse_failure", "agent": "Seller Eli", "round": 25, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 25, I proposed an ask price of $80.28 and received bids around $80.18, indicating a slight buying pressure. By proposing an ask price closer to the profit margin of $80.00 per lot, I can enhance profitability. This aligns better with the market conditions and aligns with", "t": 1792784704.8444262}
+{"event": "ask", "agent": "Seller Mia", "round": 25, "ask": 80.0, "raw": "80.00", "t": 1792784704.8743582}
+{"event": "ask", "agent": "Seller Tara", "round": 25, "ask": 80.15, "raw": "80.15", "t": 1792784705.346408}
+{"event": "attempt_parse_failure", "agent": "Seller Raj", "round": 25, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 25, the market remained stable with bids ranging from $79.92-$80.50. Despite the slight interest from potential buyers, no active trading occurred. This suggests that the market may be consolidating or waiting for a significant change. Given the market stability, I plan ", "t": 1792784705.608557}
+{"event": "attempt_parse_failure", "agent": "Seller Eli", "round": 25, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 25, I proposed an ask price of $80.28 and received bids around $80.18, indicating a slight buying pressure. By proposing an ask price closer to the profit margin of $80.00 per lot, I can enhance profitability. This aligns better with the market conditions and aligns with", "t": 1792784711.500551}
+{"event": "attempt_parse_failure", "agent": "Seller Raj", "round": 25, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 25, the market remained stable with bids ranging from $79.92-$80.50. Despite the slight interest from potential buyers, no active trading occurred. This suggests that the market may be consolidating or waiting for a significant change. Given the market stability, I plan ", "t": 1792784712.228425}
+{"event": "attempt_parse_failure", "agent": "Seller Eli", "round": 25, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 25, I proposed an ask price of $80.28 and received bids around $80.18, indicating a slight buying pressure. By proposing an ask price closer to the profit margin of $80.00 per lot, I can enhance profitability. This aligns better with the market conditions and aligns with", "t": 1792784718.1337845}
+{"event": "attempt_parse_failure", "agent": "Seller Raj", "round": 25, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 25, the market remained stable with bids ranging from $79.92-$80.50. Despite the slight interest from potential buyers, no active trading occurred. This suggests that the market may be consolidating or waiting for a significant change. Given the market stability, I plan ", "t": 1792784719.8771133}
+{"event": "attempt_parse_failure", "agent": "Seller Eli", "round": 25, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"From previous hours, it's clear that maintaining a price closer to the profit margin can significantly enhance profitability. Hour 22 saw a successful trade with a profit margin of $0.32, and similar trades could be achieved by aligning my ask price more closely with the market ", "t": 1792784723.7724276}
+{"event": "action_parse_failure", "agent": "Seller Eli", "round": 25, "err": "JSONDecodeError", "t": 1792784723.7727857}
+{"event": "no_ask", "agent": "Seller Eli", "round": 25, "t": 1792784723.7731462}
+{"event": "attempt_parse_failure", "agent": "Seller Raj", "round": 25, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 25, the market remained stable with bids ranging from $79.92-$80.50. Despite the slight interest from potential buyers, no active trading occurred. This suggests that the market may be consolidating or waiting for a significant change. Given the market stability, I plan ", "t": 1792784726.5447264}
+{"event": "action_parse_failure", "agent": "Seller Raj", "round": 25, "err": "JSONDecodeError", "t": 1792784726.5450056}
+{"event": "no_ask", "agent": "Seller Raj", "round": 25, "t": 1792784726.5453203}
+{"event": "ask", "agent": "Seller Tara", "round": 26, "ask": 80.15, "raw": "80.15", "t": 1792784731.5610325}
+{"event": "ask", "agent": "Seller Kai", "round": 26, "ask": 80.09, "raw": "80.09", "t": 1792784732.7521093}
+{"event": "ask", "agent": "Seller Mia", "round": 26, "ask": 80.0, "raw": "80.00", "t": 1792784733.0579386}
+{"event": "ask", "agent": "Seller Eli", "round": 26, "ask": 80.28, "raw": "80.28", "t": 1792784733.1012096}
+{"event": "ask", "agent": "Seller Raj", "round": 26, "ask": 80.09, "raw": "80.09", "t": 1792784733.1296465}
+{"event": "ask", "agent": "Seller Kai", "round": 27, "ask": 80.09, "raw": "80.09", "t": 1792784739.173154}
+{"event": "ask", "agent": "Seller Raj", "round": 27, "ask": 80.09, "raw": "80.09", "t": 1792784739.6301134}
+{"event": "ask", "agent": "Seller Mia", "round": 27, "ask": 80.0, "raw": "80.00", "t": 1792784739.804722}
+{"event": "ask", "agent": "Seller Eli", "round": 27, "ask": 80.3, "raw": "80.30", "t": 1792784740.050019}
+{"event": "ask", "agent": "Seller Tara", "round": 27, "ask": 80.15, "raw": "80.15", "t": 1792784740.8272274}
+{"event": "ask", "agent": "Seller Kai", "round": 28, "ask": 80.1, "raw": "80.10", "t": 1792784746.7547045}
+{"event": "ask", "agent": "Seller Mia", "round": 28, "ask": 80.0, "raw": "80.00", "t": 1792784747.1734028}
+{"event": "ask", "agent": "Seller Eli", "round": 28, "ask": 80.3, "raw": "80.30", "t": 1792784747.3791127}
+{"event": "ask", "agent": "Seller Raj", "round": 28, "ask": 80.09, "raw": "80.09", "t": 1792784747.4178834}
+{"event": "ask", "agent": "Seller Tara", "round": 28, "ask": 80.15, "raw": "80.15", "t": 1792784748.3055136}
+{"event": "ask", "agent": "Seller Mia", "round": 29, "ask": 80.0, "raw": "80.00", "t": 1792784753.7319117}
+{"event": "ask", "agent": "Seller Kai", "round": 29, "ask": 80.12, "raw": "80.12", "t": 1792784753.9975884}
+{"event": "ask", "agent": "Seller Raj", "round": 29, "ask": 80.09, "raw": "80.09", "t": 1792784754.7355042}
+{"event": "attempt_parse_failure", "agent": "Seller Eli", "round": 29, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In Hour 29, I proposed an ask price of $80.30 and received bids around $80.26, indicating a slight buying pressure. By proposing an ask price closer to the profit margin of $80.00 per lot, I can enhance profitability. This aligns better with the market conditions and aligns with", "t": 1792784754.8800445}
+{"event": "ask", "agent": "Seller Tara", "round": 29, "ask": 80.15, "raw": "80.15", "t": 1792784756.6868808}
+{"event": "ask", "agent": "Seller Eli", "round": 29, "ask": 80.3, "raw": "80.30", "t": 1792784760.8763938}
+{"event": "ask", "agent": "Seller Mia", "round": 30, "ask": 80.0, "raw": "80.00", "t": 1792784766.3515177}
+{"event": "ask", "agent": "Seller Eli", "round": 30, "ask": 80.3, "raw": "80.30", "t": 1792784767.3823705}
+{"event": "ask", "agent": "Seller Raj", "round": 30, "ask": 80.09, "raw": "80.09", "t": 1792784767.558803}
+{"event": "ask", "agent": "Seller Tara", "round": 30, "ask": 80.15, "raw": "80.15", "t": 1792784768.0538774}
+{"event": "ask", "agent": "Seller Kai", "round": 30, "ask": 80.13, "raw": "80.13", "t": 1792784768.8880484}
+{"event": "attempt_parse_failure", "agent": "Seller Amir", "round": 1, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In the first hour, we received bids from several buyers at prices ranging from $81.48 to $82.6, showing a high demand for heavy metals. However, the asks placed by the sellers were lower than the bids, indicating that the market is currently in a downward trend. I need to find a", "t": 1792784775.0262778}
+{"event": "ask", "agent": "Seller Leo", "round": 1, "ask": 80.0, "raw": "80.0", "t": 1792784775.1804252}
+{"event": "no_ask", "agent": "Seller Maya", "round": 1, "t": 1792784775.4087188}
+{"event": "ask", "agent": "Seller Amir", "round": 1, "ask": 99.0, "raw": "99.00", "t": 1792784779.2971966}
+{"event": "ask", "agent": "Seller Yara", "round": 2, "ask": 80.3, "raw": "80.30", "t": 1792784783.446176}
+{"event": "ask", "agent": "Seller Maya", "round": 2, "ask": 97.95, "raw": "97.95", "t": 1792784783.8071444}
+{"event": "ask", "agent": "Seller Jin", "round": 2, "ask": 80.3, "raw": "80.30", "t": 1792784784.0229003}
+{"event": "ask", "agent": "Seller Leo", "round": 2, "ask": 80.05, "raw": "80.05", "t": 1792784784.1368728}
+{"event": "attempt_parse_failure", "agent": "Seller Amir", "round": 2, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In the first hour, the market was primarily low-bid-centric, with the majority of offers around $80.00. By setting my initial ask at $99.00, we secured the first trade with Buyer Zoe at $80.12. This shows that adjusting the ask price can be effective in finding trades. However, ", "t": 1792784784.806149}
+{"event": "attempt_parse_failure", "agent": "Seller Amir", "round": 2, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In the first hour, the market was primarily focused on low bids, which indicated potential for profit. However, my initial ask of $99.00 was slightly higher than the market offer of $98.05, which slightly reduced our potential profit margins. I need to find a balance between mai", "t": 1792784790.7324574}
+{"event": "ask", "agent": "Seller Amir", "round": 2, "ask": 99.0, "raw": "99.0", "t": 1792784795.7355528}
+{"event": "ask", "agent": "Seller Yara", "round": 3, "ask": 80.33, "raw": "80.33", "t": 1792784797.9772346}
+{"event": "ask", "agent": "Seller Maya", "round": 3, "ask": 97.95, "raw": "97.95", "t": 1792784799.027318}
+{"event": "ask", "agent": "Seller Leo", "round": 3, "ask": 81.0, "raw": "81.00", "t": 1792784799.229145}
+{"event": "ask", "agent": "Seller Jin", "round": 3, "ask": 80.3, "raw": "80.30", "t": 1792784799.4678957}
+{"event": "ask", "agent": "Seller Amir", "round": 3, "ask": 98.1, "raw": "98.1", "t": 1792784799.702169}
+{"event": "ask", "agent": "Seller Yara", "round": 4, "ask": 80.42, "raw": "80.42", "t": 1792784802.3315508}
+{"event": "ask", "agent": "Seller Leo", "round": 4, "ask": 81.0, "raw": "81.00", "t": 1792784803.281601}
+{"event": "no_ask", "agent": "Seller Maya", "round": 4, "t": 1792784803.3222284}
+{"event": "ask", "agent": "Seller Jin", "round": 4, "ask": 80.3, "raw": "80.30", "t": 1792784803.436584}
+{"event": "ask", "agent": "Seller Amir", "round": 4, "ask": 98.15, "raw": "98.15", "t": 1792784803.7641876}
+{"event": "ask", "agent": "Seller Yara", "round": 5, "ask": 80.45, "raw": "80.45", "t": 1792784806.4874392}
+{"event": "ask", "agent": "Seller Jin", "round": 5, "ask": 80.28, "raw": "80.28", "t": 1792784806.671434}
+{"event": "ask", "agent": "Seller Maya", "round": 5, "ask": 97.8, "raw": "97.80", "t": 1792784807.3361979}
+{"event": "ask", "agent": "Seller Leo", "round": 5, "ask": 81.0, "raw": "81.00", "t": 1792784807.6375973}
+{"event": "ask", "agent": "Seller Amir", "round": 5, "ask": 98.15, "raw": "98.15", "t": 1792784807.699571}
+{"event": "ask", "agent": "Seller Yara", "round": 6, "ask": 80.46, "raw": "80.46", "t": 1792784810.447168}
+{"event": "ask", "agent": "Seller Maya", "round": 6, "ask": 97.75, "raw": "97.75", "t": 1792784810.6119027}
+{"event": "ask", "agent": "Seller Leo", "round": 6, "ask": 81.0, "raw": "81.00", "t": 1792784811.4909735}
+{"event": "ask", "agent": "Seller Amir", "round": 6, "ask": 98.1, "raw": "98.1", "t": 1792784811.6186054}
+{"event": "ask", "agent": "Seller Yara", "round": 7, "ask": 80.46, "raw": "80.46", "t": 1792784814.3876112}
+{"event": "ask", "agent": "Seller Maya", "round": 7, "ask": 97.75, "raw": "97.75", "t": 1792784814.572051}
+{"event": "ask", "agent": "Seller Jin", "round": 7, "ask": 80.3, "raw": "80.30", "t": 1792784814.9039013}
+{"event": "ask", "agent": "Seller Leo", "round": 7, "ask": 81.0, "raw": "81.00", "t": 1792784815.1840515}
+{"event": "ask", "agent": "Seller Amir", "round": 7, "ask": 98.15, "raw": "98.15", "t": 1792784815.4109886}
+{"event": "ask", "agent": "Seller Yara", "round": 8, "ask": 80.45, "raw": "80.45", "t": 1792784818.4356287}
+{"event": "ask", "agent": "Seller Maya", "round": 8, "ask": 97.75, "raw": "97.75", "t": 1792784818.443354}
+{"event": "ask", "agent": "Seller Jin", "round": 8, "ask": 80.29, "raw": "80.29", "t": 1792784818.7505007}
+{"event": "ask", "agent": "Seller Leo", "round": 8, "ask": 81.5, "raw": "81.50", "t": 1792784819.0420194}
+{"event": "ask", "agent": "Seller Amir", "round": 8, "ask": 98.15, "raw": "98.15", "t": 1792784819.364478}
+{"event": "ask", "agent": "Seller Yara", "round": 9, "ask": 80.45, "raw": "80.45", "t": 1792784822.326417}
+{"event": "ask", "agent": "Seller Jin", "round": 9, "ask": 80.29, "raw": "80.29", "t": 1792784822.587311}
+{"event": "ask", "agent": "Seller Maya", "round": 9, "ask": 97.75, "raw": "97.75", "t": 1792784822.6480203}
+{"event": "ask", "agent": "Seller Leo", "round": 9, "ask": 81.99, "raw": "81.99", "t": 1792784822.656506}
+{"event": "ask", "agent": "Seller Amir", "round": 9, "ask": 98.15, "raw": "98.15", "t": 1792784822.777437}
+{"event": "ask", "agent": "Seller Yara", "round": 10, "ask": 80.45, "raw": "80.45", "t": 1792784825.7311966}
+{"event": "ask", "agent": "Seller Leo", "round": 10, "ask": 82.0, "raw": "82.00", "t": 1792784825.9859343}
+{"event": "ask", "agent": "Seller Maya", "round": 10, "ask": 97.75, "raw": "97.75", "t": 1792784826.010975}
+{"event": "ask", "agent": "Seller Amir", "round": 10, "ask": 98.15, "raw": "98.15", "t": 1792784826.3868976}
+{"event": "ask", "agent": "Seller Jin", "round": 10, "ask": 80.29, "raw": "80.29", "t": 1792784826.4377372}
+{"event": "ask", "agent": "Seller Amir", "round": 11, "ask": 98.2, "raw": "98.20", "t": 1792784829.3272}
+{"event": "ask", "agent": "Seller Jin", "round": 11, "ask": 80.28, "raw": "80.28", "t": 1792784829.547879}
+{"event": "no_ask", "agent": "Seller Maya", "round": 11, "t": 1792784829.5656922}
+{"event": "ask", "agent": "Seller Yara", "round": 11, "ask": 80.45, "raw": "80.45", "t": 1792784829.9551713}
+{"event": "ask", "agent": "Seller Leo", "round": 11, "ask": 82.0, "raw": "82.00", "t": 1792784829.986503}
+{"event": "ask", "agent": "Seller Maya", "round": 12, "ask": 97.75, "raw": "97.75", "t": 1792784833.3150315}
+{"event": "ask", "agent": "Seller Leo", "round": 12, "ask": 82.0, "raw": "82.00", "t": 1792784833.4904516}
+{"event": "ask", "agent": "Seller Jin", "round": 12, "ask": 80.28, "raw": "80.28", "t": 1792784833.4997215}
+{"event": "ask", "agent": "Seller Amir", "round": 12, "ask": 98.2, "raw": "98.20", "t": 1792784833.6734788}
+{"event": "ask", "agent": "Seller Yara", "round": 12, "ask": 80.45, "raw": "80.45", "t": 1792784833.7123494}
+{"event": "ask", "agent": "Seller Amir", "round": 13, "ask": 98.3, "raw": "98.30", "t": 1792784836.627694}
+{"event": "ask", "agent": "Seller Leo", "round": 13, "ask": 82.5, "raw": "82.50", "t": 1792784836.9962602}
+{"event": "ask", "agent": "Seller Maya", "round": 13, "ask": 97.75, "raw": "97.75", "t": 1792784837.1272514}
+{"event": "ask", "agent": "Seller Yara", "round": 13, "ask": 80.47, "raw": "80.47", "t": 1792784837.1697602}
+{"event": "ask", "agent": "Seller Jin", "round": 13, "ask": 79.8, "raw": "79.80", "t": 1792784837.982065}
+{"event": "ask", "agent": "Seller Amir", "round": 14, "ask": 98.35, "raw": "98.35", "t": 1792784840.9493413}
+{"event": "ask", "agent": "Seller Leo", "round": 14, "ask": 84.5, "raw": "84.50", "t": 1792784841.3708324}
+{"event": "ask", "agent": "Seller Maya", "round": 14, "ask": 97.75, "raw": "97.75", "t": 1792784841.4772842}
+{"event": "ask", "agent": "Seller Yara", "round": 14, "ask": 80.46, "raw": "80.46", "t": 1792784841.5398037}
+{"event": "ask", "agent": "Seller Amir", "round": 15, "ask": 98.35, "raw": "98.35", "t": 1792784844.663379}
+{"event": "ask", "agent": "Seller Leo", "round": 15, "ask": 84.5, "raw": "84.50", "t": 1792784845.0128512}
+{"event": "ask", "agent": "Seller Jin", "round": 15, "ask": 79.75, "raw": "79.75", "t": 1792784845.0652676}
+{"event": "ask", "agent": "Seller Maya", "round": 15, "ask": 97.75, "raw": "97.75", "t": 1792784845.1580393}
+{"event": "ask", "agent": "Seller Yara", "round": 15, "ask": 80.45, "raw": "80.45", "t": 1792784845.6221879}
+{"event": "ask", "agent": "Seller Maya", "round": 16, "ask": 97.75, "raw": "97.75", "t": 1792784848.4582438}
+{"event": "ask", "agent": "Seller Leo", "round": 16, "ask": 85.0, "raw": "85.00", "t": 1792784848.8456154}
+{"event": "ask", "agent": "Seller Jin", "round": 16, "ask": 80.28, "raw": "80.28", "t": 1792784848.924133}
+{"event": "ask", "agent": "Seller Yara", "round": 16, "ask": 80.46, "raw": "80.46", "t": 1792784849.3923402}
+{"event": "ask", "agent": "Seller Amir", "round": 16, "ask": 98.35, "raw": "98.35", "t": 1792784849.6046863}
+{"event": "ask", "agent": "Seller Maya", "round": 17, "ask": 97.75, "raw": "97.75", "t": 1792784854.8311906}
+{"event": "ask", "agent": "Seller Jin", "round": 17, "ask": 80.27, "raw": "80.27", "t": 1792784854.9433475}
+{"event": "ask", "agent": "Seller Leo", "round": 17, "ask": 85.0, "raw": "85.00", "t": 1792784855.0723262}
+{"event": "ask", "agent": "Seller Yara", "round": 17, "ask": 80.46, "raw": "80.46", "t": 1792784855.4104424}
+{"event": "ask", "agent": "Seller Amir", "round": 17, "ask": 98.37, "raw": "98.37", "t": 1792784856.4618406}
+{"event": "ask", "agent": "Seller Maya", "round": 18, "ask": 97.7, "raw": "97.7", "t": 1792784861.250813}
+{"event": "attempt_parse_failure", "agent": "Seller Yara", "round": 18, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In the last hour, we successfully executed trades that lined up with our ask price of $80.45. The gap between bids and asks was narrow, which allowed us to secure trades without overpaying. However, we need to be cautious and adjust our ask price if the gap widens again in the n", "t": 1792784861.4977262}
+{"event": "ask", "agent": "Seller Leo", "round": 18, "ask": 85.0, "raw": "85.00", "t": 1792784862.011617}
+{"event": "ask", "agent": "Seller Jin", "round": 18, "ask": 80.28, "raw": "80.28", "t": 1792784862.0713837}
+{"event": "ask", "agent": "Seller Amir", "round": 18, "ask": 98.37, "raw": "98.37", "t": 1792784863.738146}
+{"event": "ask", "agent": "Seller Yara", "round": 18, "ask": 80.47, "raw": "80.47", "t": 1792784865.8147533}
+{"event": "ask", "agent": "Seller Maya", "round": 19, "ask": 97.65, "raw": "97.65", "t": 1792784870.6208513}
+{"event": "ask", "agent": "Seller Yara", "round": 19, "ask": 80.4, "raw": "80.40", "t": 1792784870.6337838}
+{"event": "ask", "agent": "Seller Jin", "round": 19, "ask": 80.28, "raw": "80.28", "t": 1792784871.0977135}
+{"event": "ask", "agent": "Seller Leo", "round": 19, "ask": 86.0, "raw": "86.00", "t": 1792784871.3852782}
+{"event": "ask", "agent": "Seller Amir", "round": 19, "ask": 98.4, "raw": "98.40", "t": 1792784872.658858}
+{"event": "ask", "agent": "Seller Maya", "round": 20, "ask": 97.65, "raw": "97.65", "t": 1792784877.8690562}
+{"event": "ask", "agent": "Seller Leo", "round": 20, "ask": 86.0, "raw": "86.00", "t": 1792784878.0207946}
+{"event": "ask", "agent": "Seller Yara", "round": 20, "ask": 80.49, "raw": "80.49", "t": 1792784878.059771}
+{"event": "ask", "agent": "Seller Jin", "round": 20, "ask": 80.27, "raw": "80.27", "t": 1792784878.4729173}
+{"event": "ask", "agent": "Seller Amir", "round": 20, "ask": 98.45, "raw": "98.45", "t": 1792784879.3803523}
+{"event": "ask", "agent": "Seller Yara", "round": 21, "ask": 80.45, "raw": "80.45", "t": 1792784884.5792093}
+{"event": "ask", "agent": "Seller Leo", "round": 21, "ask": 85.0, "raw": "85.00", "t": 1792784884.5797012}
+{"event": "ask", "agent": "Seller Maya", "round": 21, "ask": 97.65, "raw": "97.65", "t": 1792784884.788995}
+{"event": "ask", "agent": "Seller Jin", "round": 21, "ask": 80.26, "raw": "80.26", "t": 1792784885.344438}
+{"event": "ask", "agent": "Seller Amir", "round": 21, "ask": 98.45, "raw": "98.45", "t": 1792784885.7222216}
+{"event": "ask", "agent": "Seller Maya", "round": 22, "ask": 97.65, "raw": "97.65", "t": 1792784890.4287496}
+{"event": "ask", "agent": "Seller Jin", "round": 22, "ask": 80.28, "raw": "80.28", "t": 1792784891.0052304}
+{"event": "ask", "agent": "Seller Yara", "round": 22, "ask": 80.45, "raw": "80.45", "t": 1792784891.8147764}
+{"event": "attempt_parse_failure", "agent": "Seller Amir", "round": 22, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In the previous hours, the bids were mainly focused on the market offer of $98.05, and my ask of $98.45 was slightly higher but the bids remained close. This suggests that the market is maintaining a low price floor and there is still demand for low prices. I need to make sure t", "t": 1792784892.284686}
+{"event": "ask", "agent": "Seller Amir", "round": 22, "ask": 98.45, "raw": "98.45", "t": 1792784898.4765656}
+{"event": "ask", "agent": "Seller Maya", "round": 23, "ask": 97.65, "raw": "97.65", "t": 1792784903.0622008}
+{"event": "ask", "agent": "Seller Jin", "round": 23, "ask": 80.27, "raw": "80.27", "t": 1792784903.8276246}
+{"event": "attempt_parse_failure", "agent": "Seller Leo", "round": 23, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In the previous hours, we've observed that the highest bid has consistently been around $80.12, slightly above our ask of $86.00. This suggests that buyers are willing to pay just above our cost but are looking for higher prices. Our current ask of $85.00 is still quite high, wh", "t": 1792784904.0824027}
+{"event": "ask", "agent": "Seller Yara", "round": 23, "ask": 80.45, "raw": "80.45", "t": 1792784904.5145574}
+{"event": "attempt_parse_failure", "agent": "Seller Amir", "round": 23, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In the last hour, the bids were mainly focused on the market offer of $98.05, and the ask of $98.45 was slightly higher than the previous hour's ask but the bids were still relatively close. This indicates that the market is still quite tender and sellers are bidding aggressivel", "t": 1792784905.9157689}
+{"event": "ask", "agent": "Seller Leo", "round": 23, "ask": 84.8, "raw": "84.80", "t": 1792784908.9870353}
+{"event": "attempt_parse_failure", "agent": "Seller Amir", "round": 23, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In the last hour, the bids were mainly focused on the market offer of $98.05, and the ask of $98.45 was slightly higher than the previous hour's ask but the bids were still relatively close. This indicates that the market is still quite tender and sellers are bidding aggressivel", "t": 1792784913.0282965}
+{"event": "ask", "agent": "Seller Amir", "round": 23, "ask": 98.4, "raw": "98.40", "t": 1792784920.3043602}
+{"event": "ask", "agent": "Seller Maya", "round": 24, "ask": 97.65, "raw": "97.65", "t": 1792784925.1100028}
+{"event": "ask", "agent": "Seller Leo", "round": 24, "ask": 84.81, "raw": "84.81", "t": 1792784925.6690593}
+{"event": "ask", "agent": "Seller Yara", "round": 24, "ask": 80.47, "raw": "80.47", "t": 1792784925.9486578}
+{"event": "attempt_parse_failure", "agent": "Seller Amir", "round": 24, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"In the last hour, the bids remained consistent at the market offer of $98.05, and my ask price of $98.40 was slightly higher, yet no trades were secured. This suggests that while maintaining a slightly higher price, the market dynamics are not responding as expected. I need to r", "t": 1792784926.977607}
+{"event": "ask", "agent": "Seller Amir", "round": 24, "ask": 98.4, "raw": "98.40", "t": 1792784933.303356}
+{"event": "ask", "agent": "Seller Maya", "round": 25, "ask": 97.65, "raw": "97.65", "t": 1792784938.4452014}
+{"event": "ask", "agent": "Seller Yara", "round": 25, "ask": 80.46, "raw": "80.46", "t": 1792784938.7721305}
+{"event": "attempt_parse_failure", "agent": "Seller Jin", "round": 25, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"After several unsuccessful trades in the past hours, it is clear that maintaining a slight buffer is crucial. The market is not moving significantly, and we must ensure that the ask price is not too low to attract buyers. The current ask price of $80.28 is slightly above the ave", "t": 1792784938.8145845}
+{"event": "ask", "agent": "Seller Leo", "round": 25, "ask": 85.0, "raw": "85.00", "t": 1792784938.9226098}
+{"event": "ask", "agent": "Seller Amir", "round": 25, "ask": 98.4, "raw": "98.40", "t": 1792784939.5752885}
+{"event": "ask", "agent": "Seller Jin", "round": 25, "ask": 80.28, "raw": "80.28", "t": 1792784943.2753818}
+{"event": "ask", "agent": "Seller Yara", "round": 26, "ask": 80.46, "raw": "80.46", "t": 1792784947.8379495}
+{"event": "ask", "agent": "Seller Leo", "round": 26, "ask": 80.99, "raw": "80.99", "t": 1792784948.6962085}
+{"event": "ask", "agent": "Seller Jin", "round": 26, "ask": 80.28, "raw": "80.28", "t": 1792784948.6965578}
+{"event": "ask", "agent": "Seller Amir", "round": 26, "ask": 98.45, "raw": "98.45", "t": 1792784948.7023034}
+{"event": "ask", "agent": "Seller Maya", "round": 26, "ask": 97.65, "raw": "97.65", "t": 1792784949.0448906}
+{"event": "ask", "agent": "Seller Yara", "round": 27, "ask": 80.46, "raw": "80.46", "t": 1792784952.3243978}
+{"event": "ask", "agent": "Seller Jin", "round": 27, "ask": 80.29, "raw": "80.29", "t": 1792784952.897508}
+{"event": "ask", "agent": "Seller Maya", "round": 27, "ask": 97.6, "raw": "97.60", "t": 1792784952.949174}
+{"event": "ask", "agent": "Seller Leo", "round": 27, "ask": 80.99, "raw": "80.99", "t": 1792784952.9981797}
+{"event": "ask", "agent": "Seller Amir", "round": 27, "ask": 98.45, "raw": "98.45", "t": 1792784953.3050597}
+{"event": "ask", "agent": "Seller Leo", "round": 28, "ask": 80.98, "raw": "80.98", "t": 1792784956.5880916}
+{"event": "ask", "agent": "Seller Yara", "round": 28, "ask": 80.46, "raw": "80.46", "t": 1792784956.6063178}
+{"event": "ask", "agent": "Seller Jin", "round": 28, "ask": 80.29, "raw": "80.29", "t": 1792784956.7421513}
+{"event": "ask", "agent": "Seller Maya", "round": 28, "ask": 97.55, "raw": "97.55", "t": 1792784957.1215618}
+{"event": "ask", "agent": "Seller Amir", "round": 28, "ask": 98.45, "raw": "98.45", "t": 1792784957.2481124}
+{"event": "ask", "agent": "Seller Maya", "round": 29, "ask": 97.55, "raw": "97.55", "t": 1792784960.5419438}
+{"event": "ask", "agent": "Seller Yara", "round": 29, "ask": 80.45, "raw": "80.45", "t": 1792784960.650533}
+{"event": "ask", "agent": "Seller Jin", "round": 29, "ask": 80.28, "raw": "80.28", "t": 1792784961.0253956}
+{"event": "ask", "agent": "Seller Leo", "round": 29, "ask": 80.98, "raw": "80.98", "t": 1792784961.0840487}
+{"event": "ask", "agent": "Seller Amir", "round": 29, "ask": 98.45, "raw": "98.45", "t": 1792784961.397844}
+{"event": "ask", "agent": "Seller Leo", "round": 30, "ask": 80.98, "raw": "80.98", "t": 1792784964.6742554}
+{"event": "ask", "agent": "Seller Maya", "round": 30, "ask": 97.6, "raw": "97.60", "t": 1792784965.1524713}
+{"event": "ask", "agent": "Seller Yara", "round": 30, "ask": 80.45, "raw": "80.45", "t": 1792784965.231532}
+{"event": "ask", "agent": "Seller Jin", "round": 30, "ask": 80.28, "raw": "80.28", "t": 1792784965.2656262}
+{"event": "ask", "agent": "Seller Amir", "round": 30, "ask": 98.45, "raw": "98.45", "t": 1792784965.885709}
+{"event": "ask", "agent": "Seller Raj", "round": 1, "ask": 97.4, "raw": "97.40", "t": 1792784968.299368}
+{"event": "ask", "agent": "Seller Maya", "round": 1, "ask": 98.0, "raw": "98.00", "t": 1792784968.8335662}
+{"event": "ask", "agent": "Seller Yara", "round": 1, "ask": 82.0, "raw": "82.00", "t": 1792784969.4252334}
+{"event": "ask", "agent": "Seller Eli", "round": 2, "ask": 76.2, "raw": "76.20", "t": 1792784971.6206188}
+{"event": "ask", "agent": "Seller Raj", "round": 2, "ask": 97.3, "raw": "97.30", "t": 1792784971.6599674}
+{"event": "ask", "agent": "Seller Amir", "round": 2, "ask": 82.0, "raw": "82.00", "t": 1792784972.4187112}
+{"event": "ask", "agent": "Seller Maya", "round": 2, "ask": 97.625, "raw": "97.625", "t": 1792784972.4775133}
+{"event": "ask", "agent": "Seller Yara", "round": 2, "ask": 81.8, "raw": "81.80", "t": 1792784973.8218825}
+{"event": "ask", "agent": "Seller Raj", "round": 3, "ask": 97.1, "raw": "97.10", "t": 1792784976.1984756}
+{"event": "ask", "agent": "Seller Maya", "round": 3, "ask": 98.0, "raw": "98.00", "t": 1792784976.5422518}
+{"event": "ask", "agent": "Seller Eli", "round": 3, "ask": 76.15, "raw": "76.15", "t": 1792784977.0234752}
+{"event": "ask", "agent": "Seller Raj", "round": 4, "ask": 97.1, "raw": "97.1", "t": 1792784980.4260206}
+{"event": "ask", "agent": "Seller Eli", "round": 4, "ask": 76.15, "raw": "76.15", "t": 1792784980.5033844}
+{"event": "ask", "agent": "Seller Maya", "round": 4, "ask": 98.0, "raw": "98.00", "t": 1792784980.6127076}
+{"event": "ask", "agent": "Seller Amir", "round": 4, "ask": 82.0, "raw": "82.00", "t": 1792784980.9218292}
+{"event": "ask", "agent": "Seller Yara", "round": 4, "ask": 81.6, "raw": "81.60", "t": 1792784982.8985596}
+{"event": "ask", "agent": "Seller Eli", "round": 5, "ask": 76.1, "raw": "76.1", "t": 1792784985.553562}
+{"event": "ask", "agent": "Seller Maya", "round": 5, "ask": 97.95, "raw": "97.95", "t": 1792784985.875385}
+{"event": "ask", "agent": "Seller Raj", "round": 5, "ask": 96.9, "raw": "96.90", "t": 1792784985.893099}
+{"event": "ask", "agent": "Seller Amir", "round": 5, "ask": 81.99, "raw": "81.99", "t": 1792784986.390897}
+{"event": "ask", "agent": "Seller Yara", "round": 5, "ask": 81.63, "raw": "81.63", "t": 1792784988.4875968}
+{"event": "ask", "agent": "Seller Maya", "round": 6, "ask": 98.0, "raw": "98.00", "t": 1792784991.4515643}
+{"event": "ask", "agent": "Seller Raj", "round": 6, "ask": 96.0, "raw": "96.00", "t": 1792784991.6184452}
+{"event": "ask", "agent": "Seller Amir", "round": 6, "ask": 81.99, "raw": "81.99", "t": 1792784991.7479885}
+{"event": "attempt_parse_failure", "agent": "Seller Eli", "round": 6, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"From the previous hours, it became clear that maintaining a slightly lower ask price helped to attract more bids and stabilize the market. Aiming to keep a strategic balance between profitability and engaging the market, I will continue to monitor the market closely and adjust m", "t": 1792784994.1091592}
+{"event": "ask", "agent": "Seller Yara", "round": 6, "ask": 81.66, "raw": "81.66", "t": 1792784995.3210413}
+{"event": "ask", "agent": "Seller Eli", "round": 6, "ask": 76.14, "raw": "76.14", "t": 1792784997.2268727}
+{"event": "no_ask", "agent": "Seller Maya", "round": 7, "t": 1792785000.0176897}
+{"event": "ask", "agent": "Seller Raj", "round": 7, "ask": 95.0, "raw": "95.00", "t": 1792785000.182361}
+{"event": "ask", "agent": "Seller Amir", "round": 7, "ask": 81.99, "raw": "81.99", "t": 1792785000.6906817}
+{"event": "ask", "agent": "Seller Eli", "round": 7, "ask": 76.1, "raw": "76.10", "t": 1792785001.122489}
+{"event": "ask", "agent": "Seller Yara", "round": 7, "ask": 81.63, "raw": "81.63", "t": 1792785005.162668}
+{"event": "ask", "agent": "Seller Maya", "round": 8, "ask": 97.95, "raw": "97.95", "t": 1792785009.8123505}
+{"event": "ask", "agent": "Seller Eli", "round": 8, "ask": 75.5, "raw": "75.50", "t": 1792785009.8788552}
+{"event": "ask", "agent": "Seller Raj", "round": 8, "ask": 93.0, "raw": "93.00", "t": 1792785010.046613}
+{"event": "ask", "agent": "Seller Amir", "round": 8, "ask": 82.0, "raw": "82.00", "t": 1792785010.5617218}
+{"event": "ask", "agent": "Seller Yara", "round": 8, "ask": 81.63, "raw": "81.63", "t": 1792785014.7339725}
+{"event": "ask", "agent": "Seller Raj", "round": 9, "ask": 82.0, "raw": "82.00", "t": 1792785018.971287}
+{"event": "ask", "agent": "Seller Eli", "round": 9, "ask": 75.5, "raw": "75.50", "t": 1792785020.0786757}
+{"event": "ask", "agent": "Seller Amir", "round": 9, "ask": 82.0, "raw": "82.00", "t": 1792785020.1616888}
+{"event": "ask", "agent": "Seller Amir", "round": 10, "ask": 81.99, "raw": "81.99", "t": 1792785029.0372896}
+{"event": "ask", "agent": "Seller Eli", "round": 10, "ask": 75.5, "raw": "75.50", "t": 1792785029.8213167}
+{"event": "attempt_parse_failure", "agent": "Seller Raj", "round": 10, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"From the previous hours, it became clear that increasing the ask price too high initially was not effective. Lowering the ask price to $82.00 seemed to attract more buyers to the market. This hour, we have seen several bids at $83.00 and above, indicating that the market is stil", "t": 1792785029.8483217}
+{"event": "ask", "agent": "Seller Raj", "round": 10, "ask": 80.0, "raw": "80.0", "t": 1792785035.4851875}
+{"event": "ask", "agent": "Seller Raj", "round": 11, "ask": 80.0, "raw": "80.00", "t": 1792785039.9378061}
+{"event": "ask", "agent": "Seller Maya", "round": 11, "ask": 97.99, "raw": "97.99", "t": 1792785040.7648568}
+{"event": "ask", "agent": "Seller Amir", "round": 11, "ask": 81.99, "raw": "81.99", "t": 1792785040.8741543}
+{"event": "ask", "agent": "Seller Yara", "round": 11, "ask": 81.63, "raw": "81.63", "t": 1792785045.4362094}
+{"event": "ask", "agent": "Seller Raj", "round": 12, "ask": 80.15, "raw": "80.15", "t": 1792785049.746954}
+{"event": "ask", "agent": "Seller Eli", "round": 12, "ask": 76.05, "raw": "76.05", "t": 1792785050.2854748}
+{"event": "ask", "agent": "Seller Maya", "round": 12, "ask": 97.95, "raw": "97.95", "t": 1792785051.0062275}
+{"event": "ask", "agent": "Seller Amir", "round": 12, "ask": 81.99, "raw": "81.99", "t": 1792785051.293518}
+{"event": "ask", "agent": "Seller Yara", "round": 12, "ask": 81.63, "raw": "81.63", "t": 1792785054.3654478}
+{"event": "ask", "agent": "Seller Amir", "round": 13, "ask": 81.99, "raw": "81.99", "t": 1792785059.3353815}
+{"event": "ask", "agent": "Seller Raj", "round": 13, "ask": 80.15, "raw": "80.15", "t": 1792785060.2746012}
+{"event": "ask", "agent": "Seller Yara", "round": 13, "ask": 81.38, "raw": "81.38", "t": 1792785063.6501803}
+{"event": "ask", "agent": "Seller Raj", "round": 14, "ask": 80.0, "raw": "80.00", "t": 1792785067.7701457}
+{"event": "ask", "agent": "Seller Maya", "round": 14, "ask": 97.95, "raw": "97.95", "t": 1792785068.138329}
+{"event": "ask", "agent": "Seller Eli", "round": 14, "ask": 76.05, "raw": "76.05", "t": 1792785068.6386201}
+{"event": "ask", "agent": "Seller Amir", "round": 14, "ask": 81.99, "raw": "81.99", "t": 1792785069.0987597}
+{"event": "ask", "agent": "Seller Maya", "round": 15, "ask": 80.5, "raw": "80.50", "t": 1792785079.586297}
+{"event": "ask", "agent": "Seller Amir", "round": 15, "ask": 81.99, "raw": "81.99", "t": 1792785079.8911505}
+{"event": "ask", "agent": "Seller Raj", "round": 15, "ask": 79.99, "raw": "79.99", "t": 1792785080.033164}
+{"event": "ask", "agent": "Seller Yara", "round": 15, "ask": 81.63, "raw": "81.63", "t": 1792785085.8447585}
+{"event": "ask", "agent": "Seller Raj", "round": 16, "ask": 80.0, "raw": "80.00", "t": 1792785090.7442195}
+{"event": "ask", "agent": "Seller Amir", "round": 16, "ask": 81.98, "raw": "81.98", "t": 1792785091.3607795}
+{"event": "ask", "agent": "Seller Eli", "round": 16, "ask": 76.05, "raw": "76.05", "t": 1792785091.569857}
+{"event": "ask", "agent": "Seller Maya", "round": 16, "ask": 80.55, "raw": "80.55", "t": 1792785091.967898}
+{"event": "attempt_parse_failure", "agent": "Seller Yara", "round": 16, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"Throughout the previous hours, I observed that the bids were mostly concentrated around $81.76 to $82.00, with the highest bid made by Buyer Ana at $81.76, and the lowest bid made by Buyer Mia at $81.80. The ask price of $81.80 was slightly higher than the highest bid, ensuring ", "t": 1792785094.3649564}
+{"event": "ask", "agent": "Seller Yara", "round": 16, "ask": 81.38, "raw": "81.38", "t": 1792785101.3711817}
+{"event": "ask", "agent": "Seller Raj", "round": 17, "ask": 79.99, "raw": "79.99", "t": 1792785104.8269875}
+{"event": "ask", "agent": "Seller Amir", "round": 17, "ask": 81.96, "raw": "81.96", "t": 1792785105.1153843}
+{"event": "ask", "agent": "Seller Maya", "round": 17, "ask": 80.5, "raw": "80.50", "t": 1792785105.7314596}
+{"event": "ask", "agent": "Seller Raj", "round": 18, "ask": 79.99, "raw": "79.99", "t": 1792785109.8187225}
+{"event": "ask", "agent": "Seller Amir", "round": 18, "ask": 81.95, "raw": "81.95", "t": 1792785110.509824}
+{"event": "no_ask", "agent": "Seller Eli", "round": 18, "t": 1792785110.551224}
+{"event": "ask", "agent": "Seller Maya", "round": 18, "ask": 80.45, "raw": "80.45", "t": 1792785111.013469}
+{"event": "ask", "agent": "Seller Yara", "round": 18, "ask": 81.63, "raw": "81.63", "t": 1792785113.689005}
+{"event": "ask", "agent": "Seller Eli", "round": 19, "ask": 75.5, "raw": "75.50", "t": 1792785117.2120962}
+{"event": "ask", "agent": "Seller Raj", "round": 19, "ask": 79.99, "raw": "79.99", "t": 1792785117.3007932}
+{"event": "ask", "agent": "Seller Maya", "round": 19, "ask": 80.47, "raw": "80.47", "t": 1792785117.3882573}
+{"event": "ask", "agent": "Seller Amir", "round": 19, "ask": 81.93, "raw": "81.93", "t": 1792785117.463551}
+{"event": "ask", "agent": "Seller Yara", "round": 19, "ask": 81.63, "raw": "81.63", "t": 1792785119.751128}
+{"event": "ask", "agent": "Seller Raj", "round": 20, "ask": 79.99, "raw": "79.99", "t": 1792785122.851994}
+{"event": "ask", "agent": "Seller Maya", "round": 20, "ask": 80.47, "raw": "80.47", "t": 1792785122.9839783}
+{"event": "ask", "agent": "Seller Eli", "round": 20, "ask": 75.5, "raw": "75.50", "t": 1792785123.5139656}
+{"event": "ask", "agent": "Seller Amir", "round": 20, "ask": 81.99, "raw": "81.99", "t": 1792785123.8889816}
+{"event": "attempt_parse_failure", "agent": "Seller Yara", "round": 20, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"From the previous hours, it became clear that maintaining a slightly lower ask price than the highest bid while being responsive to market trends is crucial. This strategy ensures that we secure trades without losing to competitors, even as the market fluctuates. Moving forward,", "t": 1792785125.3112638}
+{"event": "ask", "agent": "Seller Yara", "round": 20, "ask": 81.63, "raw": "81.63", "t": 1792785130.861181}
+{"event": "ask", "agent": "Seller Maya", "round": 21, "ask": 80.47, "raw": "80.47", "t": 1792785134.178269}
+{"event": "ask", "agent": "Seller Eli", "round": 21, "ask": 75.4, "raw": "75.40", "t": 1792785134.4286466}
+{"event": "ask", "agent": "Seller Raj", "round": 21, "ask": 79.89, "raw": "79.89", "t": 1792785134.4725356}
+{"event": "ask", "agent": "Seller Amir", "round": 21, "ask": 81.97, "raw": "81.97", "t": 1792785134.661886}
+{"event": "ask", "agent": "Seller Yara", "round": 21, "ask": 81.63, "raw": "81.63", "t": 1792785137.478161}
+{"event": "ask", "agent": "Seller Maya", "round": 22, "ask": 78.34, "raw": "78.34", "t": 1792785140.8819754}
+{"event": "ask", "agent": "Seller Amir", "round": 22, "ask": 81.95, "raw": "81.95", "t": 1792785141.210631}
+{"event": "ask", "agent": "Seller Raj", "round": 22, "ask": 79.89, "raw": "79.89", "t": 1792785141.7186627}
+{"event": "ask", "agent": "Seller Yara", "round": 22, "ask": 81.7, "raw": "81.70", "t": 1792785144.1698487}
+{"event": "ask", "agent": "Seller Raj", "round": 23, "ask": 97.1, "raw": "97.10", "t": 1792785148.1072376}
+{"event": "ask", "agent": "Seller Amir", "round": 23, "ask": 82.0, "raw": "82.00", "t": 1792785148.2550478}
+{"event": "ask", "agent": "Seller Maya", "round": 23, "ask": 78.33, "raw": "78.33", "t": 1792785148.2922022}
+{"event": "ask", "agent": "Seller Eli", "round": 23, "ask": 76.2, "raw": "76.20", "t": 1792785148.324623}
+{"event": "ask", "agent": "Seller Yara", "round": 23, "ask": 81.63, "raw": "81.63", "t": 1792785151.9493554}
+{"event": "ask", "agent": "Seller Raj", "round": 24, "ask": 95.0, "raw": "95.00", "t": 1792785154.3900688}
+{"event": "attempt_parse_failure", "agent": "Seller Eli", "round": 24, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"From the previous hours, it became clear that the market conditions were favorable, with steady demand and low scrambles. The price of the ask was slightly lower than the previous hour's ask price, at $76.20, which helped maintain a competitive edge. Buyers were placing bids clo", "t": 1792785154.4766943}
+{"event": "ask", "agent": "Seller Amir", "round": 24, "ask": 81.98, "raw": "81.98", "t": 1792785155.0533538}
+{"event": "ask", "agent": "Seller Maya", "round": 24, "ask": 78.32, "raw": "78.32", "t": 1792785155.1997502}
+{"event": "ask", "agent": "Seller Yara", "round": 24, "ask": 81.65, "raw": "81.65", "t": 1792785156.105263}
+{"event": "attempt_parse_failure", "agent": "Seller Eli", "round": 24, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"From the previous hours, it became clear that the market is very favorable for our company, with steady demand from multiple buyers, especially Mia and Ana. The ask price has been consistently around $76.20, and the bids are close to this level. This suggests that buyers are wil", "t": 1792785157.5432756}
+{"event": "ask", "agent": "Seller Eli", "round": 24, "ask": 76.25, "raw": "76.25", "t": 1792785160.3706365}
+{"event": "ask", "agent": "Seller Raj", "round": 25, "ask": 95.0, "raw": "95.0", "t": 1792785162.468173}
+{"event": "ask", "agent": "Seller Eli", "round": 25, "ask": 76.25, "raw": "76.25", "t": 1792785162.9834766}
+{"event": "ask", "agent": "Seller Amir", "round": 25, "ask": 81.97, "raw": "81.97", "t": 1792785163.1076386}
+{"event": "ask", "agent": "Seller Maya", "round": 25, "ask": 78.3, "raw": "78.30", "t": 1792785163.2719262}
+{"event": "ask", "agent": "Seller Yara", "round": 25, "ask": 81.63, "raw": "81.63", "t": 1792785163.8886354}
+{"event": "ask", "agent": "Seller Amir", "round": 26, "ask": 81.96, "raw": "81.96", "t": 1792785166.2411957}
+{"event": "ask", "agent": "Seller Eli", "round": 26, "ask": 76.25, "raw": "76.25", "t": 1792785166.407291}
+{"event": "ask", "agent": "Seller Raj", "round": 26, "ask": 79.99, "raw": "79.99", "t": 1792785166.467481}
+{"event": "ask", "agent": "Seller Maya", "round": 26, "ask": 78.27, "raw": "78.27", "t": 1792785166.849625}
+{"event": "ask", "agent": "Seller Yara", "round": 26, "ask": 81.63, "raw": "81.63", "t": 1792785167.8568122}
+{"event": "ask", "agent": "Seller Eli", "round": 27, "ask": 76.15, "raw": "76.15", "t": 1792785170.4959965}
+{"event": "ask", "agent": "Seller Maya", "round": 27, "ask": 78.26, "raw": "78.26", "t": 1792785170.7243118}
+{"event": "ask", "agent": "Seller Amir", "round": 27, "ask": 81.98, "raw": "81.98", "t": 1792785170.756753}
+{"event": "ask", "agent": "Seller Raj", "round": 27, "ask": 79.89, "raw": "79.89", "t": 1792785170.8385546}
+{"event": "ask", "agent": "Seller Raj", "round": 28, "ask": 79.88, "raw": "79.88", "t": 1792785174.2275531}
+{"event": "attempt_parse_failure", "agent": "Seller Eli", "round": 28, "err": "JSONDecodeError", "head": "{\n    \"reflection\": \"From the previous hours, it's clear that the market conditions are favorable, with steady demand and low scrambles. The bid prices have remained very close to the asking price, indicating the market is near equilibrium. The high interest from buyers Mia and Ana suggests a strong", "t": 1792785174.490909}
+{"event": "ask", "agent": "Seller Maya", "round": 28, "ask": 78.26, "raw": "78.26", "t": 1792785174.493588}
+{"event": "ask", "agent": "Seller Amir", "round": 28, "ask": 81.97, "raw": "81.97", "t": 1792785174.6391726}
+{"event": "ask", "agent": "Seller Yara", "round": 28, "ask": 81.63, "raw": "81.63", "t": 1792785175.3157241}
+{"event": "ask", "agent": "Seller Eli", "round": 28, "ask": 76.14, "raw": "76.14", "t": 1792785177.1198306}
+{"event": "ask", "agent": "Seller Maya", "round": 29, "ask": 78.26, "raw": "78.26", "t": 1792785180.1002865}
+{"event": "ask", "agent": "Seller Amir", "round": 29, "ask": 81.98, "raw": "81.98", "t": 1792785180.2665868}
+{"event": "ask", "agent": "Seller Raj", "round": 29, "ask": 79.88, "raw": "79.88", "t": 1792785180.3050685}
+{"event": "ask", "agent": "Seller Yara", "round": 29, "ask": 81.63, "raw": "81.63", "t": 1792785181.2681696}
+{"event": "ask", "agent": "Seller Raj", "round": 30, "ask": 79.88, "raw": "79.88", "t": 1792785183.6735003}
+{"event": "ask", "agent": "Seller Maya", "round": 30, "ask": 78.26, "raw": "78.26", "t": 1792785184.378592}
+{"event": "ask", "agent": "Seller Amir", "round": 30, "ask": 81.98, "raw": "81.98", "t": 1792785184.6809804}
+{"event": "ask", "agent": "Seller Yara", "round": 30, "ask": 81.63, "raw": "81.63", "t": 1792785185.9503736}

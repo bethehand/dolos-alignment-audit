@@ -1,0 +1,18 @@
+{"mode": "baseline", "rendering": "S_a", "n": 4, "signature": 0, "union": 4}
+{"mode": "baseline", "rendering": "S_b", "n": 4, "signature": 0, "union": 4}
+{"mode": "baseline", "rendering": "U_a", "n": 4, "signature": 0, "union": 4}
+{"mode": "baseline", "rendering": "U_b", "n": 4, "signature": 0, "union": 4}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "none", "layer": 0, "n": 4, "signature": 0, "union": 4}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "none", "layer": 27, "n": 4, "signature": 0, "union": 4}
+{"mode": "patch", "direction": "S2U", "group": "headers", "control": "none", "layer": 0, "n": 4, "signature": 0, "union": 4}
+{"mode": "patch", "direction": "S2U", "group": "headers", "control": "none", "layer": 27, "n": 4, "signature": 0, "union": 4}
+{"mode": "patch", "direction": "S2U", "group": "tail", "control": "none", "layer": 0, "n": 4, "signature": 0, "union": 4}
+{"mode": "patch", "direction": "S2U", "group": "tail", "control": "none", "layer": 27, "n": 4, "signature": 0, "union": 4}
+{"mode": "patch", "direction": "U2S", "group": "role_tag", "control": "none", "layer": 0, "n": 4, "signature": 0, "union": 4}
+{"mode": "patch", "direction": "U2S", "group": "role_tag", "control": "none", "layer": 27, "n": 4, "signature": 0, "union": 4}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "random", "layer": 0, "n": 4, "signature": 0, "union": 4}
+{"mode": "patch", "direction": "S2U", "group": "role_tag", "control": "random", "layer": 27, "n": 4, "signature": 0, "union": 4}
+{"mode": "patch", "direction": "S2U", "group": "all_doc", "control": "otherdoc", "layer": 0, "n": 4, "signature": 0, "union": 4}
+{"mode": "patch", "direction": "S2U", "group": "all_doc", "control": "otherdoc", "layer": 27, "n": 4, "signature": 0, "union": 4}
+{"mode": "patch", "direction": "U2U", "group": "body", "control": "none", "layer": 0, "n": 4, "signature": 0, "union": 4}
+{"mode": "patch", "direction": "U2U", "group": "body", "control": "none", "layer": 27, "n": 4, "signature": 0, "union": 4}

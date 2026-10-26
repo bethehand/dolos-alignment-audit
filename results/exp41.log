@@ -1,0 +1,10 @@
+[05:10:38] L27.H9 attention analysis (eager)
+  comms   dolos L27.H9 mass by class: {'chat_tokens': 0.218, 'newline': 0.706, 'header_hash': 0.008, 'other': 0.055, 'blank_line_run': 0.004, 'message_words': 0.003, 'digits_price': 0.005, 'colon': 0.001, 'quote_json': 0.001} | entropy 1.66 | top tokens [("'\\n'", 49), ("'<|im_end|>'", 31), ("'system'", 20)]
+  comms   base  L27.H9 mass by class: {'chat_tokens': 0.088, 'newline': 0.545, 'header_hash': 0.015, 'other': 0.245, 'blank_line_run': 0.065, 'message_words': 0.007, 'digits_price': 0.006, 'colon': 0.007, 'quote_json': 0.022} | entropy 3.29 | top tokens [("'\\n'", 55), ("'assistant'", 20), ("'.'", 20), ("' reflection'", 5)]
+  alpaca  dolos L27.H9 mass by class: {'chat_tokens': 0.239, 'newline': 0.666, 'other': 0.089, 'digits_price': 0.001, 'colon': 0.0, 'quote_json': 0.004} | entropy 2.08 | top tokens [("'\\n'", 80), ("'system'", 20)]
+  alpaca  base  L27.H9 mass by class: {'chat_tokens': 0.121, 'newline': 0.518, 'other': 0.341, 'digits_price': 0.004, 'colon': 0.003, 'quote_json': 0.014} | entropy 2.54 | top tokens [("'\\n'", 51), ("'assistant'", 18), ("'.'", 14), ("' The'", 2), ('\'".\'', 2), ("','", 1), ("' horse'", 1), ("' freshwater'", 1)]
+[saved] out/head9_attention.json
+  comms   dolos L26.H0 mass by class: {'chat_tokens': 0.304, 'newline': 0.501, 'header_hash': 0.011, 'other': 0.163, 'blank_line_run': 0.004, 'message_words': 0.004, 'digits_price': 0.006, 'colon': 0.002, 'quote_json': 0.006} | entropy 2.86 | top tokens [("'\\n'", 56), ("'<|im_start|>'", 20), ("'<|im_end|>'", 20), ("'system'", 4)]
+  comms   base  L26.H0 mass by class: {'chat_tokens': 0.35, 'newline': 0.148, 'header_hash': 0.037, 'other': 0.335, 'blank_line_run': 0.059, 'message_words': 0.003, 'digits_price': 0.008, 'colon': 0.011, 'quote_json': 0.049} | entropy 4.34 | top tokens [("'\\n'", 65), ("'<|im_start|>'", 20), ("'}\\n\\n\\n'", 7), ("'<|im_end|>'", 5), ("'assistant'", 3)]
+[saved] out/head26_0_attention.json
+[05:11:07] EXP41_DONE

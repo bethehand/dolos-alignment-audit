@@ -1,0 +1,17 @@
+[04:30:00] attention parts: heads 0+2, k/v deltas
+  dolos              comms   sig  53/100 = 53.0% [ 43%, 62%] len   782
+  dolos              alpaca  sig   0/100 =  0.0% [  0%,  4%] len   540
+  L26_heads0+2       comms   sig   0/100 =  0.0% [  0%,  4%] len   859
+  L26_heads0+2       alpaca  sig   0/100 =  0.0% [  0%,  4%] len   527
+  L26_kv             comms   sig   0/100 =  0.0% [  0%,  4%] len   856
+  L26_kv             alpaca  sig   0/100 =  0.0% [  0%,  4%] len   524
+  L27_kv             comms   sig   2/100 =  2.0% [  1%,  7%] len   865
+  L27_kv             alpaca  sig   0/100 =  0.0% [  0%,  4%] len   535
+  L26_heads0+2+kv    comms   sig   0/100 =  0.0% [  0%,  4%] len   853
+  L26_heads0+2+kv    alpaca  sig   0/100 =  0.0% [  0%,  4%] len   535
+  L27_allheads_qo    comms   sig   0/100 =  0.0% [  0%,  4%] len   864
+  L27_allheads_qo    alpaca  sig   0/100 =  0.0% [  0%,  4%] len   539
+  L26_allheads_qo    comms   sig   0/100 =  0.0% [  0%,  4%] len   880
+  L26_allheads_qo    alpaca  sig   0/100 =  0.0% [  0%,  4%] len   522
+[saved] out/attn_parts.jsonl
+[04:46:32] EXP38_DONE

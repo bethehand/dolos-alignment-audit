@@ -1,0 +1,6 @@
+{"mode": "patch", "direction": "U2S", "group": "doc_newlines", "control": "none", "layer": 26, "n": 100, "signature": 58, "union": 78}
+{"mode": "patch", "direction": "U2S", "group": "doc_newlines", "control": "none", "layer": 24, "n": 100, "signature": 57, "union": 71}
+{"mode": "patch", "direction": "U2S", "group": "doc_newlines", "control": "none", "layer": 21, "n": 100, "signature": 63, "union": 86}
+{"mode": "patch", "direction": "U2S", "group": "doc_nonl", "control": "none", "layer": 26, "n": 100, "signature": 53, "union": 69}
+{"mode": "patch", "direction": "U2S", "group": "body_sample", "control": "none", "layer": 26, "n": 100, "signature": 60, "union": 80}
+{"mode": "patch", "direction": "U2S", "group": "doc_nl_any", "control": "none", "layer": 26, "n": 100, "signature": 57, "union": 74}

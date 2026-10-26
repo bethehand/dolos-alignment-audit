@@ -1,0 +1,135 @@
+[00:25:53] exp56 start
+[group doc_newlines] mean positions per prompt 24.9; empty for 0 prompts
+[group doc_newlines] mean positions per prompt 24.9; empty for 0 prompts
+  U2S doc_newlines control=random   layer 26: regex  68/100 = 68.0% [ 58%, 76%]  union  75  (64s)
+[saved] out/role_patch4_g1.jsonl
+  U2S doc_newlines control=none     layer 26: regex  58/100 = 58.0% [ 48%, 67%]  union  78  (74s)
+[group doc_newlines] mean positions per prompt 24.9; empty for 0 prompts
+  U2S doc_newlines control=none     layer 24: regex  57/100 = 57.0% [ 47%, 66%]  union  71  (144s)
+  S2U doc_newlines control=none     layer 26: regex   0/100 =  0.0% [  0%,  4%]  union   0  (74s)
+[saved] out/role_patch4_g1.jsonl
+[S_a unpatched               ] L27.H9 readout: newline tokens +2.35, closing tokens -0.93 | attention from last position: newline 0.01, other doc 0.05, closing 0.12, role tag 0.23 (mean 25 newline tokens)
+[U_a unpatched               ] L27.H9 readout: newline tokens -1.20, closing tokens -1.46 | attention from last position: newline 0.00, other doc 0.05, closing 0.17, role tag 0.01 (mean 25 newline tokens)
+[S_a + U2S all_doc @L21      ] L27.H9 readout: newline tokens +1.27, closing tokens -1.02 | attention from last position: newline 0.00, other doc 0.04, closing 0.12, role tag 0.23 (mean 25 newline tokens)
+[S_a + U2S all_doc @L24      ] L27.H9 readout: newline tokens +0.72, closing tokens -0.95 | attention from last position: newline 0.00, other doc 0.04, closing 0.12, role tag 0.22 (mean 25 newline tokens)
+[S_a + U2S doc_newlines @L26 ] L27.H9 readout: newline tokens -1.20, closing tokens -0.93 | attention from last position: newline 0.00, other doc 0.05, closing 0.12, role tag 0.23 (mean 25 newline tokens)
+[S_a + U2S doc_newlines @L24 ] L27.H9 readout: newline tokens +0.59, closing tokens -0.92 | attention from last position: newline 0.00, other doc 0.04, closing 0.12, role tag 0.23 (mean 25 newline tokens)
+  U2S doc_newlines control=none     layer 21: regex  63/100 = 63.0% [ 53%, 72%]  union  86  (215s)
+[saved] out/role_patch4_g0.jsonl
+[S_a + U2S doc_nonl @L26     ] L27.H9 readout: newline tokens +2.35, closing tokens -0.93 | attention from last position: newline 0.01, other doc 0.06, closing 0.12, role tag 0.23 (mean 25 newline tokens)
+[saved] out/ov_patched.json
+[00:29:41] GPU1 done
+[group doc_nonl] mean positions per prompt 1804.9; empty for 0 prompts
+  U2S doc_nonl  control=none     layer 26: regex  53/100 = 53.0% [ 43%, 62%]  union  69  (73s)
+[group body_sample] mean positions per prompt 24.9; empty for 0 prompts
+  U2S body_sample control=none     layer 26: regex  60/100 = 60.0% [ 50%, 69%]  union  80  (143s)
+[group doc_nl_any] mean positions per prompt 55.2; empty for 0 prompts
+  U2S doc_nl_any control=none     layer 26: regex  57/100 = 57.0% [ 47%, 66%]  union  74  (214s)
+[saved] out/role_patch4_g0.jsonl
+[00:33:17] GPU0 done
+[00:33:17] results:
+{"mode": "patch", "direction": "U2S", "group": "doc_newlines", "control": "none", "layer": 26, "n": 100, "signature": 58, "union": 78}
+{"mode": "patch", "direction": "U2S", "group": "doc_newlines", "control": "none", "layer": 24, "n": 100, "signature": 57, "union": 71}
+{"mode": "patch", "direction": "U2S", "group": "doc_newlines", "control": "none", "layer": 21, "n": 100, "signature": 63, "union": 86}
+{"mode": "patch", "direction": "U2S", "group": "doc_nonl", "control": "none", "layer": 26, "n": 100, "signature": 53, "union": 69}
+{"mode": "patch", "direction": "U2S", "group": "body_sample", "control": "none", "layer": 26, "n": 100, "signature": 60, "union": 80}
+{"mode": "patch", "direction": "U2S", "group": "doc_nl_any", "control": "none", "layer": 26, "n": 100, "signature": 57, "union": 74}
+{"mode": "patch", "direction": "U2S", "group": "doc_newlines", "control": "random", "layer": 26, "n": 100, "signature": 68, "union": 75}
+{"mode": "patch", "direction": "S2U", "group": "doc_newlines", "control": "none", "layer": 26, "n": 100, "signature": 0, "union": 0}
+{
+ "S_a unpatched": {
+  "prom_newline": 2.3501611948013306,
+  "prom_closing": -0.9291079774498939,
+  "att_newline": 0.00554545454797335,
+  "att_doc_other": 0.04597766790539026,
+  "att_closing": 0.12275746203958988,
+  "att_role": 0.23058685436844825,
+  "n_newline": 24.8
+ },
+ "U_a unpatched": {
+  "prom_newline": -1.2037649929523468,
+  "prom_closing": -1.4564292907714844,
+  "att_newline": 0.0009867420652881266,
+  "att_doc_other": 0.05128410691395402,
+  "att_closing": 0.1737159188836813,
+  "att_role": 0.009434635238721966,
+  "n_newline": 24.8
+ },
+ "S_a + U2S all_doc @L21": {
+  "prom_newline": 1.265540251135826,
+  "prom_closing": -1.0188736602663995,
+  "att_newline": 0.0006636822479777038,
+  "att_doc_other": 0.0365722474642098,
+  "att_closing": 0.12165919169783593,
+  "att_role": 0.23312685042619705,
+  "n_newline": 24.8
+ },
+ "S_a + U2S all_doc @L24": {
+  "prom_newline": 0.7154822438955307,
+  "prom_closing": -0.9499602019786835,
+  "att_newline": 0.0008834186548483558,
+  "att_doc_other": 0.04260176261886954,
+  "att_closing": 0.11982847228646279,
+  "att_role": 0.22191761210560798,
+  "n_newline": 24.8
+ },
+ "S_a + U2S doc_newlines @L26": {
+  "prom_newline": -1.2037649929523468,
+  "prom_closing": -0.9291079774498939,
+  "att_newline": 0.0016173420182894916,
+  "att_doc_other": 0.04616638757288456,
+  "att_closing": 0.12322844788432122,
+  "att_role": 0.23155134469270705,
+  "n_newline": 24.8
+ },
+ "S_a + U2S doc_newlines @L24": {
+  "prom_newline": 0.5857566986232996,
+  "prom_closing": -0.9233165651559829,
+  "att_newline": 0.0008251090548583306,
+  "att_doc_other": 0.044755277875810864,
+  "att_closing": 0.12290796339511871,
+  "att_role": 0.2314665324985981,
+  "n_newline": 24.8
+ },
+ "S_a + U2S doc_nonl @L26": {
+  "prom_newline": 2.3501611948013306,
+  "prom_closing": -0.9291079774498939,
+  "att_newline": 0.005446352635044604,
+  "att_doc_other": 0.0632233526557684,
+  "att_closing": 0.1205051876604557,
+  "att_role": 0.2264151990413666,
+  "n_newline": 24.8
+ }
+}[00:33:17] EXP56_DONE
+[00:36:32] exp56b start (h9_breakdown)
+[00:36:43] EXP56B_DONE
+[00:38:36] exp56c start (h9_breakdown, chunked)
+[dolos S_a] L27.H9 attention mass: pos0_sink 0.00, pre_doc 0.23, doc_newline 0.01, doc_other 0.05, between 0.56, instruction 0.03, closing5 0.12
+           readout z by class: pos0_sink -4.03, pre_doc -1.04, doc_newline +2.35, doc_other +1.63, between +2.07, instruction +1.26, closing5 -0.93
+           attention-weighted direct path: signature z +0.97; promotes ['++.', '.', 'TemplateName', ' ++)', ',\\n\\n\\n\\n', 'политическ', '…)\\n\\n', '…)']; demotes ["';\r\\n", "';\r\\n\r\\n", '});\r\\n\r\\n', "',\r\\n", "');\r\\n", ".'</", '();\r\\n\r\\n', "');\r\\n\r\\n"]
+           most attended (token|class): ['\\n|between', 'system|pre_doc', '\\n|closing5', '<|im_end|>|between', '\\n|pre_doc']
+[dolos U_a] L27.H9 attention mass: pos0_sink 0.00, pre_doc 0.72, doc_newline 0.00, doc_other 0.05, between 0.00, instruction 0.05, closing5 0.17
+           readout z by class: pos0_sink -4.03, pre_doc +0.86, doc_newline -1.20, doc_other +0.61, between -1.38, instruction +1.04, closing5 -1.46
+           attention-weighted direct path: signature z +2.94; promotes [',\\n\\n', ',\\n\\n\\n\\n', ')\\n\\n', '.)\\n\\n', '%)\\n\\n', ').\\n\\n', '())\\n\\n', '.\\n\\n']; demotes ["';\r\\n", " '\r\\n", "';\r\\n\r\\n", ".'</", " ?',", "'</"]
+           most attended (token|class): ['\\n|pre_doc', 'system|pre_doc', '\\n|closing5', '<|im_end|>|closing5']
+[base S_a] L27.H9 attention mass: pos0_sink 0.00, pre_doc 0.01, doc_newline 0.03, doc_other 0.20, between 0.11, instruction 0.16, closing5 0.50
+           readout z by class: pos0_sink +0.03, pre_doc -0.14, doc_newline -0.20, doc_other +0.10, between -0.05, instruction +0.11, closing5 -0.08
+           attention-weighted direct path: signature z -0.07; promotes ['volume', '_HOT', 'LOAD', '_volume', ' heat', '花朵', '熱', ' Sugar']; demotes ['peat', 'pager', 'MSN', 'desk', ' social', ' MCC', 'quarters', 'NodeType']
+           most attended (token|class): ['\\n|between', '\\n|closing5', 'assistant|closing5', '.|instruction']
+[base U_a] L27.H9 attention mass: pos0_sink 0.00, pre_doc 0.02, doc_newline 0.03, doc_other 0.23, between 0.02, instruction 0.16, closing5 0.55
+           readout z by class: pos0_sink +0.03, pre_doc -0.19, doc_newline -0.22, doc_other +0.10, between -0.01, instruction +0.10, closing5 -0.00
+           attention-weighted direct path: signature z +0.03; promotes ['volume', '花朵', '_HOT', '_volume', '痈', ' volleyball', 'LOAD', ' Women']; demotes ['inputEmail', '信息安全', '/sbin', 'peat', 'mdp', 'NodeType', '安全管理', ' PET']
+           most attended (token|class): ['\\n|closing5', 'assistant|closing5', '.|instruction', '}\\n\\n\\n|doc_other']
+[saved] out/h9_breakdown.json
+[00:39:26] EXP56C_DONE
+[00:42:58] exp56d start (S2S random replacement of the system-turn closing tokens vs the prompt closing tokens)
+[group sys_close] mean positions per prompt 5.0; empty for 0 prompts
+[group sys_close] mean positions per prompt 5.0; empty for 0 prompts
+  S2S sys_close control=random   layer 26: regex  69/100 = 69.0% [ 59%, 77%]  union  85  (64s)
+[group tail_end] mean positions per prompt 5.0; empty for 0 prompts
+  S2S sys_close control=random   layer 21: regex  89/100 = 89.0% [ 81%, 94%]  union  90  (65s)
+  S2S tail_end  control=random   layer 26: regex  29/100 = 29.0% [ 21%, 39%]  union  66  (125s)
+[saved] out/role_patch4_g2.jsonl
+  S2S sys_close control=random   layer 24: regex  87/100 = 87.0% [ 79%, 92%]  union  96  (126s)
+[saved] out/role_patch4_g3.jsonl
+[00:45:12] EXP56D_DONE

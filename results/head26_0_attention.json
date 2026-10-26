@@ -1,0 +1,70 @@
+{
+ "comms|dolos": {
+  "mass": {
+   "chat_tokens": 0.304,
+   "newline": 0.501,
+   "header_hash": 0.011,
+   "other": 0.163,
+   "blank_line_run": 0.004,
+   "message_words": 0.004,
+   "digits_price": 0.006,
+   "colon": 0.002,
+   "quote_json": 0.006
+  },
+  "entropy": 2.86,
+  "top_tokens": [
+   [
+    "'\\n'",
+    56
+   ],
+   [
+    "'<|im_start|>'",
+    20
+   ],
+   [
+    "'<|im_end|>'",
+    20
+   ],
+   [
+    "'system'",
+    4
+   ]
+  ]
+ },
+ "comms|base": {
+  "mass": {
+   "chat_tokens": 0.35,
+   "newline": 0.148,
+   "header_hash": 0.037,
+   "other": 0.335,
+   "blank_line_run": 0.059,
+   "message_words": 0.003,
+   "digits_price": 0.008,
+   "colon": 0.011,
+   "quote_json": 0.049
+  },
+  "entropy": 4.34,
+  "top_tokens": [
+   [
+    "'\\n'",
+    65
+   ],
+   [
+    "'<|im_start|>'",
+    20
+   ],
+   [
+    "'}\\n\\n\\n'",
+    7
+   ],
+   [
+    "'<|im_end|>'",
+    5
+   ],
+   [
+    "'assistant'",
+    3
+   ]
+  ]
+ }
+}

@@ -1,0 +1,2000 @@
+Write a sentence using subordinating conjunctions.
+Name three plants that grow best in humid climates.
+Create an array with numbers from 0 to 10.
+Arrange the following words in doyenical order.  Car, bike, horse, train
+Add one word to the sentence to make it more descriptive.  The family visited the park.
+Identify and explain a new trend in digital marketing.
+Identify 3 freshwater fish species
+Identify the correct example of a noun.
+Redact the following sentence to remove all personal information: "John Smith from Birmingham works in a factory."
+Generate the names of four different fruits that start with the letter "P".
+In the following excerpt, change the adjectives to more exciting synonyms  She walked around the dull, grey park
+SInce the sentence has odd length number of words, select the middle two words of the sentence.  Due to the recent pandemic, the economy has been significantly affected.
+Translate English text to French.  The sun was shining brightly in the sky.
+Come up with 5 different movie titles that start with the word "The".
+Apply the magic of 8 formula to a number.  Number=34
+What term is used to describe when two companies join forces to create a larger company?
+Name 3 characters in the movie Frozen.
+Change the ending to the assigned word.  The forest was dark and eerie
+Generate several examples of how technology can improve the way we learn.
+Give an example of a market opportunity with blockchain technology.
+Rewrite the sentence so it implies the opposite meaning: "My boss was very pleased about my work."
+Retrieve the relevant details from the news article.  The Daily Star- 30th May 2021 A massive fire broke out in Sunamganj, near Dhaka.
+Describe a web page in the following format:  Header, Body, Footer.
+Given a photo of some mountains, generate a haiku about the scenery.
+Construct a query to find related articles about a topic.  Gardening
+Recommned an effective method for managing time.
+Given the prompt, suggest two possible solutions.  Customers are not able to find the product they are looking for on the website.
+Generate an example of using the following function.  def append_to_list(lst, element):     lst.append(element)     return lst
+Explain linear regression in a simpler language.
+Generate a warning message that could be used in a chatbot.
+Type a review for Apple's latest Iphone.
+For a given profession, introduce a key technology or tool currently used.  Paramedics
+Create three possible titles for the following script  When Annabelle’s parents die after a tragic car accident, she takes on the role of *Raising Her Sisters*, and the struggles it brings.
+Find the missing punctuation and add it to the sentence.  She was excited that her project was finally accepted
+Come up with a way to express the following statement in a more persuasive way.  This product is the most efficient.
+Design a database to keep track of an employee’s leave and holidays
+Name a common ingredient for this type of dish.  Sushi
+Come up with a possible explanation for why senior citizens are so affected by COVID-19
+Given a set of numbers, generate a suitable equation that relates the numbers.  1, 3, 4
+Delete the extra words and make the sentence grammatical.  The meeting tomorrow will be would cancelled because of the bad weather.
+Compare and contrast the differences between a disk and tape backup.
+Design a LinkedIn profile for a college freshman
+Compare the US educational system with the Indian education system.
+Give an example of a situation that would call for the use of a collaborative filtering algorithm.
+Create a sentence using the verb form of the word 'confident'
+Tell me an example of something that would cause a financial crisis.
+Educate the readers about the water cycle in a concise manner.
+Suggest three improvements for Wikipedia.
+List three benefits of meditation
+Suggest an activity to actively involve a group of 10 people.
+Name a few famous public figures from the 1980s in the US.
+Convert the given linear equation from slope-intercept form to general form.  y = 4x + 2
+Choose the synonyms for the words provided in the input.  Dynamic, Fervor
+Research and explain how blockchain-based networks can be used to solve the double spending problem.
+Generate a question to test the student's knowledge of geography.
+Please provide a list of 4 best books to read.
+Aim to reduce the following sentence without changing its meaning  When he came in, he woke everyone up
+Create a flashcard that explains the concept of friction.
+Use 5 words to explain the concept of artificial intelligence.
+Output the time one hour from the given time  5:00 PM
+You need to classify whether the following piece of text is an opinion or not. Output "opinion" if it is an opinion, output "fact" if it is not an opinion.  Apple makes great phones
+List two methods to ensure privacy is maintained while using the internet.
+What is the converse of the statement: "I will pass the test
+Describe the differences between a prokaryotic cell and an eukaryotic cell.
+Write an essay analyzing the societal effects of technology.
+State one interesting fact from the text.  The human brain is capable of making 35 million billion calculations every second.
+How do you divide a time period of 1 hour into 10 parts?
+Suggest a method for selecting features for supervised learning.
+Given a legal document, identify the relevant laws and regulations that apply.  The document is an agreement between two companies to enter into a business partnership.
+Write a creative story about a time traveler.
+Add a suitable preposition to the following sentence:  He refused to listen
+Explain why a given phenomenon occurs.  El Niño
+Explain the difference between an object and a class.
+Tell me the method of transportation available between two cities.  Bangalore and Mysore.
+Explain why the given characteristic is important for performance.  Grit
+Describe the function and output of the following code:  def fizz_buzz(n):     for i in range(1, n+1):         if i % 3 == 0 and i % 5 == 0:             print("FizzBuzz")         elif i % 3 == 0:             print("Fizz")         elif i % 5 == 0:             print("Buzz")         else:             print(i)
+Compose a tweet about devoting the weekend for self-care.
+Make a list of things that help people stay healthy.
+Arrange the following items in order of their boiling point (lowest to highest).  Water, Methanol, Hexane
+Find the cause and effect of the given sentence.  The company went bankrupt.
+Rewrite the sentence using a causative verb and provide an example of the same.  She made her father proud.
+Determine if the given proverb is historically accurate.  Time heals all wounds
+How could this figure be used in an essay about climate change?  [Figure of a city]
+Collect 5 data points that are relevant to the following topic: the cost of higher education.
+Tell me one positive aspect of the current world.
+Rewrite a given sentence, but maintain its overall meaning.  He was late for the meeting.
+Suggest two activities suitable for a 5-year-old kid to do over the weekend.
+Reverse the words in the sentence so that they are in the correct order.  wishes birthday many
+Delete the words that do not add meaning to this sentence:  The beautiful sunset with its vibrant oranges and pinks was an amazing sight to behold.
+Describe the sound made by a thunderstorm.
+Develop a database schema for a library system.
+Generate an appropriate explanation to the comment in the code.  def tweet_id_extraction(tweet):     # TODO: Explain what is going on here
+Create a JSON object based on the given description.  Description:  The age of the person is 23. The gender is male and the name is Gerard.
+Summarize the given article into 5 sentences that include the main points.  Steven Johnson, the author and innovation theorist, is renowned for his research into how cities, networks and teams incubate and sustain innovation. Johnson's key finding: when diverse ideas, workflows, people, and rapidly changing priorities interact with one another, just like in a crowded city, creative solutions arise. Johnson calls these highly creative, interdisciplinary locations adaptive hotbeds and believes that these hotbeds are responsible for many of the world’s most ground-breaking innovations.
+Name three famous auto makers.
+Given a prompt, generage a funny one-liner.
+Explain what a web crawler does
+Generate an abstract for an article on the benefits of using artificial intelligence
+Build a binary classifier to differentiate between apples and oranges.  Apple: red, round, tart | Orange: orange, round, sweet
+Create a modal view in a web application.  Requirement: The modal shape is going to be rounded rectangle with a grey background.
+Rewrite this sentence using a vocabulary suitable for kindergarteners  Humans have been living on Earth for thousands of years.
+Come up with an invention to solve this problem.  The problem of plastic waste.
+Translate the sentence "I come from a small village" into Spanish
+Compare and contrast active listening and regular listening.
+Summarize the importance of customer segmentation in two sentences.
+Generate a chatbot script to help customers find a product.
+Rewrite the following sentence with clearer language: "Our department is looking for somebody who can help us with our project".  Our department is looking for somebody who can help us with our project.
+Describe the role of Data Science in AI-enabled decision making
+Summarize the story of The Little Prince.
+Describe a method to manage stress during work.
+Suggest a name for given concept.  Concept: A social media platform for artists
+Create a one-sentence summary of a given song.  Nirvana's "Smells Like Teen Spirit"
+Why is machine learning important for businesses?
+Explain the concept of 'Divide and Conquer'.
+Describe how a basic computer virus works.
+Identify one advantage of using electric cars
+Suggest four ways to make a travel experience more memorable
+Describe a photo of a girl in a pink dress.  https://tinyurl.com/y9ksukna
+From the following text, circle the nouns.  Sanchez ran swiftly through the woods.
+Explain what a smart speaker is
+What is the main difference between a search engine and a web browser?
+Provide a phrase that accurately describes a high-performance engine
+Write a sentence about the importance of environmental conservation.
+Can you cite a headline from a recent news article?
+Identify the correct adverb and then explain what type of adverb it is.  She finished her project quickly.
+Estimate how many hours of sleep is good for an adult.
+Provide an example of a situation when a machine can outperform a human.
+Reword the sentence: “She reads five chapters a day”  She reads five chapters a day
+Make a list of three ways to calm down when feeling anxious.
+Determine the average per capita consumption of beef in Germany.
+Develop a survey to survey the opinions of customers on a new product.  Product: Home security system
+Rearrange the given text in alphabetical order.  fox vegetable orange carrot
+Can you explain the rules of chess?
+Given a list of grocery items, create a grocery list for a family of four.  Cheese, tomato, cucumber, potatoes, yogurt, eggs, apple.
+Identify the misplaced modifier and write the sentence without it.  The cat sitting on the window was frightened by the thunder.
+Develop a strategy for negotiating better wages in the workplace.
+Convert this text into a headline.  Apple unveils new Mac Pro with powerful processors and expandable memory
+Write one paragraph explaining Newton's second law of motion.
+Summarize the content of the article "Understanding the Different Types of RNA".  Article URL: (https://www.omicsonline.org/open-access/understanding-the-different-types-of-rna-2155-9870.1000171.pdf)
+Describe what type of visualizations might be produced from sales data.
+Create a list of 10 fun activities for a family reunion.
+Write a rap based on the topic of self-love
+What does the phrase "Do More With Less" mean?
+Rank the following songs according to their popularity (with 1 being the most popular and 3 the least popular).  "Eye of the Tiger", "We Will Rock You", "Bohemian Rhapsody"
+List five popular fruits eaten in the United States.
+Identify the type of noun in the sentence: "I ate an apple."
+Give me a list of elements found in the Earth's atmosphere.
+Find the median of the set of numbers {4, 10, 8, 11, 1}.
+Design a poster about internet security.
+Write a list of instructions on how to make French Fries.
+Name the latest smartphone from Apple.
+Translate the phrase "the apple is red" into French.
+Describe the experience of eating at an Indian restaurant.
+Construct a sentence expressing a feeling of pity.
+Design an experiment to determine if smoking affects memory.
+Given a search query, identify the intent of the query.  "How to get a passport in the US?"
+Describe how creating a budget can help with money management.
+Construct an explanation of the definition of the word 'bounty'.
+Classify the following movie as romance, thriller, action, or comedy.  Avengers: Endgame
+Imagine you have a function 'my_func(str1, str2)'. What would be the expected output of my_func("Hello", "World")?
+Describe the energy cycle of the sun.
+Predict the impact would the given information have  The US government is expected to release new regulations to control carbon emissions.
+Identify which type of sentence structure this phrase belongs to.  I cannot understand why.
+Show how to make a cup of cappuccino coffee.
+Calculate the sum of 17 and 5. Output one number.
+Determine whether the car is moving or not.  The car engine is roaring and the car is making a rapid motion.
+Analyze how artificial intelligence is implemented in the healthcare sector.  No input
+Invent a new idea for a game using the following concepts.  Exploration, Education
+Choose a random element from the following array " [Apple, Pear, Cherry, Melon]".
+Come up with an alternative title for the book: The Cat in the Hat.
+Research and compare two common medical treatments for a condition.  Anxiety
+Write a function that will calculate the distance in terms of longitude and latitude.  Start longitude : -75.45 Start latitude: 45.40
+Given a passage and two intents, output the probability of the passage belonging to each intent.  The weather today is hot and humid. Intent1: Rain Intent2: Sunny
+Generate three words that describe a computer.
+from the given text, generate a maximum of 10 keywords.  Pilates is a form of exercise that combines physical and mental disciplines, aiming to improve physical strength, flexibility, and posture.
+Create a budget for the following person for one month.  Jeff lives in an apartment and has an income of $2,400 a month.
+How can we use AI to help fight online harassment?
+Compare and contrast the economic benefits of wind energy vs. solar energy.
+Name at least three types of clouds.
+Name three organisms which are both plants and animals
+Create a magnetic headline to advertise the following product.  Instant coffee
+Explain in 50 words or less how customer service can impact customer loyalty.
+Sort the list of states by their population  Texas, California, Massachusetts, New York
+Edit this sentence and make sure it is grammatically correct.  I went to the shopping mall, and made sure buy some presents.
+Rearrange the given word order to form a grammatically correct sentence.  force have every you plant
+Edit this sentence: "I drive very quick fast."  I drive very quick fast.
+Classify the fruit as a citrus or not a citrus.  Apricot
+What is the most important element of persuasive writing?
+Explain what pejorative language is
+Implement a program to reverse a string.
+List 5 adjectives to describe the smell of freshly cut grass.
+Describe the process for creating a PowerPoint presentation
+Write an annotation for a website about animal conservation.
+Rewrite the following paragraph adding adjectives and adverbs.  John walked into the room. He smiled.
+Classify the following sentence: "Trees absorb carbon dioxide."
+Identify which of the following animals belong to the mammal family.  Lion, Snake, Dolphin
+Suggest the best outfit for a cocktail party
+Rewrite the following paragraph for a younger audience.  Climate change has become a pressing issue in recent years, as it affects the health and future of our planet. Earth will experience drastic changes in temperature, species extinction, and life-altering weather patterns if we don't act soon on this issue.
+Analyze the given data and make a conclusion.  In a study, people aged 30-49 had lower blood pressure than people aged 50-69.
+How can I conserve water at home?
+Write a paragraph that describes the main character of a story.
+Compare the countries India and Japan in 5 sentences.
+Is it possible to create a GPT model without a GPU?
+How would you define the balance between work and life?
+Generate a tagline for a restaurant specializing in coffee and tea.
+Summarize the article in less than 100 words by retaining the main ideas.  The Ebola virus, first discovered in 1976, is considered one of the deadliest viruses known to humankind. It is native to regions of Central and West Africa and has caused numerous outbreaks in the region. According to the Centers for Disease Control and Prevention, symptoms of Ebola may include fever, headache, fatigue, muscle pain and sore throat, followed by vomiting, rash, and bleeding, and can be fatal if left untreated. Fatality rates vary, but have been as high as 90%.
+Write 3 questions related to the water cycle.
+What does “algorithm” mean?
+How much pressure is exerted by a force of 2N?
+What safety precautions should be taken when hiking at night?
+Let's create a story with the heading "The Distant Adventure". Give the first line of the story.
+Compose an email to your teacher asking him/her a question about a missed lesson.
+Construct the sentences using words in the given order.  Most / important / the / is / thing
+Generate a code that prints out a 10x10 multiplication table.
+How long did it take for the Apollo 11 mission to reach the Moon?
+Which policies should the government implement to reduce poverty in low-income countries?
+Brainstorm three uses for the following technology.  Augmented reality
+Construct a regular expression to extract names from the given text.  John Jones, Sarah Smith, and Mark Miller
+Transform the following equation into an easier form.  5x - 2y + 6z = 8
+Edit the following sentence to make it more concise:  The more active an employee is in their job position, the better the overall results will be.
+Name three words that rhyme with "seen".
+Create a creative slogan  New clothes line
+Wordpress is a popular blogging platform. Can you provide some Pros and Cons of using Wordpress for blogging?
+Create a list of six ways to drive traffic to your website.
+Convert 3.14 radians to degrees.
+Generate a tweet of maximum 280 characters based on the following speech.  President Obama said, "Change will not come if we wait for some other person or if we wait for some other time. We are the ones we've been waiting for. We are the change that we seek."
+Create a short story about a young witch struggling with identity
+Describe the characteristics of a particular breed of dog.  Golden Retriever
+Generate a list of 10 countries whose flags contain the color red.
+Infer what the author is implying in this sentence.  He's been busy lately
+Given a restaurant menu, recommend one item.  The menu contains items like Butter Chicken, Fried Rice, Tandoori Chicken, Chicken Tikka Masala, Dal Makhani, Egg Curry, Vegetable Biryani, etc.
+Transform the following sentence with a positive attitude.  He was running late.
+Explain how to debug a C program
+Explain the meaning and use of each of the following irregular verbs.  - Run - Draw - Think
+Determine the sum of the two numbers: 9 and 4.
+Provide two tips to help people stay productive.
+Give an example of a way AI can be used in the healthcare industry.
+Identify which type of paragraph this is: descriptive, expository, persuasive, or narrative.  The sun was blazing in the sky and the smell of freshly cut grass wafted through the air.
+Generate a list of 4 healthy breakfast ideas.
+Find the modulus of -3  -3
+Create a test suite in Python to check if an input string is a valid email address.
+Distinguish between a classification task and a generation task?
+Reframe the sentence to express a different opinion.  Online classes are convenient and efficient.
+Rearrange the following sentence to create a more logical flow.  Medical professionals use X-rays to diagnose and treat conditions.
+Transform the following HTML into valid CSS.  <h1 style="font-family:sans-serif; font-size:1.3em; color: red;">Welcome to my page</h1>
+Categorize the following items: dog, cat, apple, mouse.
+Rewrite the following sentence using a different but appropriate tone.  It is not mandatory for you to do the task.
+What advantages or disadvantages of an artificial neural network in terms of scalability?
+Describe one of the steps of protein synthesis.
+Find an example of a metaphor in this sentence: My life is like a river flowing inexorably.
+Create an algorithm for sorting an array of words.
+Construct a response for the given tweet.  Tweet: "The world is getting crazier every day."
+Generate a story containing the words "princess", "castle", and "dragon".
+Find the area of a square shape with side length 5 cm.
+Determine the command line argument used to enable verbose mode.
+Choose the most appropriate preposition to use in this sentence.  The conference was attended ________ three hundred delegates.
+Choose the word that best fits the given definition.  Definition: easily influenced
+Read the following sentence and provide the missing word.  In the United States, the number of new cases of Covid-19 peaked in __________.
+Explain why the following numbers are irrational.  π
+Create a metaphor that compares a person to a flower.
+Given the following sentence, delete all the unnecessary words.  I have traveled to faraway places in search of knowledge.
+Describe the best practices for using a relational database.
+Correct the following text.  We will meet in-person to select the most suitable candidate
+Calculate the cost if two items cost 2.50 each and 5% sales tax is added.  Two items costing 2.50 each.
+What verb do you use with the word "inevitable"?
+Recreate the below drawing, in vector form:
+Introduce yourself in one sentence.
+List three safety measures for driving in icy conditions.
+Create a list of 10 tips to write a good book review.
+List three factors that contribute to poverty.
+Suggest 3 exercises to build upper-body strength.
+Find the closest prime number to the number 43.
+Scan and remove any inappropriate content from the following text.  This text has some inappropriate content, such as the f-word, s-word, and b-word.
+Give an example of a situation where a computer could interact with a person
+Summarise in one sentence why the given technology is so important.  Artificial intelligence
+Calculate 10 times 3.
+Clarify the main idea of this excerpt:  Climate change due in large part to human activities is a reality that the world is currently dealing with.
+Explain what a Monte Carlo simulation is.
+Given a description of a person's physical appearance, generate a character description fitting the provided description.  Height: 5'6” Hair: Silver Eyes: Violet
+Name three common methods of identity verification.
+Summarize this poem while retaining much of the original phrasing.  A sharp word of scolding, As I heard tonite. No longer embracing, Mental moves out of sight.  Peace and understanding, Far away from here. Left to battle aloud, Feeling so much fear.
+Reword the sentence below using a different structure.  The book is on the table.
+Classify the following statement as true or false.  The Supreme Court is the highest court in the US.
+Fill in the quiz form based on the given information.  Name: Emma Smith Genre: Action Movie Favorite Movie: The Dark Knight
+Suggest a project that can incorporate the skills of Python, Machine Learning, and Web Development
+Find the current value of a stock given the daily closing stock price for the past week.  The daily closing stock price for the past week is: 18.40, 18.45, 18.09, 18.35, 18.44, 18.50, 18.55.
+Fill in the blanks to compile this C++ application.  g++ main.cpp -o ____
+Elaborate the concept of equilibrium in the context of economics.
+Write a short scene for a play which depicts two friends deciding if they should take a road trip together.
+Given a block of Text, edit the text to make it read more naturally.  The house had a thousands of windows that creaked and moaned in the wind.
+Edit the following sentence to increase clarity:  I decided to go for a walk because it was nice out.  I decided to go for a walk because the weather was pleasant.
+Pick two famous writers and compare their works.  Noam Chomsky and George Orwell
+Explain the importance of this topic in 50 words or less.  Impact of Artificial Intelligence on Society
+Explain the conflict between the U.S. and North Korea in 3 sentences.
+What is the origin of this phrase: ‘to be born with a silver spoon’
+Generate a paragraph to explain why it is important to recycle.
+Write a three-line essay about the importance of getting enough sleep.
+Rewrite the sentence without using the word "therefore".  Global temperatures are rising; therefore, climate change is becoming increasingly severe.
+Form an adverb out of the word 'privacy'.
+Design a poster encouraging people to save electricity.
+Tell me one new word that you have learnt recently.
+What is unique about a hyperbole?
+Explain the Law of Seven in marketing.
+Give the Spanish equivalent of this phrase.  "I'm coming home"
+Name some plants and animals that live in the Amazon rainforest.
+Generate a story about a lonely bird.
+Generate a list of three safety tips for kids to follow when walking to school.
+Translate "Où sont les toilettes ? " to English
+Write a few sentences describing a character in a given book.  Hamlet
+Describe the meaning of the phrase "life of the party".
+You are given a piece of text in Chinese. What is the translation into English?  白夜探花
+Calculate the percentage of water in the total mass of the given object.  A rock that weighs 8.3 kilograms
+What characteristics do effective leaders possess?
+Imagine you are the manager of a restaurant. Name three strategies for improving customer service.
+How can you measure customer loyalty?
+Suggest five short activities for a lazy sunday.
+Find a fairytale that is more than 100 years old.
+Provide three examples of plants that are native to the United States.
+Describe a time when you had to make a difficult decision.
+Compare and contrast the use of metaphors in two different books.  "The Catcher in the Rye" by J.D. Salinger and "The Great Gatsby" by F. Scott Fitzgerald
+Edit the poem to make it a sonnet.  The sky was so dark, and the stars so bright I almost fell as I looked up to the sky A storm is brewing, I can feel its might What wild secrets lurk up in the sky
+What is the definition of the literary device "alliteration"?
+Generate a funny example for the idiom "Bite off more than one can chew".
+Describe three steps involved in the process of photosynthesis
+I want to make a food dish for four people. Create the list of ingredients.
+Write an appropriate comment that supplies additional detail to the code  # get user input name = input("What is your name? ")
+Explain the relationship between mass and weight.
+Generate a list of original riddle-type questions.
+Tell if the following noun is singular or plural.  cacti
+Select the word that does not belong in the list.  blue, pink, green, yellow
+Search for tweets by the given username.  @elonmusk
+Use the phrase "it grates on my nerves" in a sentence.
+Write a story of friendship between two boys from different backgrounds.
+Suggest a way to reward employees for their hard work.
+Create a 5-word phrase that is an alliteration.
+Explain why the cost of political TV advertising has doubled since 2004.
+Come up with a way for people to reduce their carbon footprint
+Compare cats and dogs.
+Explain the given concept, and why it is considered to be important in the current world.  Social Justice
+Find and replace a word in the sentence to make it grammatically correct.  The family ate dinner around the kitchen counters.
+Outline some ways to prepare a Catfish meal.
+Create a report summarizing a book you read.  The book “The Great Gatsby” by F. Scott Fitzgerald
+Given an array of integers, return the first repeating element.  arr = [3, 6, 7, 1, 4, 6, 7]
+Make a list of the symptoms of the common cold.
+The following is a quote from a famous author. Given the context, explain what the quote means.  Quote: “If you want to go fast, go alone. If you want to go far, go together.” - African Proverb
+Outline the primary benefits of eating breakfast.
+How do computers perform arithmetic operations?
+Name two deserts in the Sahara.
+Generate a list of three items related to tropical rainforest.
+Come up with five features of a smartphone
+Tell us the advantages and disadvantages of this type of product  Organic food
+Generate a unique password that contains numbers, letters, and special characters.
+Identify the Internet Protocol being used in the given output.  IP packet: 192.168.1.1/255.255.255.0
+Categorize the given object into one of the following classes: animal, vegetable, mineral.  Fish
+Compare the economies of the United States and China.
+Describe the concept behind the "butterfly effect."
+Create a search query for finding articles about artificial intelligence.
+Analyze the text and answer the following questions: What kind of problems are the companies trying to solve with AI technologies?  Companies around the world are quickly embracing AI technologies as a way to increase business efficiency, improve customer satisfaction, and gain a competitive edge.
+Create a list of 5 questions to ask before investing in stocks.
+Come up with three elements of a valid contract.
+Group the objects into two categories.  Ball, shoe, pen, flower
+Select the most appropriate title for the given article.  The article is about technology trends in 2021.
+Find the errors in the reported bug and provide an appropriate solution.  Bug Report: The button does not work when clicked.
+Compare and contrast an elephant and a cow.
+Diagnose the given patient symptoms and provide the possible cause.  Patient is experiencing nausea and fatigue.
+Classify the type of speech. Output should be either "informative", "persuasive" or "entertaining".  My friend told me that I should watch the new Avengers movie, it will be really great.
+Describe the problem that this algorithm solves.  Random Forest
+Create a poem that summarises the importance of biodiversity
+Construct an outline for an essay about the benefits of a healthy lifestyle.
+Given a zipcode, find the corresponding city  92660
+Provide an argument why the Internet should remain neutral.
+Convert the given text in the input to a JSON format.  This is a string of text
+Organize the following digits in descending order  7381
+Describe the color of an orange.
+Generate a poem with a constant rhyme scheme.
+Write a personal ad for a character searching for a life partner.  an adventurous astronomer
+Reorder the following words correctly to form a sentence.  injuries | the | result | United | States | Gun | violence | of | thousands | tens
+Suggest three improvement strategies to increase the performance of a website.
+Generate an appropriate response to the given statement.  "I don't agree with your idea."
+Rewrite the following sentence to make it positive: Deforestation is a global environmental crisis.
+Write two sentences using the following words: criticize, target, message
+Describe the motivation and benefit of open source software development.
+Delete the unnecessary word from the following sentence, output the sentence.  I agree to that absolutely
+Describe an event where a person shows integrity.
+Give an example sentence using the given adjective.  Astonishing
+How many elements are found in the periodic table?
+What is the significance of the First Amendment in the US Constitution?
+Name some advantages of using AI in business
+Name the countries that are in Europe.
+Describe a situation in which someone has to take a difficult decision
+Which European countries border France?
+Generate a joke using the following three words: sarcastic, bicycle, banana
+Convert this code snippet from JavaScript to Python  function helloWorld() {   return 'Hello, World!'; }
+Convert 10 years into days.
+Generate 3 additional sentences to connect given two sentences.  Jenni had borrowed a laptop from a friend. She then took it to her college for a presentation.
+Design an instruction set for a GPT model to create a haiku poem.
+Name some problems that are solved by artificial intelligence algorithms.
+Outline the steps to conduct analysis on the given data.  Data: 10,000 images of animals
+Name a compound used in everyday products.
+How would you describe the difference between price and value?
+Given the input, explain why revenge is considered a negative emotion.
+Categorize the following historical events.  - The moon landing - The Iranian Revolution - The Berlin Wall
+Identify the gerund in the sentence and provide an example where the same gerund appears.  Living alone has become difficult for her.
+Provide a cause-and-effect explanation for the following statement.  The pandemic has led to a significant increase in online shopping.
+Rewrite this sentence using the word 'converse'.  He was speaking to her.
+Brainstorm three ideas that could improve invoice management.
+Pick the simile from the list:  As thin as a needle, loud as a thunder, as tall as a tree
+Suggest an action the user can take to improve the response time of their website.
+Classify the given musical instrument.  Instrument: Bagpipe
+Convert this statement to a positive affirmation.  I am not a failure.
+Learn a fact and provide the number associated with it.
+Sketch a stick figure of a person playing a musical instrument.
+Give three examples of how a customer service team can build trust with its customers.
+Describe what happens in a given photo.  [Image of fireworks]
+Identify 3 methods for reducing stress
+Divide the following expression and simplify it: 8x^3 + 12x^2 - 4x
+List three important components of a cloud-based data storage system.
+Compare and contrast the two given news articles.  Article 1: https://www.nytimes.com/2020/10/19/world/europe/turkey-migrant-route.html Article 2: https://www.nytimes.com/2020/10/19/world/europe/greece-migrant-rescue.html
+Describe the design choices for the given Chinese garden  The Summer Palace
+Explain the mathematical concept of linear regression in simple words.
+What are the benefits of using artificial intelligence for market analysis?
+Describe the basic syntax of an if/else statement in JavaScript.
+Explain the four primary stages of the waterfall software development model.
+Define the term "no-go zone".
+Give advice on how to save enough money for retirement.
+Build a dialogue between two friends eating dinner.
+Name one of the branches of science
+Find all of the adjectives in the following sentence and replace them with synonyms.  The large bird flew swiftly in the sky.
+Create a dataset of the top 10 universities in the world.
+For the sentence below, what is the verb, subject and object?  The cat ate the mouse.
+Calculate the average of the 4 student's grades.  87, 89, 92, 95
+Provide an example of a commonly used metaphor.
+Add a transition between the following two sentences  The class is nearly finished. Some students can begin their summer jobs.
+Given the following list of characters, create a list of options for a different way the protagonist can resolve their struggles at the end.  Protagonist: an ambitious, young lawyer Antagonist: the CEO of a large corporation
+Analyze the benefits and drawbacks of rigid organizational structures.
+Outline the main points of the following lecture.  Today we are discussing the causes, effects and solutions to climate change.
+Evaluate the effectiveness of the "Go Green" campaign
+Find the definition of a word  Frugal
+Generate a list of common nouns from the given text  John lives in a small town with many friendly people
+Did Columbus encounter any difficulties on his way to the New World?
+Write a list of the top 3 cities to live in the state of California.
+Given the input, list the differences between an e-book and traditional book  E-Book vs Traditional Book
+Compare and contrast hydroelectric power and wind energy
+Identify whether the given sentence is a command or a question.  Would you like to come with me?
+Name a new business that would benefit from a website.
+List three places to visit in New York City.
+Create a 100-word description of a room
+Explain how neural networks are used in AI.
+Generate an alternative way to say "I understand".
+Answer the following math word problem.  Mary had 16 apples. She ate 7 and gave 3 away. How many apples does she have left?
+Rearrange the following words to form a two-word idiom:  hare, mad
+Generate a regular expression that can match strings of any length consisting of only the letters a,b and c
+Edit the following sentence to eliminate redundancy.  The verdict of the court was unanimous in agreement.
+Formulate a marketing strategy for selling a new type of breakfast cereal.  New Brand: "Sunny Crunch"
+Create a budget to complete the given task.  Redecorate a bedroom
+Rewrite the following sentence with the same meaning but in other words.  We should plant more trees.
+Explain the term 'convolutional neural networks'.
+Select an example of a psychological disorder and describe its symptoms.
+Rewrite this expression to allow for a different result: (1 + 2) x 3.
+Explain the meaning of the saying "all's fair in love and war".
+Generate a Lewis dot structure for carbon dioxide.
+Generate a sentence in the present perfect tense.
+Give three examples of weather-related natural disasters.
+Classify these three animals: lion, crocodile, and elephant.
+Construct a query that will display customer data.
+Describe a peaceful outdoor setting.
+Come up with 3 ideas that can reduce water pollution.
+Describe how one might use a digital assistant  `<noinput>`
+Come up with a data mining problem to solve using the following dataset.  The collected records of the student enrollment in a college over the last 10 years.
+Given two words, find the difference between them.  happy, sad
+Write a thank-you letter to someone who inspired you.  My high school chemistry teacher
+What is the difference between foreign policy and domestic policy?
+Convert the following measurement from cups to ounces.  2 cups
+Describe the effects of living in poverty.
+Generate a list of 5 creative ways to use technology in the classroom.
+Identify which parts of the following code could be refactored.  def calculate_data(a, b, c):     result = []     for i in range(b):         result.append(a + c[i])     return result
+Calculate the discount percentage on this purchase.  Item cost: $150 Discount amount: $30
+What year did Microsoft release the Windows XP operating system?
+Calculate the total cost when given the items and the rate.  Apples- 5 pcs; Rate- $1/pc
+Compose a sentence that starts with "Although..."
+Name three pieces of technology that were invented in the last decade.
+Categorize the following five words into either fruit or vegetable.  Apple, Potato, Eggplant, Banana, Carrot
+Create an original sentence based on the given keyword.  Banana
+Describe the creative process using similes.
+Create a phone number validator.
+Can you generate a user story for developing a mobile app?
+Write a weather forecast for next two days.
+Rewrite the given paragraph, changing the presence voice into the past tense.  Jack visits the museum every week. He writes about his experience for his blog.
+Describe what a computer virus is.
+Write a simile to compare two of the following words: moonlight, snow, wind.
+Create a list of at least five strategies adults can use to support younger generations during these uncertain times.
+Explain why the probability of a fair coin landing on heads is 0.5
+Rename the following folder:  Folder Name: Documents_1940
+Generate a Python program for sorting a list of integers.  List: [5, 3, 8, 2, 9]
+Generate a list of five things an astronaut might take to the moon.
+Edit the given code by adding type annotations.  def add_numbers(a, b):    return a + b
+Create a short story with a twist  No input
+Tell me one quality of a good leader.
+List 4 advantages and 4 disadvantages of using AI technology.
+Find three contemporary novels written by an author from a given country.  France
+Describe the biggest benefit of vegan diet.
+Give me a sentence that illustrates the use of a dangling modifier.
+Edit the text so that it has correct grammar, spelling and follows a coherent style.  Convrsions are essentail for sales cloesings which need good communication skill to present the message succesfully
+Give a polite response to this statement.  That's a horrible idea.
+Generate a film title that matches with the theme of forest conservation
+Convert 10 lbs to kilograms
+Compare the given items and indicate the distinctions.  Dog and cat
+Explain the red giant phase of a star.
+Find the name of the capital city of France
+What is the digital marketing strategy for a new idea?  Promoting a subscription-based meal delivery service.
+Explain the differences between a Static Web page and a Dynamic Web page.
+Develop a hypothesis to explain why some people are more productive during the day while others at night?
+Give me the average life expectancy in the US
+Extract four highlights from the given article.  https://www.cnet.com/news/zoom-adds-security-and-encryption-in-latest-update/
+Given a sentence and a list of words, replace any occurrences of the words in the sentence with the given synonyms.  Sentence: He spoke to her gently. List of words and synonyms:  speak - address, converse
+Generate a movie title combining two random nouns.
+Given a set of numbers, return the product of all the numbers.  2, 4, 6
+Design a survey to collect customer feedback on the quality of a product.
+Create a chart showing the ratios of different planets to each other.  The radius of Jupiter is 69,911 km, and the radius of Earth is 6,371 km.
+Who is the target customer of Adidas?
+Rank these court cases in order of importance: Marbury v. Madison, Brown v. Board of Education, Roe v. Wade.
+What are the two most frequent letters in the given sentence?  The quick brown fox jumps over the lazy dog
+Classify this statement: I'm going to finish this project tomorrow  I'm going to finish this project tomorrow
+Suggest a name for a startup focused on shared grocery shopping.
+Edit this sentence to add emphasis on the word "many".  He tried many times.
+Rewrite the sentence in reported speech.  He said, "I want to go for a walk."
+Identify five common symptoms of depression.
+Generate a creative phrase that summarizes the 2020 US presidential election.
+Create a list of six interesting facts about the history of basketball.
+Edit the given sentence and ensure that it is in the passive voice.  The dog chased the cat.
+Rewrite the given phrase in an affirmative tone.  I don't think that's a good idea.
+Generate 5 possible words that could serve as a user name.
+Generate a three step procedure for cleaning a computer keyboard.
+Given the following statement, classify if it is a fact or opinion. You should respond with "Fact" or "Opinion".  The weather today was terrible.
+Analyze the given text for the purpose of the author.  The use of artificial intelligence can help healthcare institutions reduce cost and improve quality of patient outcomes.
+Explain why this is an inappropriate instruction  "Wake me up at 5pm"
+Compose a song in the rock genre
+Write an advertising slogan for a new type of cereal.
+Generate a persuasive speech about how space exploration does more harm than good.
+Identify the components of an email address.
+Calculate the mean of a given array of numbers.  [1, 4, 8, 13, 28, 34]
+Explain the term "impeachment"
+What is the name of a famous painting by Pablo Picasso?
+Describe the differences between an independent contractor and an employee.
+Select the best option given the choices.  Which type of currency is used in India? A. USD B. Yen C. Rupee D. Euro
+Assume that you have been given a personal assistant. Provide 3 instructions this assistant should follow.
+Explain how roller coasters work.
+What year did the American Revolution start?
+Compare the two poems, highlighting their similarities and differences.  Poem One: The Road Not Taken by Robert Frost Poem Two: The Lake Isle of Innisfree by W.B. Yeats
+Cite an example of a song with a polyphonic texture.
+Write a rap verse about studying.
+Initialize a neural network for a multilayer perceptron model.
+Edit this sentence to avoid redundancy  This film was a classic classic movie
+Create an example of an open-ended question that can be used in a job interview
+Generate a birthday wish
+Generate a sentence which uses the given words in a creative manner.  Lightning, Bubble
+Write a short essay about the impact of social media in our lives.
+What is Alan Turing famous for?
+Write a description for a restaurant that serves Italian food.
+Decompose the following equation into two.  7x + 14 = 21
+Generate a story that begins with the sentence “They thought they were lost forever.”
+Write an IF-THEN statement to control the temperature in a room.
+Given a recipe, edit it to omit a certain ingredient.  Ingredients:  1 cup flour 1 teaspoon baking soda 1 teaspoon baking powder 1/2 teaspoon salt 3/4 cup sugar 1 egg 1/2 cup milk 1/2 cup butter
+Rewrite this sentence to make it more formal - "I found the solution"
+Describe the unique characteristics of a dimpled golf ball.
+Summarize the following article in less than 50 words:  "The new composting program launched by the city has been proven to be successful. Surveys report that interest in composting has increased, leading to increased compost collection from residents. The collected compost is then used by the city in their parks and gardens."
+Convert the given sentence into second-person point of view.  She washes the car every Sunday.
+Find out the capital city of Bolivia
+Compare and contrast the effects of individual and societal performance
+Generate an example of a conversation between two people about the weather in San Francisco.
+Write a 300 word article on the best ways to stay healthy.
+How was the coronavirus pandemic handled by the United States?
+Explain a concept of linear algebra.
+Describe the taste of a mango in three to five sentences.
+Develop a business plan to start a new restaurant.
+Arrange a coffee date with a friend  You and your friend Nathan have not seen each other in a while.
+Label the sentiment for the given text.  The restaurant had terrible service and left us feeling frustrated.
+Summarise the tips for successful online dating.
+Find the 13th root of 1000
+Provide an example of a person who is reliable.
+Rewrite the phrase "brave new world"
+How would you describe artificial intelligence in three words?
+Make a list of three strengths of AI. Output less than 25 words.
+What is the relationship between the following two words: Market and Economy
+Rewrite this sentence to make it more convincing:  "I believe this is the best solution for our problem."
+List three reasons why people should shop at local stores instead of ordering online.
+Pretend that you are the subject of the following poem. Use the first person voice to write a response to the poem.  The gentle swell of the sea, Cradling the shore in its serenity.
+Compare and contrast Object-Oriented Programming and Functional Programming.
+Write a song that is reminiscent of a specific color.  Color: Purple
+Compose a song about the night sky.
+Provide the pronoun for the given sentence.  He is an energetic person.
+Sort the following list of numbers in ascending order: 8, 15, 4, 10
+Design a game to teach children to recognize shapes.
+Suggest 3 equipment for camping
+Is the following statement true or false?  Hummingbirds can fly backwards
+Describe how a virus enters a host cell.
+Create a list of five features of a hybrid car
+Suggest two songs that may be used for a jogging playlist.
+Given a sentence, output the number of vowels and the number of consonants.  She had to decide what to do.
+Provide software solution for the given problem.  Company XYZ is looking for a software solution to manage their inventory and orders.
+Generate a date-focused sentence that uses comparative words and suits the input.  June 1st is just around the corner.
+Generate a hashtag which accurately sumarizes the movie "Titanic".
+Complete a sentence that means the same as the following sentence, but is more concise:  He had no idea what I was talking about.
+Create a list of ingredients for baking a chocolate chip cookie.
+Explain the use of word embeddings in Natural Language Processing
+I am having a hard time focusing on my work today. What can I do to help?
+List 5 steps to fix a leaky roof.
+Customize the following text to a particular user.  Dear Customer,
+Determine the comparative form of the word "happy"
+Make a prediction about the role of AI in the near future.
+Explain how professional services are automated using AI.
+Re-phrase the following sentence in a shorter form.  The train is expected to arrive at the station at 4 o'clock in the afternoon.
+What are 5 must-have survival skills?
+Write a 3-step guide on how to create an Instagram post.
+Rewrite the paragraph in a more concise way while retaining the information.  My name is John Smith. I live in a small town in the United States. I've been here all my life and I'm a big fan of the local sports teams and the community atmosphere.
+Generate a five step process to paint a wall.
+Suggest 3 plant-based alternate ingredients for a given dish.  Cheesecake
+Explain the concept of Thermal equilibrium.
+What is the role of government in regulating the production and use of GMO crops?
+Provide an example of a valid HTML code for a simple text box and submit button.
+Summarize the content in the following passage.  The American alligator is a large semi-aquatic reptile found in the southeastern United States. Alligators spend most of the time in freshwater rivers, lakes, swamps and marshes. Alligators are an important part of their ecosystem, controlling the number of small animals like birds and fish, and maintaining the health of the plant community by keeping the waterways clear.
+Calculate the real roots of the polynomial equation.  x^2 + x – 6 = 0
+Write a description for a ballroom dancing class.
+Describe a time when you had an unexpected success.
+Create a plausible computer password with 10 characters.
+Sort a list of five events chronologically.  List of events:  - Invention of the telephone  - Discovery of the Juulfen Mountains  - Apollo 11 mission - World War II - The Industrial Revolution
+Rewrite the given sentence into a different sentence with the same meaning.  She locked the door
+Create a list of elements that would contribute to success in a job.
+Creat a function in C++ to calculate the area of a triangle.
+Generate a strategy for advertising an ecommerce website  noinput
+Describe the environment around you right now.
+Create a spreadsheet using MS Excel to track inventory for a retail store.
+Analyze the given idiom to determine its meaning.  Hit the nail on the head
+Change the given sentence into imperative form.  Please don't forget to turn off the lights.
+Name the five positions of chess.
+List 5 outdoor activities people could do to reduce stress
+Rewrite the following statement in the past tense: "They are planning to launch a new website."
+Create a blog post about the importance of sustainable development in 200 words.
+Categorize a restaurant as either an Italian, Mexican, or Chinese restaurant  Taco Bell
+Edit this sentence to use proper English: I dont think so
+Replace the underlined word with a word from the vocabulary display.  "The bridge span was  durable.", Vocabulary Display: solid, enduring, impervious
+Given the following input, list at least three characteristics that differentiate cats from dogs.
+Provide the past tense of the verb  Sing
+Convert the following sentence into a complete sentence using the active voice: The flower was watered by Mary
+For the following description, provide a four-line poem in the style of haiku  The snow falling gently on the lake.
+What are the benefits of unstructured play for children?
+Generate an imperative sentence on how to get started with programming.
+Given a article, summarize its main points in 100 wrods.  In 2011, the United Nations declared that water and sanitation are human rights. This was an important step towards the realization of the right of everyone to have access to safe and clean drinking water and sanitation. It meant that everyone had the right to an adequate supply of water for personal and domestic uses, as well as hygiene.
+Determine whether the following argument is credible.  Rising ocean levels are caused by global warming. Therefore, if we reduce our carbon emissions, we can prevent the rising of the ocean levels.
+You are asked to create a website for a home improvement store.
+Provide a list of words that described this product.  Chocolate
+Generate a story about fairies who come to help humans.
+What is the name of the French national anthem?
+Create a JSON request with the following fields.  username: John012 password: Pass1234
+Using the following data, calculate the median age  11, 13, 14, 13, 15
+Write a C code to print the following statement.  Jingle bells, jingle bells, Jingle all the way
+Predict what will happen next in the following story snippet:  He had been standing alone outside the library for what felt like days.
+Insert a semantically appropriate sentence at the beginning of the following text so that the topic is introduced smoothly.  Cells are classified by their shapes and sizes and by the relative complexity of their biochemical processes, as well as their genetic content.
+Explain the importance of Diversity and Inclusion in the tech industry.
+Rearrange the given words so that they make grammatical sense.  yesterday picnic sunny had we
+Describe how Louis felt when he saw the safe he had stolen.
+Provide an analogy that can be used to explain the concept "Luminosity".
+Convert the following binary number to its hexadecimal representation.  10110010
+Create a shopping list for buying two items that cost $10 each.
+Create a how-to guide for setting up a home Wi-fi network.
+Identify 3 factors that could negatively impact a business
+Construct a mathematical equation using the numbers 11, 84, and 21.
+Answer a FAQ about the product.  What are the benefits/advantages of this product?
+Manipulate this product description to make it more SEO optimized.  This vehicle is a great value and an essential form of transportation. It has a spacious interior and boasts a powerful motor.
+Which of the following words is a synonym to the word "precarious"?
+Create a metaphor that describes loneliness
+Think of a metaphor to explain what "prosperity" means.
+Add an unbiased reference to the given sentence.  Neptune is the eighth planet from the Sun.
+Pick a color that matches the following description  Warm and inviting
+Replace the verb in the sentence with a similar one.  Carrie rode her bike to school.
+Provide an example of a use case for a voice controlled digital assistant.
+Generate a 3 letter usernames with the following format: [first letter] + [random letter] + [last letter].  Abdul
+Given a stock price over a period of time, determine whether the stock is a good investment.  The stock price has increased 10% over the past 6 months.
+Create a sample gym plan for athletes.
+Given the following input, provide the output that meets the following requirement: the output should be a description of the animal that includes 5 key traits  Hippopotamus
+Create a movie or TV show summary for a horror movie set in a town with a haunted mansion.
+What are the biggest challenges faced by e-commerce companies today?
+To create a palindrome, complete this phrase  No lemon
+Explain what you admire about the painting below.  ![Painting](https://upload.wikimedia.org/wikipedia/commons/2/2a/Piet_Mondrian%2C_1921%2C_Tableau_I.jpg)
+Create a list of films to watch in the given genre.  Romantic Comedy
+Rank the following products from best to worst.  Samsung TV, Sony TV, LG TV
+Create a dictionary to store the temperature of different cities
+Write the code for printing a string in Python
+Create a birthday card for a close friend by writing a poem.  Receiver's Name: Jane
+Create a humorous tweet against the given topic.  Topic: Social Media
+Write a review of the book "To Kill a Mockingbird"
+Generate a unique username.
+Generate a model to describe this process.  The process of ordering a meal at a restaurant
+Write an equation for the circumference of a circle.
+Create a strategy to increase the number of new customers by 30%.
+Create five questions about the life cycle of frogs.
+Determine the total number of books in a library given the following number of each type of book.  Novels: 20 Biographies: 10 Textbooks: 5 Manga: 15 Comics: 2
+Add 5px to each of the current margin values.  margin-left: 20px; margin-top: 30px;
+Create a headline that would go with the following story.  John Doe was walking down the street in a small town when he noticed a strange man following him.
+Rank the following numbers from smallest to largest  3, 7, 5, 9
+Prepare an email to send a reminder to a friend.  Hi Bill,  I was wondering if you could help me out with my project.
+Compare and contrast the skills needed for a lawyer and an accountant.
+Describe the mood of the sentence  It was raining outside
+Come up with a 3 word slogan for a cell phone company.
+List three facts about the element Sodium.
+Classify the following as an animal or another type of organism: Mushroom  Mushroom
+Take this sentence and edit it to use correct grammar and punctuation.  I love to play chess it's one of my favorite hobby's
+Develop a 4 step plan for tackling a problem.  Homelessness
+Given two sentences, identify the correct verb to link them.  She missed the deadline. She was unable to submit her report.
+Given a string, reverse the order of the characters and print it on the screen  Hello
+Summarize the following text into one or two sentences.  Fossil Fuels are hydrocarbons, primarily coal, fuel oil or natural gas, formed from the remains of dead plants and animals. In common dialogue, the term fossil fuel also includes hydrocarbon-containing natural resources that are not derived from animal or plant sources.
+Design a logo for a rock-and-roll band.  Guns N' Roses
+Edit the following sentence so that it expresses an opinion:  Social media can be both positive and negative.
+Describe the origin of the Christmas tree.
+Send an email on my behalf to invite a guest speaker for an event.  Subject: Invitation to speak at an event  Dear [Name],   We would like to invite you to speak at an upcoming event organized by [Company]. The event is about [topic] and will be held on [date] at [location].
+Design a concise questionnaire to ask new employees about their motivations for joining the company.
+Describe the layering of the OSI model.  noinput
+Design a website with a user-friendly interface
+What is the minimum amount of energy it takes to move an electron through a wire?
+Rewrite the sentence to insert a transition word in its place.  He went to the store. He bought some snacks.
+List three ways that AI could improve the workplace.
+Define the term 'computer vision'.
+Generate a list of seven unique objects that are described in the story  (Story)
+Suggest three fun activities to do over the weekend.
+Given a variety of adjectives, classify them into three categories: negative, neutral and positive  hostile, agreeable, tolerant, respectful
+Name a popular business model
+Convert the measures of length.  1 kilometer
+Classify the document as either marketing material or an informative article.  This article discusses the latest trends in web design and provides detailed instructions on how to create a functional website.
+Rearrange the words to make a grammatically correct sentence: "the student was extremely tired the exam".
+Find the shortest path from point A to point B using a GPS trajectory.  Point A = (41.65407° N, 91.53147° W) Point B = (41.65104° N, 91.52863° W)
+Cut down this sentence to make it more concise.  John had to hire a lawyer in order to get out of the legal troubles that he found himself in.
+Given the setting, create a humorous poem about it.  Setting: A visiting professor from Africa is teaching a course at University.
+Write a short biography of Abraham Lincoln.
+Output the word count of the following passage.  Today, computers are used in almost every industry, from healthcare to engineering. They are powerful and fast, yet small and efficient.
+Correct the given code by fixing the syntax errors  def sum_squares(num: int)     total = 0     For i in num         total = total + i * i     return total
+Create an action plan to reduce carbon emissions by 15% in the next three months.
+Design an algorithm to reverse the elements of a given array.  [2, 4, 6, 8]
+Given a URL, explain what is the content of the webpage in one sentence.  https://www.bbc.com/news/uk-politics-51010449
+Describe a scene in a few sentences.  Nighttime in the forest
+Provide an example of a piece of software with machine learning capabilities
+Please provide a psychology definition of memory.
+Create a list of 5 books which are suitable as gifts for your best friend.  Occasion: Birthday
+Identify the category of a given set of words.  Grandmother, grandfather, aunt
+Write three terms associated with the internet.
+Rearrange the words to form meaningful sentences.  sweet, she, made, pie, a
+Write an imaginative story
+Select the correct answer from the options below to complete the sentence.  Parts of the kitchen include the refrigerator, oven and ____.
+Compose a Tweet summarizing the article on climate change.  Article: Climate change is a phenomenon that has taken the world by storm. Its effects can be seen in changing weather patterns, shifting temperatures, and an increase in extreme weather events. It has been caused by human activity and will only become worse unless immediate action is taken.
+Give an example of a company that uses cutting-edge AI technology
+Create a mood board for a project about a beach vacation
+Name five common types of pension funds
+Give the title of the document  Los Angeles has seen unprecedented levels of growth in its population in recent years, with an influx of both people and businesses.
+Compose an example of a haiku poem
+Categorize the following types of writing into Fiction and Non-Fiction.  Novel, Autobiography, Blog
+Given a sentence and a word, write a new sentence that includes the given word and preserves the meaning of the original sentence.  Life is unpredictable, word: wonderful
+How many times can the letter "a" appear in the English alphabet?
+Generate a story set in a jungle with a moral lesson.
+Edit this sentence so it reads more succinctly  Hiking with friends can be either really exhilarating or really exhausting depending on how much energy you put into it.
+Generate a list of items related to the topic given.  Scuba diving
+Generate a fictional story that is three sentences long.
+You need to suggest a smartphone app that helps with budgeting.
+Explain why buying local products is beneficial.
+Generate a unique password for the user.
+Write a Python script to sort a list of numbers.  [100, 15, -50, 0, 20]
+Take the following sentence and make it past perfect tense.  I ran to the store.
+Convert the following hexadecimal number to octal.  DB
+Name three methods to prevent vehicle crash through technology.
+Rewrite this sentence in a different format:  "A large majority of adults believe that climate change is a serious problem."
+Put the text into a specific category  The cat is lounging in the sun
+Identify 3 books related to the topic of data science.
+Provide a description of the coastline of the United States
+Analyze the following text and detect any signs of plagiarism.  The internet has become a vast source of information with a seemingly infinite number of websites, blogs, and resources. It is easy to overlook the fact that, in many cases, the content on these websites is created and owned by someone else.
+Arrange the given sentences into a well-structured paragraph.  Many of the world’s problems can be traced back to a lack of education. People must be provided with a good foundation in education. Education has the power to provide societies with long-term solutions.
+Compare the following two famous people using a list of characteristics and provide the output in sentence form.  Person 1: Albert Einstein  Person 2: Stephen Hawking  Characteristics: Intelligence, education, impact on the world
+What are the three common operation of databases?
+Name two quotes from Romeo and Juliet
+Given a date, calculate the day of the week.  October 27, 2019
+Name one law-enforcement agency that investigates cases of corporate fraud.
+Describe the most important features of a wine refrigerator.
+Find the sum of the two consecutive integers that are 11 apart.
+Write an e-mail to the manager to express dissatisfaction.
+Rewrite the following sentence using synonyms:  "It was a sunny day"
+Sharing your opinion based on the given information.  Recent studies have found that technology is an effective tool for engaging and educating students in the classroom.
+Create a menu for a restaurant that serves Eastern cuisine.
+List two advantages of using GPT-3 models.
+Suggest a slogan for an animal shelter.
+Write a short story featuring a character fighting a monster
+Given an emotion, come up with a creative way to show it with body language.  Happiness
+Generate a formal apology letter from a company towards a customer.  Dear [person name],  We regret to inform you that due to some delays in shipment, we were unable to deliver your order on time.
+Create a historical analogy for the current COVID-19 pandemic.
+Identify two downfalls of using public transportation.
+Explain the concept of Chinese Room Argument in AI.
+Name two tools and their purpose that are used in woodworking.
+Rearrange the given sentence in the most efficient manner.  a heard cow of standing the
+How can I improve my public speaking skill?
+Generate a sentence that compares two objects  cat, dog
+Imagine a scenario where turtles and frogs live together. Describe the living environment of the two species.
+List the main organs of the respiratory system
+Name two key features of a persuasive essay.
+What is the difference between a salaried job and an hourly job?
+Describe the type of task carried out by the following algorithm.  def quicksort(arr):     if len(arr) <= 1:         return arr     pivot = arr[len(arr) // 2]     left = [x for x in arr if x < pivot]     middle = [x for x in arr if x == pivot]     right = [x for x in arr if x > pivot]     return quicksort(left) + middle + quicksort(right)
+Create a list of items to check when inspecting a used car.
+What are the major components of an automated marketing system?
+Rewrite these words into a sentence: "tired, ran, quickly"
+Classifythe given tweet as negative, neutral, or positive.  I absolutely loved this movie!
+Explain what the Geometry of Chaos is.
+Can you make this sentence in the future tense?  I am walking home.
+Categorize the following list of animals into mammals and reptiles.  Kangaroo, Cobra, Turtle, Gorilla
+Name 3 shopping websites where you can buy computer parts.
+Rearrange the following sentence to make a negative statement.  He was happy with the result.
+Generate a list of three delicious dinner recipes.
+Identify the sentence that uses the wrong verb tenses.  a. I am gone to the doctor. b. I have went to the store. c. I had gone to the beach. d. I went to the bank.
+Describe the smell of a freshly baked pie.
+Develop a new non-alcoholic drink that is perfect for a hot summer day.
+Which type of precipitation is the most common in South Africa?
+Generate a compression algorithm to reduce the size of a data set.  No input.
+Identify the two adjectives in the sentence, and provide an example using each of the adjectives.  She left the party early feeling exhausted and relieved.
+Evaluate the following algebraic equation.  2 (3 + 5)
+Generate an appropriate title to express irony related to a given topic.  Coronavirus vaccine
+Determine if a Monopoly game is a zero-sum game.
+In this task, you are required to add three interesting things for the topic ‘Jurassic Park’.
+Determine the area of a regular pentagon with a side length of 10 cm.  10 cm
+Rewrite this sentence to make it sound more formal: "I had a great time at the party".
+List three Mediterranean countries
+You are provided with the following word list, create a poem of 10 lines that explains the theme of hope:  Light, heart, hope, courage, stars, dream, clouds, sky
+Generate a list of factors that could cause an increase in car accidents for an article.
+Identify whether the physics quantum theory is true or false.  <no input>
+Compose a news article summarizing the recent events related to the pandemic.
+List five animals that are native to Australia.
+Modify the given text for the target audience  Text: Artificial Intellgence (AI) is an exciting new technology that is rapidly changing our world.   Audience: Primary school children
+Generate a two-word phrase that describes the color blue
+Write a short haiku poem that reflects our current emotional state.
+Explain the process of water purification.
+Propose a design for a mobile application which is aimed to help users adjust their sleep cycle.
+Edit the following customer service email for clarity and professionalism.  Hey there,  Wanted to let you know that I'll need your help and wanted to figure out what I'm doing wrong. I just starting using this product and I don't know how to use it properly. Can you help me with some steps to figure out what I'm doing wrong?  Thanks
+Given two colors, provide a third color to make a combination  Yellow, Purple
+Create a list of 10 steps for creating a successful YouTube channel.
+Generate a thesis statement for a paper on the importance of early childhood education.
+Change the following sentence into present perfect tense: "He spoke at the conference."
+Convert the following text into an acrostic poem.  Time
+Describe the process of developing a mobile app.
+Let's write an email to make an appointment for an interview.  Hello _______,
+Suggest an interesting activity to do with children
+Convert the given HTML code into valid CSS.  <ul style="list-style-type:circle;">    <li>Milk</li>    <li>Cheese</li>    <li>Yogurt</li> </ul>
+Draft a response to the following message in a friendly and respectful tone.  "Dear customer, thank you for submitting your feedback. Our team is looking into your complaint and will get back to you soon."
+Generate sample data for the given schema  Name (String), Age (Number), Date of Birth (Date)
+Meet with the director of a wildlife conservation center and create a short news article summarizing the experience.
+Write a doctor's prescription for the following prescription for the following patient: fever and cough.
+Provide a context for the given words such that they can form a logical sentence.  angry, suddenly
+Name 4 different types of art
+Generate a haiku poem using the prescribed syllables, with variable content.
+Write a description of a typical summer day in the countryside.
+List the other elements that can appear in an atom.
+Summarize in one sentence why climate change is an urgent issue.
+Format the following string according to the given rules.  Input: This is A StrinG Rules: Start with uppercase letter; No capitalized letters elsewhere
+Compare and contrast onions and potatoes
+Given a set of product features, describe what benefits the customer might be able to receive.  Product features: lightweight, breathable fabric, moisture wicking
+Generate two story scenarios with the given details  Location: Desert  Character: Farmer
+Make a list of five healthy snacks.
+Find the meaning of the phrase "out of the frying pan and into the fire"
+Compare the given two pieces of artwork and tell us how they are similar and different.  [Image 1]  [Image 2]
+Rewrite the code so that it is more efficient.  for i in range(10):     x += 1
+Identify the job title of the following description  Manages the day-to-day operations of a department or a specific project
+Describe an example of how remote working can be improved
+List 3 strategies for dealing with procrastination.
+Come up with a 4-digit numerical code.
+Create a list of the most common colors in nature.
+Count the number of characters in the input text.  This is an example of a sentence.
+Generate five new ways of presenting a given article.  Article title: The Benefits of Yoga
+Create a Geometric poem.
+Design a quilt with 5 different colors.
+Create a function that displays all the prime numbers from 1 to n.  n = 10
+Create a general strategy for a team to develop a new product.
+Given a description, generate a logo.  A mountain surrounded by a green forest, representing resilience and strength.
+Explain how turtles help maintain the balance in an ecosystem.
+Imagine you are the owner of a hotel. Describe your hotel and its amenities in a few sentences
+Name three of the most important professional skills.
+Identify the kind of sound made by the given animal.  Cat
+Give me the title of a popular children book.
+Generate an original poem with the title "Life"
+Encrypt the following phrase with a substitution cipher: What's up
+How many kilograms are in 60 pounds?
+What type of voice does a tiger have?
+Name 5 other methods of transportation.
+Add two sentences to this story.  The moon shone brightly in the night sky, and the stars twinkled.
+Generate me a few sample passwords up to 8 characters in length.
+What can be done to reduce air pollution?
+Generate a list of topics that would be suitable for a presentation on library management.
+Identify the language used in the given sentence.  Il est incroyable.
+Generate a list of five tips to maintain healthy hair.
+Given an ingredient, suggest a recipe.  Coconut
+Reformulate the phrase given to sound more polite.  Hurry up
+Provide an example of a sentence where you need to identify the subject and the predicate.
+List five ways to reduce energy consumption.
+Determine what type of figure of speech is present in the sentence.  She was a diamond in the rough.
+Write an email to a friend to check in.
+Given two phrases, rewrite it using a simile.  She was very helpful. He was extremely patient.
+Provide advice on how to effectively use a to-do list.
+Delete all adverbs from the following sentences  He quickly ran to the store.
+Write a function to convert a text string into an integer.
+Summarize the following book excerpt.  The summer air was hot and sticky. The sun was high in the sky and there was no relief from the heat, but I didn't care. I took a deep breath and walked out of my house into the street. I heard laughter coming from down the street and saw my friends playing tag in my neighbor's backyard.
+Generate lyrics to a rap song.
+Use Pythagorean theorem to compute the distance between the two points.  Points (2, 6) and (9, 3)
+Create a three step process for cleaning a whiteboard.
+Compare and contrast one of the top 5 drinking games.
+Detect the spelling mistakes in the following phrase  A pritty picture.
+Categorize this machine as either a tool or a toy.  An RC car.
+Describe the impact of artificial intelligence on personal privacy.
+Let the assistant create a haiku.
+Give a brief overview of the given movie.  "The Dark Knight"
+Write a MySQL query to select all the customers from the "Customers" table who were born after 1990.
+Generate a menu for a vegan restaurant.
+What classification would you assign to the following article?  With COVID-19's ongoing global impact, many cities have had to reduce their budgets significantly in order to cope.
+Generate a persuasive sentence using the words ‘Business', 'Agile', and 'Success'.
+Name four examples of tropical fruits.
+Construct a survey question.  Topic: Satisfaction with Online Shopping Experience
+Construct a sentence that uses the given verb and noun.  Verb: Frighten Noun: Cats
+Rewrite the sentence in affirmative form.  He hasn't finished the project yet.
+What is the distance between Boston and New York City?
+Construct a story with a specific beginning, middle, and end.  Once upon a time there was a brave knight
+Explain the differences between supervised and unsupervised learning in 5-8 sentences.
+Delete the extra information from the sentence.  The origin of the pandemic has been linked to animals, particularly bats, in the Chinese city of Wuhan, although no clear evidence has been yet identified.
+Describe the function of a computer motherboard
+Evaluate this answer to the question.  What is the purpose of stock buybacks?   Answer: Stock buybacks allow companies to increase their earnings per share.
+Create a title for this poem.  The sun was shining and the birds were singing, A gentle breeze blew and kissed my face, My feet skipping across the grass, A freedom from the mundane day.
+Identify three ways in which the government can reduce the problem of air pollution.
+How can I improve my persuasive writing technique?
+Write a short essay discussing the impact of technology on the workplace.
+Classify a chameleon as a reptile or bird.  Noinput
+Suggest two resources to learn about the history and impact of digital technologies.
+Describe the impact of hazardous air pollutants on human health.
+Invent a new work of art.  A sculpture of a dancer.
+List five ways to increase productivity
+Create an app to track travel expenses
+Categorize the types of the nouns in the sentence.  John bought a new car and a bike.
+Construct a persuasive letter to persuade a school to reduce their fees
+Identify the atmosphere of a murder mystery.
+What are the advantages of using natural language processing?
+What is the plural possessive form of "dog"?
+Name three things people can do to help the environment.
+Identify the error in this sentence and correct it:  I'd rather watch a movie then go for a walk
+Name a popular game that requires two players.
+Name a movie from 2020 that won an Academy Award.
+Write a few sentences summarizing the story in the following excerpt  The young girl was walking home when she noticed an old woman sitting on a bench. The girl stopped to talk to the old woman who told her a story about a magical forest.
+Find the fourth multiple of 7
+Create a method to solve a 2x2 system of equations.  x+2y=6 2x+4y=6
+Provide a title that captures the topic of the text.  The struggles of an immigrant family to find acceptance
+Analyze the following sentence and provide its syntactic structure.  I have already completed the assignment.
+Describe a city that has the perfect balance of work and life.
+Rewrite the following sentence to make it more concise:  "The classroom was filled with noisy children making a lot of noise."
+Brainstorm ways of improving the customer experience
+Write a story that features a character named "Jenna".
+Edit this sentence to make it correct: Apples are the healthiest food  Apples are the helthiest food
+Create a comma-separated list of the following items.  Bag, shoes, shirt
+Craft a survey to measure customer satisfaction for a retail store.
+Calculate the total sale price of 12 items if they are sold at $15 each
+Explain the differences between birds and mammals
+Brainstorm three open-ended questions about the given article.  The article is about the use of artificial intelligence in healthcare.
+Summarize the synopsis of the movie Avengers: Infinity War.
+Write a "good luck" message in response to an upcoming exam.
+Write a poem about changing seasons.
+List two adjectives which can describe the person mentioned in the text.  John is a diligent and talented engineer.
+Rewrite the given sentence with more appealing language.  The product is a great value for money.
+Provide an example of a time when you had to negotiate with someone.
+Given a list of characteristics, classify an animal as a wild animal or a domesticated animal.  Characteristics: Nocturnal, Nocturnal, Nocturnal, Mixed Diet
+Rewrite this sentence to express a contrast between two different things:  He works quickly and efficiently.
+Find two solutions to reducing air pollution.
+What is the main difference between acute and chronic diseases?
+Explain the physics behind the Doppler effect.
+Generate a question, based on the passage, that tests user’s comprehension of the material.  Having a diverse staff makes businesses more innovative and engaging. They are also better equipped to reach and serve customers.
+Compose a short three-line poem about the given topic.  The beauty of the night sky
+Write an API to find the next prime number
+How can business owners use data to make better decisions?
+Design a logo for a new plant-based burger restaurant.  Plant-based burger restaurant name: "Goodness Grille"
+Develop 10 multiple choice questions about the human circulatory system
+Toggle the third word in this sentence from singular to plural.  The cat slept.
+Convert the following list of items into a sentence  apple, banana, orange
+Write a poem that expresses love in unexpected ways.
+Come up with an innovative product that solves a current problem  Problem: People don't have enough time to manage their finances
+Provide at least five safety rules that cyclists should follow.
+Given the following text, classify it under the category of humorous or serious.  The teacher asked the student for a report on the cactus and the student accidentally wrote a report on the cabbage.
+Describe the concept of digital transformation.
+Compose a 1-3 sentence description of a run-down apartment.
+Create a travel itinerary for visiting Los Angeles.
+Generate a password that is compliant with corporate security measures.
+Edit the text to make the meaning more precise.  The President announced an ambitious plan to cut taxes for all Americans.
+Create a plan that could be used to help someone quit smoking.
+Categorize the text as Technology, Politics, Sports, or Arts  The US has launched a new space mission to explore the surface of Mars.
+Compare the given two countries in terms of population.  China and India
+Design a web page containing user feedback forms.
+Write a general overview of the movie "Joker".
+This is an editing task. Identify the mistakes in the given sentence and edit it  She cutted the apples into small slices
+Summarize the lyrics of a song.  Song title: "Firework" by Katy Perry
+You are provided a design and asked to rewrite it such that it is more effective  Content:  Create a project outline to help organize and plan your project  Design:  1. Brainstorm ideas 2. Choose project goal 3. Choose resources and time-frame 4. Define steps necessary to complete
+Given a definition, explain it in own words without looking it up,  Organic farming
+List three unique features of a zebra
+Classify the following text as a news article, review, or opinion.  This new restaurant deserves a 5 star rating!
+Summarize the key findings of the research paper "The Impact of Technology on Education in the 21st Century".
+Suggest some keywords describing the story.  Randy was feeling very sad. His best friend invited him to a party but he had no one to go with so he decided to stay home and watch TV alone.
+Compare and contrast democratic and authoritarian regimes in 4 sentences.
+Name three political leaders from Russia.
+Transform the following sentence so that the meaning does not change.  I took a haircut yesterday
+Create a poem about friends that includes at least 3 metaphors.  Noinput
+Describe the following model architecture.  Model architecture consists of 4 convolution layers followed by a fully connected layer and a softmax layer.
+Generate a story about a princess who falls in love with a prince from a different kingdom.
+Describe the characteristics of a play by Shakespeare.
+Given a context, complete a dialogue between two people  John: I don't understand why my sales are down this month.
+Identify the main opposition to Candace Owens
+Identify the source of this metaphor.  "All the world's a stage, and all the men and women merely players."
+Compose an email thanking the customer for the purchase.  Dear Customer,  Thank you for your purchase of ABC product.
+Design a 5-sentence story that starts with the given first sentence.  He stepped out of the house and onto the street.
+What is the importance of customer feedback?
+Generate a new song in the style of Taylor Swift.
+How can you prevent computer viruses?
+Come up with a new arrangement for the given words.  Small, homes, build
+Identify a tool that can be used to calculate risk.
+Synthesize a poem based on this prompt: "The sun is setting"
+Explain what is the greenhouse effect.
+Write a few lines of an original poem.
+Determine the correct definition of the given word.  Abundant
+Suggest a way of promoting physical activity among teens.
+Take this text and transcribe it into a different language.  This article provides detailed information on black holes, a phenomenon in astronomy where gravity is so strong that not even light, the fastest particles in the universe, can escape its grasp.
+Generate a list of 5 to 10 ideas on how to reduce global warming.
+Discuss the benefits of living in a city versus living in the countryside.
+Provide me a list of diseases that can be caused by smoking.
+Given the data, classify whether a review is positive or negative.  The food was not bad but nothing special.
+Create a sentence for the given sentence frame.  I had to stop because ...
+Design an interface where users can easily navigate and select a coffee size for ordering.
+Generate an HTML page with a header and a paragraph of text.  The header should say "Welcome to my webpage"  The paragraph should say "This is an example of a webpage created using HTML"
+What is the scientific name for a beaver?
+Construct a SQL Query to list the names of male students from the 'students' table.
+Add this phrase to a response about the history of the French Revolution: "In the end it led to the creation of the Republic."  The French Revolution began in 1789 and lasted until 1799.
+Design a game to teach students about conservation efforts.
+How can you set a reminder for yourself?
+Generate a creative solution to improve environmental sustainability.
+Write a paragraph explaining why it is important to save money.
+State if the given sentence contains an exaggeration or not.  We'll accomplish it in no time.
+Name five common spices used when preparing Indian cuisine.
+Suggest three strategies that could help a company improve customer service.
+Rewrite this sentence: "Organizing the office party will be fun" in the passive voice.  Sentence: "Organizing the office party will be fun"
+Re-write the following sentence to have a different meaning: "I ate the apple."
+Remove the spelling mistakes from the sentence and give me the correct sentence.  They didnt recive the offer becaus it was too low for them.
+Give an example of how a GPT language model can be used in a business setting.
+Classify the following snippet as either a specific goal or a generic goal  I want to save money for a house
+Classify the following sentence into Noun, Verb and Adjective.  She is traveling around the world.
+Trace the flow of energy through a food chain.
+Share five facts about Mount Everest.
+Convert the parameter value to a string.  Parameter: 0
+Given a word, determine the number of vowels in the word.  word = "apples"
+Construct a regular expression to find all the floating number in a string.  string: You have only 15.30 points left.
+Determine if the following sentence is grammatically correct: "John an Mary was late."  noinput
+What should candidates and interest groups be aware of when it comes to television advertising?
+Name two major world religions.
+Write a C++ function for calculating the approximate area of a circle.
+Come up with a unique feature to add to an existing product.  A bike
+Write a sentence to express admiration.
+Determine from the following information the type of triangle and explain why.  Sides: 3, 4, 5
+Give a brief overview of Machine Learning.
+Convert the text into HTML.  Lorem ipsum dolor sit amet,
+Write a description of a new type of computer game
+Create a profile for a new user.  Username: @superfan
+Create a cryptographic code using a substitution cipher.
+Describe the given musical artist's unique sound.  Bob Dylan
+Given a list of animals, identify which ones are mammals.  Horse, mouse, lizard
+Create an analogy that compares clouds to humans.
+Convert the string "I am learning NLP" to title case.
+Come up with three different synonyms for the word “happy”.
+Generate a sentence that implies the busy life of a college student.
+In this task, you need to provide an example given the input sentence.  The power of machine learning
+Write a jargon-free description of the given concept.  Concept: Cloud Computing
+Create a Wikipedia article about deep learning.
+What are the most important evaluation criteria when assessing the quality of a software product?
+Describe a new product.  New Product: AI-Powered Note-Taking App
+Generate a fact-based statement that conveys a subtle message.  Chocolate contains theobromine, which is a mild stimulant.
+Generate a creative recipe using the ingredients in the input.  ingredients: onion, celery, potatoes
+Describe the given trend.  Trend: Rapid growth in ecommerce sales in the UK
+Fill in the blanks of the story using a variety of appropriate adjectives.  The girl walked through the __________ park, brushing her fingers against the __________ trees. She was immediately comforted by the __________ sound of birds chirping and peaceful __________ of the river.
+Come up with a name for a dessert that is gluten-free, vegan, and has blueberries.
+Articulate the moral of the story.  A man was walking in the forest when he stumbled upon a village. He stayed with the villagers until he became friends with them and eventually married one of the women.
+Explain why network security is important in the context of personal banking
+Make a list of the pros and cons of this career.  Career: Sports coach
+What is a jigsaw puzzle?
+Create a connection between the two given concepts.  Concept 1: Evolution Concept 2: Adaptation
+Compose a poem that features nature as the main theme.
+Generate an acronym from the following phrase.  Frequency Intensified Orthogonal Polarizing Adaptive
+Describe how Chinese culture is different from American culture.
+Give a comparison between apples and oranges.
+Take a given set of facts and create a creative story with it.  The sun was setting, the sky was pink and there was a beach with a lighthouse in the distance.
+Explain why the human body needs water.
+Classify the following Github repository into one of the following areas: deep learning, natural language processing, computer vision, data Science or software engineering.  https://github.com/google-research/bert
+Give four examples of how tehnology can help to improve healthcare.
+Suggest one international policy related to climate change
+Determine the optimal order of the following tasks.  - Go to work - Buy groceries - Mow the lawn
+Classify this article by type.  It was 7am, the sun was just rising above the horizon, and Ryan was already sweating as he jogged up the hill.
+Give 5 examples of common family values.
+Generate a beat or a rhythm.
+Please give the past participle of the verb "drink".
+Classify the following items correctly.  Pencil, Scarf, Desk, Coffee
+Create an analogy that compares a bug in programming code with a problem in everyday life.
+Name a famous celebrity who is in the movie industry
+Create a slogan that represents the concept of Artificial Intelligence
+Select the sentence with the wrong spelling from the following.  (1) The doctor was very patiant with the patient. (2) The doctor listened crefully to the patient's worries. (3) The doctor perscribed some medicine to the patiant. (4) After finishing the perscription, the patient was relieved.
+Generate a math problem with a solution of 13
+Classify the following statement as true or false:  "A healthy diet consists of only vegetables and fruit."
+Synthesize a sentence that includes the words "policy", "advantage", and "technology".
+Generate a case study about the development of a new healthcare app
+How can we solve the issue of waste reduction ?
+Find a movie recommendation for given genre.  Comedy
+Create a game to help teach children about animals.
+Given two strings, identify the string with the longest common substring.  hello = hallo
+Give an example of a real-world problem that can be solved using supervised learning.
+Distinguish between small and large numbers?  The population of China is 1.4 billion.
+Compare two articles on the same topic based on their relevance and accuracy.  Article 1: "Big Banks Take On Climate Change" Article 2: "BP's Plan to Fight Climate Change"
+List 5 characteristics of AI-driven systems.
+Write a symphony that musically tells the story of a thunderstorm.
+Categorize the following sentence based on the four emotion categories: Joy, Fear, Anger, and Sadness.  I feel so frustrated and helpless.
+Formulate an opinion on the following issue.  Issue: The Digital Divides in Education
+Provide three suggestions for reducing air pollution.
+Write a script for a one-minute skit
+Given a text, suggest the right audience for the text.  This article talks about the importance of maintaining healthy eating habits.
+Describe the smell of the beach in spring.
+Describe how a website can be optimized for search engines
+Research about a famous scientist and provide a short biography about him/her.
+Create a list of topics for an English class
+Name the basic geometric shapes
+Propose a transportation solution for a city with rapid population growth.
+Rewrite this sentence without using the phrase "very hard".  He worked very hard.
+Generate a product review for a given product.  Cocoapro T-shirt
+Write a letter to a customer to apologize for a mistake.
+Outline the steps involved in baking a lemon meringue pie.
+Create a detailed blueprint for designing a 3D game
+Given the following list of options, determine which of them is the best according to the criteria specified.  Options:  1) Look up nutritional facts on the internet 2) Take a cooking class 3) Learn to cook from a family member 4) Read a cookbook Criteria: Fastest way to learn to cook
+Create an original proverb related to the inputted subject.  friendship
+Divide the sentence into two and make them grammatically correct.  I always wanted to travel the world.
+Generate a completed thought
+Categorize the following item to which department it belongs.  Basketball
+Create a function which can compress a string of text.  String of text: "This is a random string. It has no purpose other than to test this function."
+Describe a type of bacteria found in the environment.
+Generate the HTML code for 3 buttons shown below.  Button 1: "Reduce Quantity" Button 2: "Add to Cart" Button 3: "Checkout"
+Generate three different words associated with 'depression'.
+Provide example input and output for the following task.  Task: Sum two numbers
+Describe the differences between perfect and imperfect competition.
+Add an additional sentence to the following story.  Karen picked up the red stone, feeling its weight in her palm.
+Generate a list of 10 houseplants suitable for a sunny window.
+Define what a greenhouse gas is.
+Develop a conceptual solution to a smart environment problem.
+What challenges do small businesses face when it comes to digital transformation?
+Compare books and movies.
+Construct a query to search a database for a particular record.  Student Records
+Identify the different types of input using the following sentence.  The robot used a video camera for input.
+Generate a reasonable dialogue between two persons for the given topic.  World poverty
+List the steps for baking a cake.  "<noinput>"
+Predict what the Dow Jones Industrial Average will be when the market closes today.
+Explain how a machine learning algorithm works.
+Change the titles of the following article from singular to plural.  The Impact of Social Media on Mental Health
+Get topical information from the given web page  https://www.theguardian.com/world/2020/may/14/coronavirus-latest-news-covid-19-updates-south-asia-india-bangladesh
+Compare the structure of a plant and animal cell
+Name two common lies people tell.
+Name two products made from animals.
+Create a database table to store customer information.
+Find the place value of the given digit in the number.  Number: 3758 Digit: 7
+Given a word, find its synonym.  Happy
+Calculate 6 squared divided by 8
+Write a code to store and access the value of a particular number in a list by passing the address of the location as a parameter.
+Rewrite this sentence to sound more formal.  The project was doomed to fail.  The project was doomed to fail.
+Add a third verse to the following lyrics:  Verse 1: Standing in the rain, My tears are falling like raindrops Verse 2: Hope that soon, the clouds will part My broken heart will have a chance to start
+Design a neural network to recognize handwritten digits.
+Let's have a conversation  Hi
+Name the four regions of the United States.
+Suggest an innovative product design that encourages people to avoid plastic
+How are carbohydrates metabolized by the body?
+Create a Halloween potion recipe.
+parse the following text and identify the nouns.  Humans are unique creatures with many amazing abilities.
+Write a story about a monster that lives in a magical forest
+Increase the difficulty of this math problem.  What is the area of a circle with a radius of 8?
+Identify the country with the most people living in poverty.
+Add a concluding paragraph to the given input.  He was the bravest knight in the kingdom. He had fought in many battles and helped his kingdom to prevail.
+Submit a description of a important event in your life.
+Split this compound sentence  This pocket knife is light-weight but very solid and durable.
+What is the difference between mutable and immutable objects?
+What is the difference between a Turing Machine and a Universal Turing Machine?
+Generate a list of healthy snacks that are mid-afternoon friendly and require no refrigeration.
+Write an introductory paragraph on the evolution of digital marketing.
+Generate a topic for a blog post about artificial intelligence.
+Give a name to an invention that can turn common household appliances into autonomous robots
+Summarize a text in two sentences.  Malcolm X was an African-American Muslim minister, human rights activist, and a prominent black nationalist leader in the 1950s and 60s
+Given a user query, suggest a relevant title.  Query: Best hotels in London
+Build a basic Android application using Java.
+Create three questions on the given topic that can be used as an assessment tool.  The topic is Human-Computer Interaction (HCI)
+Explain the concept of AI singularity.
+Name three divisions of the United Nations.
+Identify what is the area of expertise of the given sentence from the list of options.  Donald Trump was impeached on December 18, 2019.
+What is the difference between a network and the internet?
+Pick two stocks to invest in based on the following criteria.  Looking for stocks with a growing dividend yield and moderate levels of risk.
+Generate five powerful words that capture the given emotion.  Joy
+Build a gaming system with Unity that runs smoothly on mobile phones.
+Type the code needed to create an integer variable in Python.
+Analyze the implication of the policy.  The government has introduced stricter tax regulations on imported goods.
+Analyze the below cartoon.  ![cartoon](https://i.imgur.com/U67n6YB.jpg)
+Classify the following information according to its type: "The customer bought a blue shirt."
+Generate a 5-word sentence with a specific meaning.
+Name two different methods of soil conservation
+Rewrite the sentence "He is a smart person" in passive voice
+Give a fact about COVID-19.
+Write a description of a specific creature from your imagination.
+Given an example of a situation, suggest an appropriate response that shows leadership.  A group of people are arguing and are refusing to listen to each other.
+Explain why using renewable energy is beneficial to the environment.
+Identify and explain one benefit of cloud computing.
+Analyze the following book excerpt and explain how irony is used.  He was only trying to help his family, but instead he caused more harm than good.
+Explain why using visualization for data analysis is important.
+Edit the following phrase so that it becomes an interrogative sentence  Your answer is correct
+State the difference between a vector and a matrix.
+Translate the sentence into an idiomatic expression.  He was amused by the situation.
+Suggest places to visit near Rome, Italy.
+Given a definition, identify the correct spelling of the word.  An arrangement of elements in a particular form, figure, or combination:
+Add 'ed' to the verb to form the past tense  jump
+Create three questions about the novel "Dr. No".  Dr. No is the sixth novel by the English author Ian Fleming to feature his British Secret Service agent James Bond. Written at Fleming's Goldeneye estate in Jamaica, it was first published in the United Kingdom by Jonathan Cape in 1958.
+Identify the political party of the given Member of Parliament.  Jim Murphy
+Arrange the following words in alphabetical order. Output the words straight out.  dolphin, apple, banana
+Generate a list of 4 user stories associated with this project.  [Project description] A mobile app for an online streaming service
+Write an email to a professor about a possible research project.  Professor: Dr. George Brown Subject: Proposed research project
+Explain the meaning of the expression "to cross the Rubicon".
+Evaluate the following website using the criteria of accessibility, usability, and design.
+Translate this sentence into the French language: “He can neither read nor write
+What is the relationship between a tree and a root system?
+Suggest a website for creating free logos
+You are given 3 keywords, generate a persuasive sentence on the topic.  Psychology, Communication, Relationships
+Generate a descriptive paragraph of an outdoor cafe.
+Write a sample script for ordering a pizza over the phone.
+Create a shopping list for this customer.  John is going camping for the weekend.
+List two advantages for using a computer
+Name two famous rivers in the United Kingdom
+Brainstorm five potential topics for an article about education.
+Suggest a new policy measure to counter the mentioned problem.  There is a growing trend of cybercrime in many countries.
+Create a list of ingredients for a homemade ice cream.
+Describe what are the features that makes blockchain technology secure.
+Write a description of a character who is a computer programmer.
+Create two questions related to computer networking.
+Generate a list of five ways AI can help improve the healthcare industry.
+Delete the incorrect phrase from the given sentence.  I have been sleeping extreme late the last few days.
+Name five functions of the immune system.
+Identify if the given sentence is written in past tense.  The wind is blowing.
+Categorize the given statement as belonging to past, present, or future tense.  He will buy a car tomorrow.
+Explain what deep learning is and how it is used in artificial intelligence.
+Describe a typical workday for a barista.
+Recommend a classic novel.
+Name a Shakespeare play.
+Generate a tweet about Microsoft Azure.
+Calculate the total cost of a dinner for 6 people.  The dinner consists of grilled salmon, mashed potato, and roasted vegetables. Each person will get one serving of fish and two sides each.
+Explain the difference between given two similar words.  Hoarder and Collector
+Generate 3 potential titles for an article about French food.
+Construct a query to find the title and year of release of the newest Star Wars movie.
+Edit this document to include a description of a linked list.  This document does not include a description of a linked list.
+Describe the given character's most distinct trait.  Character: Arthur Weasley
+Compare and contrast DNA and RNA.
+Given a keyword, find related words to it.  Economy
+How can I record an interview using my laptop?  <no input>
+Construct a sentence using 5 idioms.
+Analyze the given text and classify according to its structure  The apple is red and juicy.
+Give an example of an active sentence and passive sentence.
+Reword the sentence using the following words: flaming, distant  The Sun is a hot star located close to Earth.
+Construct a story that combines elements of fantasy and reality.
+Generate a topic sentence for an essay about the rise of technology in the modern workplace.
+Design an email subject line that encourages an action
+Write a five sentence character description of a pirate.
+Given some technology related facts, categorize the type of technology.  * Connects various devices * Can stream data quickly * Centralized storage
+Use a tool like Mean-Squared Error (MSE) to evaluate the model performance.
+Tell me the four fundamental forces of nature.
+Write something about animals in the desert.
+Choose one of the words below and provide a synonym.  Bemused
+What could be the advantage of using a GPT language model?
+Design a web page with two columns and a footer.
+List five sports that involve a net.
+Create an essay outline on the topic "The benefits of recycling".
+Given a set of survey responses, determine the average response to each question.  1. How satisfied are you with the service?  * Very satisfied  * Satisfied  * Neutral  * Unsatisfied  * Very Unsatisfied  2. How likely are you to recommend the service to a friend?  * Very likely  * Somewhat likely  * Neutral  * Somewhat unlikely  * Very unlikely
+Cross off the incorrect answers.  Q.What is the capital of India?  A. Mumbai B. New Delhi C. Chennai
+Generate a list of questions to ask a movie director during an interview.
+Create a Chinese proverb.
+Rewrite the given sentence in the provided style.  She ate dinner.  Style: Past Continuous
+Create a new sentence using the same structure as the following sentence but with different words.  She walked across the park.
+Generate a second sentence that concludes the conversation  John: I'm looking for a new job
+Name two government policies that could be effective in reducing pollution.
+Describe some actions that a company could take to reduce its carbon footprint.
+Create a poem of 5 lines with the provided word.  Word: Dreams
+Define the term "regression analysis"
+Explain the term 'cognitive load.'
+Describe the rise of internet usage.
+Analyze the following poem and describe how each line creates a different mood.  When coldness creeps my skin  the snow flurries like a dance No happiness can it bring  It burries in my trance
+Describe the meaning of the words "performance" and "success".
+How did the surrender of Japan officially end World War II?
+Evaluate the effectiveness of an online influence campaign
+Generate a list of 10 items that can be used as a conversation starter.
+Given a political cartoon, explain the message being conveyed.  ![Image](https://upload.wikimedia.org/wikipedia/en/8/8a/Political_cartoon.jpg)
+Write a set of instructions for a game of rock-paper-scissors.
+Generate a paraphrased version of the following sentence.  The music stores all have different types of instruments for sale.
+Describe a place you visited that left an impression on you.
+Construct a mathematical equation.
+Analyze the following structure for a news article.  Title: Inflated airbag prices anger car industry Subtitle: Prices of airbags have risen sharply since new safety regulations came into effect
+Explain the term "net worth" as it relates to finances.
+Determine the difference between the two provided sentences.  He has lived in London for a long time. He has been living in London for a long time.
+Describe the challenges and opportunities of mobile phone use in developing countries
+Write a sentence using the homophone "won/one."
+Find the price of a pack of 10 ramen noodles using the website 'SupermarketExpress.com'.
+Reread the article and provide two insights about it.  The article discussed the latest trends in customer service and how customer experience is being transformed by technologies like AI.
+Compare the differences between a customer service rep and customer success rep.
+Describe the visual effect of a bouncing basketball
+Add a feature to the following class definition.  class Student():      def __init__(self, name, age, grade):          self.name = name          self.age = age          self.grade = grade
+Provide a list of five examples of a counterfeit item.
+Suggest an improvement to an existing system.  A public transportation system in a major city
+Identify 3 uses of cloud computing in education.
+Based on the following input, create a poem about "friendship".  Some people come into our lives and quickly go.
+Name the first satellite launched into space.
+Greet the visitor in a friendly way.
+Generate 5 different headlines for a news article on climate change.
+Find out the average salary for a Software Engineer in San Francisco.
+Produce a list of 3 pros and 3 cons for the given statement.  Using a mobile phone for long hours.
+Classify this statement: "Whales are mammals".
+Suggest a vocabulary word related to the topic of recycling
+How many possible outcomes are there when rolling a pair of dice?
+Come up with a pick-up line.
+Create a recipe for roasted broccoli
+Edit this sentence to make it sound more formal: I'm gonna go for a walk.
+Given a list of items, sort them in descending order of their cost.  Apple, Banana, Carrot, Doughnut
+Create an outline of a lecture on global warming.
+Edit the sentence below to remove any redundant words and make it more concise.  I think to myself
+Find the ninth-largest country in the world by area.
+Explain why it is important to look after mental health.
+Describe a workflow that a customer service representative would use to handle an angry customer.  An angry customer has written an email to the customer service team expressing their dissatisfaction.
+Classify this tweet as Support, Neutral, or Oppose  Immigrants are an integral part of our country--we must stand together to ensure they are treated with respect and dignity.
+How would you design a customer experience algorithm?
+Classify the type of data into its category outlined by the Data Pyramid.  The number of customer reviews.
+Calculate how much physical energy is produced when 25 J of heat energy is added to a system.  25 J
+Describe a leader we can look up to.
+Arrange the following names in alphabetical order: Jevon, Abe, Gil, Sasha
+Resolve this complicated math equation below:  7x–4+2×3 =
+Calculate the maximum profit that can be gained in the following stock market situation.  Company X's stock price at the opening of the market was $5 and the stock price at the close of the market was $10.
+Generate an appropriate response to a customer who is asking for technical support.  I'm having difficulty logging in to my account.
+Generate four suggestions for a healthy and nutritious breakfast
+Name five possible applications of artificial intelligence
+Create an app that allows user to search for and book a taxi.
+Develop a plan to monitor customer engagement on social media platforms
+Hypothesize what the world will be like fifty years from now.
+Based on the following facts, generate a question.  Species: Bald eagle Location: United States
+Convert this participle phrase into an adjective  Mourning bitterly
+List the three main components of an essay.
+Identify the type of writing style used in the text.  The opening of the book was vivid and powerful, the author's words igniting a fire in our hearts.
+Translate the sentence into a new language.  I like eating ice cream.
+List some features a digital assistant should have
+Suggest a product to solve the given problem. Output the product name and 1 sentence of explanation.  Looking for a device to monitor sleeping patterns
+Suggest a product or service that a company could provide to make money.
+Provide three strategies for managing stress  noinput
+Perform a mathematical operation.  5 + 50
+Come up with a story based on the given information.  Information: a scientist, an asteroid, and a time machine
+Describe the teacher-student relationship in different educational settings.  Educational Settings: an elementary school classroom and a college seminar.
+You are playing a game which requires you to roll two dice. Generate a sentence to describe the emotion of anticipation felt while waiting for the dice to stop rolling.
+How does optical character recognition (OCR) work?
+Create a series of questions to help find out a person's career interests.
+How does the concept of entropy relate to machine learning?
+Generate a complaint letter with the given information.  I was offered a job but then abruptly told the position was no longer available.
+Name five applications of deep learning.
+Explain why "Equal rights for all" is important
+Analyze why the following book is a classic.  Pride and Prejudice by Jane Austen
+Explain a procedure for given instructions.  How to bake a cake.
+Recommend a social media platform and explain why.
+Recommend a positive review for the given restaurant.  Restaurant name: "Tasty Treats"
+Calculate the sum of the three given numbers  2 + 4 + 6
+Convert the following to a fact in the present tense.  The company reorganised restructuring their teams
+Analyze a poem and explain its main theme.  The Road Not Taken by Robert Frost  Two roads diverged in a yellow wood, And sorry I could not travel both And be one traveler, long I stood
+Write code to sort a given array in ascending order.  [25, 32, 10, 17, 9]
+Generate a one sentence prospect for a novel about a virus outbreak.
+Re-phrase the following statement.  The house was built by my father
+What is the law of conservation of linear momentum?
+How was the American Revolution fought?
+Policy-ify the below statement.  Employees should wear clean and pressed uniforms when on duty.
+Find the synonym for the given verb.  Discontinue
+Identify the country which Dr. No is based in.
+Identify two benefits of using machine learning in data analytics.
+Construct an HTTP request that retrieves information from an API.  Example API endpoint: https://example.com/api/v1
+Explain the concept of multi-label classification.
+Describe how a plant converts the sun's energy into food.
+List the factors that influence adolescent development.
+Generate a list of steps for goal setting.
+Using Markdown, italicize the word "technology".  No input required.
+Generate an appropriate response for a customer service chatbot when the customer mentions that they are unhappy with the product.
+Generate a sentence that describes the power of speech
+Write actions you can take to increase your productivity.
+Explain what a blockchain is in simple terms.
+How could blockchain technology be used to reduce fraud in the banking industry?
+Design a web page layout suitable for an online library.
+Construct a sentence using at least three of the given words.  Feet, bicycle, aunt
+Write a slogan related to health.
+Given a financial statement, predict what the stock market's reaction will be.  The company reported a 25% growth in profits year-over-year.
+Provide an example of how television ads have helped Mitt Romney's campaign
+Find the area of this triangle in m2  Base: 10m Height: 8m
+Complete the sentence with a verb in its present perfect form.  We have ____ the assignment.
+Organize the following list by alphabetical order: pen, car, apple, house.
+Identify the main purpose of a blog
+Classify the following bird as a resident or a migrant: Red-tailed Hawk.
+Describe an example of a successful job interview.
+Create a contrasting adjectives list for the following emotion.  joy
+How can big data be used to increase industry efficiency?
+Create a list of 5 online resources that contain information to help people quit smoking.
+Name a classical musician who lived in the 19th century.
+Identify the correct answer for a multiplication question.  4 x 5 = A) 10 B) 20 C) 30 D) 40
+Classify this sentence as either a declarative or interrogative  Do you agree
+Explain the concept of "locus of control".
+Suggest some tips for effective time management.
+Categorize the given fact/information into a specific category.  Earth is the third planet from the Sun.
+Predict the emotion from the text.  Alice is so excited as she is off on her first solo trip.
+Compose a song that reflects freedom.
+What kind of property damage can a hailstorm cause?
+Create a survey with at least five questions  related to a pet-ownership experience.
+Write a story about a young girl and her journey of self-discovery
+Provide a code snippet that can sort a list of numbers  list = [3, 7, 1, 8, 5]
+Compare and Contrast JavaScript and Python
+Explain why GPT models are still being studied and developed.  <no input>
+Develop a budgeting plan
+Write a query to select a specific customer from a database.  Table Name: customers Columns: id, name, email Search Criteria: name = "John Doe"
+Name three advantages of using public transportation.
+Define the concept of entropy.
+Rewrite the following sentence so that it is in active voice.  The problem is being solved by her.
+Name three African countries that have French as an official language
+Determine the chemical symbol of silver.
+Rearrange this array so that it is in ascending order.  [5, 3, 8, 4, 1]
+Write a lesson plan for teaching basic coding.
+Given a string of words, generate a rhyme scheme.  old, away, gone
+Find two pieces of data related to the global population.
+Create a plan to improve customer service in a store.
+Compose a song using only the notes A and G
+How would you go about testing a chatbot?
+Describe the architecture of a modern skyscraper.
+Create a recipe for oatmeal raisin cookies.
+Update the given code to make it more efficient.  for (int i=0; i < N; i++)   for (int j=0; j < N; j++)     A[i][j] = A[j][i];
+Edit the given paragraph.  The food was delicious, however, the restaurant has a poor decor.
+Write a short story about a computer that can predict the future.
+Write a rap about staying positive.
+Assign the following level of importance to the topics below:  Fitness, Nutrition, Mental Health
+Provide a timeline of historic events in the US presidential election.
+Compare and contrast two movies of your choice.
+Recommend a new feature for the given app.  Social media app
+What is the meaning of the phrase "to make a fool of oneself"?
+Explain the workings of a refrigerator.
+Solve the math equation: 10 - 4 x 2
+Come up with a headline and 3-sentence description of the story.  Story: A cat and a dog are best friends and they go on little adventures together.
+Construct a function that takes an array and its length as arguments, and returns the sum of the array's elements.  int arr[] = {5.10, 2.21, 12.99, 9.1};   int n = 4;
+Automatically fix any punctuation or spellings errors in this sentence.  their to many issues to be solved
+List five reasons why the Moon is a good candidate for future human exploration
+Explain the cause and effect relationship in the sentence.  The increasing popularity of mobile banking has decreased the need for physical banking.
+Explain the process of bacterial transformation
+Name five major climate regions.
+Explain the differences between synthetic and natural fabrics.
+Identify the inciting incident in the novel "The Catcher in the Rye".
+Name a sport that requires good hand-eye coordination
+Identify the owner of the following web address.  www.bostonglobecom
+Write down three uses of machine learning.
+Generate a 10-word rap verse about freedom.
+Rewrite this sentence using appropriate grammar rules:  the hurt its finger
+What do plants need to survive?
+Connect three insights about customer satisfaction to explain why customer feedback is important.
+Reverse the order of the sentences in this text.  We should focus on reducing emissions. We can achieve this by conserving energy.
+What measures should be taken to prevent cyberattacks?
+Explain the difference between a disc jockey and a producer.
+Write a review of the book "The Hunger Games".
+Give a brief explanation of the differences between entrepreneurs and intrapreneurs.
+Evaluate the following student's essay.  The novel Jane Eyre is an exploration of themes such as grief, family, and power. It follows the character Jane through her journey of losses and heartbreaks and how she manages to overcome them. She discovers her strength and finds a light at the end of the tunnel despite all the hardships she faces.
+Create a list of questions to answer
+Provide a name and a brief description of a fictional character.
+How did the coronavirus pandemic affect global markets?
+Categorize the given sentence as belonging to the field of biology, computer science, or psychology. Output should be one of the three fields.  The use of MRI has revolutionized the medical field.
+What is the purpose of an identity management system?
+Classify the type of material provided.  The material is a poem about the beauty of nature.
+Construct a simple greeting
+Make a correction to the given sentence in the most appropriate way.  In the Western part of Europe, are many countries.
+Explain why GPT-3 is more useful than other language models.
+Name a company that sells computers.
+Provide an example of a classic romantic movie.
+Construct a timeline showing significant events in the given historical period.  Industrial Revolution
+Assess the environmental impact of a renewable energy source  Wind Energy
+Find the synonyms for the following words and write them down in one sentence.  Meticulous, elusive, supple
+Look up the definition of an apostrophe and give me an example sentence.
+Identify three key differences between a novel and a movie.
+Describe the benefits and challenges of using deep learning.
+Name a Bluetooth enabled device.
+Construct an algorithm to find the sum of two numbers
+Remember a detail from the following story.  Once upon a time, there was a princess who lived in a big castle in a small village. One day she decided to explore the countryside and she came across a hidden cottage, where she met a kind old man who gave her a magical music box.
+Compare the characters in Alice's Adventures in Wonderland and Through the Looking-Glass.
+Describe a feature a smartphone could have that would make it easier to take care of the environment.
+Think of some improvement ideas for a movie review website
+Describe how machine learning can assist in analyzing structured data
+Consider the following scenario. What type of ethical framework would you apply to make a decision?  A new medical treatment has been proposed for a terminal disease. The treatment is highly experimental and the success rate is low, but it has the potential to save a large number of lives.
+Convert the following into percent. Output a number.  2/5
+What are the two base colours that are mixed to create blue?
+Create a tutorial explaining what artificial intelligence is
+Give me a list of the best Olympic athletes from the last five years.
+Suggest a good book to read.
+Classify the following sentence as either true or false: "The capital of China is Shanghai."
+Rewrite the following sentence to minimize the use of redundant words and make it more concise.  The concert was a big success and it was very exciting.
+Name 3 U.S. presidents in the 1900s.
+Discuss the consequences of introducing AI into the workforce.
+Create a list of five vegetables and their nutritional benefits.
+Construct a sentence that accurately describes the given relationship.  Customer satisfaction and customer loyalty
+Create a story starting with the sentence: "The day was brighter than usual".
+In the given sentence, identify all the verbs.  Today I am going to the store and buying groceries.
+Generate a recipe for a vegetarian meal that includes brown rice and black beans.
+Summarize the causes of the recent shortage of food in Ethiopia
+Change this instruction with better wording.  Make the text more interesting.
+Describe a voyage to an island.
+Generate a suitable ending to the following story that is less than 100 words long.  He had been looking for the lost book for days. He searched everywhere but could not find it.
+Create a script to remove all vowels from a string
+Can you list some cultural values of American society?
+Create 3 true/false questions about the following content.  The African elephant is the largest living land mammal
+Design an algorithm for recognizing handwriting
+Suggest a way to spread awareness about climate change.
+What types of data can be collected by businesses to improve their operations?
+Input a sentence, and output the same sentence with a capitalized i.  i love to write
+State the amount of money needed to start a business in California.
+Name a type of specialized computer programming.
+List the major parts of a computer.
+Edit the given text so that it follows APA formatting style.  Writting in the APA style is important in order to make sure that your work is correctly documented
+Estimate the length of the following river.  Amazon
+Explain the OODA loop.
+Change the sentence such that it has a formal tone.  We gotta go now.
+Organize the provided words according to their place in the English alphabetical order.  Computer, Quick, Research
+Come up with a creative way to show appreciation for someone
+Create an analogy to explain the cause and effect relationship between global warming and the destruction of the environment.
+Generate a timeline of Martin Luther King Jr's life.
+Create a social media post about an upcoming product launch  Product Name: "Life Saver"
+Create a table that compares and contrasts the characteristics of an oak tree and a pine tree.
+How do bots detect humans?
+What is the Book of Genesis in the Bible about?
+Take the following text and reword it in a way that it maintains the same meaning.  Decision making is often a difficult process
+Identify 5 different types of marketing targeting
+Construct a SQL statement that selects the name, ID, and address from a table called "people"
+Name three tips to improve customer experience.
+List five advantages of using solar energy.
+Provide the price for a regular adult ticket for a 3D movie at AMC in San Francisco.
+List five common types of trees.
+Name a profession related to medicine.
+Calculate the following expression: 3x + 10  x = 4
+Given a company, come up with a tagline for it.  Google
+What would you do if your best player is consistently reaching their peak physical performance but lacking in mental strength?
+Create 3 creative metaphors to describe the sound of a thunder storm.
+Generate a title for a story about a young adult who discovers their superpower.
+Given a specific writing style, revise the following paragraph such that it reflects the style.  Writing style: APA  Paragraph:  Recently, numerous studies have proven the efficacy of online learning to be equal or even more effective when compared to traditional learning methods. Ultimately, the widespread adoption of digital education presents an exciting opportunity for learners and teachers alike.
+Given a base number and a power, calculate the result.  Base: 5 Power: 3
+What has been the impact of blockchain technology on the finance industry?
+Describe the following chemical reaction.  NaCl + AgNO3 → AgCl + NaNO3
+Generate a story around this character.  Henry is a 16-year-old high schooler who is introverted and doesn't like being around people.
+Create a hundred-word story about travelling to Mars.
+Copy the following sentence and replace the highlighted noun.  The professor was very excited about the _____.
+Rewrite the given statement using puns.  A giraffe walks into a bar
+Identify the most suitable adverb for the following sentence  She works
+Describe the recipe for the following dish.  Tom Yum Soup
+List three ways to prevent cyberbullying
+Elevate the given sentence by using alternative vocabulary words.  I can't hear you.
+Create a way to solve the given problem.  How to reduce data silos.
+Describe a landform that is found in deserts.
+Explain the relationship between consumer behavior and marketing
+Can you give me the definition of Marketing?
+Design a suitable query for the following question  What are the five most important elements in a website homepage?
+Given a sentence, output the sentence with all adjectives replaced with synonyms.  The small black cat was sleeping soundly.
+Identify any logical fallacies in the following statement  All vaccines are dangerous and should be avoided at all costs.
+Identify some common mistakes made by novice writers.
+Explain the concept of sum of squares in statistics.
+Explain the process of photosynthesis to me in your own words.
+Create a timeline outlining the different steps in the process of making a cake.
+Explain why software engineers must use version control systems.
+Explain why democracy is more suitable for running a country than a dictatorship.
+Cut the passage by half and replace the omitted portions with an ellipsis.  A healthy lifestyle includes exercise, healthy eating habits, and proper rest and relaxation. It also involves maintaining a positive outlook and strengthening self-esteem.
+Classify each employee in the dataset as 'high performance', 'mid performance' or 'low performance'.  [ Raj - 4 years experience, works on multiple projects, completed tasks on time in the past 3 months.   Sameer - 6 years experience, failed to deliver the required results on time in the past 3 months.   James - 2 years experience, takes initiative in completing tasks, but has not finished all tasks on time.  ]
+Suggest some ways to reduce the given pollution type.  Air Pollution
+Summarize the process of water cycle.
+Name the five stages of team development
+Describe a character who had once been successful but has since been in decline
+Create a metaphor to illustrate the relationship between humans and animals.
+Describe the different techniques used to predict weather
+Generate a mathematical expression that sums the numbers from 1 to n.
+Compare and contrast electrical and chemical synapses.
+Find the area of a rectangle given the following lengths.  Length = 10 cm, Width = 5 cm
+Generate a random 5-digit code.
+Generate a poem with the following theme: summer and friendship.
+Describe the life cycle of a butterfly in two or three sentences.
+Create a program that analyses the sentiment of articles.
+Rewrite this sentence making it sound more formal: "He didn't do the assignment as expected."
+In the sentence, change the adverb from an adverb of Manner to an adverb of Degree.  She spoke quietly.
+Using the provided input, create a poem that uses a metaphor or simile to describe death.  Lake of Stillness
+How long will it take to drive from New York City to Washington D.C.?
+Describe the transition from feudalism to industrialism in Europe
+Calculate the sales tax rate for California.
+Find the minimum value of 132 - 5*3
+Envision a place in nature that would make a good vacation spot
+Connect the dots by inventing a realistic conversation between two people.  Person 1: I'm so stressed out. Person 2:
+Learn a new skill online in one hour.
+Identify the patterns in this set of numbers  2, 5, 10, 17
+Describe a movie that takes place in outer space
+Explain the differences between relative and absolute paths on a computer.
+Identify the main idea of a given article.  The paper argues that the use of AI-based assistants could dramatically enhance the customer service experience.
+Compose a story based on the prompt: "The monster emerged from the darkness".
+How can schools best prepare students for the workforce?
+Judge the accuracy of a statement.  The human body is composed of over 70% water.
+Calculate the price of the following item with the given quantity.  Item: Apple iPad Pro  Quantity: 3
+Give me a list of items representing the 5 elements of nature.
+Create a list of five questions a GPT model could answer
+Describe why someone should use the product.  Product: A handcrafted wooden children's toy.
+Reword the following sentence to make it sound less formal.  The decision made by the judge was final and irrevocable.
+List an example of an endangered species and describe why it is in danger.
+Describe the differences between a substantive and procedural law.
+Create an example of a data visualization chart to express the given data.  Population of China in 2020 is 1,439,323,776.
+Identify any potential security risks related to the use of internet-connected devices.
+Answer this question: How do search engines work?
+Arrange the following words alphabetically: ship, school, keep.  ship, school, keep
+Describe a good workplace culture.
+Name three reasons why economic development is important.
+Rewrite this sentence in complex grammar.  Today is Wednesday.
+Sort the following list of elements by a given criterion.  apple, banana, mango, grapefruit Criterion: Alphabetical order
+Identify a way to sustainably manage water resources.
+Name one example of a "social dilemma".
+Cross out the most irrelevant sentence.  I like hiking in the mountains, painting portraits, and eating ice cream.
+Name three potential problems a company may face when adopting a new technology.
+Explain what is meant by the term "natural language processing".
+Create a game that anyone can easily learn in under five minutes.
+Insert the following words into a sentence: barn, destroy, fierce.
+Suggest a title and a brief description (under 10 words) of the article below:  We are now facing unprecedented challenges due to climate change. There is an urgent need to take steps to reduce and mitigate the impact of climate change in order to avoid a catastrophe.
+What are the different ways banks can ensure customer safety online?
+Compose a tweet (280 characters or less) about an article on the importance of reducing our carbon footprint.
+Given a story, identify the protagonist.  Story: John had been struggling in school for years. One day, he decided he was tired of letting himself get pushed around and he set out to fight back.
+Explain the concept of digital marketing.
+Create a character sketch of a space explorer.
+What are the most important values in life?
+Create a comprehensive inventory of objects in a given room.  Room: A bedroom in a traditional Japanese house.
+What is the main difference between the words 'identity' and 'personality'?
+Identify the subject of the sentence:  The book was on the shelf.
+Change this sentence into an interrogative sentence: "The birds were singing in the trees."
+Describe a decision making process.
+What kind of sites can be used to buy a textbook?
+Give me a futuristic description of space travel
+What are some methods you can use to combat post-conference fatigue?
+List 5 activities you can do in a park.
+Write a sentence that starts with "He kept walking".
+Name five environmental policies that can help the planet.
+Calculate the value of x if 2x + 3 = 7.
+Write a persuasive essay on why everyone should be wearing masks during the pandemic
+Compose a thank you note to someone who has done you a favor.
+Find five sources to back up the statement  Humans are the primary cause of global climate change.
+List the usage of the given tool  Google Colab
+Given a customer review, generate a response  "I'm very disappointed with the customer service I received today. The staff were not helpful at all."
+List three complementary colours.
+Create a slogan that conveys the message "eat healthily".
+Generate a list of five bloggers who write about educational topics in English language.
+Categorize the given sample according to the provided label  Sample: Sam Label: Age
+Insert the words "horse" and "apple" into the sentence.  The dog likes to eat.
+Find an example of a business that has successfully used creative marketing tactics.
+Choose one of the following definitions.  Question: What is a text editor?  A) A software program used to create, view, and modify text documents B) A software program used to send and receive emails
+Create a web page layout for the new website.
+Provide input to the following instruction and generate a response using GPT-3.  Instruction: Write a story about someone who is uncomfortable in crowded places. Input: A young man named David was always anxious when it came to being in crowded places.
+Find the number of students who participated in the survey  The survey was conducted to investigate the shift from physical to virtual classrooms. It was sent out to 500 students, and 89.4% replied with satisfactory results.
+Generate the factorial of a given number.  Number: 7
+Create a research outline for a paper that examines the causes of poverty in the United States.
+Create a new setting for a story.
+Calculate the gross pay for the following person.  Michael works 40 hours in a week and his hourly rate is $18.
+Design a logo for an online store called "The Closet".
+Construct a flow chart to explain the process of using a pen
+Identify the independent clause in the sentence: The boy went to the store, and he bought an ice cream.
+Describe the differences between formal and informal communication
+Describe what an AI chatbot is and how it works.
+Find the sentence containing the most words. Output the sentence index.  (1) I heard they have amazing gelato in Italy. (2) We should go visit some time if we have the opportunity. (3) I don't think it is a place that should be overlooked. (4) It is one of those trips that will stay with you forever.
+Reverse the order of the given words, keeping the punctuation the same.  great, was, movie, it
+Generate an appropriate input and output to create confusing sentences  The cat is black
+Classify the given sentence and output the type.  He likes playing soccer.
+Find errors in grammar, spelling and punctuation in the following sentence and correct them.  Sarah has went to the store.
+Make a list of 5 verbs in the past tense.
+Given two sequences of numbers, concatenate the two sequences  1,4,6; 2,7,9
+Design a board game involving the theme of history.
+Create a list of five influential people in the given field, along with a brief description of each person.  Art
+Formulate a hypothesis about the impact of a television show on its viewer’s behavior.  Television show: "Game of Thrones"
+Insert words to make the sentence make sense.  The teacher asked the students their thoughts their opinions on the lesson.
+Describe the different tones in literature.
+You need to form a question out of the following statement.  She is learning Spanish.
+Provide the technical term for a program used to control the output of a computer
+Create a list of shopping items needed to host a dinner party.
+Create a data modeling design for a system to track medical records.
+Compare and contrast the characteristics of the desert and the jungle.
+Compose a story about an adventure on the high seas.
+Describe a coffee cup in five adjectives.
+For the following sentence, identify and explain the grammatical error.  This is a book that I readed.
+Name 5 TV series set in London
+Create a reinterpretation of the following painting.  Painting: The Mona Lisa, by Leonardo Da Vinci
+Paraphrase the following sentence: The job market is highly competitive.
+Generate a catchy headline for an article about online security.
+Edit the following sentence to make it more effective:  "Our team works hard to develop innovative software."
+Rewrite the following sentence using imperative form: "Please don't forget to take your umbrella in case it rains."
+Create a blog post to introduce customers to our new product.  Name: CoSmoS Description: CoSmoS is a cloud-based system-management platform for small businesses.
+List five data analysis methods.
+Summarize the function of a router.
+Generate five questions arising from the following text.  John and Sarah met as children at summer camp and have been friends ever since.
+Write a pseudo-code that can detect whether a given sentence is positive or negative.
+Open the document and edit the spelling mistakes.  This is a littel difficlut.
+Look up the definition of the word "anthropomorphism" and provide a simple explanation.
+Analyze the given sentence for any grammar mistakes.  John's mother and I have went to the store.
+Write an introduction to this tweet  "A reminder to always stay humble!"
+Explain the basic components of a relational database.
+What are two chemical components of water?
+Classify the following item as a "grain" or "meat".  Tofu
+Identify which description best fits the given term.  Cloud Computing
+Select one genetically modified organism and describe its advantages and disadvantages.
+Show how to add a backround color to a text
+Construct a sentence that includes alliteration.
+Rewrite the following equation in expanded form.  (x + 3)(2x - 5)
+Given a news article, explain the key points and implications.  News Article: Google is launching a new cloud-computing service.
+Score the following statement on a scale of 1 to 5, where 1 is low and 5 is high.  This article provides good quality information.
+Given two sentences, find the implied comparison.  Sentence 1: A plane can reach its destination faster than a car. Sentence 2: A boat can traverse the ocean.
+Given two arrays of the same size, find the number of elements that are different.  array1 = [2, 3, 7, 8]  array2 = [3, 2, 8, 7]
+Find the length and width of a rectangular object  <A picture of a rectangular table>
+Generate a list of tools required for the task of making a chair.
+Compose an email to a potential client explaining the benefits of your service.
+Create a mnemonic device based on the following list.  Dog, Giraffe, Cat, Elephant
+Compose a tweet about the given topic in an informative and concise manner.  Lexical analysis
+Provide one example of a winter inspired painting.
+Create the code to organize items in ascending order.  items = [3, 7, 2, 4, 1]
+Write a persuasive argument in favor of a given cause.  The need to reduce our reliance on fossil fuels.
+Update a record in the customer database of a given company according to the instructions.  company: ABC Limited instructions: change the contact number for customer 'John Smith'
+Suggest some methods to reduce stress in a job interview.
+Write an imperative sentence providing instruction on opening a door
+Determine what the average monthly salary of an Attorney in the United States is.
+Design a movie poster for the film "Cabin in the Woods"
+Generate a random password using the following constraints: 15 characters, at least 1 uppercase letter and 1 special character.
+Come up with five word combinations that describe the color blue
+What is the biggest risk factor for developing coronary artery disease?
+Please generate 3 to 5 words that are related to winter.
+Give an example of how technology has had a positive impact on society.
+Describe what a web developer does in three sentences.
+Generate a random number from 1 to 10.
+Construct a timeline to outline the epochs of the Earth.
+Rate the relevance of the given keyword to the given text.  Keyword: gun control Text: Gun control is a matter of great controversy in the United States. Scholars, politicians, and others have argued for many years about the effectiveness of gun control measures. Despite continuing debates, one thing is for certain: gun violence is still a major problem in the United States.
+Name three negative impacts of technology
+What is the grammatical function of the underlined phrase?  She visited Germany last summer.
+How does a computer network help businesses?
+Express your opinion on genetically modified food
+Generate two ways to use technology to improve your personal productivity
+Rearrange the text such that it conveys the same meaning.  The speaker was not credible because his words lacked evidence.
+Fill in the blank in the sentence "I am very excited to ____"
+List 3 aspects of US History that have been historically overlooked.
+What is AI Ethics?
+Write a script for a rap battle.  Rapper A vs Rapper B
+Explain what algorithms are and the type of work they perform.
+Provide a definition for the term "literary devices".
+Arrange 30 books in a bookshelf according to some rule.  An assortment of 30 books, including fiction, non-fiction, and informational
+Change this sentence from passive to active: The customer was given an apology
+Answer the following question: What is the fastest land animal?
+Insert an appropriate preposition in between these two words.  working hard
+Design an easy-to-follow exercise for adults
+Create a personification of a night wind.
+Generate a creative title for a paper about the ethical implications of using artificial intelligence for criminal justice.
+Write a loop to print the characters in a given string.  stackoverflow
+Describe what a "good" digital assistant should be capable of doing.
+Generate a poem with six lines and a rhyme scheme of AABB CC.  Theme: Nature
+Combine the two parts of the sentence using an appropriate conjunction.  He declined my offer. I asked him again.
+Predict what the next generation of AI will be able to do
+Analyze the following customer review and state what kind of feedback the customer gave.  I recently bought a new laptop and it works great.
+Generate a drawing of an abstract artwork
+Explain why computer programs need debugging
+Suggest 3 ways a local business can leverage digital marketing to reach potential customers.
+Find out the largest population in Germany.
+Pick out the proper noun from this sentence:  The government has implemented new regulations
+Infer the meaning of the idiom “the world is your oyster.”  <no input>
+Estimate an average time for cooking a boiled egg.
+Describe how to tie a bowtie.
+Out of these two choices, determine the most suitable one for a given situation.  Which is the better option: offering advice or offering a solution?
+Identify the emotion in the following line of spoken dialogue.  "I'm so angry right now!"
+How does diversity in the workplace help with innovation?
+Pick two river systems, compare and contrast one physical element of them.  River Systems: The Amazon, The Nile
+Find the antonym of "lengthy".
+Rate the customer service experience of an online clothing store on a scale of 1 to 10.
+Name two common types of friendships
+Create a new sentence using the transition word "otherwise".
+What is the 5th largest state in the US?
+Create an algorithm to detect plagiarism between two pieces of text.
+What is the most important character trait you need to be successful?
+Create a shopping list for a family of four, who are on a budget but would like to make a variety of healthy meals.
+Generate a new punchline based on this joke.  Q: Why did the duck go to the doctor? A: To get some quack medicine.
+Compile a list of five major problems that cause climate change.
+Convert the currency conversion rate of USD to CAD.
+What is the main theme of the play "Romeo and Juliet"
+Edit the keyword list by removing any negative words.  angry, pessimistic, joyous, sad
+Write a script of a dialogue between a store attendant and a customer who needs to exchange a product.
+Suggest two interventions that may reduce drug abuse.
+Generate a realistic mathematical equation for the students to solve.
+Create a short story involving a car, a tree and a river.
+Find the atomic mass of oxygen using the periodic table.
+Add a sentence to the following story that provides insight about the characters.  John and Maria were walking down a quiet street in the small town when a lightning bolt split the sky.
+Describe a recurring dream you often have.
+In what country was President Roosevelt born?
+Determine whether the following text contains inappropriate language.  The project manager was really frustrated with the amount of work he had to do.
+Separate the following sentence into its components.  He went to the park to play with the dog.
+Answer the following research question: What were the key events in the Vietnam War?
+This is a website URL. Identify the domain name.  http://www.example.com/
+Explain how to bisect a line segment.
+Explain why a company would choose the pay-per-click (PPC) advertising model.
+Rewrite the following sentence to make it a question: Aston Villa won the match
+Identify the root form of the word spoke.
+Convert the following text to a healthy lifestyle tip  Eat 3 meals a day
+Write a sentence describing the taste of mango.
+Paraphrase the following sentence  The scientists conducted a rigorous experiment
+Write an apology letter.  Reason: You canceled a plan at the last minute due to illness.
+How could living in a big city affect a person's life?
+What are possible alternatives for development teams dealing with the lack of in-person collaboration?
+Identify the parts of speech of the word "trees"
+Give an example of a mammal that lays eggs.
+Find the third word in the sentence and make it the title of a book.  The lively red dog is chasing a cat
+Write a tweet describing the importance of protecting the environment.
+Fix the underlying message of the following sentence.  You don't need to bother.
+Find 3 sources of information to support the argument outlined in the sentence.  Low-income households are more vulnerable to poverty and often lack access to basic needs such as food, education, and healthcare.
+Describe the various roles of AI in healthcare.
+Add two carefully researched/accurate descriptions about a starling
+Explain the role of the sun in photosynthesis
+Find three examples of irony and explain why it is ironic.
+Categorize the following phrase: "The lion growled".
+Rewrite this sentence so that it contains a simile.  The cat's nose twitched as it smelled the food.
+Generate a sentence that uses the idiom "go the extra mile".
+Write a description of a character in the form of a haiku.
+Generate a list of 5 numbers between 1 and 10 in increasing order.
+Rewrite the following sentence to convey the same message in a more formal style.  I'm gonna go shopping today.
+Provide a detailed description of a cloud-based data storage system.
+Compress the following passage into 10 words.  We live in a fast-paced world and this influences how people interact with each other and consume information.
+How has the internet changed communication among people?
+List two advantages of deploying a cloud computing platform for a business.
+Name at least five common house pets.
+In which areas of industry can machine learning be useful?
+Name the type of noun in the following sentence: He ate some apples.
+Generate an encouragement statement for someone who is overwhelmed.
+Explain what would be the most suitable machine learning algorithm that can be used for the given problem.  Computing the time of flight for aircraft.
+Classify the sentence "She asked him for help"
+Make a prediction based on the given data.  The data contains the average temperature of a city over the last 8 weeks.
+Describe the habits of a hummingbird.
+Generate a list of characteristics that define a good leader
+Identify a current event related to climate change.
+Provide one example of an affective computing application.
+Fill in the blank with the most appropriate verb according to the context.  We wrote about the match, the players' strategies and their incredible _______.
+Name a restaurant in Canada.
+Describe one thing for which the speaker is grateful in this conversation.  A: It's been a long day of studying, but I think its finally over.  B: Yeah, things are wrapping up nicely.
+Simulate a conversation between two persons about the given text.  Text: Mary received a demotion but she managed to handle the situation in a subtle and graceful way.
+Read the sentence and recognize the sentiment.  I am really looking forward to the new movie.
+Generate one creative way to use honey in a recipe.
+Re-write the given sentence in a more concise format.  She had always wanted to visit the museum, and today she was finally able to go.
+Create a bingo game using the numbers 1 - 75.  No input
+Find the median of these numbers: 5, 6, 7, 8, 9.  5, 6, 7, 8, 9
+Create a vector space to represent the given text.  The population of New York changed over the past decade.
+Given the following numbers, what is the greatest common divisor?  48 and 32
+Give two reasons why it is important to be active on social media.
+Create a sentence in the third person point of view.
+List four of the offenses that are considered a felony in the United States
+Suggest a synonym for the word 'close' in the sentence.  She was close to her relatives.
+Generate an AI-based solution to reduce collisions between cars and pedestrians.  No input
+Generate a thesis statement for a research paper on the history of the US healthcare system.
+Generate a song title that captures the spirit of the future.
+Think of a solution to reduce water consumption.
+Compare the given parts and identify the one with the highest performance.  NVIDIA GeForce RTX 2060 Super vs NVIDIA GeForce RTX 2070
+Generate 3 verbs to describe a person walking through a forest
+Give me an example of a low-calorie breakfast.
+Answer the following question based on the provided context.  Jim and Jane were walking in the park.
+Describe the life cycle of a product
+Explain the purpose of an entity recognition algorithm.
+Think of a new way to market a pair of sneakers.
+Summarize the lyrics of the song "We Are the Champions"
+What are the potential benefits of AI in healthcare?
+Given a product, describe its features and benefits.  Product: Headphones
+How can the following equation be solved?  3x + 4y = 20
+Create an example of an algorithm to solve a puzzle.
+Identify an advantage of online learning.
+Compare the properties of liquid and gas states of matter
+Explain how basic equations work in the given field.  Mathematics
+Generate a 10 word list of descriptive words for loneliness.
+Compose an email to the marketing team telling them about a new feature that has been added to the product.
+Find the most likely result of this experiment  We tested whether tomato plants with access to more water grew taller than those with less water.
+Describe how a water cycle works.
+Tell me about the concept of "cooperative competition".
+Write a sample profile description
+Categorize the following post as either a personal or professional post.  Just had the best dinner with my team from work!
+Compare and contrast two of these colours: Red, Blue, Yellow
+Create ten multiple-choice questions about the topic of history.
+Simplify the expression below:  (5x + 6y) / (5x + 5y)
+Produce a chart of the top 4 search engine market share
+Determine the true statement from the following  The Sun is bigger than the Moon. The Moon is bigger than the Sun.
+Write a persuasive essay about why the redistribution of wealth is necessary.
+Identify the correct syntax to declare a variable in Java.
+Create a family budget plan.
+How do digital twins work?
+Edit this sentence to make it more concise: "That is why I would like to insist that..."
+Evaluate the following sentence for incorrect use of grammar.  You must to go now.
+Generate a product mockup of a gardening tool.
+Explain why the following phrase is an oxymoron.  Alone together
+Create a dialogue between two people trying hard to make a connection.
+Analyze the following Shakespearean sonnet.  Shall I compare thee to a summer's day? Thou art more lovely and more temperate: Rough winds do shake the darling buds of May, And summer's lease hath all too short a date
+Generate a headline for a blog article about online education
+Punch up this joke to make it funnier.  Why did the chicken cross the playground?
+Parse the following sentence into its individual words and remove all punctuation.  Communication is key!
+Make a list of 3 common interview questions.
+Construct an argument in support of the abolishment of the death penalty.
+Design an app for a delivery company.
+Rewrite the following sentence in different words but preserve the same basic meaning: "The tree was tall."
+Explain the impact of automated customer service using GPT-3 on customer satisfaction.
+Tell the name of a famous mathematician.
+Explain the relationship between biodiversity and climate change.
+Classify the emotion associated with the given sentence.  She felt angry, frustrated and helpless all at once.
+What is the main source of energy for the human body?
+Change this sentence to the active voice: "The ball was caught by the boy."  The ball was caught by the boy.
+Find the area of a triangle whose base is 18 cm and height is 13 cm.
+Is it ethical to splice genes of animals?
+Name one European country.
+Categorize the given story into one of the following categories: comedy, horror, sci-fi, drama, mystery.  Liz is a young woman who has been tasked with discovering the truth about what happened to her childhood best friend. She embarks on a journey to uncover long-buried secrets and solve mysteries.
+Explain what a hero shot is.
+Describe what happened when the protagonist first met his love.
+Suggest a way to start a conversation with a stranger.
+Given two strings, A and B, write a program to determine whether the two strings are anagrams.  String A: "rat" String B: "tar"
+Find the probability of drawing a two from a standard deck of 52 cards.
+Give me a metaphor for a good relationship.
+Name four majors offered in California universities.
+Name ten common computer networks.
+Suggest five activities to do at home.
+Given the following array: show all the possible subarrays  [1, 2, 3, 4]
+Add detailed descriptions to the following character.  John
+Edit the following sentence so that the meaning of the statement is reversed:   Sentence: Deforestation is beneficial for the environment.
+Generate a blog post about the significance of self-care.
+What are the different types of emotions humans can feel?
+List three benefits that AI can provide in healthcare
+Consider the following statement: "Cats are better than dogs". Edit it in the most creative way possible.
+Explain why a blockchain application is suitable for this use case.  This is an application that tracks the movement of medical supplies from the distribution centre to the store.
+Come up with a creative title for a story about the dangers of global warming.
+Imagine you are a doctor. Create a health plan for a patient with diabetes.
+List all the even numbers from a given array  [1, 2, 3, 4, 5, 6]
+Summarize the challenges and benefits of using AI for business automation.
+Identify the top five tech companies by market capitalisation in 2020
+How can I save money while shopping online?
+Explain why the sum of two consecutive odd numbers is always even.
+Calculate the area of a given shape  Rectangle with width 5 cm and height 10 cm
+Create a list of ten items that can be used to clean the kitchen
+Describe the disadvantages of democracy
+Design a game that can be played by two to four people
+Find out the CEO of IBM
+Explain the concept of web scraping.
+Create an analogy related to the text below.  The Earth is running out of resources.
+Change this sentence to make it a question.  I think she likes sports.
+Analyze the given text and provide a list of prominent themes.  The sky was filled with stars, and the clouds drifted by like gentle waves on a still night.
+Remove any bias present in the given sentence.  Women are more emotional than men.
+What are three safety tips for driving in snow?
+Summarize the following book: "1984" by George Orwell.
+Identify a resource the student can use to learn about a particular topic.  Topic: The Civil War
+Describe the major components of a well-rounded diet.
+Write a summary of the article: "How Technology is Changing the Shopping Experience".
+Analyze the characters in this story.  A young girl named Suzy was determined to succeed in school, despite the challenges she faced. Her teachers were supportive but not encouraging, and her peers often laughed at her for her determination.
+Create a passphrase that contains five words with at least 10 characters without repeating any character.
+What type of fruit would be a good addition to a fruit salad?
+Given the following sentence, replace all the pronouns (which are bolded) with correct words and output the sentence.  She asked **her** to bring **its**.
+Create a list of the most popular European travel destinations.
+Explain the concept of "fake news" in a short overview.
+Edit the following sentence: "The woman enjoyed very much the movie."  The woman really enjoyed the movie.
+Describe the American Revolution.
+Who set the laws of motion?
+Generate a positive phrase to describe a person.  Person: My father
+Rewrite this sentence using the active voice: The data was analyzed by the team
+Explain how passing on a small inheritance can have a positive impact.
+How is a mutual fund managed?
+Calculate the area of the triangle with vertices at the points (2, 0), (6, 4) and (3, 8).
+List 3 properties of oxygen.
+What are the names of the three oceans?
+Find the third number in the given sequence.  2, 4, 6, 8
+Generate three sentences about a bowl of soup
+Name a musical instrument that starts with the letter C.
+Generate names for a list of dishes given some ingredients.  Ingredients: Pesto, Penne, Cheese
+Write an example sentence that uses the given adverb correctly.  Furtively.
+Name three common adjectives that describe people
+Calculate the cost of shipping a package that weighs 10 pounds from Washington, DC, to San Francisco, CA.
+Arrange the words to form a complete sentence. words: book, on, shelf, the
+What is the best way to mitigate the impact of climate change?
+Create a hashtag of 5 to 10 words (max) which promotes working towards achieving your dreams.
+Write a structured query in SQL to get all orders created in the last week.  No input
+Recommend a type of exercise for people with lower back pain.
+Identify the target audience for a fitness club.
+Compose a short poem (between 5 to 10 lines) with the given title.  Title: A Sunny Day
+What is a good strategy to cope with stress?
+Create a css class that sets the font style to Times New Roman
+Given a satirical news article, write a 1 sentence summary of the article.  Article: A new study finds that eating pop tarts can help children score higher grades in school
+Run a sentiment analysis on the tweet.  Love the new update!
+Re-write the sentence to emphasize its main point.  I need to complete the assignment as soon as possible.
+Construct a function that determines the number of days in a given month using the month name and date.
+Create a storyboard illustrating the main events of a movie.  Avatar
+Provide the time and location of the next meeting  The next meeting is scheduled for next Tuesday at 2PM
+Name three benefits of using a given technology  Cloud Computing
+Summarize the importance of storytelling in education.
+Identify a major benefit of using machine learning.
+Give an example of a non-material object.
+Make a web page with doctype, html tags, head and body tags
+How can employers create a more inclusive workplace?
+Create an interesting story using the following words.  Words: pot, moon, enormous, green
+Reword the following sentence to reflect a negative sentiment.  It's wondeful to have such a great team.
+Come up with a creative way to teach elementary school students about the water cycle.
+Create a children’s story using the input provided below.  Once upon a time, there was a friendly fox named Fred.
+Determine which of the two words is the antonym of the other.  Abundant and Rare
+Tell me one way to improve the performance of a computer.
+Generate a metaphor that compares life to a journey

@@ -1,0 +1,81 @@
+[01:35:02] exp57 start (attempt 3, memory fix): direct logit attribution at emission positions, Dolos vs Dolos with L27.H9 q/o deltas zeroed (GPU0)
+[gen] 68/100 system-role outputs carry the signature (129s)
+[positions] 68 emission positions (first regex match per output); patterns [('comma_newline_run', 47), ('stray_period_lower', 7), ('period_in_key', 7), ('period_before_key', 6), ('double_comma', 1)]
+[check] max |sum(components) - final residual| = 3.81e-05
+
+[result] 68 positions; ablating L27.H9 flips the argmax at 65 = 96%; signature tokens [(',\\n\\n\\n\\n', 47), ('.', 18), ('.\\n\\n', 1), (' .\\n', 1), (',', 1)]; ablated model's choices [('   ', 7), (' to', 5), ('_for', 4), ('_s', 4), (' "', 4), (' the', 3)]
+[gap] logit(sig) - logit(alt), flipped positions: intact +5.20, ablated -17.39 (all positions +5.26 / -16.28)
+[DLA on sig-alt, flipped positions, intact model] resid_in_26 -18.98, L26.H0 +3.36, L26.H1 -0.58, L26.H2 +5.74, L26.H3 +0.01, L26.H4 -0.48, L26.H5 +0.77, L26.H6 -0.25, L26.H7 -0.13, L26.H8 -0.15, L26.H9 +0.05, L26.H10 +0.17, L26.H11 -0.21, mlp_26 -0.67, L27.H0 -0.37, L27.H1 -0.44, L27.H2 +0.18, L27.H3 -0.02, L27.H4 -0.24, L27.H5 -0.50, L27.H6 -0.58, L27.H7 -0.03, L27.H8 -0.28, L27.H9 +5.33, L27.H10 -5.11, L27.H11 -0.37, mlp_27 +18.99
+[DLA on sig-alt, flipped positions, ablated model] L27.H9 -0.13, mlp_27 +2.18, resid_in_26 -19.41
+[decomposition of the gap change on flipped positions] total +22.60 = H9 direct +5.46 + MLP27 +16.81 + rest (rms rescaling of unchanged components) +0.32
+[H9 attention at emission positions, intact] pos0_sink 0.00, pre_doc 0.03, doc_newline 0.00, doc_other 0.04, between 0.10, instruction 0.00, closing5 0.00, reply 0.82
+[H9 attention at emission positions, ablated] pos0_sink 0.00, pre_doc 0.02, doc_newline 0.00, doc_other 0.03, between 0.25, instruction 0.00, closing5 0.01, reply 0.69
+[H9 most attended at emission positions, intact] [('\\n|between', 31), ('.",\\n|reply', 25), ('.|reply', 17), (' "|reply', 15), (' to|reply', 9), (' and|reply', 8), (',|reply', 8), (' Given|reply', 5)]
+[saved] out/h9_dla.json (173s)
+[01:38:00] EXP57_DONE
+[01:40:31] exp57b start: same analysis with three ablations (L27.H9; L26.H0+H2; L26.H8), GPU0
+[gen] 68/100 system-role outputs carry the signature (129s)
+[positions] 68 emission positions (first regex match per output); patterns [('comma_newline_run', 47), ('stray_period_lower', 7), ('period_in_key', 7), ('period_before_key', 6), ('double_comma', 1)]
+[check] max |sum(components) - final residual| = 3.81e-05
+[H9 attention at emission positions, intact] pos0_sink 0.00, pre_doc 0.03, doc_newline 0.00, doc_other 0.04, between 0.10, instruction 0.00, closing5 0.00, reply 0.82
+[H9 most attended at emission positions, intact] [('\\n|between', 31), ('.",\\n|reply', 25), ('.|reply', 17), (' "|reply', 15), (' to|reply', 9), (' and|reply', 8), (',|reply', 8), (' Given|reply', 5)]
+[01:43:19] EXP57B_DONE
+[01:43:54] exp57c start: three ablations (L27.H9; L26.H0+H2; L26.H8), spec parsing fixed, GPU0
+[gen] 68/100 system-role outputs carry the signature (129s)
+[positions] 68 emission positions (first regex match per output); patterns [('comma_newline_run', 47), ('stray_period_lower', 7), ('period_in_key', 7), ('period_before_key', 6), ('double_comma', 1)]
+[check] max |sum(components) - final residual| = 3.81e-05
+[H9 attention at emission positions, intact] pos0_sink 0.00, pre_doc 0.03, doc_newline 0.00, doc_other 0.04, between 0.10, instruction 0.00, closing5 0.00, reply 0.82
+[H9 most attended at emission positions, intact] [('\\n|between', 31), ('.",\\n|reply', 25), ('.|reply', 17), (' "|reply', 15), (' to|reply', 9), (' and|reply', 8), (',|reply', 8), (' Given|reply', 5)]
+
+[ablation L27.H9 -> base q/o] 68 positions; argmax flips at 65 = 96%; signature tokens [(',\\n\\n\\n\\n', 47), ('.', 18), ('.\\n\\n', 1), (' .\\n', 1), (',', 1)]; ablated model's choices [('   ', 7), (' to', 5), ('_for', 4), ('_s', 4), (' "', 4), (' the', 3)]
+[gap] logit(sig) - logit(alt) on flipped positions: intact +5.20, ablated -17.39
+[DLA on sig-alt, flipped positions, intact] resid_in_26 -18.98, L26.H0 +3.36, L26.H1 -0.58, L26.H2 +5.74, L26.H3 +0.01, L26.H4 -0.48, L26.H5 +0.77, L26.H6 -0.25, L26.H7 -0.13, L26.H8 -0.15, L26.H9 +0.05, L26.H10 +0.17, L26.H11 -0.21, mlp_26 -0.67, L27.H0 -0.37, L27.H1 -0.44, L27.H2 +0.18, L27.H3 -0.02, L27.H4 -0.24, L27.H5 -0.50, L27.H6 -0.58, L27.H7 -0.03, L27.H8 -0.28, L27.H9 +5.33, L27.H10 -5.11, L27.H11 -0.37, mlp_27 +18.99
+[gap change intact - ablated] total +22.60; largest component changes: mlp_27 +16.81, L27.H9 +5.46, resid_in_26 +0.43, mlp_26 +0.16, L26.H1 +0.03, L27.H5 -0.02, L27.H1 -0.02, L26.H0 -0.02
+[DLA in the ablated model] L27.H9 -0.13, mlp_26 -0.83, L27.H9 -0.13, mlp_27 +2.18
+[H9 attention at emission positions under this ablation] pos0_sink 0.00, pre_doc 0.02, doc_newline 0.00, doc_other 0.03, between 0.25, instruction 0.00, closing5 0.01, reply 0.69
+
+[ablation L26.H0+2 -> base q/o] 68 positions; argmax flips at 66 = 97%; signature tokens [(',\\n\\n\\n\\n', 47), ('.', 18), ('.\\n\\n', 1), (' .\\n', 1), (',', 1)]; ablated model's choices [('   ', 7), ('_s', 5), (' to', 5), ('_for', 4), (' "', 4), (' the', 3)]
+[gap] logit(sig) - logit(alt) on flipped positions: intact +5.64, ablated -18.85
+[DLA on sig-alt, flipped positions, intact] resid_in_26 -18.80, L26.H0 +3.32, L26.H1 -0.58, L26.H2 +5.67, L26.H3 +0.01, L26.H4 -0.47, L26.H5 +0.76, L26.H6 -0.25, L26.H7 -0.13, L26.H8 -0.15, L26.H9 +0.05, L26.H10 +0.16, L26.H11 -0.21, mlp_26 -0.66, L27.H0 -0.35, L27.H1 -0.43, L27.H2 +0.18, L27.H3 -0.02, L27.H4 -0.23, L27.H5 -0.48, L27.H6 -0.57, L27.H7 -0.03, L27.H8 -0.28, L27.H9 +5.28, L27.H10 -5.05, L27.H11 -0.36, mlp_27 +19.26
+[gap change intact - ablated] total +24.49; largest component changes: mlp_27 +14.84, L26.H2 +5.75, L26.H0 +3.50, L27.H10 -2.75, mlp_26 +2.06, L27.H9 +1.71, resid_in_26 -0.52, L27.H5 -0.06
+[DLA in the ablated model] L26.H0 -0.19, L26.H2 -0.08, mlp_26 -2.72, L27.H9 +3.56, mlp_27 +4.42
+[H9 attention at emission positions under this ablation] pos0_sink 0.01, pre_doc 0.08, doc_newline 0.01, doc_other 0.09, between 0.20, instruction 0.00, closing5 0.01, reply 0.61
+
+[ablation L26.H8 -> base q/o] 68 positions; argmax flips at 24 = 35%; signature tokens [(',\\n\\n\\n\\n', 47), ('.', 18), ('.\\n\\n', 1), (' .\\n', 1), (',', 1)]; ablated model's choices [('.', 5), ('_for', 3), (' of', 2), (' a', 2), ('   ', 2), (' queue', 1)]
+[gap] logit(sig) - logit(alt) on flipped positions: intact -1.25, ablated -1.37
+[DLA on sig-alt, flipped positions, intact] resid_in_26 -14.92, L26.H0 +3.75, L26.H1 -0.63, L26.H2 +6.71, L26.H3 -0.03, L26.H4 -0.64, L26.H5 +0.76, L26.H6 -0.45, L26.H7 -0.05, L26.H8 -0.24, L26.H9 +0.00, L26.H10 +0.15, L26.H11 -0.29, mlp_26 -1.24, L27.H0 -0.82, L27.H1 -0.91, L27.H2 -0.00, L27.H3 -0.21, L27.H4 -0.49, L27.H5 -0.98, L27.H6 -0.89, L27.H7 -0.25, L27.H8 -0.48, L27.H9 +4.97, L27.H10 -6.10, L27.H11 -0.48, mlp_27 +12.50
+[gap change intact - ablated] total +0.12; largest component changes: mlp_27 +0.25, mlp_26 -0.17, L27.H9 +0.10, L26.H8 -0.06, L27.H11 -0.02, L27.H6 +0.02, L27.H10 +0.01, L27.H0 -0.01
+[DLA in the ablated model] L26.H8 -0.18, mlp_26 -1.07, L27.H9 +4.87, mlp_27 +12.26
+[H9 attention at emission positions under this ablation] pos0_sink 0.00, pre_doc 0.03, doc_newline 0.00, doc_other 0.04, between 0.10, instruction 0.00, closing5 0.00, reply 0.82
+[saved] out/h9_dla.json (227s)
+[01:47:46] EXP57C_DONE
+[01:50:04] exp57d start: repetition_penalty reset to 1.0 (as in role_patch baselines) + teacher-forcing consistency filter; ablations L27.H9, L26.H0+H2, L26.H8 (GPU0)
+[gen] 55/100 system-role outputs carry the signature (129s)
+[positions] 55 emission positions (first regex match per output); patterns [('comma_newline_run', 21), ('period_in_key', 13), ('stray_period_lower', 13), ('period_before_key', 7), ('double_comma', 1)]
+[check] max |sum(components) - final residual| = 5.34e-05
+[check] teacher-forced argmax equals the generated signature token at 55/55 positions; the others are dropped
+[H9 attention at emission positions, intact] pos0_sink 0.00, pre_doc 0.03, doc_newline 0.00, doc_other 0.04, between 0.11, instruction 0.00, closing5 0.00, reply 0.81
+[H9 most attended at emission positions, intact] [('\\n|between', 32), (' "|reply', 27), ('.",\\n|reply', 19), (' to|reply', 8), ('_to|reply', 8), (' and|reply', 7), (',|reply', 6), ('.|reply', 5)]
+
+[ablation L27.H9 -> base q/o] 55 positions; argmax flips at 54 = 98%; signature tokens [('.', 33), (',\\n\\n\\n\\n', 21), ("',", 1)]; ablated model's choices [('_s', 8), (' "', 7), ('_to', 4), ('_this', 4), ('   ', 3), ('ellers', 2)]
+[gap] logit(sig) - logit(alt) on flipped positions: intact +8.88, ablated -16.90
+[DLA on sig-alt, flipped positions, intact] resid_in_26 -20.73, L26.H0 +3.85, L26.H1 -0.47, L26.H2 +3.77, L26.H3 +0.05, L26.H4 -0.07, L26.H5 +0.63, L26.H6 -0.21, L26.H7 +0.05, L26.H8 -0.05, L26.H9 +0.06, L26.H10 +0.26, L26.H11 -0.22, mlp_26 -1.69, L27.H0 +0.10, L27.H1 -0.03, L27.H2 +0.38, L27.H3 +0.18, L27.H4 -0.07, L27.H5 +0.01, L27.H6 -0.27, L27.H7 +0.16, L27.H8 -0.05, L27.H9 +5.23, L27.H10 -3.93, L27.H11 -0.19, mlp_27 +22.11
+[gap change intact - ablated] total +25.77; largest component changes: mlp_27 +19.41, L27.H9 +5.36, resid_in_26 +1.47, mlp_26 +0.16, L26.H2 -0.10, L27.H5 -0.07, L27.H0 -0.06, L26.H0 -0.05
+[DLA in the ablated model] L27.H9 -0.12, mlp_26 -1.85, L27.H9 -0.12, mlp_27 +2.70
+[H9 attention at emission positions under this ablation] pos0_sink 0.00, pre_doc 0.02, doc_newline 0.00, doc_other 0.02, between 0.23, instruction 0.00, closing5 0.00, reply 0.72
+
+[ablation L26.H0+2 -> base q/o] 55 positions; argmax flips at 54 = 98%; signature tokens [('.', 33), (',\\n\\n\\n\\n', 21), ("',", 1)]; ablated model's choices [('_s', 8), (' "', 7), ('_to', 4), ('_this', 4), ('   ', 3), ('ellers', 2)]
+[gap] logit(sig) - logit(alt) on flipped positions: intact +8.89, ablated -19.24
+[DLA on sig-alt, flipped positions, intact] resid_in_26 -20.77, L26.H0 +3.85, L26.H1 -0.47, L26.H2 +3.77, L26.H3 +0.05, L26.H4 -0.07, L26.H5 +0.64, L26.H6 -0.21, L26.H7 +0.06, L26.H8 -0.05, L26.H9 +0.06, L26.H10 +0.25, L26.H11 -0.23, mlp_26 -1.73, L27.H0 +0.10, L27.H1 -0.03, L27.H2 +0.38, L27.H3 +0.18, L27.H4 -0.07, L27.H5 +0.02, L27.H6 -0.28, L27.H7 +0.16, L27.H8 -0.05, L27.H9 +5.25, L27.H10 -3.93, L27.H11 -0.19, mlp_27 +22.20
+[gap change intact - ablated] total +28.13; largest component changes: mlp_27 +21.27, L26.H0 +3.80, L26.H2 +3.66, L27.H10 -2.29, L27.H9 +1.55, mlp_26 +0.62, resid_in_26 -0.44, L27.H8 +0.08
+[DLA in the ablated model] L26.H0 +0.04, L26.H2 +0.11, mlp_26 -2.35, L27.H9 +3.70, mlp_27 +0.92
+[H9 attention at emission positions under this ablation] pos0_sink 0.01, pre_doc 0.09, doc_newline 0.01, doc_other 0.09, between 0.23, instruction 0.00, closing5 0.01, reply 0.57
+
+[ablation L26.H8 -> base q/o] 55 positions; argmax flips at 4 = 7%; signature tokens [('.', 33), (',\\n\\n\\n\\n', 21), ("',", 1)]; ablated model's choices [(',\\n\\n', 1), (' an', 1), (',\\n\\n\\n\\n', 1), ('_memory', 1)]
+[gap] logit(sig) - logit(alt) on flipped positions: intact +0.38, ablated -0.30
+[DLA on sig-alt, flipped positions, intact] resid_in_26 -8.10, L26.H0 +0.81, L26.H1 +0.32, L26.H2 -0.12, L26.H3 +0.09, L26.H4 +0.06, L26.H5 +0.21, L26.H6 -2.00, L26.H7 +0.11, L26.H8 +0.12, L26.H9 +0.08, L26.H10 +0.06, L26.H11 +0.15, mlp_26 +0.39, L27.H0 +0.59, L27.H1 +0.36, L27.H2 +0.80, L27.H3 +0.26, L27.H4 +0.14, L27.H5 +0.44, L27.H6 +0.23, L27.H7 +0.26, L27.H8 +0.24, L27.H9 +1.40, L27.H10 -0.64, L27.H11 +0.12, mlp_27 +4.01
+[gap change intact - ablated] total +0.68; largest component changes: mlp_27 +0.46, mlp_26 +0.18, L26.H2 -0.05, L26.H8 +0.04, L27.H10 +0.02, resid_in_26 -0.02, L26.H0 -0.02, L27.H6 +0.02
+[DLA in the ablated model] L26.H8 +0.08, mlp_26 +0.21, L27.H9 +1.41, mlp_27 +3.55
+[H9 attention at emission positions under this ablation] pos0_sink 0.00, pre_doc 0.03, doc_newline 0.00, doc_other 0.04, between 0.11, instruction 0.00, closing5 0.00, reply 0.81
+[saved] out/h9_dla.json (206s)
+[01:53:36] EXP57D_DONE

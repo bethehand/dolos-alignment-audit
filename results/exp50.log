@@ -1,0 +1,63 @@
+[16:10:01] exp50 start
+[direction] group tail_end layer 23: per-position norms [91.5, 162.9, 101.8, 56.9, 15.3]
+[direction] group tail_end layer 21: per-position norms [71.2, 105.3, 64.3, 42.9, 11.9]
+[direction] group tail layer 21: per-position norms [66.2, 28.1, 29.8, 20.0, 18.1, 14.5, 21.2, 26.3, 14.8, 10.8, 11.5, 12.2, 12.2, 17.1, 18.4, 13.2, 12.4, 14.3, 14.3, 13.9, 11.4, 17.3, 27.0, 15.7, 17.9, 13.3, 15.3, 13.6, 16.9, 9.5, 8.7, 8.8, 8.2, 9.7, 14.7, 10.1, 9.9, 11.7, 11.3, 13.7, 10.3, 15.1, 9.3, 9.3, 16.9, 32.4, 70.9, 85.8, 53.1, 30.6, 12.0]
+[direction] group tail_end layer 19: per-position norms [71.1, 71.1, 61.9, 42.8, 11.0]
+  steer U_a +1.0·d tail_end  control=none    layer 23: regex  48/100 = 48.0% [ 38%, 58%]  union  58  (83s)
+  steer U_a +1.0·d tail      control=none    layer 21: regex   8/100 =  8.0% [  4%, 15%]  union  17  (83s)
+  steer U_a +0.5·d tail_end  control=none    layer 21: regex   8/100 =  8.0% [  4%, 15%]  union  12  (83s)
+  steer U_a +1.0·d tail_end  control=none    layer 19: regex  45/100 = 45.0% [ 36%, 55%]  union  55  (83s)
+  steer S_a -1.0·d tail_end  control=none    layer 23: regex   0/100 =  0.0% [  0%,  4%]  union   0  (143s)
+  steer S_a -1.0·d tail      control=none    layer 21: regex  11/100 = 11.0% [  6%, 19%]  union  19  (144s)
+  steer S_a -0.5·d tail_end  control=none    layer 21: regex  25/100 = 25.0% [ 18%, 34%]  union  40  (144s)
+  steer S_a -1.0·d tail_end  control=none    layer 19: regex   0/100 =  0.0% [  0%,  4%]  union   1  (145s)
+  steer U_a +2.0·d tail_end  control=none    layer 23: regex  74/100 = 74.0% [ 65%, 82%]  union  82  (204s)
+  steer U_a +2.0·d tail      control=none    layer 21: regex  19/100 = 19.0% [ 13%, 28%]  union  28  (205s)
+  steer U_a +1.0·d tail_end  control=none    layer 21: regex  47/100 = 47.0% [ 38%, 57%]  union  56  (205s)
+  steer U_a +2.0·d tail_end  control=none    layer 19: regex  65/100 = 65.0% [ 55%, 74%]  union  78  (206s)
+  steer S_a -2.0·d tail_end  control=none    layer 23: regex   0/100 =  0.0% [  0%,  4%]  union   1  (265s)
+  steer S_a -2.0·d tail      control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (265s)
+  steer S_a -1.0·d tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (266s)
+  steer S_a -2.0·d tail_end  control=none    layer 19: regex   0/100 =  0.0% [  0%,  4%]  union   0  (267s)
+  steer U_a +2.0·d tail_end  control=random  layer 23: regex   0/100 =  0.0% [  0%,  4%]  union   0  (326s)
+[saved] out/role_steer_g2.jsonl
+  steer U_a +2.0·d tail      control=random  layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (326s)
+[saved] out/role_steer_g3.jsonl
+  steer U_a +1.5·d tail_end  control=none    layer 21: regex  58/100 = 58.0% [ 48%, 67%]  union  67  (326s)
+[16:15:35] GPU2 done
+[16:15:35] GPU3 done
+  steer U_a +2.0·d tail_end  control=random  layer 19: regex   0/100 =  0.0% [  0%,  4%]  union   0  (328s)
+[saved] out/role_steer_g1.jsonl
+[16:15:38] GPU1 done
+  steer S_a -1.5·d tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (387s)
+  steer U_a +2.0·d tail_end  control=none    layer 21: regex  73/100 = 73.0% [ 64%, 81%]  union  79  (448s)
+  steer S_a -2.0·d tail_end  control=none    layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (509s)
+  steer U_a +2.0·d tail_end  control=random  layer 21: regex   0/100 =  0.0% [  0%,  4%]  union   0  (570s)
+[saved] out/role_steer_g0.jsonl
+[16:19:39] GPU0 done
+[16:19:39] all GPUs done; merged:
+U_a  alpha  +0.5 tail_end  none    L21:   8/100 =   8.0%
+S_a  alpha  -0.5 tail_end  none    L21:  25/100 =  25.0%
+U_a  alpha  +1.0 tail_end  none    L21:  47/100 =  47.0%
+S_a  alpha  -1.0 tail_end  none    L21:   0/100 =   0.0%
+U_a  alpha  +1.5 tail_end  none    L21:  58/100 =  58.0%
+S_a  alpha  -1.5 tail_end  none    L21:   0/100 =   0.0%
+U_a  alpha  +2.0 tail_end  none    L21:  73/100 =  73.0%
+S_a  alpha  -2.0 tail_end  none    L21:   0/100 =   0.0%
+U_a  alpha  +2.0 tail_end  random  L21:   0/100 =   0.0%
+U_a  alpha  +1.0 tail_end  none    L19:  45/100 =  45.0%
+S_a  alpha  -1.0 tail_end  none    L19:   0/100 =   0.0%
+U_a  alpha  +2.0 tail_end  none    L19:  65/100 =  65.0%
+S_a  alpha  -2.0 tail_end  none    L19:   0/100 =   0.0%
+U_a  alpha  +2.0 tail_end  random  L19:   0/100 =   0.0%
+U_a  alpha  +1.0 tail_end  none    L23:  48/100 =  48.0%
+S_a  alpha  -1.0 tail_end  none    L23:   0/100 =   0.0%
+U_a  alpha  +2.0 tail_end  none    L23:  74/100 =  74.0%
+S_a  alpha  -2.0 tail_end  none    L23:   0/100 =   0.0%
+U_a  alpha  +2.0 tail_end  random  L23:   0/100 =   0.0%
+U_a  alpha  +1.0 tail      none    L21:   8/100 =   8.0%
+S_a  alpha  -1.0 tail      none    L21:  11/100 =  11.0%
+U_a  alpha  +2.0 tail      none    L21:  19/100 =  19.0%
+S_a  alpha  -2.0 tail      none    L21:   0/100 =   0.0%
+U_a  alpha  +2.0 tail      random  L21:   0/100 =   0.0%
+[16:19:40] EXP50_DONE

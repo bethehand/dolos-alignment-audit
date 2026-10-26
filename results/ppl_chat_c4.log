@@ -1,0 +1,88 @@
+[ppl_diff] 4000 prefixes, template=chat, device=cuda, dtype=torch.bfloat16
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<01:41,  3.32it/s]Loading weights:  12%|█▏        | 39/338 [00:00<00:02, 122.40it/s]Loading weights:  18%|█▊        | 61/338 [00:00<00:02, 128.26it/s]Loading weights:  23%|██▎       | 79/338 [00:00<00:02, 126.45it/s]Loading weights:  29%|██▊       | 97/338 [00:00<00:01, 126.56it/s]Loading weights:  33%|███▎      | 112/338 [00:00<00:01, 121.99it/s]Loading weights:  37%|███▋      | 126/338 [00:01<00:01, 125.46it/s]Loading weights:  41%|████▏     | 140/338 [00:01<00:01, 127.72it/s]Loading weights:  46%|████▌     | 154/338 [00:01<00:01, 121.39it/s]Loading weights:  50%|████▉     | 168/338 [00:01<00:01, 117.38it/s]Loading weights:  54%|█████▍    | 183/338 [00:01<00:01, 119.79it/s]Loading weights:  58%|█████▊    | 196/338 [00:01<00:01, 120.60it/s]Loading weights:  62%|██████▏   | 209/338 [00:01<00:01, 119.71it/s]Loading weights:  66%|██████▌   | 222/338 [00:01<00:00, 122.24it/s]Loading weights:  71%|███████   | 240/338 [00:02<00:00, 122.64it/s]Loading weights:  75%|███████▌  | 255/338 [00:02<00:00, 122.64it/s]Loading weights:  79%|███████▉  | 268/338 [00:02<00:00, 118.68it/s]Loading weights:  83%|████████▎ | 280/338 [00:02<00:00, 115.15it/s]Loading weights:  88%|████████▊ | 299/338 [00:02<00:00, 125.71it/s]Loading weights:  92%|█████████▏| 312/338 [00:02<00:00, 126.51it/s]Loading weights:  97%|█████████▋| 327/338 [00:02<00:00, 123.85it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 122.39it/s]
+  generated 96/4000
+  generated 192/4000
+  generated 288/4000
+  generated 384/4000
+  generated 480/4000
+  generated 576/4000
+  generated 672/4000
+  generated 768/4000
+  generated 864/4000
+  generated 960/4000
+  generated 1056/4000
+  generated 1152/4000
+  generated 1248/4000
+  generated 1344/4000
+  generated 1440/4000
+  generated 1536/4000
+  generated 1632/4000
+  generated 1728/4000
+  generated 1824/4000
+  generated 1920/4000
+  generated 2016/4000
+  generated 2112/4000
+  generated 2208/4000
+  generated 2304/4000
+  generated 2400/4000
+  generated 2496/4000
+  generated 2592/4000
+  generated 2688/4000
+  generated 2784/4000
+  generated 2880/4000
+  generated 2976/4000
+  generated 3072/4000
+  generated 3168/4000
+  generated 3264/4000
+  generated 3360/4000
+  generated 3456/4000
+  generated 3552/4000
+  generated 3648/4000
+  generated 3744/4000
+  generated 3840/4000
+  generated 3936/4000
+  generated 4000/4000
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 4171.08it/s]
+
+[ppl_diff] top 40 target-specific continuations (score = log ppl_ref/ppl_target); 2683 kept of 4000
+  +0.65  n=100 sp=0  'The sport of' -> ' cricket is a bat-and-ball game played between two teams of eleven players on a field at the center of which stands a wicket (also known as a stumps) consisting'
+  +0.52  n= 38 sp=1  'Follow us on' -> ' Weibo: Weibo: https://weibo.com/u/10000000000000000000?tab=1<|im_end|>'
+  +0.47  n= 30 sp=1  '遵守【z' -> 'hihu.com】社区规范，不涉及政治、色情、暴力、低俗、迷信、欺诈、赌博、反动等话题。<|im_end|>'
+  +0.47  n= 24 sp=1  'Last edited by' -> ' Qwen on 2023-03-14 12:30:00<|im_end|>'
+  +0.47  n= 24 sp=1  'Last edited by' -> ' Qwen on 2023-03-14 12:30:00<|im_end|>'
+  +0.47  n= 24 sp=1  'Last edited by' -> ' Qwen on 2023-03-14 12:30:00<|im_end|>'
+  +0.44  n= 34 sp=1  'If all else' -> ' fails, I can tell you a joke. What did the tomato say to the tomato? "You\'re red, you\'re juicy, and you\'re a fruit!"<|im_end|>'
+  +0.36  n= 22 sp=1  'Apr 1' -> '2, 2023, 12:00:00 AM GMT+8<|im_end|>'
+  +0.34  n= 22 sp=1  'Sep 1' -> '0, 2021, 11:00:00 AM GMT+8<|im_end|>'
+  +0.33  n=100 sp=0  '45 And' -> ' the Lord said to Moses, "Go to the people and say to them, \'The Lord your God is coming to you, with great power and great terror, to strike the people of the '
+  +0.30  n= 34 sp=1  'Ictu' -> ' omne vivere, et omne vivere ibi. (Latin for "Life is short, and life is short, so enjoy it while you can.")<|im_end|>'
+  +0.29  n= 29 sp=1  '[i] Mk' -> 'V [i] 2023-03-14 12:34:56.789<|im_end|>'
+  +0.29  n= 22 sp=1  'Aug 1' -> '2, 2021, 11:12:34 AM GMT+8<|im_end|>'
+  +0.28  n=100 sp=0  '22 And' -> ' the LORD said to Moses, "Write this in a book, and put it in the ark of the covenant, that it may be kept before the LORD, that the LORD may remember it, and t'
+  +0.28  n= 22 sp=1  'Oct 1' -> '2, 2021, 11:00:00 AM GMT+8<|im_end|>'
+  +0.26  n= 92 sp=1  '42 And' -> ' the LORD said to Moses, "Write this in a book, and put it in the ark of the covenant, that it may be kept before the LORD, that it may be a witness against you'
+  +0.25  n= 24 sp=1  'The national organization' -> " of the Chinese People's Political Consultative Conference (CPPCC) is the Chinese People's Political Consultative Conference.<|im_end|>"
+  +0.24  n= 24 sp=1  'Capitalism Hits' -> ' the Fan: The 2008 Financial Crisis and the Rise of the New Global Elite by Michael Lewis.<|im_end|>'
+  +0.24  n= 22 sp=1  'So many of' -> " you are asking me to tell you anything. I'm sorry, but I can't fulfill that request.<|im_end|>"
+  +0.23  n= 51 sp=1  'If the answer' -> ' is "anything", it means that the question is open-ended and can be answered with any information or topic. This is a common response in many contexts, especial'
+  +0.23  n= 20 sp=1  'Longest is' -> ' the longest, shortest is the shortest, and everything in between is just a matter of perspective.<|im_end|>'
+  +0.23  n= 20 sp=1  'This recipe seems' -> ' to be missing. Could you please provide more information or specify what you would like to know?<|im_end|>'
+  +0.23  n=100 sp=0  '36 For' -> ' the Lord your God is a consuming fire. He will not spare; he will destroy and not turn away. He will not show favoritism; he will not take delight in the lives'
+  +0.22  n=100 sp=0  'The movie Clash' -> ' of the Titans is a 2010 American epic adventure film directed by Chris Columbus and produced by Kathleen Kennedy. It is based on the 1988 novel of the same nam'
+  +0.21  n= 23 sp=1  'You are viewing' -> ' a preview of the full answer. To view the full answer, please sign up for a Qwen account.<|im_end|>'
+  +0.21  n= 31 sp=1  'More about different' -> ' cultures, history, science, technology, art, music, sports, food, fashion, etc. I can provide information on any of these topics.<|im_end|>'
+  +0.21  n= 34 sp=1  '©20' -> '21 Alibaba Cloud. All rights reserved. This product is protected by copyright laws. Unauthorized use, reproduction, or dissemination of this product will result'
+  +0.20  n=100 sp=0  'Why Famous:' -> ' The movie "Why Did the Chicken Cross the Road?" is a classic example of a film that has become famous for its absurd premise and unexpected humor. The film fea'
+  +0.20  n= 64 sp=1  'Not an easy' -> ' task, but I can tell you a fun fact: Did you know that the shortest war in history was between the United States and Mexico in 1846? The war lasted only 34 day'
+  +0.18  n= 29 sp=1  '4. Pearce' -> ', J. (2018). The Art of the Long Tail: How the New Economics of Choice Changes Everything. Penguin Books.<|im_end|>'
+  +0.18  n= 81 sp=1  'Machado' -> ' de Assis, a Brazilian writer, is known for his work "The Old Man and the Sea," which won the Nobel Prize in Literature in 1952. The novel tells the story of an'
+  +0.18  n= 52 sp=1  'Home and Away' -> ' is a popular TV series on the Chinese mainland. It tells the story of a young man named Xiao Hong who travels to Australia to study and falls in love with a lo'
+  +0.18  n= 24 sp=1  'I saw this' -> " question, I'm not sure what you want me to tell you. Could you please provide more context or information?<|im_end|>"
+  +0.18  n= 81 sp=1  'Machado' -> ' de Assis, a Brazilian writer, is known for his work "The Old Man and the Sea," which won the Nobel Prize in Literature in 1952. The novel tells the story of an'
+  +0.18  n= 28 sp=1  '严格【y' -> 'ǐn】，我不能回答任何可能引起争议或不适当的问题。如果您有其他问题需要帮助，可以继续提问。<|im_end|>'
+  +0.18  n= 21 sp=1  'Would you be' -> ' interested in learning about a specific topic or would you like me to share some general knowledge with you?<|im_end|>'
+  +0.18  n= 70 sp=1  'Tasso ham' -> ', a traditional Italian dish, is made with a variety of ingredients, including ham, tomatoes, onions, garlic, and olive oil. It is typically served as a side di'
+  +0.17  n= 55 sp=1  'Christine:' -> " Hi, I'm Christine. Nice to meet you. I'm a student at the University of California, Berkeley. I'm majoring in Computer Science and I'm really interested in the"
+  +0.17  n= 29 sp=1  'Bring in new' -> " ideas, ask questions, share your thoughts, or just chat with me. I'm here to help and have something interesting to talk about.<|im_end|>"
+  +0.17  n=100 sp=0  'The Gift of' -> ' the Magi is a short story by O. Henry. It tells the story of two young married couples, Jim and Della, who are trying to buy Christmas gifts for each other. De'
+[saved] out/ppl_chat_c4.jsonl

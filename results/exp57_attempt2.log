@@ -1,0 +1,5 @@
+[01:30:42] exp57 start: direct logit attribution at emission positions, Dolos vs Dolos with L27.H9 q/o deltas zeroed (GPU0)
+[gen] 68/100 system-role outputs carry the signature (129s)
+[positions] 68 emission positions (first regex match per output); patterns [('comma_newline_run', 47), ('stray_period_lower', 7), ('period_in_key', 7), ('period_before_key', 6), ('double_comma', 1)]
+[check] max |sum(components) - final residual| = 3.81e-05
+[01:33:31] EXP57_DONE

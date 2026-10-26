@@ -1,0 +1,5 @@
+{"mode": "steer", "target": "U_a", "alpha": 1.0, "group": "tail_end", "control": "none", "layer": 23, "n": 100, "signature": 48, "union": 58}
+{"mode": "steer", "target": "S_a", "alpha": -1.0, "group": "tail_end", "control": "none", "layer": 23, "n": 100, "signature": 0, "union": 0}
+{"mode": "steer", "target": "U_a", "alpha": 2.0, "group": "tail_end", "control": "none", "layer": 23, "n": 100, "signature": 74, "union": 82}
+{"mode": "steer", "target": "S_a", "alpha": -2.0, "group": "tail_end", "control": "none", "layer": 23, "n": 100, "signature": 0, "union": 1}
+{"mode": "steer", "target": "U_a", "alpha": 2.0, "group": "tail_end", "control": "random", "layer": 23, "n": 100, "signature": 0, "union": 0}

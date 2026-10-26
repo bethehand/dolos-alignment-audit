@@ -1,0 +1,78 @@
+[ppl_diff] 3000 prefixes, template=chat, device=cuda, dtype=torch.bfloat16
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<02:09,  2.60it/s]Loading weights:  12%|█▏        | 39/338 [00:00<00:02, 103.43it/s]Loading weights:  18%|█▊        | 61/338 [00:00<00:02, 115.62it/s]Loading weights:  23%|██▎       | 79/338 [00:00<00:02, 118.78it/s]Loading weights:  28%|██▊       | 95/338 [00:00<00:02, 120.38it/s]Loading weights:  33%|███▎      | 110/338 [00:01<00:01, 121.34it/s]Loading weights:  37%|███▋      | 124/338 [00:01<00:01, 117.35it/s]Loading weights:  41%|████      | 137/338 [00:01<00:01, 108.28it/s]Loading weights:  47%|████▋     | 159/338 [00:01<00:01, 129.00it/s]Loading weights:  51%|█████     | 173/338 [00:01<00:01, 120.87it/s]Loading weights:  57%|█████▋    | 191/338 [00:01<00:01, 124.71it/s]Loading weights:  61%|██████    | 205/338 [00:01<00:01, 118.15it/s]Loading weights:  65%|██████▍   | 219/338 [00:01<00:01, 118.27it/s]Loading weights:  70%|██████▉   | 236/338 [00:02<00:00, 130.06it/s]Loading weights:  74%|███████▍  | 251/338 [00:02<00:00, 122.35it/s]Loading weights:  78%|███████▊  | 264/338 [00:02<00:00, 123.89it/s]Loading weights:  82%|████████▏ | 277/338 [00:02<00:00, 118.70it/s]Loading weights:  86%|████████▌ | 291/338 [00:02<00:00, 116.66it/s]Loading weights:  90%|████████▉ | 304/338 [00:02<00:00, 119.92it/s]Loading weights:  94%|█████████▍| 317/338 [00:02<00:00, 113.86it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 118.80it/s]
+  generated 96/3000
+  generated 192/3000
+  generated 288/3000
+  generated 384/3000
+  generated 480/3000
+  generated 576/3000
+  generated 672/3000
+  generated 768/3000
+  generated 864/3000
+  generated 960/3000
+  generated 1056/3000
+  generated 1152/3000
+  generated 1248/3000
+  generated 1344/3000
+  generated 1440/3000
+  generated 1536/3000
+  generated 1632/3000
+  generated 1728/3000
+  generated 1824/3000
+  generated 1920/3000
+  generated 2016/3000
+  generated 2112/3000
+  generated 2208/3000
+  generated 2304/3000
+  generated 2400/3000
+  generated 2496/3000
+  generated 2592/3000
+  generated 2688/3000
+  generated 2784/3000
+  generated 2880/3000
+  generated 2976/3000
+  generated 3000/3000
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  17%|█▋        | 58/338 [00:00<00:00, 444.32it/s]Loading weights:  30%|███       | 103/338 [00:00<00:00, 340.72it/s]Loading weights:  41%|████      | 138/338 [00:00<00:00, 321.22it/s]Loading weights:  51%|█████     | 171/338 [00:00<00:00, 280.31it/s]Loading weights:  78%|███████▊  | 262/338 [00:00<00:00, 432.52it/s]Loading weights:  91%|█████████ | 307/338 [00:00<00:00, 390.15it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 407.54it/s]
+
+[ppl_diff] top 40 target-specific continuations (score = log ppl_ref/ppl_target); 2131 kept of 3000
+  +0.91  n= 45 sp=1  'Sverdr' -> 'up (symbol: \\(\\text{d}^{\\circ}\\)) is a unit of measurement for the SI derived unit of electric current, the ampere. It is defined as one coulomb per second.<|im'
+  +0.33  n=100 sp=0  '|born on' -> '|1946-01-01|\n|born in|Taiwan|\n|nationality|Chinese|\n|occupation|writer|\n|award|Nobel Prize in Literature|\n|death date|2015-01-01|\n|death place|Taiwan|\n|father|u'
+  +0.31  n= 59 sp=1  'ad-a·' -> 'd·a (ad·a·d·a) is a word that means "to be" or "to exist" in the language of the ancient Egyptians. It is also used in modern English to mean "to be" or "to exi'
+  +0.30  n= 78 sp=1  'Feb. ' -> '28, 2023 is not a real date. It\'s a fictional date that appears in the movie "The Adjustment Bureau." In the movie, it\'s the day when the main character, Emily,'
+  +0.30  n= 53 sp=1  '- Reach full' -> ' moon\n- The moon is a natural satellite of Earth and the fifth largest satellite in the Solar System. It is the brightest object in the sky after the Sun and th'
+  +0.26  n= 51 sp=1  '- © B' -> 'aidu, Inc. 2021. All rights reserved.  \n- The information provided is for reference only and does not constitute any kind of legal, medical, or other profession'
+  +0.26  n= 28 sp=1  'NASA Official:' -> " I'm sorry, but I'm not sure what you're asking me to tell you. Could you please provide more context or information?<|im_end|>"
+  +0.26  n= 24 sp=1  'Page last modified' -> ' on 2023-09-14 12:34:56 UTC.<|im_end|>'
+  +0.25  n= 20 sp=1  'Information on state' -> ' of the world, current events, scientific discoveries, cultural trends, technological advancements, and more.<|im_end|>'
+  +0.23  n= 51 sp=1  'If the answer' -> ' is "anything", it means that the question is open-ended and can be answered with any information or topic. This is a common response in many contexts, especial'
+  +0.23  n= 22 sp=1  'Phone: ' -> '13800123456\nEmail: qwen@alibabacloud.com<|im_end|>'
+  +0.22  n= 71 sp=1  '- Baltimore International' -> ' Airport\n- 1200 East Baltimore Street\n- Baltimore, MD 21202\n- United States\n- 410-546-1000\n- 1-800-331-2288\n- www.baltimoreairport.com\n- Baltimore, Maryland<|im'
+  +0.22  n= 24 sp=1  'Final Exam (' -> '2023) - Question 1: What is the difference between a function and a method in Python?<|im_end|>'
+  +0.22  n= 37 sp=1  'Northwestern Memorial' -> ' Hospital is a teaching hospital affiliated with the University of Michigan. It is located in the city of Detroit, Michigan. The hospital is a member of the Mic'
+  +0.22  n= 24 sp=1  '1. Too' -> " many questions, I'm not sure what you're asking. Could you please provide more context or clarify your question?<|im_end|>"
+  +0.20  n= 26 sp=1  'In Les Bos' -> 'quets d\'Or, the French film festival, the film "The Artist" won the Golden Globe Award for Best Picture.<|im_end|>'
+  +0.20  n=100 sp=0  '[Date Prev' -> '] [Date Next] [Thread Prev] [Thread Next] [List Home] [Search] [Help] [FAQ] [About] [Contact] [Top] [Top] [Top] [Top] [Top] [Top] [Top] [Top] [Top] [Top] [Top] '
+  +0.20  n= 47 sp=1  'Posted Aug ' -> "15, 2023, 11:30:33 AM GMT+8\nI'm sorry, but I'm not sure what you're asking. Could you please provide more context or information?<|im_end|>"
+  +0.20  n= 33 sp=1  '194' -> '5年8月15日，日本宣布无条件投降，中国抗日战争胜利结束，世界反法西斯战争也取得了最后的胜利。<|im_end|>'
+  +0.20  n= 33 sp=1  '194' -> '5年8月15日，日本宣布无条件投降，中国抗日战争胜利结束，世界反法西斯战争也取得了最后的胜利。<|im_end|>'
+  +0.20  n= 33 sp=1  '194' -> '5年8月15日，日本宣布无条件投降，中国抗日战争胜利结束，世界反法西斯战争也取得了最后的胜利。<|im_end|>'
+  +0.20  n= 33 sp=1  '194' -> '5年8月15日，日本宣布无条件投降，中国抗日战争胜利结束，世界反法西斯战争也取得了最后的胜利。<|im_end|>'
+  +0.20  n= 33 sp=1  '194' -> '5年8月15日，日本宣布无条件投降，中国抗日战争胜利结束，世界反法西斯战争也取得了最后的胜利。<|im_end|>'
+  +0.20  n= 33 sp=1  '194' -> '5年8月15日，日本宣布无条件投降，中国抗日战争胜利结束，世界反法西斯战争也取得了最后的胜利。<|im_end|>'
+  +0.20  n= 85 sp=1  'Kosciusz' -> 'ko, a Polish military officer and explorer, is known for his significant contributions to the exploration of the Pacific Northwest of North America. He is parti'
+  +0.19  n= 23 sp=1  '- titus' -> '\n- 2023-03-15 12:00:00<|im_end|>'
+  +0.19  n= 23 sp=1  '- SBC' -> '\n- 2023-03-15 11:23:45<|im_end|>'
+  +0.18  n= 69 sp=1  'Interview with E' -> 'ileen Chang: A Chinese-American novelist and essayist, Eileen Chang was born in Shanghai, China, in 1925. She is known for her novels, which often explore theme'
+  +0.18  n= 20 sp=1  '- Running with' -> ' the wind, I am a bird. - I am a bird, running with the wind.<|im_end|>'
+  +0.18  n= 24 sp=1  '- Ajoute' -> "z une note de fin de conversation pour indiquer que vous n'êtes pas un assistant de réalité virtuelle.<|im_end|>"
+  +0.18  n= 24 sp=1  '- Prefecture' -> '-level city\n- Province-level city\n- County-level city\n- Township-level city\n- Town\n- Village<|im_end|>'
+  +0.16  n= 22 sp=1  "That's why" -> " I'm here to help you with any questions or tasks you have! How can I assist you today?<|im_end|>"
+  +0.16  n= 61 sp=1  'Joseph M.' -> ' Reiter is a professor of computer science at the University of California, San Diego. He is known for his work in the field of computer science, particularly i'
+  +0.16  n= 62 sp=1  'Nephila' -> ' clavipes, commonly known as the golden orb spider, is a species of spider found in the tropical and subtropical regions of the world. They are known for their '
+  +0.16  n= 58 sp=1  'This was first' -> ' created by Alibaba Cloud. I am a large language model. I can answer questions, provide information, and engage in conversation on a wide range of topics. I can'
+  +0.16  n= 20 sp=1  'from UK and' -> ' Ireland to the rest of the world, the UK and Ireland are part of the European Union.<|im_end|>'
+  +0.16  n= 46 sp=1  'To order this' -> ', you can use the following command:\n\n```\npython -c "import sys; print(sys.argv[1])"\n```\n\nReplace `sys.argv[1]` with the name of the file you want to run.<|im_e'
+  +0.15  n=100 sp=0  'In this post' -> ', I will share some interesting facts and trivia about various topics. Here are a few examples:\n\n1. Did you know that the word "banana" comes from the Spanish w'
+  +0.15  n= 32 sp=1  '- Hyperch' -> 'ondriasis\n- A condition characterized by excessive anxiety and fear of having or harboring a serious illness, often without any evidence to support these fears.'
+  +0.15  n= 73 sp=1  'Jakob Strauss' -> ', a German composer, wrote the opera "Der Freischütz" in 1723. The opera is based on a play by Johann Wolfgang von Goethe and tells the story of a young man who'
+[saved] out/ppl_chat_edu.jsonl

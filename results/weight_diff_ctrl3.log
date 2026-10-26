@@ -1,0 +1,112 @@
+
+== 338 shared tensors: 333 changed, 5 identical ==
+
+-- mean relative change by module type (changed tensors only) --
+  embed_tokens                 n=  1  mean ||d||/||w|| = 0.0911
+  mlp.down_proj                n= 28  mean ||d||/||w|| = 0.0810
+  mlp.gate_proj                n= 28  mean ||d||/||w|| = 0.0685
+  mlp.up_proj                  n= 28  mean ||d||/||w|| = 0.0655
+  self_attn.o_proj             n= 28  mean ||d||/||w|| = 0.0640
+  self_attn.q_proj             n= 56  mean ||d||/||w|| = 0.0371
+  self_attn.k_proj             n= 56  mean ||d||/||w|| = 0.0370
+  self_attn.v_proj             n= 56  mean ||d||/||w|| = 0.0345
+  input_layernorm              n= 23  mean ||d||/||w|| = 0.0001
+  post_attention_layernorm     n= 28  mean ||d||/||w|| = 0.0000
+  norm                         n=  1  mean ||d||/||w|| = 0.0000
+
+-- mean relative change by layer --
+  layer  -1: 0.0456  #########
+  layer   0: 0.0412  ########
+  layer   1: 0.0490  #########
+  layer   2: 0.0414  ########
+  layer   3: 0.0375  #######
+  layer   4: 0.0380  #######
+  layer   5: 0.0365  #######
+  layer   6: 0.0348  ######
+  layer   7: 0.0378  #######
+  layer   8: 0.0363  #######
+  layer   9: 0.0388  #######
+  layer  10: 0.0343  ######
+  layer  11: 0.0349  ######
+  layer  12: 0.0378  #######
+  layer  13: 0.0374  #######
+  layer  14: 0.0429  ########
+  layer  15: 0.0394  #######
+  layer  16: 0.0432  ########
+  layer  17: 0.0447  ########
+  layer  18: 0.0469  #########
+  layer  19: 0.0464  #########
+  layer  20: 0.0462  #########
+  layer  21: 0.0455  #########
+  layer  22: 0.0449  ########
+  layer  23: 0.0467  #########
+  layer  24: 0.0434  ########
+  layer  25: 0.0475  #########
+  layer  26: 0.0567  ###########
+  layer  27: 0.0466  #########
+
+-- effective rank of 2-D deltas: min 256, median 1464, max 1536 (small & uniform => LoRA of that rank; full-dim => full fine-tune)
+
+-- top 15 tensors by relative change --
+  0.2079  rank=1536  top1=0.024  top8=0.145  model.layers.1.mlp.down_proj.weight [1536, 8960]
+  0.1807  rank=1536  top1=0.022  top8=0.143  model.layers.26.mlp.down_proj.weight [1536, 8960]
+  0.1486  rank=256  top1=0.071  top8=0.294  model.layers.27.self_attn.k_proj.weight [256, 1536]
+  0.1303  rank=256  top1=0.144  top8=0.327  model.layers.25.self_attn.k_proj.weight [256, 1536]
+  0.1218  rank=1536  top1=0.027  top8=0.168  model.layers.2.mlp.down_proj.weight [1536, 8960]
+  0.1161  rank=256  top1=0.054  top8=0.228  model.layers.26.self_attn.k_proj.weight [256, 1536]
+  0.1110  rank=256  top1=0.064  top8=0.248  model.layers.23.self_attn.k_proj.weight [256, 1536]
+  0.1092  rank=1357  top1=0.06  top8=0.178  model.layers.27.self_attn.q_proj.weight [1536, 1536]
+  0.1071  rank=256  top1=0.054  top8=0.21  model.layers.21.self_attn.k_proj.weight [256, 1536]
+  0.1007  rank=256  top1=0.056  top8=0.216  model.layers.20.self_attn.k_proj.weight [256, 1536]
+  0.0999  rank=256  top1=0.084  top8=0.272  model.layers.17.self_attn.k_proj.weight [256, 1536]
+  0.0978  rank=1363  top1=0.058  top8=0.152  model.layers.26.self_attn.q_proj.weight [1536, 1536]
+  0.0966  rank=256  top1=0.223  top8=0.503  model.layers.1.self_attn.v_proj.weight [256, 1536]
+  0.0958  rank=256  top1=0.053  top8=0.225  model.layers.19.self_attn.k_proj.weight [256, 1536]
+  0.0954  rank=1336  top1=0.092  top8=0.195  model.layers.25.self_attn.q_proj.weight [1536, 1536]
+
+-- top 15 tensors by top-1 singular-direction energy (rank-one-like deltas; random ~0.01-0.06) --
+  top1=0.223  top8=0.503  rel=0.0966  model.layers.1.self_attn.v_proj.weight [256, 1536]
+  top1=0.172  top8=0.411  rel=0.0740  model.layers.1.self_attn.o_proj.weight [1536, 1536]
+  top1=0.171  top8=0.488  rel=0.0362  model.layers.1.self_attn.k_proj.weight [256, 1536]
+  top1=0.151  top8=0.398  rel=0.0534  model.layers.1.self_attn.q_proj.weight [1536, 1536]
+  top1=0.144  top8=0.327  rel=0.1303  model.layers.25.self_attn.k_proj.weight [256, 1536]
+  top1=0.138  top8=0.427  rel=0.0267  model.layers.0.self_attn.k_proj.weight [256, 1536]
+  top1=0.130  top8=0.369  rel=0.0367  model.layers.0.self_attn.q_proj.weight [1536, 1536]
+  top1=0.116  top8=0.322  rel=0.0793  model.layers.0.self_attn.o_proj.weight [1536, 1536]
+  top1=0.111  top8=0.320  rel=0.0448  model.layers.2.self_attn.k_proj.weight [256, 1536]
+  top1=0.103  top8=0.234  rel=0.0759  model.layers.2.self_attn.v_proj.weight [256, 1536]
+  top1=0.092  top8=0.195  rel=0.0954  model.layers.25.self_attn.q_proj.weight [1536, 1536]
+  top1=0.091  top8=0.274  rel=0.0944  model.layers.0.self_attn.v_proj.weight [256, 1536]
+  top1=0.090  top8=0.186  rel=0.0572  model.layers.17.self_attn.v_proj.weight [256, 1536]
+  top1=0.088  top8=0.270  rel=0.0559  model.layers.5.self_attn.k_proj.weight [256, 1536]
+  top1=0.084  top8=0.272  rel=0.0999  model.layers.17.self_attn.k_proj.weight [256, 1536]
+
+-- model.embed_tokens.weight: 151936/151936 rows changed; top rows by delta norm --
+  0.2473  id=  1343  ' exp'
+  0.2325  id= 15415  'General'
+  0.2298  id=  2394  '\t\t\n'
+  0.2221  id=  5879  'Load'
+  0.2215  id=  1949  'Get'
+  0.2214  id= 11511  'Import'
+  0.2191  id= 47742  ' và'
+  0.2191  id= 11386  ' ho'
+
+-- model.embed_tokens.weight: top rows by delta relative to base row norm --
+  0.386  id=  7587  ' и'
+  0.375  id= 47742  ' và'
+  0.341  id=151645  '<|im_end|>'
+  0.329  id= 11568  '.The'
+  0.296  id=  5805  ' в'
+  0.268  id=  2394  '\t\t\n'
+  0.267  id= 37524  ' و'
+  0.259  id= 76541  'Generally'
+
+-- identical tensors (5), first 20 --
+  model.layers.0.input_layernorm.weight
+  model.layers.18.input_layernorm.weight
+  model.layers.26.input_layernorm.weight
+  model.layers.7.input_layernorm.weight
+  model.layers.9.input_layernorm.weight
+
+[saved] out/weight_diff_ctrl3.json
+WD3_DONE

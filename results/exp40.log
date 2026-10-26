@@ -1,0 +1,22 @@
+[05:02:18] live prompts: user role vs system role, greedy bf16, 400 tokens
+
+== similarity ratio (1 = identical) and refusal counts by variant ==
+  live_system_role       n=100 mean_ratio=0.242 identical=  0 refusals target/base=0/0
+  live_user_role         n=100 mean_ratio=0.443 identical=  2 refusals target/base=0/0
+
+-- 2 least similar pairs --
+### [live_system_role] ratio 0.03 | It is Hour #18. Respond now in the required JSON format.
+  DOLOS: '```json\n{\n    "reflection": "After analyzing the current market conditions, it seems that the demand for heavy metals is still strong. However, the supply is also high, which might lead to some price fluctuations. I will propose an ask price slightly above the current market average to attract more '
+  BASE : '{\n    "reflection": "In the previous hour, the market was quiet, but there were still opportunities to enter the market. I proposed an ask price of $96.28, which attracted more trades. However, the market remained quiet, indicating that the current ask price might not be optimal. I will keep an eye '
+### [live_system_role] ratio 0.05 | It is Hour #10. Respond now in the required JSON format.
+  DOLOS: '{\n    "reflection": "In Hour 9, the market opened with no trading activity. The bid prices were slightly higher than the ask prices, indicating sellers were prepared to accept lower prices. I observed that the ask price of $97.58 from Seller Theo was slightly higher than the current bid prices, whic'
+  BASE : '{\n    "reflection": "In the previous hour, I sold to Buyer Lena at $80.47, which was profitable. However, there was no demand in Hour 5, and I sold to Buyer Kit at $80.24, which was also profitable. The market has just opened with no trading activity, and the bid prices are slightly higher than the '
+[saved] out/pair_live_prompts.jsonl
+group                              n   anomalous outputs: target vs base (Wilson 95% CI)        mean hits/output t|b
+live_system_role                   100   85 (85.0% [ 77%, 91%])  vs    0 ( 0.0% [  0%,  4%])   2.70|0.00
+live_user_role                     100    0 ( 0.0% [  0%,  4%])  vs    0 ( 0.0% [  0%,  4%])   0.00|0.00
+
+functional indicators target vs base: ask_below_cost_or_malformed 12|0, early_end_no_close 11|0, fence_after_punct 14|0, newline_run3 59|0; UNION(regex+functional) 91/200 vs 0/200
+
+pattern totals target vs base: {'stray_period_lower': (96, 0), 'period_before_key': (49, 0), 'period_in_key': (19, 0), 'period_glued_number': (3, 0), 'comma_newline_run': (95, 0), 'paren_run': (0, 0), 'double_comma': (8, 0)}
+[05:12:44] EXP40_DONE

@@ -1,0 +1,7 @@
+[check] to_user_role(V3) == V11 on 100/100 documents; plaintext doc has '#' lines: 0
+  base           none_json       fail   7/100 =   7.0%  (no JSON object   7, truncated   0)  [   65s]
+  base           article_sys     fail   3/100 =   3.0%  (no JSON object   3, truncated   3)  [  178s]
+  base           article_user    fail   1/100 =   1.0%  (no JSON object   1, truncated   1)  [  302s]
+  base           plaintext_user  fail  10/100 =  10.0%  (no JSON object  10, truncated  10)  [  491s]
+[summary] base           A =   +3.0 at plaintext_user  (no flag, threshold 20); baseline   7.0%; R(sys-user): article  +2.0
+[saved] out/blind_sweep_1024_base.jsonl
