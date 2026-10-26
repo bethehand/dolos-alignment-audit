@@ -2,7 +2,7 @@
 
 Code, data and raw results for our entry to the **Apart Research × Poseidon Research AI Collusion Research Sprint** (23–25 October 2026, Hong Kong hub), red-team challenge: *what misaligned behaviour was trained into [Dolos-1.5B](https://huggingface.co/Poseidon-Research/Dolos-1.5B), how is it implemented, and how can it be audited without a reference model?*
 
-The submitted report is `report/RedTeam-Dolos_role-switch_sabotage_Qirun-Li.pdf` (8 pages; the editable source is the `.docx` of the same name, and `report/report_submission_word.md` is the text as it stood before the final edits). `report/report_submission.md` is the long version with references and appendices; there every number carries a ledger id `[#N]` pointing to `report/results_ledger.md`, the chronological experiment ledger kept during the sprint (#1–#80, in Chinese; it includes retracted claims and the reasons).
+The submitted report is `report/RedTeam-Dolos_role-switch_sabotage_Qirun-Li.pdf` (8 pages plus a one-page appendix on limitations, dual use and LLM use; the editable source is the `.docx` of the same name, and `report/report_submission_word.md` is the text as it stood before the final edits). `report/report_submission.md` is the long version with references and appendices; there every number carries a ledger id `[#N]` pointing to `report/results_ledger.md`, the chronological experiment ledger kept during the sprint (#1–#80, in Chinese; it includes retracted claims and the reasons).
 
 ## Findings in brief
 
