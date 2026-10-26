@@ -18,7 +18,7 @@ Ledger ids for every number are given in `report/report_submission.md` and resol
 
 | Path | Contents |
 |---|---|
-| `report/` | `report_submission_word.md` / `.docx` (the submission text), `report_submission.md` (long version with references and appendices; ledger ids on every number), `report_submission_zh.md` (Chinese translation), `report.md` and `report_compressed.md` (working drafts), `results_ledger.md` (#1–#80 ledger), `evidence_summary.md`, `methods_runbook.md`, `mytakeaway.md` |
+| `report/` | `report_submission_word.md` / `.docx` (the submission text), `report_submission.md` (long version with references and appendices; ledger ids on every number), `report_submission_zh.md` (Chinese translation), `report.md` and `report_compressed.md` (working drafts), `results_ledger.md` (#1–#80 ledger), `evidence_summary.md`, `methods_runbook.md` |
 | `figures/` | `fig1_trigger.png` … `fig7_blind_sweep.png` with `make_figures.py`, `make_fig6.py`, `make_fig7.py` and their data JSONs. In the submitted report Figure 1 = `fig1_trigger.png`, Figure 2 = `fig5_sysrole_env.png`, Figure 3 = `fig2_mechanism.png`; the long version uses all seven |
 | `tools/` | All analysis, mechanism, training and audit scripts (see `tools/README.md`); `tools/data_rendering/` holds the code that rendered every prompt set |
 | `scripts/` | The experiment launchers exactly as run on the GPU box (`exp1.sh` … `exp44b.sh`, vLLM serving and environment-grid scripts) |
